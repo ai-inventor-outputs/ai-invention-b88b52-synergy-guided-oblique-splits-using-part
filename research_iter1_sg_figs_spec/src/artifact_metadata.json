@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Spec",
+  "summary": "Comprehensive technical specification for implementing Synergy-Guided Oblique FIGS (SG-FIGS), saved to /home/adrian/projects/ai-inventor/resources/sg_figs_technical_specification.md (626 lines, 17KB). Covers dit PID API with exact synergy extraction keys, FIGS source code modification points, complete RO-FIGS source code analysis with SPyCT/ODT oblique split construction and L1/2 regularization, synergy graph construction algorithm, and evaluation protocol with 22 OpenML datasets."
+}

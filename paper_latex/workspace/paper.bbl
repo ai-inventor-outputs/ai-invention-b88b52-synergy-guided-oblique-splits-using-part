@@ -1,0 +1,163 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bell(2003)]{Bell2003}
+Anthony~J. Bell.
+\newblock The co-information lattice.
+\newblock In \emph{Proceedings of the 4th International Symposium on
+  Independent Component Analysis and Blind Signal Separation ({ICA})}, 2003.
+
+\bibitem[Bertschinger et~al.(2014)Bertschinger, Rauh, Olbrich, Jost, and
+  Ay]{Bertschinger2014}
+Nils Bertschinger, Johannes Rauh, Eckehard Olbrich, J{\"{u}}rgen Jost, and
+  Nihat Ay.
+\newblock Quantifying unique information.
+\newblock \emph{Entropy}, 16\penalty0 (4):\penalty0 2161--2183, 2014.
+\newblock \doi{10.3390/E16042161}.
+
+\bibitem[Breiman(2001)]{Breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock \emph{Mach. Learn.}, 45\penalty0 (1):\penalty0 5--32, 2001.
+\newblock \doi{10.1023/A:1010933404324}.
+\newblock URL \url{https://doi.org/10.1023/A:1010933404324}.
+
+\bibitem[Breiman et~al.(1984)Breiman, Friedman, Olshen, and Stone]{Breiman1984}
+Leo Breiman, J.~H. Friedman, Richard~A. Olshen, and C.~J. Stone.
+\newblock \emph{Classification and Regression Trees}.
+\newblock Wadsworth, 1984.
+\newblock ISBN 0-534-98053-8.
+
+\bibitem[Chen and Guestrin(2016)]{Chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock Xgboost: {A} scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd {ACM} {SIGKDD} International
+  Conference on Knowledge Discovery and Data Mining}, pages 785--794. {ACM},
+  2016.
+\newblock \doi{10.1145/2939672.2939785}.
+
+\bibitem[Demsar(2006)]{Demsar2006}
+Janez Demsar.
+\newblock Statistical comparisons of classifiers over multiple data sets.
+\newblock \emph{J. Mach. Learn. Res.}, 7:\penalty0 1--30, 2006.
+
+\bibitem[Grinsztajn et~al.(2022)Grinsztajn, Oyallon, and
+  Varoquaux]{Grinsztajn2022}
+L{\'e}o Grinsztajn, Edouard Oyallon, and Ga{\"{e}}l Varoquaux.
+\newblock Why do tree-based models still outperform deep learning on typical
+  tabular data?
+\newblock In \emph{Advances in Neural Information Processing Systems 35
+  (NeurIPS)}, 2022.
+
+\bibitem[Hastie et~al.(2009)Hastie, Tibshirani, and Friedman]{Hastie2009}
+Trevor Hastie, Robert Tibshirani, and Jerome~H. Friedman.
+\newblock \emph{The Elements of Statistical Learning: Data Mining, Inference,
+  and Prediction, 2nd Edition}.
+\newblock Springer Series in Statistics. Springer, 2009.
+\newblock \doi{10.1007/978-0-387-84858-7}.
+
+\bibitem[Hornung and Boulesteix(2022)]{Hornung2022}
+Roman Hornung and Anne{-}Laure Boulesteix.
+\newblock Interaction forests: Identifying and exploiting interpretable
+  quantitative and qualitative interaction effects.
+\newblock \emph{Comput. Stat. Data Anal.}, 171:\penalty0 107460, 2022.
+\newblock \doi{10.1016/J.CSDA.2022.107460}.
+
+\bibitem[James et~al.(2018)James, Ellison, and Crutchfield]{James2018}
+Ryan~G. James, Christopher~J. Ellison, and James~P. Crutchfield.
+\newblock dit: a python package for discrete information theory.
+\newblock \emph{J. Open Source Softw.}, 3\penalty0 (25):\penalty0 738, 2018.
+\newblock \doi{10.21105/JOSS.00738}.
+
+\bibitem[Kolchinsky(2022)]{Kolchinsky2022}
+Artemy Kolchinsky.
+\newblock A novel approach to the partial information decomposition.
+\newblock \emph{Entropy}, 24\penalty0 (3):\penalty0 403, 2022.
+\newblock \doi{10.3390/E24030403}.
+
+\bibitem[Lyu et~al.(2025)Lyu, He, Wang, Qu, Tang, and Ye]{Lyu2025}
+Shen{-}Huan Lyu, Yi{-}Xiao He, Yanyan Wang, Zhihao Qu, Bin Tang, and Baoliu Ye.
+\newblock Enhance learning efficiency of oblique decision tree via feature
+  concatenation.
+\newblock \emph{Inf. Sci.}, 721:\penalty0 122613, 2025.
+\newblock \doi{10.1016/J.INS.2025.122613}.
+
+\bibitem[Makkeh et~al.(2018)Makkeh, Theis, and Vicente]{Makkeh2018}
+Abdullah Makkeh, Dirk~Oliver Theis, and Raul Vicente.
+\newblock {BROJA-2PID:} {A} robust estimator for bivariate partial information
+  decomposition.
+\newblock \emph{Entropy}, 20\penalty0 (4):\penalty0 271, 2018.
+\newblock \doi{10.3390/E20040271}.
+
+\bibitem[Matja\v{s}ec et~al.(2025)Matja\v{s}ec, Simidjievski, and
+  Jamnik]{Matjasec2025}
+Ur\v{s}ka Matja\v{s}ec, Nikola Simidjievski, and Mateja Jamnik.
+\newblock {RO-FIGS}: Efficient and expressive tree-based ensembles for tabular
+  data.
+\newblock \emph{CoRR}, abs/2504.06927, 2025.
+
+\bibitem[Murthy et~al.(1994)Murthy, Kasif, and Salzberg]{Murthy1994}
+Sreerama~K. Murthy, Simon Kasif, and Steven Salzberg.
+\newblock A system for induction of oblique decision trees.
+\newblock \emph{J. Artif. Intell. Res.}, 2:\penalty0 1--32, 1994.
+\newblock \doi{10.1613/JAIR.63}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, VanderPlas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay]{Pedregosa2011}
+Fabian Pedregosa, Ga{\"{e}}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, Jake VanderPlas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and Edouard Duchesnay.
+\newblock Scikit-learn: Machine learning in python.
+\newblock \emph{J. Mach. Learn. Res.}, 12:\penalty0 2825--2830, 2011.
+
+\bibitem[Rudin(2019)]{Rudin2019}
+Cynthia Rudin.
+\newblock Stop explaining black box machine learning models for high stakes
+  decisions and use interpretable models instead.
+\newblock \emph{Nat. Mach. Intell.}, 1\penalty0 (5):\penalty0 206--215, 2019.
+\newblock \doi{10.1038/S42256-019-0048-X}.
+
+\bibitem[Singh et~al.(2021)Singh, Nasseri, Tan, Tang, and Yu]{Singh2021}
+Chandan Singh, Keyan Nasseri, Yan~Shuo Tan, Tiffany~M. Tang, and Bin Yu.
+\newblock imodels: a python package for fitting interpretable models.
+\newblock \emph{J. Open Source Softw.}, 6\penalty0 (61):\penalty0 3192, 2021.
+\newblock \doi{10.21105/JOSS.03192}.
+
+\bibitem[Tan et~al.(2022)Tan, Singh, Nasseri, Agarwal, and Yu]{Tan2022}
+Yan~Shuo Tan, Chandan Singh, Keyan Nasseri, Abhineet Agarwal, and Bin Yu.
+\newblock Fast interpretable greedy-tree sums {(FIGS)}.
+\newblock \emph{CoRR}, abs/2201.11931, 2022.
+
+\bibitem[Tan et~al.(2025)Tan, Singh, Nasseri, Agarwal, and Yu]{Tan2025}
+Yan~Shuo Tan, Chandan Singh, Keyan Nasseri, Abhineet Agarwal, and Bin Yu.
+\newblock Fast interpretable greedy-tree sums {(FIGS)}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 122\penalty0
+  (7):\penalty0 e2310151122, 2025.
+
+\bibitem[Wang(2024)]{Wang2024}
+Siyu Wang.
+\newblock Foldtree: {A} {ULDA}-based decision tree framework for efficient
+  oblique splits and feature selection.
+\newblock \emph{CoRR}, abs/2410.23147, 2024.
+\newblock \doi{10.48550/ARXIV.2410.23147}.
+
+\bibitem[Westphal et~al.(2025)Westphal, Hailes, and Musolesi]{Westphal2025}
+Charles Westphal, Stephen Hailes, and Mirco Musolesi.
+\newblock Partial information decomposition for data interpretability and
+  feature selection.
+\newblock In \emph{International Conference on Artificial Intelligence and
+  Statistics, {AISTATS} 2025}, volume 258 of \emph{Proceedings of Machine
+  Learning Research}, pages 1873--1881. {PMLR}, 2025.
+
+\bibitem[Williams and Beer(2010)]{Williams2010}
+Paul~L. Williams and Randall~D. Beer.
+\newblock Nonnegative decomposition of multivariate information.
+\newblock \emph{CoRR}, abs/1004.2515, 2010.
+
+\end{thebibliography}
