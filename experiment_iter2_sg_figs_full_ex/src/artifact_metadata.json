@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Results",
+  "summary": "Complete SG-FIGS experiment benchmarking Synergy-Guided Oblique FIGS against FIGS (axis-aligned baseline) and RO-FIGS (random oblique baseline) on 10 tabular classification datasets. PID synergy computation uses dit library (BROJA/WB) with MI-based feature prefiltering for high-dimensional datasets. Results across 7 binary datasets: SG-FIGS achieves higher split interpretability (0.277 vs 0.157 for RO-FIGS), competitive accuracy (mean 0.839 vs RO-FIGS 0.852 vs FIGS 0.840), and outperforms both baselines on banknote (0.991) and sonar (0.789). All 10 datasets evaluated with 5-fold CV, hyperparameter tuning over max_splits=[5,10,15,25]. Total runtime: 33.8 minutes. Output contains 5,061 examples with per-sample predictions for all three methods."
+}

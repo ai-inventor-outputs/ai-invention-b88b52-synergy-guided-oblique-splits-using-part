@@ -1,0 +1,496 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V2\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.192849, \"unique_0\": 0.342073, \"unique_1\": 0.0, \"redundancy\": 0.14971, \"coi_baseline\": -0.10377}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V2",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.192849",
+          "predict_baseline_coi": "-0.10377"
+        },
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V3\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.108733, \"unique_0\": 0.443605, \"unique_1\": 0.0, \"redundancy\": 0.048178, \"coi_baseline\": -0.033393}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V3",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.108733",
+          "predict_baseline_coi": "-0.033393"
+        },
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V4\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.095736, \"unique_0\": 0.486463, \"unique_1\": 0.0, \"redundancy\": 0.005319, \"coi_baseline\": -0.003687}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V4",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.095736",
+          "predict_baseline_coi": "-0.003687"
+        }
+      ]
+    },
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"sepal width (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.2548, \"unique_0\": 0.38744, \"unique_1\": 0.102724, \"redundancy\": 0.294137, \"coi_baseline\": -0.275084}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "sepal width (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.2548",
+          "predict_baseline_coi": "-0.275084"
+        },
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"petal length (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.075296, \"unique_0\": 0.000897, \"unique_1\": 0.493443, \"redundancy\": 0.68068, \"coi_baseline\": -0.813846}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "petal length (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.075296",
+          "predict_baseline_coi": "-0.813846"
+        },
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"petal width (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.055904, \"unique_0\": 0.012943, \"unique_1\": 0.424744, \"redundancy\": 0.668634, \"coi_baseline\": -0.757874}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "petal width (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.055904",
+          "predict_baseline_coi": "-0.757874"
+        }
+      ]
+    },
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"plas\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.049702, \"unique_0\": 0.0, \"unique_1\": 0.123606, \"redundancy\": 0.053699, \"coi_baseline\": -0.1229}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "plas",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.049702",
+          "predict_baseline_coi": "-0.1229"
+        },
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"pres\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.024017, \"unique_0\": 0.026311, \"unique_1\": 0.000585, \"redundancy\": 0.027388, \"coi_baseline\": -0.01938}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "pres",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.024017",
+          "predict_baseline_coi": "-0.01938"
+        },
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"skin\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.036022, \"unique_0\": 0.018373, \"unique_1\": 0.005231, \"redundancy\": 0.035326, \"coi_baseline\": -0.028113}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "skin",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.036022",
+          "predict_baseline_coi": "-0.028113"
+        }
+      ]
+    },
+    {
+      "dataset": "diabetes_binarized",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"sex\", \"dataset\": \"diabetes_binarized\", \"n_samples\": 442, \"n_classes\": 2, \"n_features\": 10}",
+          "output": "{\"synergy\": 0.0, \"unique_0\": 0.015818, \"unique_1\": 0.0, \"redundancy\": 0.0, \"coi_baseline\": -0.0}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "diabetes_binarized",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "sex",
+          "metadata_n_samples": 442,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.0",
+          "predict_baseline_coi": "-0.0"
+        },
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"bmi\", \"dataset\": \"diabetes_binarized\", \"n_samples\": 442, \"n_classes\": 2, \"n_features\": 10}",
+          "output": "{\"synergy\": 0.027588, \"unique_0\": 2.6e-05, \"unique_1\": 0.14941, \"redundancy\": 0.015793, \"coi_baseline\": -0.114515}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "diabetes_binarized",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "bmi",
+          "metadata_n_samples": 442,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.027588",
+          "predict_baseline_coi": "-0.114515"
+        },
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"bp\", \"dataset\": \"diabetes_binarized\", \"n_samples\": 442, \"n_classes\": 2, \"n_features\": 10}",
+          "output": "{\"synergy\": 0.026633, \"unique_0\": 1e-06, \"unique_1\": 0.084397, \"redundancy\": 0.015817, \"coi_baseline\": -0.069464}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "diabetes_binarized",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "bp",
+          "metadata_n_samples": 442,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.026633",
+          "predict_baseline_coi": "-0.069464"
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"alcohol\", \"feature_j\": \"malic_acid\", \"dataset\": \"wine\", \"n_samples\": 178, \"n_classes\": 3, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.174529, \"unique_0\": 0.467925, \"unique_1\": 0.189501, \"redundancy\": 0.173127, \"coi_baseline\": -0.25138}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "wine",
+          "metadata_feature_i": "alcohol",
+          "metadata_feature_j": "malic_acid",
+          "metadata_n_samples": 178,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.174529",
+          "predict_baseline_coi": "-0.25138"
+        },
+        {
+          "input": "{\"feature_i\": \"alcohol\", \"feature_j\": \"ash\", \"dataset\": \"wine\", \"n_samples\": 178, \"n_classes\": 3, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.184121, \"unique_0\": 0.510058, \"unique_1\": 0.000496, \"redundancy\": 0.130995, \"coi_baseline\": -0.091141}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "wine",
+          "metadata_feature_i": "alcohol",
+          "metadata_feature_j": "ash",
+          "metadata_n_samples": 178,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.184121",
+          "predict_baseline_coi": "-0.091141"
+        },
+        {
+          "input": "{\"feature_i\": \"alcohol\", \"feature_j\": \"alcalinity_of_ash\", \"dataset\": \"wine\", \"n_samples\": 178, \"n_classes\": 3, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.18918, \"unique_0\": 0.515563, \"unique_1\": 0.1562, \"redundancy\": 0.125489, \"coi_baseline\": -0.195253}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "wine",
+          "metadata_feature_i": "alcohol",
+          "metadata_feature_j": "alcalinity_of_ash",
+          "metadata_n_samples": 178,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.18918",
+          "predict_baseline_coi": "-0.195253"
+        }
+      ]
+    },
+    {
+      "dataset": "heart_statlog",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"sex\", \"dataset\": \"heart_statlog\", \"n_samples\": 270, \"n_classes\": 2, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.0, \"unique_0\": 0.064202, \"unique_1\": 0.0, \"redundancy\": 0.0, \"coi_baseline\": -0.0}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "heart_statlog",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "sex",
+          "metadata_n_samples": 270,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.0",
+          "predict_baseline_coi": "-0.0"
+        },
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"chest\", \"dataset\": \"heart_statlog\", \"n_samples\": 270, \"n_classes\": 2, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.041188, \"unique_0\": 0.023999, \"unique_1\": 0.018477, \"redundancy\": 0.040203, \"coi_baseline\": -0.040728}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "heart_statlog",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "chest",
+          "metadata_n_samples": 270,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.041188",
+          "predict_baseline_coi": "-0.040728"
+        },
+        {
+          "input": "{\"feature_i\": \"age\", \"feature_j\": \"resting_blood_pressure\", \"dataset\": \"heart_statlog\", \"n_samples\": 270, \"n_classes\": 2, \"n_features\": 13}",
+          "output": "{\"synergy\": 0.045829, \"unique_0\": 0.04844, \"unique_1\": 0.0, \"redundancy\": 0.015762, \"coi_baseline\": -0.010922}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "heart_statlog",
+          "metadata_feature_i": "age",
+          "metadata_feature_j": "resting_blood_pressure",
+          "metadata_n_samples": 270,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.045829",
+          "predict_baseline_coi": "-0.010922"
+        }
+      ]
+    },
+    {
+      "dataset": "vehicle",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"COMPACTNESS\", \"feature_j\": \"CIRCULARITY\", \"dataset\": \"vehicle\", \"n_samples\": 846, \"n_classes\": 4, \"n_features\": 18}",
+          "output": "{\"synergy\": 0.211189, \"unique_0\": 0.0, \"unique_1\": 0.006514, \"redundancy\": 0.190733, \"coi_baseline\": -0.136721}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "vehicle",
+          "metadata_feature_i": "COMPACTNESS",
+          "metadata_feature_j": "CIRCULARITY",
+          "metadata_n_samples": 846,
+          "metadata_n_classes": 4,
+          "predict_synergy_value": "0.211189",
+          "predict_baseline_coi": "-0.136721"
+        },
+        {
+          "input": "{\"feature_i\": \"COMPACTNESS\", \"feature_j\": \"DISTANCE_CIRCULARITY\", \"dataset\": \"vehicle\", \"n_samples\": 846, \"n_classes\": 4, \"n_features\": 18}",
+          "output": "{\"synergy\": 0.160768, \"unique_0\": 0.0, \"unique_1\": 0.044212, \"redundancy\": 0.190733, \"coi_baseline\": -0.162851}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "vehicle",
+          "metadata_feature_i": "COMPACTNESS",
+          "metadata_feature_j": "DISTANCE_CIRCULARITY",
+          "metadata_n_samples": 846,
+          "metadata_n_classes": 4,
+          "predict_synergy_value": "0.160768",
+          "predict_baseline_coi": "-0.162851"
+        },
+        {
+          "input": "{\"feature_i\": \"COMPACTNESS\", \"feature_j\": \"RADIUS_RATIO\", \"dataset\": \"vehicle\", \"n_samples\": 846, \"n_classes\": 4, \"n_features\": 18}",
+          "output": "{\"synergy\": 0.231796, \"unique_0\": 0.0, \"unique_1\": 0.01889, \"redundancy\": 0.190733, \"coi_baseline\": -0.145299}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "vehicle",
+          "metadata_feature_i": "COMPACTNESS",
+          "metadata_feature_j": "RADIUS_RATIO",
+          "metadata_n_samples": 846,
+          "metadata_n_classes": 4,
+          "predict_synergy_value": "0.231796",
+          "predict_baseline_coi": "-0.145299"
+        }
+      ]
+    },
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean texture\", \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.090525, \"unique_0\": 0.326445, \"unique_1\": 0.0, \"redundancy\": 0.175567, \"coi_baseline\": -0.121694}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean texture",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.090525",
+          "predict_baseline_coi": "-0.121694"
+        },
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean perimeter\", \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.018441, \"unique_0\": 0.0, \"unique_1\": 0.029555, \"redundancy\": 0.502013, \"coi_baseline\": -0.368455}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean perimeter",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.018441",
+          "predict_baseline_coi": "-0.368455"
+        },
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean area\", \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.012085, \"unique_0\": 0.0, \"unique_1\": 0.00067, \"redundancy\": 0.502013, \"coi_baseline\": -0.348433}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean area",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.012085",
+          "predict_baseline_coi": "-0.348433"
+        }
+      ]
+    },
+    {
+      "dataset": "ionosphere",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"a03\", \"feature_j\": \"a04\", \"dataset\": \"ionosphere\", \"n_samples\": 351, \"n_classes\": 2, \"n_features\": 34}",
+          "output": "{\"synergy\": 0.186802, \"unique_0\": 0.156388, \"unique_1\": 0.0, \"redundancy\": 0.095662, \"coi_baseline\": -0.066308}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "ionosphere",
+          "metadata_feature_i": "a03",
+          "metadata_feature_j": "a04",
+          "metadata_n_samples": 351,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.186802",
+          "predict_baseline_coi": "-0.066308"
+        },
+        {
+          "input": "{\"feature_i\": \"a03\", \"feature_j\": \"a05\", \"dataset\": \"ionosphere\", \"n_samples\": 351, \"n_classes\": 2, \"n_features\": 34}",
+          "output": "{\"synergy\": 0.125201, \"unique_0\": 0.0, \"unique_1\": 0.116119, \"redundancy\": 0.25205, \"coi_baseline\": -0.255195}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "ionosphere",
+          "metadata_feature_i": "a03",
+          "metadata_feature_j": "a05",
+          "metadata_n_samples": 351,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.125201",
+          "predict_baseline_coi": "-0.255195"
+        },
+        {
+          "input": "{\"feature_i\": \"a03\", \"feature_j\": \"a06\", \"dataset\": \"ionosphere\", \"n_samples\": 351, \"n_classes\": 2, \"n_features\": 34}",
+          "output": "{\"synergy\": 0.098739, \"unique_0\": 0.170918, \"unique_1\": 0.0, \"redundancy\": 0.081133, \"coi_baseline\": -0.056237}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "ionosphere",
+          "metadata_feature_i": "a03",
+          "metadata_feature_j": "a06",
+          "metadata_n_samples": 351,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.098739",
+          "predict_baseline_coi": "-0.056237"
+        }
+      ]
+    },
+    {
+      "dataset": "sonar",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"attribute_1\", \"feature_j\": \"attribute_4\", \"dataset\": \"sonar\", \"n_samples\": 208, \"n_classes\": 2, \"n_features\": 60}",
+          "output": "{\"synergy\": 0.129349, \"unique_0\": 0.0, \"unique_1\": 0.016727, \"redundancy\": 0.055093, \"coi_baseline\": -0.049782}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "sonar",
+          "metadata_feature_i": "attribute_1",
+          "metadata_feature_j": "attribute_4",
+          "metadata_n_samples": 208,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.129349",
+          "predict_baseline_coi": "-0.049782"
+        },
+        {
+          "input": "{\"feature_i\": \"attribute_1\", \"feature_j\": \"attribute_5\", \"dataset\": \"sonar\", \"n_samples\": 208, \"n_classes\": 2, \"n_features\": 60}",
+          "output": "{\"synergy\": 0.088993, \"unique_0\": 0.0, \"unique_1\": 0.010874, \"redundancy\": 0.055093, \"coi_baseline\": -0.045724}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "sonar",
+          "metadata_feature_i": "attribute_1",
+          "metadata_feature_j": "attribute_5",
+          "metadata_n_samples": 208,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.088993",
+          "predict_baseline_coi": "-0.045724"
+        },
+        {
+          "input": "{\"feature_i\": \"attribute_1\", \"feature_j\": \"attribute_6\", \"dataset\": \"sonar\", \"n_samples\": 208, \"n_classes\": 2, \"n_features\": 60}",
+          "output": "{\"synergy\": 0.145047, \"unique_0\": 0.002256, \"unique_1\": 0.0, \"redundancy\": 0.052837, \"coi_baseline\": -0.036624}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "sonar",
+          "metadata_feature_i": "attribute_1",
+          "metadata_feature_j": "attribute_6",
+          "metadata_n_samples": 208,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.145047",
+          "predict_baseline_coi": "-0.036624"
+        }
+      ]
+    },
+    {
+      "dataset": "spectf_heart",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"F2R\", \"feature_j\": \"F2S\", \"dataset\": \"spectf_heart\", \"n_samples\": 349, \"n_classes\": 2, \"n_features\": 44}",
+          "output": "{\"synergy\": 0.057328, \"unique_0\": 0.0, \"unique_1\": 0.059107, \"redundancy\": 0.032868, \"coi_baseline\": -0.063752}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "spectf_heart",
+          "metadata_feature_i": "F2R",
+          "metadata_feature_j": "F2S",
+          "metadata_n_samples": 349,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.057328",
+          "predict_baseline_coi": "-0.063752"
+        },
+        {
+          "input": "{\"feature_i\": \"F2R\", \"feature_j\": \"F3R\", \"dataset\": \"spectf_heart\", \"n_samples\": 349, \"n_classes\": 2, \"n_features\": 44}",
+          "output": "{\"synergy\": 0.071044, \"unique_0\": 0.0, \"unique_1\": 0.003303, \"redundancy\": 0.032868, \"coi_baseline\": -0.025072}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "spectf_heart",
+          "metadata_feature_i": "F2R",
+          "metadata_feature_j": "F3R",
+          "metadata_n_samples": 349,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.071044",
+          "predict_baseline_coi": "-0.025072"
+        },
+        {
+          "input": "{\"feature_i\": \"F2R\", \"feature_j\": \"F3S\", \"dataset\": \"spectf_heart\", \"n_samples\": 349, \"n_classes\": 2, \"n_features\": 44}",
+          "output": "{\"synergy\": 0.055703, \"unique_0\": 0.0, \"unique_1\": 0.101179, \"redundancy\": 0.032868, \"coi_baseline\": -0.092914}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "spectf_heart",
+          "metadata_feature_i": "F2R",
+          "metadata_feature_j": "F3S",
+          "metadata_n_samples": 349,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.055703",
+          "predict_baseline_coi": "-0.092914"
+        }
+      ]
+    },
+    {
+      "dataset": "breast_cancer",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean texture\", \"dataset\": \"breast_cancer\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.090525, \"unique_0\": 0.326445, \"unique_1\": 0.0, \"redundancy\": 0.175567, \"coi_baseline\": -0.121694}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean texture",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.090525",
+          "predict_baseline_coi": "-0.121694"
+        },
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean perimeter\", \"dataset\": \"breast_cancer\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.018441, \"unique_0\": 0.0, \"unique_1\": 0.029555, \"redundancy\": 0.502013, \"coi_baseline\": -0.368455}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean perimeter",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.018441",
+          "predict_baseline_coi": "-0.368455"
+        },
+        {
+          "input": "{\"feature_i\": \"mean radius\", \"feature_j\": \"mean area\", \"dataset\": \"breast_cancer\", \"n_samples\": 569, \"n_classes\": 2, \"n_features\": 30}",
+          "output": "{\"synergy\": 0.012085, \"unique_0\": 0.0, \"unique_1\": 0.00067, \"redundancy\": 0.502013, \"coi_baseline\": -0.348433}",
+          "metadata_pid_method": "MMI",
+          "metadata_dataset": "breast_cancer",
+          "metadata_feature_i": "mean radius",
+          "metadata_feature_j": "mean area",
+          "metadata_n_samples": 569,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.012085",
+          "predict_baseline_coi": "-0.348433"
+        }
+      ]
+    }
+  ]
+}

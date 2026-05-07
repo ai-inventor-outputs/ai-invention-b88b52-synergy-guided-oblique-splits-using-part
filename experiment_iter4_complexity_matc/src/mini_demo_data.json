@@ -1,0 +1,2827 @@
+{
+  "experiment": "Complexity-Matched SG-FIGS: Synergy vs Random at Equal Splits",
+  "methods": [
+    "FIGS",
+    "RO_FIGS",
+    "SG_FIGS_Hard",
+    "SG_FIGS_Soft",
+    "Random_FIGS"
+  ],
+  "max_splits_tested": [
+    5,
+    10
+  ],
+  "n_folds": 5,
+  "win_threshold": 0.005,
+  "synergy_threshold_percentile": 75,
+  "datasets_processed": [
+    "monks2",
+    "banknote",
+    "iris",
+    "blood",
+    "pima_diabetes",
+    "wine",
+    "heart_statlog",
+    "spectf_heart",
+    "vehicle",
+    "climate",
+    "kc2",
+    "ionosphere",
+    "sonar",
+    "breast_cancer_wisconsin_diagnostic"
+  ],
+  "n_datasets_processed": 14,
+  "win_tie_loss_tables": {
+    "SG_FIGS_Soft": {
+      "FIGS": {
+        "wins": 16,
+        "ties": 4,
+        "losses": 8
+      },
+      "RO_FIGS": {
+        "wins": 6,
+        "ties": 7,
+        "losses": 15
+      },
+      "Random_FIGS": {
+        "wins": 11,
+        "ties": 4,
+        "losses": 13
+      }
+    },
+    "SG_FIGS_Hard": {
+      "FIGS": {
+        "wins": 11,
+        "ties": 1,
+        "losses": 16
+      },
+      "RO_FIGS": {
+        "wins": 5,
+        "ties": 5,
+        "losses": 18
+      },
+      "Random_FIGS": {
+        "wins": 7,
+        "ties": 3,
+        "losses": 18
+      }
+    }
+  },
+  "mean_per_split_gain": {
+    "FIGS": 0.001822,
+    "RO_FIGS": 0.000901,
+    "SG_FIGS_Hard": 0.001172,
+    "SG_FIGS_Soft": 0.000535,
+    "Random_FIGS": -0.000694
+  },
+  "complexity_verification": {
+    "FIGS": {
+      "ms5": {
+        "mean_actual": 4.64,
+        "max_actual": 5,
+        "std_actual": 0.72,
+        "n_violations": 0,
+        "n_total": 70
+      },
+      "ms10": {
+        "mean_actual": 9.71,
+        "max_actual": 10,
+        "std_actual": 0.59,
+        "n_violations": 0,
+        "n_total": 70
+      }
+    },
+    "RO_FIGS": {
+      "ms5": {
+        "mean_actual": 4.64,
+        "max_actual": 5,
+        "std_actual": 0.72,
+        "n_violations": 0,
+        "n_total": 70
+      },
+      "ms10": {
+        "mean_actual": 9.71,
+        "max_actual": 10,
+        "std_actual": 0.59,
+        "n_violations": 0,
+        "n_total": 70
+      }
+    },
+    "SG_FIGS_Hard": {
+      "ms5": {
+        "mean_actual": 4.64,
+        "max_actual": 5,
+        "std_actual": 0.72,
+        "n_violations": 0,
+        "n_total": 70
+      },
+      "ms10": {
+        "mean_actual": 9.71,
+        "max_actual": 10,
+        "std_actual": 0.59,
+        "n_violations": 0,
+        "n_total": 70
+      }
+    },
+    "SG_FIGS_Soft": {
+      "ms5": {
+        "mean_actual": 4.64,
+        "max_actual": 5,
+        "std_actual": 0.72,
+        "n_violations": 0,
+        "n_total": 70
+      },
+      "ms10": {
+        "mean_actual": 9.71,
+        "max_actual": 10,
+        "std_actual": 0.59,
+        "n_violations": 0,
+        "n_total": 70
+      }
+    },
+    "Random_FIGS": {
+      "ms5": {
+        "mean_actual": 4.64,
+        "max_actual": 5,
+        "std_actual": 0.72,
+        "n_violations": 0,
+        "n_total": 70
+      },
+      "ms10": {
+        "mean_actual": 9.71,
+        "max_actual": 10,
+        "std_actual": 0.59,
+        "n_violations": 0,
+        "n_total": 70
+      }
+    }
+  },
+  "method_mean_accuracies": {
+    "FIGS": {
+      "ms5": 0.688247,
+      "ms10": 0.697359
+    },
+    "RO_FIGS": {
+      "ms5": 0.707545,
+      "ms10": 0.712051
+    },
+    "SG_FIGS_Hard": {
+      "ms5": 0.677003,
+      "ms10": 0.682861
+    },
+    "SG_FIGS_Soft": {
+      "ms5": 0.702989,
+      "ms10": 0.705661
+    },
+    "Random_FIGS": {
+      "ms5": 0.706493,
+      "ms10": 0.703026
+    }
+  },
+  "domain_validation": [
+    {
+      "dataset": "pima_diabetes",
+      "n_splits": 10,
+      "extracted_splits": [
+        {
+          "feature_indices": [
+            0,
+            1
+          ],
+          "feature_names": [
+            "preg",
+            "plas"
+          ],
+          "weights": [
+            0.35489148212291066,
+            0.9349075012623461
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            1,
+            5
+          ],
+          "feature_names": [
+            "plas",
+            "mass"
+          ],
+          "weights": [
+            0.775702339999315,
+            0.6310989460612234
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            1,
+            5
+          ],
+          "feature_names": [
+            "plas",
+            "mass"
+          ],
+          "weights": [
+            0.05210002434384468,
+            0.9986418714751403
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            5,
+            6
+          ],
+          "feature_names": [
+            "mass",
+            "pedi"
+          ],
+          "weights": [
+            0.3924490771317699,
+            0.9197737340555133
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            1
+          ],
+          "feature_names": [
+            "preg",
+            "plas"
+          ],
+          "weights": [
+            0.8594351410492787,
+            -0.5112447929608736
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            1,
+            4
+          ],
+          "feature_names": [
+            "plas",
+            "insu"
+          ],
+          "weights": [
+            -0.9699899260163544,
+            -0.24314510775828363
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            1,
+            4
+          ],
+          "feature_names": [
+            "plas",
+            "insu"
+          ],
+          "weights": [
+            0.9989761627023986,
+            0.04523965464491221
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            4
+          ],
+          "feature_names": [
+            "preg",
+            "insu"
+          ],
+          "weights": [
+            -0.9773312430344551,
+            0.21171594505073765
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            1
+          ],
+          "feature_names": [
+            "preg",
+            "plas"
+          ],
+          "weights": [
+            0.5228236520077271,
+            0.8524408653398211
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            4,
+            6
+          ],
+          "feature_names": [
+            "insu",
+            "pedi"
+          ],
+          "weights": [
+            -0.6094535743352499,
+            0.7928217584867282
+          ],
+          "n_features_in_split": 2
+        }
+      ],
+      "top_synergy_pairs": [
+        {
+          "feature_i": "mass",
+          "feature_j": "age",
+          "synergy": 0.08453
+        },
+        {
+          "feature_i": "plas",
+          "feature_j": "mass",
+          "synergy": 0.076252
+        },
+        {
+          "feature_i": "preg",
+          "feature_j": "mass",
+          "synergy": 0.056901
+        },
+        {
+          "feature_i": "plas",
+          "feature_j": "age",
+          "synergy": 0.055407
+        },
+        {
+          "feature_i": "skin",
+          "feature_j": "age",
+          "synergy": 0.054093
+        }
+      ]
+    },
+    {
+      "dataset": "heart_statlog",
+      "n_splits": 10,
+      "extracted_splits": [
+        {
+          "feature_indices": [
+            10,
+            12
+          ],
+          "feature_names": [
+            "slope",
+            "thal"
+          ],
+          "weights": [
+            0.40310472440034284,
+            0.9151538565542539
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            9,
+            11
+          ],
+          "feature_names": [
+            "oldpeak",
+            "number_of_major_vessels"
+          ],
+          "weights": [
+            0.6297741507383163,
+            0.7767782946644637
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            2
+          ],
+          "feature_names": [
+            "age",
+            "chest"
+          ],
+          "weights": [
+            -0.5565719929199695,
+            0.8307993841458317
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            7,
+            11
+          ],
+          "feature_names": [
+            "maximum_heart_rate_achieved",
+            "number_of_major_vessels"
+          ],
+          "weights": [
+            -0.21896190917126662,
+            0.9757334074080246
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            3,
+            9
+          ],
+          "feature_names": [
+            "resting_blood_pressure",
+            "oldpeak"
+          ],
+          "weights": [
+            0.9680804495661022,
+            0.25063966798552395
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            2,
+            11
+          ],
+          "feature_names": [
+            "chest",
+            "number_of_major_vessels"
+          ],
+          "weights": [
+            0.468814249811209,
+            0.8832967786502751
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            3,
+            8
+          ],
+          "feature_names": [
+            "resting_blood_pressure",
+            "exercise_induced_angina"
+          ],
+          "weights": [
+            -0.049715450241036456,
+            0.9987634224416366
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            10
+          ],
+          "feature_names": [
+            "age",
+            "slope"
+          ],
+          "weights": [
+            0.7487755352127127,
+            0.6628236551805583
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            3,
+            9
+          ],
+          "feature_names": [
+            "resting_blood_pressure",
+            "oldpeak"
+          ],
+          "weights": [
+            0.20367068862527388,
+            0.9790394530328729
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            3
+          ],
+          "feature_names": [
+            "age",
+            "resting_blood_pressure"
+          ],
+          "weights": [
+            0.5535922963235185,
+            0.8327878297929513
+          ],
+          "n_features_in_split": 2
+        }
+      ],
+      "top_synergy_pairs": [
+        {
+          "feature_i": "slope",
+          "feature_j": "number_of_major_vessels",
+          "synergy": 0.107632
+        },
+        {
+          "feature_i": "serum_cholestoral",
+          "feature_j": "oldpeak",
+          "synergy": 0.101842
+        },
+        {
+          "feature_i": "age",
+          "feature_j": "maximum_heart_rate_achieved",
+          "synergy": 0.094947
+        },
+        {
+          "feature_i": "maximum_heart_rate_achieved",
+          "feature_j": "oldpeak",
+          "synergy": 0.092637
+        },
+        {
+          "feature_i": "oldpeak",
+          "feature_j": "number_of_major_vessels",
+          "synergy": 0.087964
+        }
+      ]
+    },
+    {
+      "dataset": "monks2",
+      "n_splits": 10,
+      "extracted_splits": [
+        {
+          "feature_indices": [
+            3,
+            5
+          ],
+          "feature_names": [
+            "attr4",
+            "attr6"
+          ],
+          "weights": [
+            0.8836363923015986,
+            0.46817382049855705
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            2,
+            3
+          ],
+          "feature_names": [
+            "attr3",
+            "attr4"
+          ],
+          "weights": [
+            1.0,
+            0.0
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            3
+          ],
+          "feature_names": [
+            "attr1",
+            "attr4"
+          ],
+          "weights": [
+            1.0,
+            4.944255638035427e-30
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            1
+          ],
+          "feature_names": [
+            "attr1",
+            "attr2"
+          ],
+          "weights": [
+            -0.18264342469469624,
+            0.9831792203946302
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            4
+          ],
+          "feature_names": [
+            "attr1",
+            "attr5"
+          ],
+          "weights": [
+            -0.08709417725798597,
+            0.9962000824572113
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            1,
+            2
+          ],
+          "feature_names": [
+            "attr2",
+            "attr3"
+          ],
+          "weights": [
+            0.45953841262163064,
+            -0.8881578954922328
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            2,
+            4
+          ],
+          "feature_names": [
+            "attr3",
+            "attr5"
+          ],
+          "weights": [
+            5.305188727572482e-29,
+            1.0
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            3
+          ],
+          "feature_names": [
+            "attr1",
+            "attr4"
+          ],
+          "weights": [
+            0.8120949731109178,
+            0.5835252819269937
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            5
+          ],
+          "feature_names": [
+            "attr1",
+            "attr6"
+          ],
+          "weights": [
+            0.7897207942898897,
+            -0.613466435158555
+          ],
+          "n_features_in_split": 2
+        },
+        {
+          "feature_indices": [
+            0,
+            5
+          ],
+          "feature_names": [
+            "attr1",
+            "attr6"
+          ],
+          "weights": [
+            -0.3895576450600038,
+            0.9210020853262516
+          ],
+          "n_features_in_split": 2
+        }
+      ],
+      "top_synergy_pairs": [
+        {
+          "feature_i": "attr3",
+          "feature_j": "attr6",
+          "synergy": 0.018486
+        },
+        {
+          "feature_i": "attr2",
+          "feature_j": "attr6",
+          "synergy": 0.016509
+        },
+        {
+          "feature_i": "attr3",
+          "feature_j": "attr5",
+          "synergy": 0.016249
+        },
+        {
+          "feature_i": "attr1",
+          "feature_j": "attr6",
+          "synergy": 0.013602
+        },
+        {
+          "feature_i": "attr4",
+          "feature_j": "attr6",
+          "synergy": 0.011734
+        }
+      ]
+    }
+  ],
+  "per_dataset_fold_results": {
+    "monks2": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.543178,
+          "std_balanced_acc": 0.041852,
+          "mean_auc": 0.619212,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.478216,
+            0.600889,
+            0.51875,
+            0.551646,
+            0.566388
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.561395,
+          "std_balanced_acc": 0.029461,
+          "mean_auc": 0.667347,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.52,
+          "fold_accs": [
+            0.555556,
+            0.535568,
+            0.61875,
+            0.551646,
+            0.545455
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.505008,
+          "std_balanced_acc": 0.006549,
+          "mean_auc": 0.608795,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.508892,
+            0.5,
+            0.5,
+            0.516148
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.537398,
+          "std_balanced_acc": 0.026104,
+          "mean_auc": 0.624694,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.56,
+          "fold_accs": [
+            0.577778,
+            0.514706,
+            0.525,
+            0.55814,
+            0.511364
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.529419,
+          "std_balanced_acc": 0.026715,
+          "mean_auc": 0.637499,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.52,
+          "fold_accs": [
+            0.577778,
+            0.51197,
+            0.5,
+            0.523256,
+            0.534091
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.565537,
+          "std_balanced_acc": 0.030072,
+          "mean_auc": 0.650265,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.58231,
+            0.53249,
+            0.53125,
+            0.572184,
+            0.60945
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.65522,
+          "std_balanced_acc": 0.068055,
+          "mean_auc": 0.807577,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.56,
+          "fold_accs": [
+            0.584795,
+            0.594391,
+            0.75625,
+            0.626548,
+            0.714115
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.512704,
+          "std_balanced_acc": 0.031278,
+          "mean_auc": 0.669843,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.45848,
+            0.50684,
+            0.55,
+            0.535639,
+            0.51256
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.590193,
+          "std_balanced_acc": 0.043347,
+          "mean_auc": 0.726329,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.54,
+          "fold_accs": [
+            0.558041,
+            0.529412,
+            0.65,
+            0.590305,
+            0.623206
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.598299,
+          "std_balanced_acc": 0.028952,
+          "mean_auc": 0.737434,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.54,
+          "fold_accs": [
+            0.613596,
+            0.559166,
+            0.64375,
+            0.595439,
+            0.579545
+          ]
+        }
+      }
+    },
+    "banknote": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.927947,
+          "std_balanced_acc": 0.015977,
+          "mean_auc": 0.93902,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.933171,
+            0.91997,
+            0.903563,
+            0.952065,
+            0.930968
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.974958,
+          "std_balanced_acc": 0.010122,
+          "mean_auc": 0.964772,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.68,
+          "fold_accs": [
+            0.96636,
+            0.962314,
+            0.97362,
+            0.982948,
+            0.989548
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.72894,
+          "std_balanced_acc": 0.134698,
+          "mean_auc": 0.877754,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.892276,
+            0.505251,
+            0.699187,
+            0.706694,
+            0.84129
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.975512,
+          "std_balanced_acc": 0.004959,
+          "mean_auc": 0.977856,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.68,
+          "fold_accs": [
+            0.979944,
+            0.966379,
+            0.978723,
+            0.978318,
+            0.974194
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.971633,
+          "std_balanced_acc": 0.020032,
+          "mean_auc": 0.965516,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.68,
+          "fold_accs": [
+            0.990683,
+            0.943682,
+            0.951306,
+            0.982948,
+            0.989548
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.9129,
+          "std_balanced_acc": 0.048718,
+          "mean_auc": 0.947873,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.867835,
+            0.966379,
+            0.928992,
+            0.844002,
+            0.95729
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.9423,
+          "std_balanced_acc": 0.041158,
+          "mean_auc": 0.937022,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.62,
+          "fold_accs": [
+            0.958726,
+            0.979675,
+            0.87407,
+            0.981481,
+            0.917548
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.865866,
+          "std_balanced_acc": 0.061634,
+          "mean_auc": 0.931117,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.774809,
+            0.92124,
+            0.813008,
+            0.888659,
+            0.931613
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.956785,
+          "std_balanced_acc": 0.0214,
+          "mean_auc": 0.955507,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.74,
+          "fold_accs": [
+            0.960149,
+            0.95122,
+            0.963501,
+            0.987635,
+            0.921419
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.969944,
+          "std_balanced_acc": 0.014888,
+          "mean_auc": 0.976735,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.56,
+          "fold_accs": [
+            0.973994,
+            0.980268,
+            0.967047,
+            0.942863,
+            0.985548
+          ]
+        }
+      }
+    },
+    "iris": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.935102,
+          "std_balanced_acc": 0.020393,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.939394,
+            0.952381,
+            0.939394,
+            0.948718,
+            0.895623
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.916517,
+          "std_balanced_acc": 0.043635,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.2667,
+          "fold_accs": [
+            0.922078,
+            0.831169,
+            0.939394,
+            0.950549,
+            0.939394
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.873993,
+          "std_balanced_acc": 0.048149,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.848485,
+            0.904762,
+            0.878788,
+            0.798535,
+            0.939394
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.948984,
+          "std_balanced_acc": 0.013648,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.6,
+          "fold_accs": [
+            0.939394,
+            0.952381,
+            0.939394,
+            0.974359,
+            0.939394
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.924846,
+          "std_balanced_acc": 0.030408,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.2,
+          "fold_accs": [
+            0.909091,
+            0.952381,
+            0.969697,
+            0.897436,
+            0.895623
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.924598,
+          "std_balanced_acc": 0.054011,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.969697,
+            0.952381,
+            0.969697,
+            0.90293,
+            0.828283
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.950849,
+          "std_balanced_acc": 0.017974,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.4,
+          "fold_accs": [
+            0.969697,
+            0.952381,
+            0.939394,
+            0.923077,
+            0.969697
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.928375,
+          "std_balanced_acc": 0.037894,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.904762,
+            0.969697,
+            0.969697,
+            0.871795,
+            0.925926
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.946291,
+          "std_balanced_acc": 0.025185,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.5778,
+          "fold_accs": [
+            0.909091,
+            0.952381,
+            0.969697,
+            0.974359,
+            0.925926
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.929482,
+          "std_balanced_acc": 0.041687,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.3777,
+          "fold_accs": [
+            0.922078,
+            1.0,
+            0.914141,
+            0.871795,
+            0.939394
+          ]
+        }
+      }
+    },
+    "blood": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.514594,
+          "std_balanced_acc": 0.014608,
+          "mean_auc": 0.711313,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.522602,
+            0.511905,
+            0.5,
+            0.538462,
+            0.5
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.508688,
+          "std_balanced_acc": 0.017193,
+          "mean_auc": 0.620416,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.504903,
+            0.5,
+            0.5,
+            0.495935,
+            0.542601
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.498291,
+          "std_balanced_acc": 0.003419,
+          "mean_auc": 0.576375,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.491453
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.509483,
+          "std_balanced_acc": 0.014846,
+          "mean_auc": 0.658412,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.509089,
+            0.5,
+            0.5,
+            0.5,
+            0.538328
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.509994,
+          "std_balanced_acc": 0.012325,
+          "mean_auc": 0.633167,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.527266,
+            0.5,
+            0.5,
+            0.5,
+            0.522703
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.517579,
+          "std_balanced_acc": 0.014291,
+          "mean_auc": 0.686038,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.522602,
+            0.52381,
+            0.503021,
+            0.538462,
+            0.5
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.52413,
+          "std_balanced_acc": 0.042225,
+          "mean_auc": 0.647358,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.504903,
+            0.511905,
+            0.5,
+            0.495935,
+            0.607906
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.502811,
+          "std_balanced_acc": 0.010434,
+          "mean_auc": 0.574629,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.522602,
+            0.5,
+            0.5,
+            0.5,
+            0.491453
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.519354,
+          "std_balanced_acc": 0.021191,
+          "mean_auc": 0.64749,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.509089,
+            0.5,
+            0.5,
+            0.553627,
+            0.534054
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.512936,
+          "std_balanced_acc": 0.011825,
+          "mean_auc": 0.628886,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.527266,
+            0.511905,
+            0.5,
+            0.5,
+            0.525507
+          ]
+        }
+      }
+    },
+    "pima_diabetes": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.580193,
+          "std_balanced_acc": 0.085178,
+          "mean_auc": 0.691379,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.540927,
+            0.49474,
+            0.5,
+            0.684452,
+            0.680847
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.541168,
+          "std_balanced_acc": 0.060061,
+          "mean_auc": 0.669938,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.72,
+          "fold_accs": [
+            0.5,
+            0.647591,
+            0.5,
+            0.568054,
+            0.490196
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.648138,
+          "std_balanced_acc": 0.064779,
+          "mean_auc": 0.764083,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.647556,
+            0.673049,
+            0.524176,
+            0.694053,
+            0.701856
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.607659,
+          "std_balanced_acc": 0.072355,
+          "mean_auc": 0.733607,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.72,
+          "fold_accs": [
+            0.623368,
+            0.683253,
+            0.516154,
+            0.684707,
+            0.530812
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.554643,
+          "std_balanced_acc": 0.051202,
+          "mean_auc": 0.696929,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.76,
+          "fold_accs": [
+            0.581855,
+            0.642331,
+            0.51,
+            0.509091,
+            0.529937
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.611994,
+          "std_balanced_acc": 0.081145,
+          "mean_auc": 0.664436,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.559257,
+            0.647591,
+            0.665055,
+            0.481308,
+            0.706758
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.515673,
+          "std_balanced_acc": 0.018886,
+          "mean_auc": 0.674691,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.6,
+          "fold_accs": [
+            0.506445,
+            0.520198,
+            0.509011,
+            0.549363,
+            0.493347
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.65579,
+          "std_balanced_acc": 0.073127,
+          "mean_auc": 0.730985,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.657767,
+            0.672628,
+            0.533187,
+            0.652761,
+            0.762605
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.602854,
+          "std_balanced_acc": 0.063831,
+          "mean_auc": 0.749933,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.62,
+          "fold_accs": [
+            0.645464,
+            0.535451,
+            0.564505,
+            0.707052,
+            0.5618
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.532569,
+          "std_balanced_acc": 0.022094,
+          "mean_auc": 0.719511,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.72,
+          "fold_accs": [
+            0.54846,
+            0.494635,
+            0.55,
+            0.549618,
+            0.520133
+          ]
+        }
+      }
+    },
+    "wine": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.828784,
+          "std_balanced_acc": 0.065049,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.751603,
+            0.831169,
+            0.941919,
+            0.838421,
+            0.780808
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.915786,
+          "std_balanced_acc": 0.04619,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.0667,
+          "fold_accs": [
+            0.916667,
+            0.898268,
+            0.972222,
+            0.952381,
+            0.839394
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.914888,
+          "std_balanced_acc": 0.012639,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.907051,
+            0.909091,
+            0.914141,
+            0.904762,
+            0.939394
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.862899,
+          "std_balanced_acc": 0.05635,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.2667,
+          "fold_accs": [
+            0.854167,
+            0.891775,
+            0.941919,
+            0.856939,
+            0.769697
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.914357,
+          "std_balanced_acc": 0.034318,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 3.0,
+          "mean_interpretability": 0.3333,
+          "fold_accs": [
+            0.916667,
+            0.915584,
+            0.969697,
+            0.908221,
+            0.861616
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.797559,
+          "std_balanced_acc": 0.072755,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.762821,
+            0.885281,
+            0.872222,
+            0.777574,
+            0.689899
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.860214,
+          "std_balanced_acc": 0.050341,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.2666,
+          "fold_accs": [
+            0.814103,
+            0.853535,
+            0.839394,
+            0.957672,
+            0.836364
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.898023,
+          "std_balanced_acc": 0.030924,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.9375,
+            0.878788,
+            0.850505,
+            0.901099,
+            0.922222
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.838453,
+          "std_balanced_acc": 0.038608,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.2444,
+          "fold_accs": [
+            0.786859,
+            0.896825,
+            0.808586,
+            0.860602,
+            0.839394
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.818084,
+          "std_balanced_acc": 0.095797,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 9.0,
+          "mean_interpretability": 0.3111,
+          "fold_accs": [
+            0.88141,
+            0.820346,
+            0.908586,
+            0.843712,
+            0.636364
+          ]
+        }
+      }
+    },
+    "heart_statlog": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.746197,
+          "std_balanced_acc": 0.053258,
+          "mean_auc": 0.69861,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.769278,
+            0.73,
+            0.833333,
+            0.672973,
+            0.7254
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.76246,
+          "std_balanced_acc": 0.067083,
+          "mean_auc": 0.750279,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.08,
+          "fold_accs": [
+            0.804774,
+            0.635,
+            0.814815,
+            0.754505,
+            0.803204
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.704257,
+          "std_balanced_acc": 0.047431,
+          "mean_auc": 0.673248,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.652999,
+            0.77,
+            0.740741,
+            0.707658,
+            0.649886
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.750112,
+          "std_balanced_acc": 0.039923,
+          "mean_auc": 0.704192,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.4,
+          "fold_accs": [
+            0.714198,
+            0.775,
+            0.814815,
+            0.708559,
+            0.737986
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.766011,
+          "std_balanced_acc": 0.064395,
+          "mean_auc": 0.750537,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.32,
+          "fold_accs": [
+            0.714198,
+            0.725,
+            0.851852,
+            0.836486,
+            0.702517
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.755662,
+          "std_balanced_acc": 0.046304,
+          "mean_auc": 0.713908,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.783966,
+            0.675,
+            0.796296,
+            0.732432,
+            0.790618
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.777536,
+          "std_balanced_acc": 0.048266,
+          "mean_auc": 0.735356,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.2,
+          "fold_accs": [
+            0.836597,
+            0.71,
+            0.796296,
+            0.732432,
+            0.812357
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.682558,
+          "std_balanced_acc": 0.055959,
+          "mean_auc": 0.61877,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.735006,
+            0.76,
+            0.62963,
+            0.668018,
+            0.620137
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.710971,
+          "std_balanced_acc": 0.035876,
+          "mean_auc": 0.69072,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.42,
+          "fold_accs": [
+            0.70257,
+            0.655,
+            0.703704,
+            0.729279,
+            0.764302
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.772027,
+          "std_balanced_acc": 0.057369,
+          "mean_auc": 0.719422,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.24,
+          "fold_accs": [
+            0.743574,
+            0.74,
+            0.87037,
+            0.799099,
+            0.707094
+          ]
+        }
+      }
+    },
+    "spectf_heart": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.523926,
+          "std_balanced_acc": 0.023573,
+          "mean_auc": 0.775242,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.518119,
+            0.5,
+            0.541803,
+            0.559707,
+            0.5
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.622432,
+          "std_balanced_acc": 0.104664,
+          "mean_auc": 0.718781,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.28,
+          "fold_accs": [
+            0.519845,
+            0.741398,
+            0.533607,
+            0.559707,
+            0.757603
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.547067,
+          "std_balanced_acc": 0.046514,
+          "mean_auc": 0.73193,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.631579,
+            0.5,
+            0.517213,
+            0.559707,
+            0.526834
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.539648,
+          "std_balanced_acc": 0.083988,
+          "mean_auc": 0.74255,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.76,
+          "fold_accs": [
+            0.5,
+            0.498925,
+            0.491803,
+            0.5,
+            0.707513
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.530874,
+          "std_balanced_acc": 0.046864,
+          "mean_auc": 0.739429,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.16,
+          "fold_accs": [
+            0.509922,
+            0.5,
+            0.483607,
+            0.545455,
+            0.615385
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.643965,
+          "std_balanced_acc": 0.068045,
+          "mean_auc": 0.682088,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.697584,
+            0.596237,
+            0.541803,
+            0.730354,
+            0.653846
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.668916,
+          "std_balanced_acc": 0.136187,
+          "mean_auc": 0.746628,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.28,
+          "fold_accs": [
+            0.602243,
+            0.516129,
+            0.892623,
+            0.753082,
+            0.580501
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.672336,
+          "std_balanced_acc": 0.091445,
+          "mean_auc": 0.695412,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.709232,
+            0.644086,
+            0.509836,
+            0.775809,
+            0.722719
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.659462,
+          "std_balanced_acc": 0.033627,
+          "mean_auc": 0.766983,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.56,
+          "fold_accs": [
+            0.606989,
+            0.676344,
+            0.684426,
+            0.633667,
+            0.695886
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.612,
+          "std_balanced_acc": 0.106187,
+          "mean_auc": 0.689935,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.14,
+          "fold_accs": [
+            0.730371,
+            0.547849,
+            0.45082,
+            0.608243,
+            0.722719
+          ]
+        }
+      }
+    },
+    "vehicle": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.539362,
+          "std_balanced_acc": 0.032224,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 4.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.584154,
+            0.562575,
+            0.509258,
+            0.497802,
+            0.543019
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.591825,
+          "std_balanced_acc": 0.045558,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 4.0,
+          "mean_interpretability": 0.75,
+          "fold_accs": [
+            0.590234,
+            0.625547,
+            0.651709,
+            0.572445,
+            0.519188
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.565452,
+          "std_balanced_acc": 0.024708,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 4.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.592876,
+            0.584993,
+            0.522539,
+            0.569287,
+            0.557565
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.575694,
+          "std_balanced_acc": 0.017118,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 4.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.544703,
+            0.581817,
+            0.571227,
+            0.587444,
+            0.593279
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.60191,
+          "std_balanced_acc": 0.055315,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 4.0,
+          "mean_interpretability": 0.9,
+          "fold_accs": [
+            0.65124,
+            0.602662,
+            0.559275,
+            0.672413,
+            0.523961
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.55636,
+          "std_balanced_acc": 0.047459,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 8.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.507894,
+            0.624655,
+            0.579899,
+            0.497567,
+            0.571786
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.576369,
+          "std_balanced_acc": 0.0879,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 8.0,
+          "mean_interpretability": 0.7,
+          "fold_accs": [
+            0.410591,
+            0.618738,
+            0.668048,
+            0.607164,
+            0.577305
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.56365,
+          "std_balanced_acc": 0.048386,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 8.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.587668,
+            0.495973,
+            0.628236,
+            0.520334,
+            0.586039
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.570256,
+          "std_balanced_acc": 0.046105,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 8.0,
+          "mean_interpretability": 0.95,
+          "fold_accs": [
+            0.523693,
+            0.516299,
+            0.626199,
+            0.619243,
+            0.565844
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.546952,
+          "std_balanced_acc": 0.084112,
+          "mean_auc": 0.5,
+          "mean_actual_splits": 8.0,
+          "mean_interpretability": 0.75,
+          "fold_accs": [
+            0.414441,
+            0.550676,
+            0.627167,
+            0.642608,
+            0.49987
+          ]
+        }
+      }
+    },
+    "climate": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.51719,
+          "std_balanced_acc": 0.022507,
+          "mean_auc": 0.701806,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.530395,
+            0.5,
+            0.5,
+            0.555556
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.496979,
+          "std_balanced_acc": 0.004062,
+          "mean_auc": 0.648543,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.44,
+          "fold_accs": [
+            0.489796,
+            0.5,
+            0.5,
+            0.495098,
+            0.5
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.49902,
+          "std_balanced_acc": 0.001961,
+          "mean_auc": 0.579255,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.5,
+            0.495098,
+            0.5
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.495892,
+          "std_balanced_acc": 0.005036,
+          "mean_auc": 0.568373,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.6,
+          "fold_accs": [
+            0.5,
+            0.489362,
+            0.490099,
+            0.5,
+            0.5
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.49798,
+          "std_balanced_acc": 0.00404,
+          "mean_auc": 0.537817,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.48,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.489899
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.523252,
+          "std_balanced_acc": 0.046504,
+          "mean_auc": 0.558931,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.616261,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.492998,
+          "std_balanced_acc": 0.005081,
+          "mean_auc": 0.643104,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.52,
+          "fold_accs": [
+            0.489796,
+            0.5,
+            0.485149,
+            0.495098,
+            0.494949
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.491823,
+          "std_balanced_acc": 0.010029,
+          "mean_auc": 0.480374,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.478723,
+            0.5,
+            0.480392,
+            0.5
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.482779,
+          "std_balanced_acc": 0.017304,
+          "mean_auc": 0.565136,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.66,
+          "fold_accs": [
+            0.459184,
+            0.489362,
+            0.465347,
+            0.5,
+            0.5
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.531938,
+          "std_balanced_acc": 0.044792,
+          "mean_auc": 0.49298,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.54,
+          "fold_accs": [
+            0.589796,
+            0.516717,
+            0.5,
+            0.578431,
+            0.474747
+          ]
+        }
+      }
+    },
+    "kc2": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.505774,
+          "std_balanced_acc": 0.022147,
+          "mean_auc": 0.640379,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.48125,
+            0.547619,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.51119,
+          "std_balanced_acc": 0.018498,
+          "mean_auc": 0.674039,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.5,
+            0.547619,
+            0.508333
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.5,
+          "std_balanced_acc": 0.0,
+          "mean_auc": 0.715019,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.501245,
+          "std_balanced_acc": 0.005767,
+          "mean_auc": 0.60108,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.5,
+            0.511905,
+            0.494318,
+            0.5,
+            0.5
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.521018,
+          "std_balanced_acc": 0.021854,
+          "mean_auc": 0.688952,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.52,
+            0.559524,
+            0.525568,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.518,
+          "std_balanced_acc": 0.016164,
+          "mean_auc": 0.576644,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5275,
+            0.541667,
+            0.5,
+            0.5,
+            0.520833
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.513357,
+          "std_balanced_acc": 0.019569,
+          "mean_auc": 0.643789,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.49625,
+            0.5,
+            0.5,
+            0.547619,
+            0.522917
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.502421,
+          "std_balanced_acc": 0.007991,
+          "mean_auc": 0.642639,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.5,
+            0.5,
+            0.494318,
+            0.517785,
+            0.5
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.503268,
+          "std_balanced_acc": 0.026091,
+          "mean_auc": 0.595126,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.0,
+          "fold_accs": [
+            0.46875,
+            0.511905,
+            0.494318,
+            0.547619,
+            0.49375
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.528697,
+          "std_balanced_acc": 0.015867,
+          "mean_auc": 0.690427,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.52,
+            0.559524,
+            0.525568,
+            0.52381,
+            0.514583
+          ]
+        }
+      }
+    },
+    "ionosphere": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.865839,
+          "std_balanced_acc": 0.018035,
+          "mean_auc": 0.854838,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.863333,
+            0.895833,
+            0.853432,
+            0.873342,
+            0.843254
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.874115,
+          "std_balanced_acc": 0.034045,
+          "mean_auc": 0.836556,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.48,
+          "fold_accs": [
+            0.833333,
+            0.875,
+            0.903525,
+            0.91943,
+            0.839286
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.805447,
+          "std_balanced_acc": 0.056226,
+          "mean_auc": 0.736527,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.75,
+            0.757675,
+            0.843228,
+            0.779509,
+            0.896825
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.871783,
+          "std_balanced_acc": 0.019163,
+          "mean_auc": 0.861619,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.68,
+          "fold_accs": [
+            0.88,
+            0.861842,
+            0.903525,
+            0.846485,
+            0.867063
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.877921,
+          "std_balanced_acc": 0.053332,
+          "mean_auc": 0.864993,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.44,
+          "fold_accs": [
+            0.946667,
+            0.898026,
+            0.78757,
+            0.900199,
+            0.857143
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.841245,
+          "std_balanced_acc": 0.048946,
+          "mean_auc": 0.812317,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.806667,
+            0.911184,
+            0.769481,
+            0.865716,
+            0.853175
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.862579,
+          "std_balanced_acc": 0.044044,
+          "mean_auc": 0.827733,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.42,
+          "fold_accs": [
+            0.84,
+            0.799342,
+            0.893321,
+            0.927056,
+            0.853175
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.804398,
+          "std_balanced_acc": 0.018797,
+          "mean_auc": 0.773286,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.77,
+            0.816886,
+            0.817254,
+            0.798408,
+            0.819444
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.817928,
+          "std_balanced_acc": 0.029613,
+          "mean_auc": 0.789606,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.68,
+          "fold_accs": [
+            0.836667,
+            0.765351,
+            0.852505,
+            0.823607,
+            0.811508
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.840733,
+          "std_balanced_acc": 0.048059,
+          "mean_auc": 0.790279,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.46,
+          "fold_accs": [
+            0.903333,
+            0.816886,
+            0.767161,
+            0.880968,
+            0.835317
+          ]
+        }
+      }
+    },
+    "sonar": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.6882,
+          "std_balanced_acc": 0.07818,
+          "mean_auc": 0.697398,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.768908,
+            0.633127,
+            0.5625,
+            0.748397,
+            0.72807
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.695018,
+          "std_balanced_acc": 0.04348,
+          "mean_auc": 0.646742,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.2,
+          "fold_accs": [
+            0.67542,
+            0.636223,
+            0.677083,
+            0.761218,
+            0.725146
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.75464,
+          "std_balanced_acc": 0.041752,
+          "mean_auc": 0.781626,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.733193,
+            0.829721,
+            0.760417,
+            0.745192,
+            0.704678
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.734329,
+          "std_balanced_acc": 0.055222,
+          "mean_auc": 0.758535,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.48,
+          "fold_accs": [
+            0.651261,
+            0.712074,
+            0.729167,
+            0.81891,
+            0.760234
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.749,
+          "std_balanced_acc": 0.022361,
+          "mean_auc": 0.731892,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.2,
+          "fold_accs": [
+            0.733193,
+            0.724458,
+            0.739583,
+            0.761218,
+            0.78655
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.687954,
+          "std_balanced_acc": 0.084517,
+          "mean_auc": 0.620679,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.809874,
+            0.583591,
+            0.604167,
+            0.740385,
+            0.701754
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.710366,
+          "std_balanced_acc": 0.03258,
+          "mean_auc": 0.647774,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.2,
+          "fold_accs": [
+            0.703782,
+            0.69195,
+            0.666667,
+            0.762821,
+            0.726608
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.732515,
+          "std_balanced_acc": 0.057377,
+          "mean_auc": 0.680814,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.75105,
+            0.780186,
+            0.78125,
+            0.724359,
+            0.625731
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.771381,
+          "std_balanced_acc": 0.092735,
+          "mean_auc": 0.721653,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.34,
+          "fold_accs": [
+            0.686975,
+            0.921053,
+            0.666667,
+            0.820513,
+            0.761696
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.739782,
+          "std_balanced_acc": 0.028341,
+          "mean_auc": 0.679323,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.16,
+          "fold_accs": [
+            0.75105,
+            0.77709,
+            0.708333,
+            0.705128,
+            0.75731
+          ]
+        }
+      }
+    },
+    "breast_cancer_wisconsin_diagnostic": {
+      "ms5": {
+        "FIGS": {
+          "mean_balanced_acc": 0.919179,
+          "std_balanced_acc": 0.022158,
+          "mean_auc": 0.898791,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.920519,
+            0.880031,
+            0.928488,
+            0.948052,
+            0.918803
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.933095,
+          "std_balanced_acc": 0.006817,
+          "mean_auc": 0.913509,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.76,
+          "fold_accs": [
+            0.927654,
+            0.92531,
+            0.930233,
+            0.942641,
+            0.939637
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.9329,
+          "std_balanced_acc": 0.034609,
+          "mean_auc": 0.917943,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.872003,
+            0.931115,
+            0.940116,
+            0.9421,
+            0.979167
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.931204,
+          "std_balanced_acc": 0.014161,
+          "mean_auc": 0.908806,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.88,
+          "fold_accs": [
+            0.923801,
+            0.917957,
+            0.925194,
+            0.930736,
+            0.958333
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.941297,
+          "std_balanced_acc": 0.02915,
+          "mean_auc": 0.917445,
+          "mean_actual_splits": 5.0,
+          "mean_interpretability": 0.64,
+          "fold_accs": [
+            0.885987,
+            0.94582,
+            0.94845,
+            0.954004,
+            0.972222
+          ]
+        }
+      },
+      "ms10": {
+        "FIGS": {
+          "mean_balanced_acc": 0.906419,
+          "std_balanced_acc": 0.021808,
+          "mean_auc": 0.856536,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.934503,
+            0.912152,
+            0.918605,
+            0.896645,
+            0.870192
+          ]
+        },
+        "RO_FIGS": {
+          "mean_balanced_acc": 0.918201,
+          "std_balanced_acc": 0.020449,
+          "mean_auc": 0.895371,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.58,
+          "fold_accs": [
+            0.924087,
+            0.885836,
+            0.933527,
+            0.942641,
+            0.904915
+          ]
+        },
+        "SG_FIGS_Hard": {
+          "mean_balanced_acc": 0.746783,
+          "std_balanced_acc": 0.217693,
+          "mean_auc": 0.890945,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 1.0,
+          "fold_accs": [
+            0.478881,
+            0.928019,
+            0.905233,
+            0.482143,
+            0.939637
+          ]
+        },
+        "SG_FIGS_Soft": {
+          "mean_balanced_acc": 0.909285,
+          "std_balanced_acc": 0.027699,
+          "mean_auc": 0.891431,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.84,
+          "fold_accs": [
+            0.878853,
+            0.917957,
+            0.89031,
+            0.900974,
+            0.958333
+          ]
+        },
+        "Random_FIGS": {
+          "mean_balanced_acc": 0.908917,
+          "std_balanced_acc": 0.023349,
+          "mean_auc": 0.870056,
+          "mean_actual_splits": 10.0,
+          "mean_interpretability": 0.6,
+          "fold_accs": [
+            0.885987,
+            0.926858,
+            0.878682,
+            0.91342,
+            0.939637
+          ]
+        }
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"max_splits\": 5, \"fold\": 0, \"n_features\": 8, \"n_samples\": 768, \"n_classes\": 2}",
+          "output": "{\"FIGS_balanced_accuracy\": 0.540927, \"FIGS_auc\": 0.639438, \"FIGS_actual_n_splits\": 5, \"FIGS_interpretability\": 1.0, \"RO_FIGS_balanced_accuracy\": 0.5, \"RO_FIGS_auc\": 0.605373, \"RO_FIGS_actual_n_splits\": 5, \"RO_FIGS_interpretability\": 0.6, \"SG_FIGS_Hard_balanced_accuracy\": 0.647556, \"SG_FIGS_Hard_auc\": 0.788082, \"SG_FIGS_Hard_actual_n_splits\": 5, \"SG_FIGS_Hard_interpretability\": 1.0, \"SG_FIGS_Soft_balanced_accuracy\": 0.623368, \"SG_FIGS_Soft_auc\": 0.706227, \"SG_FIGS_Soft_actual_n_splits\": 5, \"SG_FIGS_Soft_interpretability\": 0.6, \"Random_FIGS_balanced_accuracy\": 0.581855, \"Random_FIGS_auc\": 0.689153, \"Random_FIGS_actual_n_splits\": 5, \"Random_FIGS_interpretability\": 0.8}",
+          "metadata_fold": 0,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "pima_diabetes",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_FIGS_balanced_acc": "0.540927",
+          "predict_RO_FIGS_balanced_acc": "0.5",
+          "predict_SG_FIGS_Hard_balanced_acc": "0.647556",
+          "predict_SG_FIGS_Soft_balanced_acc": "0.623368",
+          "predict_Random_FIGS_balanced_acc": "0.581855"
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"max_splits\": 5, \"fold\": 1, \"n_features\": 8, \"n_samples\": 768, \"n_classes\": 2}",
+          "output": "{\"FIGS_balanced_accuracy\": 0.49474, \"FIGS_auc\": 0.699453, \"FIGS_actual_n_splits\": 5, \"FIGS_interpretability\": 1.0, \"RO_FIGS_balanced_accuracy\": 0.647591, \"RO_FIGS_auc\": 0.735851, \"RO_FIGS_actual_n_splits\": 5, \"RO_FIGS_interpretability\": 0.6, \"SG_FIGS_Hard_balanced_accuracy\": 0.673049, \"SG_FIGS_Hard_auc\": 0.815485, \"SG_FIGS_Hard_actual_n_splits\": 5, \"SG_FIGS_Hard_interpretability\": 1.0, \"SG_FIGS_Soft_balanced_accuracy\": 0.683253, \"SG_FIGS_Soft_auc\": 0.770145, \"SG_FIGS_Soft_actual_n_splits\": 5, \"SG_FIGS_Soft_interpretability\": 0.6, \"Random_FIGS_balanced_accuracy\": 0.642331, \"Random_FIGS_auc\": 0.707974, \"Random_FIGS_actual_n_splits\": 5, \"Random_FIGS_interpretability\": 0.6}",
+          "metadata_fold": 1,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "pima_diabetes",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_FIGS_balanced_acc": "0.49474",
+          "predict_RO_FIGS_balanced_acc": "0.647591",
+          "predict_SG_FIGS_Hard_balanced_acc": "0.673049",
+          "predict_SG_FIGS_Soft_balanced_acc": "0.683253",
+          "predict_Random_FIGS_balanced_acc": "0.642331"
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"max_splits\": 5, \"fold\": 2, \"n_features\": 8, \"n_samples\": 768, \"n_classes\": 2}",
+          "output": "{\"FIGS_balanced_accuracy\": 0.5, \"FIGS_auc\": 0.66967, \"FIGS_actual_n_splits\": 5, \"FIGS_interpretability\": 1.0, \"RO_FIGS_balanced_accuracy\": 0.5, \"RO_FIGS_auc\": 0.680989, \"RO_FIGS_actual_n_splits\": 5, \"RO_FIGS_interpretability\": 0.8, \"SG_FIGS_Hard_balanced_accuracy\": 0.524176, \"SG_FIGS_Hard_auc\": 0.66011, \"SG_FIGS_Hard_actual_n_splits\": 5, \"SG_FIGS_Hard_interpretability\": 1.0, \"SG_FIGS_Soft_balanced_accuracy\": 0.516154, \"SG_FIGS_Soft_auc\": 0.661538, \"SG_FIGS_Soft_actual_n_splits\": 5, \"SG_FIGS_Soft_interpretability\": 1.0, \"Random_FIGS_balanced_accuracy\": 0.51, \"Random_FIGS_auc\": 0.704066, \"Random_FIGS_actual_n_splits\": 5, \"Random_FIGS_interpretability\": 0.8}",
+          "metadata_fold": 2,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "pima_diabetes",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_FIGS_balanced_acc": "0.5",
+          "predict_RO_FIGS_balanced_acc": "0.5",
+          "predict_SG_FIGS_Hard_balanced_acc": "0.524176",
+          "predict_SG_FIGS_Soft_balanced_acc": "0.516154",
+          "predict_Random_FIGS_balanced_acc": "0.51"
+        }
+      ]
+    }
+  ]
+}

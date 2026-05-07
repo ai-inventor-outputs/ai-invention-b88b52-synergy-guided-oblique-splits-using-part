@@ -1,0 +1,1449 @@
+{
+  "datasets": [
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.3}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 40,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 7,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.3}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 17,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 4.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.4}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 15,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 4.0, \"petal length (cm)\": 1.2, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 14,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.4, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 8,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.3}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 6,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 34,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.9, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.4}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 5,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.6, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.1}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 37,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 27,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.7, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 47,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 49,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.3, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.1, \"petal width (cm)\": 0.1}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 13,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 1.9, \"petal width (cm)\": 0.4}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 44,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 4.1, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.1}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 32,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 36,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 1.6, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 46,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.4, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 42,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.6, \"petal length (cm)\": 1.0, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 22,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 20,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 28,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.8, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 1.6, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 30,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.5, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.3}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 41,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.3, \"sepal width (cm)\": 3.7, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 48,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 4.2, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 33,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.3}",
+          "output": "setosa",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 18,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.6, \"petal width (cm)\": 0.6}",
+          "output": "setosa",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 43,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.0, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.4}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 50,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 3.0, \"petal width (cm)\": 1.1}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 98,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 2.0, \"petal length (cm)\": 3.5, \"petal width (cm)\": 1.0}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 60,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 4.2, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 94,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.0, \"petal width (cm)\": 1.7}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 77,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 71,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 4.1, \"petal width (cm)\": 1.0}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 67,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 3.9, \"petal width (cm)\": 1.4}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 59,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.4}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 63,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.2, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 96,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.6}",
+          "output": "versicolor",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 56,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 55,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.3, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 74,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 89,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 72,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.6}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 85,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 66,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 52,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 3.5, \"petal width (cm)\": 1.0}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 79,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 3.3, \"petal width (cm)\": 1.0}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 93,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 53,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 2.2, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.0}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 62,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 3.9, \"petal width (cm)\": 1.2}",
+          "output": "versicolor",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 82,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.4, \"petal length (cm)\": 3.8, \"petal width (cm)\": 1.1}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 80,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.2}",
+          "output": "versicolor",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 92,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.9, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.8}",
+          "output": "versicolor",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 70,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 3.9, \"petal width (cm)\": 1.1}",
+          "output": "versicolor",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 69,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 4.2, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 61,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.2, \"sepal width (cm)\": 2.2, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 68,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.5}",
+          "output": "versicolor",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 86,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.2, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 145,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.8, \"petal width (cm)\": 2.2}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 104,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.1, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.9, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 102,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 5.1, \"petal width (cm)\": 1.9}",
+          "output": "virginica",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 142,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.4}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 114,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 6.9, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 118,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.6, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 6.6, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 105,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.1, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 149,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.7}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 106,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 5.7, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 124,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 6.7, \"petal width (cm)\": 2.2}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 117,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.2, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.8, \"petal width (cm)\": 1.6}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 129,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 123,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.0}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 110,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 5.5, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 137,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 6.7, \"petal width (cm)\": 2.0}",
+          "output": "virginica",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 122,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 5.0, \"petal width (cm)\": 2.0}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 113,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 5.4, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 139,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.2, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 5.4, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 148,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 2.2, \"petal length (cm)\": 5.0, \"petal width (cm)\": 1.5}",
+          "output": "virginica",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 119,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.7, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 120,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.8, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.9, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 143,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.6, \"petal width (cm)\": 2.2}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 132,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 6.1, \"petal width (cm)\": 2.3}",
+          "output": "virginica",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 135,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.3, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 6.3, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 107,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.6, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 128,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 5.0, \"petal width (cm)\": 1.9}",
+          "output": "virginica",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 146,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.8, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.5, \"petal width (cm)\": 2.1}",
+          "output": "virginica",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 112,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 5.8, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 108,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.8}",
+          "output": "virginica",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 138,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        }
+      ]
+    }
+  ]
+}

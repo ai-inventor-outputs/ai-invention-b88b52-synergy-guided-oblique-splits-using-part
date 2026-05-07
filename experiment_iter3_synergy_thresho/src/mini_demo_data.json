@@ -1,0 +1,689 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.912214, \"sg_figs_auc\": 0.97928, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795055, \"figs_auc\": 0.916315, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.983974, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.912214",
+          "predict_baseline_figs_balanced_acc": "0.795055"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.943682, \"sg_figs_auc\": 0.975525, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.824695, \"figs_auc\": 0.897809, \"rofigs_balanced_acc\": 0.943682, \"rofigs_auc\": 0.985321, \"gbdt_balanced_acc\": 0.935044, \"gbdt_auc\": 0.973069}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.943682",
+          "predict_baseline_figs_balanced_acc": "0.824695"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.873984, \"sg_figs_auc\": 0.9475, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795797, \"figs_auc\": 0.869688, \"rofigs_balanced_acc\": 0.875022, \"rofigs_auc\": 0.96082, \"gbdt_balanced_acc\": 0.858848, \"gbdt_auc\": 0.944675}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.873984",
+          "predict_baseline_figs_balanced_acc": "0.795797"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.927931, \"sg_figs_auc\": 0.968328, \"sg_figs_n_splits\": 8, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.782893, \"figs_auc\": 0.939358, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.989664, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.927931",
+          "predict_baseline_figs_balanced_acc": "0.782893"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.909819, \"sg_figs_auc\": 0.976341, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795055, \"figs_auc\": 0.916315, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.983974, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.909819",
+          "predict_baseline_figs_balanced_acc": "0.795055"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.917598, \"sg_figs_auc\": 0.951417, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.824695, \"figs_auc\": 0.897809, \"rofigs_balanced_acc\": 0.943682, \"rofigs_auc\": 0.985321, \"gbdt_balanced_acc\": 0.935044, \"gbdt_auc\": 0.973069}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.917598",
+          "predict_baseline_figs_balanced_acc": "0.824695"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.848123, \"sg_figs_auc\": 0.93395, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795797, \"figs_auc\": 0.869688, \"rofigs_balanced_acc\": 0.875022, \"rofigs_auc\": 0.96082, \"gbdt_balanced_acc\": 0.858848, \"gbdt_auc\": 0.944675}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.848123",
+          "predict_baseline_figs_balanced_acc": "0.795797"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.851145, \"sg_figs_auc\": 0.980608, \"sg_figs_n_splits\": 9, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.782893, \"figs_auc\": 0.939358, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.989664, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.851145",
+          "predict_baseline_figs_balanced_acc": "0.782893"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.909559, \"sg_figs_auc\": 0.946328, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795055, \"figs_auc\": 0.916315, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.983974, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.909559",
+          "predict_baseline_figs_balanced_acc": "0.795055"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.870003, \"sg_figs_auc\": 0.939363, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.824695, \"figs_auc\": 0.897809, \"rofigs_balanced_acc\": 0.943682, \"rofigs_auc\": 0.985321, \"gbdt_balanced_acc\": 0.935044, \"gbdt_auc\": 0.973069}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.870003",
+          "predict_baseline_figs_balanced_acc": "0.824695"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.83342, \"sg_figs_auc\": 0.900479, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795797, \"figs_auc\": 0.869688, \"rofigs_balanced_acc\": 0.875022, \"rofigs_auc\": 0.96082, \"gbdt_balanced_acc\": 0.858848, \"gbdt_auc\": 0.944675}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.83342",
+          "predict_baseline_figs_balanced_acc": "0.795797"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.789104, \"sg_figs_auc\": 0.958276, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.782893, \"figs_auc\": 0.939358, \"rofigs_balanced_acc\": 0.916031, \"rofigs_auc\": 0.989664, \"gbdt_balanced_acc\": 0.900242, \"gbdt_auc\": 0.965696}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.789104",
+          "predict_baseline_figs_balanced_acc": "0.782893"
+        }
+      ]
+    },
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.974172, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.93907, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.955908, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.776316, \"sg_figs_auc\": 0.941757, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.736842, \"figs_auc\": 0.978135, \"rofigs_balanced_acc\": 0.755805, \"rofigs_auc\": 0.98781, \"gbdt_balanced_acc\": 0.934211, \"gbdt_auc\": 0.995356}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.776316",
+          "predict_baseline_figs_balanced_acc": "0.736842"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.936434, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.962403, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.987403, \"gbdt_balanced_acc\": 0.906977, \"gbdt_auc\": 0.979457}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.977597, \"sg_figs_n_splits\": 8, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.959047, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.942209, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.974172, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.93907, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.955908, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.776316, \"sg_figs_auc\": 0.941757, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.736842, \"figs_auc\": 0.978135, \"rofigs_balanced_acc\": 0.755805, \"rofigs_auc\": 0.98781, \"gbdt_balanced_acc\": 0.934211, \"gbdt_auc\": 0.995356}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.776316",
+          "predict_baseline_figs_balanced_acc": "0.736842"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.936434, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.962403, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.987403, \"gbdt_balanced_acc\": 0.906977, \"gbdt_auc\": 0.979457}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.977597, \"sg_figs_n_splits\": 8, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.959047, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.942209, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.974172, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.93907, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.955908, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.776316, \"sg_figs_auc\": 0.941757, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.736842, \"figs_auc\": 0.978135, \"rofigs_balanced_acc\": 0.755805, \"rofigs_auc\": 0.98781, \"gbdt_balanced_acc\": 0.934211, \"gbdt_auc\": 0.995356}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.776316",
+          "predict_baseline_figs_balanced_acc": "0.736842"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.936434, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.962403, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.987403, \"gbdt_balanced_acc\": 0.906977, \"gbdt_auc\": 0.979457}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.977597, \"sg_figs_n_splits\": 8, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.959047, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.942209, \"gbdt_balanced_acc\": 0.920519, \"gbdt_auc\": 0.973602}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        }
+      ]
+    },
+    {
+      "dataset": "heart_statlog",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.728886, \"sg_figs_auc\": 0.705018, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.728886, \"figs_auc\": 0.713586, \"rofigs_balanced_acc\": 0.701958, \"rofigs_auc\": 0.752754, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.728886",
+          "predict_baseline_figs_balanced_acc": "0.728886"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.82, \"sg_figs_auc\": 0.799, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.66, \"figs_auc\": 0.706, \"rofigs_balanced_acc\": 0.78, \"rofigs_auc\": 0.848, \"gbdt_balanced_acc\": 0.775, \"gbdt_auc\": 0.824}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.82",
+          "predict_baseline_figs_balanced_acc": "0.66"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.703704, \"sg_figs_auc\": 0.765432, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.814815, \"figs_auc\": 0.836077, \"rofigs_balanced_acc\": 0.851852, \"rofigs_auc\": 0.843621, \"gbdt_balanced_acc\": 0.851852, \"gbdt_auc\": 0.961591}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.703704",
+          "predict_baseline_figs_balanced_acc": "0.814815"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.731946, \"sg_figs_auc\": 0.77601, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.76071, \"figs_auc\": 0.739902, \"rofigs_balanced_acc\": 0.790086, \"rofigs_auc\": 0.871481, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.731946",
+          "predict_baseline_figs_balanced_acc": "0.76071"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.76683, \"sg_figs_auc\": 0.726438, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.728886, \"figs_auc\": 0.713586, \"rofigs_balanced_acc\": 0.701958, \"rofigs_auc\": 0.752754, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.76683",
+          "predict_baseline_figs_balanced_acc": "0.728886"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.7, \"sg_figs_auc\": 0.785, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.66, \"figs_auc\": 0.706, \"rofigs_balanced_acc\": 0.78, \"rofigs_auc\": 0.848, \"gbdt_balanced_acc\": 0.775, \"gbdt_auc\": 0.824}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.7",
+          "predict_baseline_figs_balanced_acc": "0.66"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.722222, \"sg_figs_auc\": 0.863512, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.814815, \"figs_auc\": 0.836077, \"rofigs_balanced_acc\": 0.851852, \"rofigs_auc\": 0.843621, \"gbdt_balanced_acc\": 0.851852, \"gbdt_auc\": 0.961591}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.722222",
+          "predict_baseline_figs_balanced_acc": "0.814815"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.790086, \"sg_figs_auc\": 0.771114, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.76071, \"figs_auc\": 0.739902, \"rofigs_balanced_acc\": 0.790086, \"rofigs_auc\": 0.871481, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.790086",
+          "predict_baseline_figs_balanced_acc": "0.76071"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.687882, \"sg_figs_auc\": 0.728274, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.728886, \"figs_auc\": 0.713586, \"rofigs_balanced_acc\": 0.701958, \"rofigs_auc\": 0.752754, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.687882",
+          "predict_baseline_figs_balanced_acc": "0.728886"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.7, \"sg_figs_auc\": 0.815, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.66, \"figs_auc\": 0.706, \"rofigs_balanced_acc\": 0.78, \"rofigs_auc\": 0.848, \"gbdt_balanced_acc\": 0.775, \"gbdt_auc\": 0.824}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.7",
+          "predict_baseline_figs_balanced_acc": "0.66"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.777778, \"sg_figs_auc\": 0.83059, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.814815, \"figs_auc\": 0.836077, \"rofigs_balanced_acc\": 0.851852, \"rofigs_auc\": 0.843621, \"gbdt_balanced_acc\": 0.851852, \"gbdt_auc\": 0.961591}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.777778",
+          "predict_baseline_figs_balanced_acc": "0.814815"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"heart_statlog\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.684823, \"sg_figs_auc\": 0.731946, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.76071, \"figs_auc\": 0.739902, \"rofigs_balanced_acc\": 0.790086, \"rofigs_auc\": 0.871481, \"gbdt_balanced_acc\": 0.737454, \"gbdt_auc\": 0.861077}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.684823",
+          "predict_baseline_figs_balanced_acc": "0.76071"
+        }
+      ]
+    },
+    {
+      "dataset": "ionosphere",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.841333, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.702, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.755, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.76864, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.799342, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.906798, \"gbdt_balanced_acc\": 0.837719, \"gbdt_auc\": 0.907346}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.79128, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.705009, \"rofigs_balanced_acc\": 0.78525, \"rofigs_auc\": 0.857143, \"gbdt_balanced_acc\": 0.888683, \"gbdt_auc\": 0.961967}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.6, \"sg_figs_auc\": 0.823, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.820333, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.809667, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.6",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.841333, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.702, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.755, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.76864, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.799342, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.906798, \"gbdt_balanced_acc\": 0.837719, \"gbdt_auc\": 0.907346}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.79128, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.705009, \"rofigs_balanced_acc\": 0.78525, \"rofigs_auc\": 0.857143, \"gbdt_balanced_acc\": 0.888683, \"gbdt_auc\": 0.961967}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.6, \"sg_figs_auc\": 0.823, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.820333, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.809667, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.6",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.841333, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.702, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.755, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.76864, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.799342, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.906798, \"gbdt_balanced_acc\": 0.837719, \"gbdt_auc\": 0.907346}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.79128, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.705009, \"rofigs_balanced_acc\": 0.78525, \"rofigs_auc\": 0.857143, \"gbdt_balanced_acc\": 0.888683, \"gbdt_auc\": 0.961967}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"ionosphere\", \"n_features\": 34}",
+          "output": "{\"sg_figs_balanced_acc\": 0.6, \"sg_figs_auc\": 0.823, \"sg_figs_n_splits\": 10, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.820333, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.809667, \"gbdt_balanced_acc\": 0.873333, \"gbdt_auc\": 0.92}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "predict_sg_figs_balanced_acc": "0.6",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.993534, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.943182, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.990909, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.963636, \"gbdt_balanced_acc\": 0.884091, \"gbdt_auc\": 0.913636}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.909091, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991736, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 1.0, \"gbdt_balanced_acc\": 0.977273, \"gbdt_auc\": 0.991736}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.993534, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.993534, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.943182, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.990909, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.963636, \"gbdt_balanced_acc\": 0.884091, \"gbdt_auc\": 0.913636}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.909091, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991736, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 1.0, \"gbdt_balanced_acc\": 0.977273, \"gbdt_auc\": 0.991736}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 75, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.993534, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 75,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.989224, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.981818, \"sg_figs_n_splits\": 3, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.990909, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.963636, \"gbdt_balanced_acc\": 0.884091, \"gbdt_auc\": 0.913636}",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.909091, \"sg_figs_n_splits\": 4, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991736, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 1.0, \"gbdt_balanced_acc\": 0.977273, \"gbdt_auc\": 0.991736}",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 90, \"max_splits\": 10, \"fold\": 0, \"dataset\": \"wine\", \"n_features\": 13}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.989224, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.991379, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": 0.974138, \"gbdt_balanced_acc\": 1.0, \"gbdt_auc\": 1.0}",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 90,
+          "metadata_max_splits": 10,
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        }
+      ]
+    }
+  ]
+}

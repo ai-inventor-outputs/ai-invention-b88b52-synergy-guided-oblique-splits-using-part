@@ -1,0 +1,118 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.912214, \"sg_figs_auc\": 0.97928, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795055, \"figs_auc\": 0.916315, \"rofigs_balanced_acc\": 0.916031,...",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.912214",
+          "predict_baseline_figs_balanced_acc": "0.795055"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.943682, \"sg_figs_auc\": 0.975525, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.824695, \"figs_auc\": 0.897809, \"rofigs_balanced_acc\": 0.943682...",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.943682",
+          "predict_baseline_figs_balanced_acc": "0.824695"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"banknote\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.873984, \"sg_figs_auc\": 0.9475, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.795797, \"figs_auc\": 0.869688, \"rofigs_balanced_acc\": 0.875022, ...",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.873984",
+          "predict_baseline_figs_balanced_acc": "0.795797"
+        }
+      ]
+    },
+    {
+      "dataset": "blood",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"blood\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.71801, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 0.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.725783, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\": ...",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "blood",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"blood\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.693232, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 0.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.688933, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\":...",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "blood",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"blood\", \"n_features\": 4}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.686619, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 0.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.742224, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\":...",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "blood",
+          "metadata_n_features": 4,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        }
+      ]
+    },
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "examples": [
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 0, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.974172, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.854167, \"figs_auc\": 0.93907, \"rofigs_balanced_acc\": 0.5, \"rofigs_a...",
+          "metadata_fold": 0,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.854167"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 1, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.776316, \"sg_figs_auc\": 0.941757, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.736842, \"figs_auc\": 0.978135, \"rofigs_balanced_acc\": 0.755805...",
+          "metadata_fold": 1,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.776316",
+          "predict_baseline_figs_balanced_acc": "0.736842"
+        },
+        {
+          "input": "{\"threshold_percentile\": 50, \"max_splits\": 5, \"fold\": 2, \"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30}",
+          "output": "{\"sg_figs_balanced_acc\": 0.5, \"sg_figs_auc\": 0.936434, \"sg_figs_n_splits\": 5, \"sg_figs_interpretability\": 1.0, \"figs_balanced_acc\": 0.5, \"figs_auc\": 0.962403, \"rofigs_balanced_acc\": 0.5, \"rofigs_auc\":...",
+          "metadata_fold": 2,
+          "metadata_threshold_percentile": 50,
+          "metadata_max_splits": 5,
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "predict_sg_figs_balanced_acc": "0.5",
+          "predict_baseline_figs_balanced_acc": "0.5"
+        }
+      ]
+    }
+  ]
+}

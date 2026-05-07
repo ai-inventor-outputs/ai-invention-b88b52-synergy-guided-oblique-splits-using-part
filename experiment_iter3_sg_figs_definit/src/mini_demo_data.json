@@ -1,0 +1,1071 @@
+{
+  "experiment": "SG-FIGS Definitive 5-Method Comparison",
+  "methods": [
+    "FIGS",
+    "RO-FIGS",
+    "SG-FIGS-Hard",
+    "SG-FIGS-Soft",
+    "Random-FIGS"
+  ],
+  "n_datasets": 14,
+  "datasets_evaluated": [
+    "monks2",
+    "banknote",
+    "iris",
+    "blood",
+    "pima_diabetes",
+    "wine",
+    "heart_statlog",
+    "vehicle",
+    "climate",
+    "kc2",
+    "breast_cancer_wisconsin_diagnostic",
+    "ionosphere",
+    "spectf_heart",
+    "sonar"
+  ],
+  "aggregate_comparison": {
+    "FIGS": {
+      "mean_balanced_accuracy": 0.786502,
+      "std_balanced_accuracy": 0.123253,
+      "mean_auc": 0.820984,
+      "mean_n_splits": 11.61,
+      "mean_interpretability": null,
+      "n_datasets_evaluated": 14
+    },
+    "RO-FIGS": {
+      "mean_balanced_accuracy": 0.78459,
+      "std_balanced_accuracy": 0.118312,
+      "mean_auc": 0.832548,
+      "mean_n_splits": 14.03,
+      "mean_interpretability": 0.4991,
+      "n_datasets_evaluated": 14
+    },
+    "SG-FIGS-Hard": {
+      "mean_balanced_accuracy": 0.788711,
+      "std_balanced_accuracy": 0.118522,
+      "mean_auc": 0.82545,
+      "mean_n_splits": 15.81,
+      "mean_interpretability": 1.0,
+      "n_datasets_evaluated": 14
+    },
+    "SG-FIGS-Soft": {
+      "mean_balanced_accuracy": 0.801033,
+      "std_balanced_accuracy": 0.118916,
+      "mean_auc": 0.831559,
+      "mean_n_splits": 20.56,
+      "mean_interpretability": 0.7751,
+      "n_datasets_evaluated": 14
+    },
+    "Random-FIGS": {
+      "mean_balanced_accuracy": 0.783656,
+      "std_balanced_accuracy": 0.117523,
+      "mean_auc": 0.826255,
+      "mean_n_splits": 17.24,
+      "mean_interpretability": 0.6421,
+      "n_datasets_evaluated": 14
+    }
+  },
+  "success_criteria": {
+    "criterion_1_competitive_accuracy_fewer_splits": false,
+    "criterion_1_acc_diff": 0.004122,
+    "criterion_1_split_reduction": -0.1273,
+    "criterion_2_higher_interpretability": true,
+    "criterion_2_sg_interp": 1.0,
+    "criterion_2_ro_interp": 0.4991,
+    "ablation_sg_vs_random_acc": 0.005055,
+    "ablation_sg_vs_random_interp": 0.3579
+  },
+  "per_dataset_results": {
+    "monks2": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.733197,
+        "std_balanced_accuracy": 0.056183,
+        "mean_auc": 0.898073,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": null,
+        "best_max_splits": 25
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.726357,
+        "std_balanced_accuracy": 0.046592,
+        "mean_auc": 0.878065,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.482,
+        "best_max_splits": 25
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.766626,
+        "std_balanced_accuracy": 0.042678,
+        "mean_auc": 0.893442,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 25
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.813727,
+        "std_balanced_accuracy": 0.043486,
+        "mean_auc": 0.918314,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.6417,
+        "best_max_splits": 25
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.795523,
+        "std_balanced_accuracy": 0.036922,
+        "mean_auc": 0.916861,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.7945,
+        "best_max_splits": 25
+      }
+    },
+    "banknote": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.979273,
+        "std_balanced_accuracy": 0.010766,
+        "mean_auc": 0.979655,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": null,
+        "best_max_splits": 15
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.988919,
+        "std_balanced_accuracy": 0.004155,
+        "mean_auc": 0.992844,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 0.4786,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.990454,
+        "std_balanced_accuracy": 0.00793,
+        "mean_auc": 0.988421,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.991304,
+        "std_balanced_accuracy": 0.004454,
+        "mean_auc": 0.992051,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.6343,
+        "best_max_splits": 10
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.985413,
+        "std_balanced_accuracy": 0.006301,
+        "mean_auc": 0.988302,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 0.4233,
+        "best_max_splits": 15
+      }
+    },
+    "iris": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.947638,
+        "std_balanced_accuracy": 0.029634,
+        "mean_auc": null,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.95288,
+        "std_balanced_accuracy": 0.025176,
+        "mean_auc": null,
+        "mean_n_splits": 11.6,
+        "mean_interpretability": 0.04,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.932053,
+        "std_balanced_accuracy": 0.039001,
+        "mean_auc": null,
+        "mean_n_splits": 21.6,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.955045,
+        "std_balanced_accuracy": 0.014729,
+        "mean_auc": null,
+        "mean_n_splits": 21.6,
+        "mean_interpretability": 0.7433,
+        "best_max_splits": 10
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.947223,
+        "std_balanced_accuracy": 0.027209,
+        "mean_auc": null,
+        "mean_n_splits": 11.6,
+        "mean_interpretability": 0.5,
+        "best_max_splits": 5
+      }
+    },
+    "blood": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.660315,
+        "std_balanced_accuracy": 0.032519,
+        "mean_auc": 0.718173,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.651594,
+        "std_balanced_accuracy": 0.016317,
+        "mean_auc": 0.712818,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.3909,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.669062,
+        "std_balanced_accuracy": 0.030345,
+        "mean_auc": 0.708361,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.655369,
+        "std_balanced_accuracy": 0.013207,
+        "mean_auc": 0.719985,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.7143,
+        "best_max_splits": 10
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.641894,
+        "std_balanced_accuracy": 0.025769,
+        "mean_auc": 0.716935,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.73,
+        "best_max_splits": 10
+      }
+    },
+    "pima_diabetes": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.709001,
+        "std_balanced_accuracy": 0.00939,
+        "mean_auc": 0.778554,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.724263,
+        "std_balanced_accuracy": 0.022208,
+        "mean_auc": 0.802547,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 0.6,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.704154,
+        "std_balanced_accuracy": 0.021326,
+        "mean_auc": 0.764823,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.735609,
+        "std_balanced_accuracy": 0.02164,
+        "mean_auc": 0.802019,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.6133,
+        "best_max_splits": 10
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.73092,
+        "std_balanced_accuracy": 0.03319,
+        "mean_auc": 0.789669,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 0.5,
+        "best_max_splits": 5
+      }
+    },
+    "wine": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.913753,
+        "std_balanced_accuracy": 0.04544,
+        "mean_auc": null,
+        "mean_n_splits": 7.6,
+        "mean_interpretability": null,
+        "best_max_splits": 10
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.891682,
+        "std_balanced_accuracy": 0.034094,
+        "mean_auc": null,
+        "mean_n_splits": 14.8,
+        "mean_interpretability": 0.375,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.887973,
+        "std_balanced_accuracy": 0.030069,
+        "mean_auc": null,
+        "mean_n_splits": 14.8,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.935043,
+        "std_balanced_accuracy": 0.042417,
+        "mean_auc": null,
+        "mean_n_splits": 41.2,
+        "mean_interpretability": 0.3,
+        "best_max_splits": 15
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.877578,
+        "std_balanced_accuracy": 0.043261,
+        "mean_auc": null,
+        "mean_n_splits": 14.8,
+        "mean_interpretability": 0.0,
+        "best_max_splits": 5
+      }
+    },
+    "heart_statlog": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.782904,
+        "std_balanced_accuracy": 0.044121,
+        "mean_auc": 0.860927,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": null,
+        "best_max_splits": 15
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.797192,
+        "std_balanced_accuracy": 0.056198,
+        "mean_auc": 0.823008,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 0.4,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.775343,
+        "std_balanced_accuracy": 0.042601,
+        "mean_auc": 0.772493,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.790912,
+        "std_balanced_accuracy": 0.023602,
+        "mean_auc": 0.803198,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.95,
+        "best_max_splits": 10
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.776124,
+        "std_balanced_accuracy": 0.020776,
+        "mean_auc": 0.797089,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.653,
+        "best_max_splits": 25
+      }
+    },
+    "vehicle": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.691765,
+        "std_balanced_accuracy": 0.020037,
+        "mean_auc": null,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": null,
+        "best_max_splits": 15
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.710991,
+        "std_balanced_accuracy": 0.025442,
+        "mean_auc": null,
+        "mean_n_splits": 40.0,
+        "mean_interpretability": 0.4391,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.698692,
+        "std_balanced_accuracy": 0.035459,
+        "mean_auc": null,
+        "mean_n_splits": 40.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.707146,
+        "std_balanced_accuracy": 0.021201,
+        "mean_auc": null,
+        "mean_n_splits": 60.0,
+        "mean_interpretability": 0.8437,
+        "best_max_splits": 15
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.709146,
+        "std_balanced_accuracy": 0.020337,
+        "mean_auc": null,
+        "mean_n_splits": 40.0,
+        "mean_interpretability": 0.5582,
+        "best_max_splits": 10
+      }
+    },
+    "climate": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.535476,
+        "std_balanced_accuracy": 0.081164,
+        "mean_auc": 0.609406,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": null,
+        "best_max_splits": 15
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.580182,
+        "std_balanced_accuracy": 0.090037,
+        "mean_auc": 0.742356,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 0.5,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.566532,
+        "std_balanced_accuracy": 0.120388,
+        "mean_auc": 0.769212,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.607664,
+        "std_balanced_accuracy": 0.076904,
+        "mean_auc": 0.795876,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.576166,
+        "std_balanced_accuracy": 0.086108,
+        "mean_auc": 0.705951,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.6667,
+        "best_max_splits": 25
+      }
+    },
+    "kc2": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.696362,
+        "std_balanced_accuracy": 0.026877,
+        "mean_auc": 0.779806,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": null,
+        "best_max_splits": 10
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.693256,
+        "std_balanced_accuracy": 0.02863,
+        "mean_auc": 0.780292,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.3333,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.709256,
+        "std_balanced_accuracy": 0.047458,
+        "mean_auc": 0.785504,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.672497,
+        "std_balanced_accuracy": 0.035619,
+        "mean_auc": 0.695097,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.7,
+        "best_max_splits": 25
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.684685,
+        "std_balanced_accuracy": 0.061184,
+        "mean_auc": 0.790214,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.8889,
+        "best_max_splits": 10
+      }
+    },
+    "breast_cancer_wisconsin_diagnostic": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.911853,
+        "std_balanced_accuracy": 0.021855,
+        "mean_auc": 0.933468,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.917421,
+        "std_balanced_accuracy": 0.018583,
+        "mean_auc": 0.945806,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 25
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.932704,
+        "std_balanced_accuracy": 0.023479,
+        "mean_auc": 0.954433,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.944209,
+        "std_balanced_accuracy": 0.021898,
+        "mean_auc": 0.959213,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.918542,
+        "std_balanced_accuracy": 0.016846,
+        "mean_auc": 0.951991,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.7333,
+        "best_max_splits": 25
+      }
+    },
+    "ionosphere": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.867143,
+        "std_balanced_accuracy": 0.042377,
+        "mean_auc": 0.888697,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.867429,
+        "std_balanced_accuracy": 0.023127,
+        "mean_auc": 0.890503,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": 0.5833,
+        "best_max_splits": 10
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.897699,
+        "std_balanced_accuracy": 0.029396,
+        "mean_auc": 0.901261,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.87148,
+        "std_balanced_accuracy": 0.016866,
+        "mean_auc": 0.865333,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 0.9333,
+        "best_max_splits": 15
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.872707,
+        "std_balanced_accuracy": 0.043883,
+        "mean_auc": 0.880032,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 5
+      }
+    },
+    "spectf_heart": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.846863,
+        "std_balanced_accuracy": 0.038735,
+        "mean_auc": 0.850555,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": null,
+        "best_max_splits": 25
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.794483,
+        "std_balanced_accuracy": 0.070215,
+        "mean_auc": 0.87457,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 0.8667,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.804996,
+        "std_balanced_accuracy": 0.029801,
+        "mean_auc": 0.812937,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.811134,
+        "std_balanced_accuracy": 0.018386,
+        "mean_auc": 0.850131,
+        "mean_n_splits": 15.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 15
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.767653,
+        "std_balanced_accuracy": 0.055618,
+        "mean_auc": 0.836548,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.9,
+        "best_max_splits": 25
+      }
+    },
+    "sonar": {
+      "FIGS": {
+        "mean_balanced_accuracy": 0.735484,
+        "std_balanced_accuracy": 0.112015,
+        "mean_auc": 0.733513,
+        "mean_n_splits": 10.0,
+        "mean_interpretability": null,
+        "best_max_splits": 10
+      },
+      "RO-FIGS": {
+        "mean_balanced_accuracy": 0.687605,
+        "std_balanced_accuracy": 0.088805,
+        "mean_auc": 0.715217,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      },
+      "SG-FIGS-Hard": {
+        "mean_balanced_accuracy": 0.706411,
+        "std_balanced_accuracy": 0.10662,
+        "mean_auc": 0.729059,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 1.0,
+        "best_max_splits": 25
+      },
+      "SG-FIGS-Soft": {
+        "mean_balanced_accuracy": 0.723317,
+        "std_balanced_accuracy": 0.07696,
+        "mean_auc": 0.745927,
+        "mean_n_splits": 25.0,
+        "mean_interpretability": 0.7778,
+        "best_max_splits": 25
+      },
+      "Random-FIGS": {
+        "mean_balanced_accuracy": 0.687605,
+        "std_balanced_accuracy": 0.088805,
+        "mean_auc": 0.715217,
+        "mean_n_splits": 5.0,
+        "mean_interpretability": null,
+        "best_max_splits": 5
+      }
+    }
+  },
+  "example_predictions": [
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "input_preview": "{\"mean radius\": 17.99, \"mean texture\": 10.38, \"mean perimeter\": 122.8, \"mean area\": 1001.0, \"mean sm...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.88474,
+        "auc": 0.938447,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.948052,
+        "auc": 0.944805,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.965368,
+        "auc": 0.966585,
+        "n_splits": 15,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.954004,
+        "auc": 0.95671,
+        "n_splits": 15,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.925866,
+        "auc": 0.952652,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      }
+    },
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "input_preview": "{\"mean radius\": 20.57, \"mean texture\": 17.77, \"mean perimeter\": 132.9, \"mean area\": 1326.0, \"mean sm...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.946581,
+        "auc": 0.961717,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.904915,
+        "auc": 0.961004,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.945513,
+        "auc": 0.962607,
+        "n_splits": 15,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.965278,
+        "auc": 0.983618,
+        "n_splits": 15,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.931624,
+        "auc": 0.968661,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 0.6667
+      }
+    },
+    {
+      "dataset": "pima_diabetes",
+      "input_preview": "{\"preg\": 6.0, \"plas\": 148.0, \"pres\": 72.0, \"skin\": 35.0, \"insu\": 125.0, \"mass\": 33.6, \"pedi\": 0.627,...",
+      "output": "1",
+      "predict_figs": {
+        "balanced_accuracy": 0.705523,
+        "auc": 0.758539,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.720561,
+        "auc": 0.81198,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 0.5
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.687596,
+        "auc": 0.706797,
+        "n_splits": 15,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.742396,
+        "auc": 0.815208,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 0.5
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.71045,
+        "auc": 0.783263,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 0.0
+      }
+    },
+    {
+      "dataset": "pima_diabetes",
+      "input_preview": "{\"preg\": 1.0, \"plas\": 85.0, \"pres\": 66.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 26.6, \"pedi\": 0.351, ...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.719713,
+        "auc": 0.776786,
+        "n_splits": 5,
+        "n_trees": 3,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.746499,
+        "auc": 0.827819,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.694328,
+        "auc": 0.785452,
+        "n_splits": 15,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.73862,
+        "auc": 0.80112,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 0.5
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.721989,
+        "auc": 0.798319,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      }
+    },
+    {
+      "dataset": "heart_statlog",
+      "input_preview": "{\"age\": 70.0, \"sex\": 1.0, \"chest\": 4.0, \"resting_blood_pressure\": 130.0, \"serum_cholestoral\": 322.0,...",
+      "output": "1",
+      "predict_figs": {
+        "balanced_accuracy": 0.782432,
+        "auc": 0.87973,
+        "n_splits": 15,
+        "n_trees": 4,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.78964,
+        "auc": 0.868919,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 0.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.759459,
+        "auc": 0.741441,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.802252,
+        "auc": 0.807658,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 0.75
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.782432,
+        "auc": 0.781532,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 0.8333
+      }
+    },
+    {
+      "dataset": "heart_statlog",
+      "input_preview": "{\"age\": 67.0, \"sex\": 0.0, \"chest\": 3.0, \"resting_blood_pressure\": 115.0, \"serum_cholestoral\": 564.0,...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.80778,
+        "auc": 0.845538,
+        "n_splits": 15,
+        "n_trees": 3,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.71167,
+        "auc": 0.749428,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.812357,
+        "auc": 0.829519,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.812357,
+        "auc": 0.810069,
+        "n_splits": 10,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.790618,
+        "auc": 0.837529,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": 0.6364
+      }
+    },
+    {
+      "dataset": "iris",
+      "input_preview": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0....",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.974359,
+        "auc": null,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.950549,
+        "auc": null,
+        "n_splits": 11,
+        "n_trees": 8,
+        "interpretability_score": 0.0
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.974359,
+        "auc": null,
+        "n_splits": 21,
+        "n_trees": 14,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.974359,
+        "auc": null,
+        "n_splits": 21,
+        "n_trees": 14,
+        "interpretability_score": 0.6667
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.948718,
+        "auc": null,
+        "n_splits": 11,
+        "n_trees": 7,
+        "interpretability_score": 1.0
+      }
+    },
+    {
+      "dataset": "iris",
+      "input_preview": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0....",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.902357,
+        "auc": null,
+        "n_splits": 5,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.969697,
+        "auc": null,
+        "n_splits": 11,
+        "n_trees": 9,
+        "interpretability_score": 0.2
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.872054,
+        "auc": null,
+        "n_splits": 21,
+        "n_trees": 14,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.939394,
+        "auc": null,
+        "n_splits": 21,
+        "n_trees": 14,
+        "interpretability_score": 0.75
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.895623,
+        "auc": null,
+        "n_splits": 11,
+        "n_trees": 8,
+        "interpretability_score": 0.0
+      }
+    },
+    {
+      "dataset": "monks2",
+      "input_preview": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 2, \"attr6\": 2}...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.72093,
+        "auc": 0.910226,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.760944,
+        "auc": 0.830369,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 0.75
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.747606,
+        "auc": 0.89039,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.815663,
+        "auc": 0.921854,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 0.5
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.80985,
+        "auc": 0.897743,
+        "n_splits": 25,
+        "n_trees": 2,
+        "interpretability_score": 0.6
+      }
+    },
+    {
+      "dataset": "monks2",
+      "input_preview": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}...",
+      "output": "0",
+      "predict_figs": {
+        "balanced_accuracy": 0.795455,
+        "auc": 0.954097,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": null
+      },
+      "predict_ro_figs": {
+        "balanced_accuracy": 0.754187,
+        "auc": 0.923295,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": 0.4444
+      },
+      "predict_sg_figs_hard": {
+        "balanced_accuracy": 0.717703,
+        "auc": 0.870215,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      },
+      "predict_sg_figs_soft": {
+        "balanced_accuracy": 0.774522,
+        "auc": 0.888307,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": 0.75
+      },
+      "predict_random_figs": {
+        "balanced_accuracy": 0.766148,
+        "auc": 0.948415,
+        "n_splits": 25,
+        "n_trees": 1,
+        "interpretability_score": 1.0
+      }
+    }
+  ]
+}

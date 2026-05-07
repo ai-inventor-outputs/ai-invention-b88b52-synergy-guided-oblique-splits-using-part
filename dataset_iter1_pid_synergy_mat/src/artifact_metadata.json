@@ -1,0 +1,4 @@
+{
+  "title": "PID Synergy Data",
+  "summary": "Provides 4 sklearn built-in datasets (breast_cancer: 569\u00d730, wine: 178\u00d713, iris: 150\u00d74, diabetes_binarized: 442\u00d710) formatted for PID synergy matrix computation, timing scalability assessment, MI comparison, and cross-subsample stability analysis. Each dataset sample is a separate example with JSON feature-value input, string target output, and metadata fields (fold assignment, feature names, task type, n_classes, row index). Total: 1,339 examples across 4 datasets spanning 4 to 30 features for scaling analysis. All datasets are well-established UCI/sklearn benchmarks with meaningful, domain-interpretable features suitable for information-theoretic analysis."
+}

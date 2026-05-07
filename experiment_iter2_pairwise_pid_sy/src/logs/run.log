@@ -1,0 +1,609 @@
+2026-02-12 19:25:17.995 | INFO     | __main__:main:905 - [92m============================================================[0m
+2026-02-12 19:25:17.996 | INFO     | __main__:main:906 - [92mPairwise PID Synergy Matrix Experiment[0m
+2026-02-12 19:25:17.996 | INFO     | __main__:main:907 - [92m============================================================[0m
+2026-02-12 19:25:17.997 | INFO     | __main__:main:910 - [94mPhase 1: Loading datasets[0m
+2026-02-12 19:25:17.997 | INFO     | __main__:load_all_datasets:65 - [94mLoading datasets from data_id2[0m
+2026-02-12 19:25:18.051 | INFO     | __main__:load_all_datasets:114 -   breast_cancer_wisconsin_diagnostic            |   569 samples |  30 features | 2 classes | 435 pairs
+2026-02-12 19:25:18.053 | INFO     | __main__:load_all_datasets:114 -   wine                                          |   178 samples |  13 features | 3 classes | 78 pairs
+2026-02-12 19:25:18.056 | INFO     | __main__:load_all_datasets:114 -   pima_diabetes                                 |   768 samples |   8 features | 2 classes | 28 pairs
+2026-02-12 19:25:18.058 | INFO     | __main__:load_all_datasets:114 -   heart_statlog                                 |   270 samples |  13 features | 2 classes | 78 pairs
+2026-02-12 19:25:18.062 | INFO     | __main__:load_all_datasets:114 -   ionosphere                                    |   351 samples |  34 features | 2 classes | 561 pairs
+2026-02-12 19:25:18.069 | INFO     | __main__:load_all_datasets:114 -   vehicle                                       |   846 samples |  18 features | 4 classes | 153 pairs
+2026-02-12 19:25:18.074 | INFO     | __main__:load_all_datasets:114 -   sonar                                         |   208 samples |  60 features | 2 classes | 1770 pairs
+2026-02-12 19:25:18.080 | INFO     | __main__:load_all_datasets:114 -   banknote                                      |  1372 samples |   4 features | 2 classes | 6 pairs
+2026-02-12 19:25:18.085 | INFO     | __main__:load_all_datasets:114 -   spectf_heart                                  |   349 samples |  44 features | 2 classes | 946 pairs
+2026-02-12 19:25:18.086 | INFO     | __main__:load_all_datasets:114 -   iris                                          |   150 samples |   4 features | 3 classes | 6 pairs
+2026-02-12 19:25:18.086 | INFO     | __main__:load_all_datasets:65 - [94mLoading datasets from data_id3[0m
+2026-02-12 19:25:18.106 | INFO     | __main__:load_all_datasets:114 -   breast_cancer                                 |   569 samples |  30 features | 2 classes | 435 pairs
+2026-02-12 19:25:18.106 | INFO     | __main__:load_all_datasets:72 -   Skipping duplicate: wine (already from data_id2)
+2026-02-12 19:25:18.106 | INFO     | __main__:load_all_datasets:72 -   Skipping duplicate: iris (already from data_id2)
+2026-02-12 19:25:18.108 | INFO     | __main__:load_all_datasets:114 -   diabetes_binarized                            |   442 samples |  10 features | 2 classes | 45 pairs
+2026-02-12 19:25:18.108 | INFO     | __main__:load_all_datasets:119 - [92mLoaded 12 unique datasets[0m
+2026-02-12 19:25:18.774 | INFO     | __main__:xor_validation:595 - [94mPhase 2: XOR Validation[0m
+2026-02-12 19:25:19.009 | INFO     | __main__:xor_validation:639 -   XOR synergy (BROJA): 1.0000 (expect ~1.0) PASS
+2026-02-12 19:25:19.010 | INFO     | __main__:xor_validation:643 -   XOR redundancy: 0.0000 (expect ~0.0) PASS
+2026-02-12 19:25:19.010 | INFO     | __main__:xor_validation:647 -   Conservation: 1.0000 (expect ~1.0) PASS
+2026-02-12 19:25:19.010 | INFO     | __main__:xor_validation:651 -   AND synergy: 0.5000, AND redundancy: 0.3113
+2026-02-12 19:25:19.010 | INFO     | __main__:main:925 - 
+[94mProcessing order:[0m
+2026-02-12 19:25:19.010 | INFO     | __main__:main:928 -   banknote: 6 pairs
+2026-02-12 19:25:19.010 | INFO     | __main__:main:928 -   iris: 6 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   pima_diabetes: 28 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   diabetes_binarized: 45 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   wine: 78 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   heart_statlog: 78 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   vehicle: 153 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   breast_cancer_wisconsin_diagnostic: 435 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   ionosphere: 435 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   sonar: 435 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   spectf_heart: 435 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:928 -   breast_cancer: 435 pairs
+2026-02-12 19:25:19.011 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:25:19.012 | INFO     | __main__:main:937 - [96mProcessing: banknote[0m
+2026-02-12 19:25:19.012 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:25:25.053 | INFO     | __main__:compute_synergy_matrix:290 -   banknote: 6 pairs, method=BROJA, est_time=12.0s
+2026-02-12 19:25:27.163 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 1/6 pairs done (2.1s elapsed)
+2026-02-12 19:25:29.441 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 2/6 pairs done (4.4s elapsed)
+2026-02-12 19:25:31.188 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 3/6 pairs done (6.1s elapsed)
+2026-02-12 19:25:33.382 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 4/6 pairs done (8.3s elapsed)
+2026-02-12 19:25:35.175 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 5/6 pairs done (10.1s elapsed)
+2026-02-12 19:25:37.671 | DEBUG    | __main__:compute_synergy_matrix:332 -   banknote: 6/6 pairs done (12.6s elapsed)
+2026-02-12 19:25:37.671 | INFO     | __main__:compute_synergy_matrix:338 -   [92mbanknote: 6/6 pairs computed in 12.6s (0 errors)[0m
+2026-02-12 19:25:37.691 | INFO     | __main__:main:953 -   Total elapsed: 19.7s
+2026-02-12 19:25:37.691 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:25:37.691 | INFO     | __main__:main:937 - [96mProcessing: iris[0m
+2026-02-12 19:25:37.691 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:25:46.173 | INFO     | __main__:compute_synergy_matrix:290 -   iris: 6 pairs, method=BROJA, est_time=17.0s
+2026-02-12 19:25:50.650 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 1/6 pairs done (4.5s elapsed)
+2026-02-12 19:25:52.244 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 2/6 pairs done (6.1s elapsed)
+2026-02-12 19:25:53.727 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 3/6 pairs done (7.6s elapsed)
+2026-02-12 19:25:56.091 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 4/6 pairs done (9.9s elapsed)
+2026-02-12 19:25:58.409 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 5/6 pairs done (12.2s elapsed)
+2026-02-12 19:25:59.360 | DEBUG    | __main__:compute_synergy_matrix:332 -   iris: 6/6 pairs done (13.2s elapsed)
+2026-02-12 19:25:59.360 | INFO     | __main__:compute_synergy_matrix:338 -   [92miris: 6/6 pairs computed in 13.2s (0 errors)[0m
+2026-02-12 19:25:59.370 | INFO     | __main__:main:953 -   Total elapsed: 41.4s
+2026-02-12 19:25:59.370 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:25:59.371 | INFO     | __main__:main:937 - [96mProcessing: pima_diabetes[0m
+2026-02-12 19:25:59.371 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:26:09.405 | INFO     | __main__:compute_synergy_matrix:290 -   pima_diabetes: 28 pairs, method=BROJA, est_time=93.6s
+2026-02-12 19:26:16.415 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 2/28 pairs done (7.0s elapsed)
+2026-02-12 19:26:21.929 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 4/28 pairs done (12.5s elapsed)
+2026-02-12 19:26:29.706 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 6/28 pairs done (20.3s elapsed)
+2026-02-12 19:26:35.190 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 8/28 pairs done (25.8s elapsed)
+2026-02-12 19:26:40.566 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 10/28 pairs done (31.2s elapsed)
+2026-02-12 19:26:46.988 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 12/28 pairs done (37.6s elapsed)
+2026-02-12 19:26:51.649 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 14/28 pairs done (42.2s elapsed)
+2026-02-12 19:26:57.557 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 16/28 pairs done (48.2s elapsed)
+2026-02-12 19:27:03.704 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 18/28 pairs done (54.3s elapsed)
+2026-02-12 19:27:10.132 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 20/28 pairs done (60.7s elapsed)
+2026-02-12 19:27:16.997 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 22/28 pairs done (67.6s elapsed)
+2026-02-12 19:27:22.637 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 24/28 pairs done (73.2s elapsed)
+2026-02-12 19:27:28.447 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 26/28 pairs done (79.0s elapsed)
+2026-02-12 19:27:36.174 | DEBUG    | __main__:compute_synergy_matrix:332 -   pima_diabetes: 28/28 pairs done (86.8s elapsed)
+2026-02-12 19:27:36.174 | INFO     | __main__:compute_synergy_matrix:338 -   [92mpima_diabetes: 28/28 pairs computed in 86.8s (0 errors)[0m
+2026-02-12 19:27:36.188 | INFO     | __main__:stability_analysis:460 -   [94mStability analysis for pima_diabetes: 5 subsamples of 614/768[0m
+2026-02-12 19:27:37.626 | DEBUG    | __main__:stability_analysis:488 -   Subsample 1/5 done
+2026-02-12 19:27:39.098 | DEBUG    | __main__:stability_analysis:488 -   Subsample 2/5 done
+2026-02-12 19:27:40.676 | DEBUG    | __main__:stability_analysis:488 -   Subsample 3/5 done
+2026-02-12 19:27:42.281 | DEBUG    | __main__:stability_analysis:488 -   Subsample 4/5 done
+2026-02-12 19:27:43.805 | DEBUG    | __main__:stability_analysis:488 -   Subsample 5/5 done
+2026-02-12 19:27:43.809 | INFO     | __main__:stability_analysis:502 -   [92mStability pima_diabetes: mean_rho=0.7802 +/- 0.0603[0m
+2026-02-12 19:27:43.810 | INFO     | __main__:main:953 -   Total elapsed: 145.8s
+2026-02-12 19:27:43.810 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:27:43.810 | INFO     | __main__:main:937 - [96mProcessing: diabetes_binarized[0m
+2026-02-12 19:27:43.810 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:27:49.350 | INFO     | __main__:compute_synergy_matrix:290 -   diabetes_binarized: 45 pairs, method=BROJA, est_time=83.0s
+2026-02-12 19:27:59.282 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 4/45 pairs done (9.9s elapsed)
+2026-02-12 19:28:12.218 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 8/45 pairs done (22.9s elapsed)
+2026-02-12 19:28:15.078 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 12/45 pairs done (25.7s elapsed)
+2026-02-12 19:28:15.308 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 16/45 pairs done (26.0s elapsed)
+2026-02-12 19:28:26.340 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 20/45 pairs done (37.0s elapsed)
+2026-02-12 19:28:44.678 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 24/45 pairs done (55.3s elapsed)
+2026-02-12 19:28:58.455 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 28/45 pairs done (69.1s elapsed)
+2026-02-12 19:29:10.870 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 32/45 pairs done (81.5s elapsed)
+2026-02-12 19:29:23.273 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 36/45 pairs done (93.9s elapsed)
+2026-02-12 19:29:35.783 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 40/45 pairs done (106.4s elapsed)
+2026-02-12 19:29:48.250 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 44/45 pairs done (118.9s elapsed)
+2026-02-12 19:29:53.024 | DEBUG    | __main__:compute_synergy_matrix:332 -   diabetes_binarized: 45/45 pairs done (123.7s elapsed)
+2026-02-12 19:29:53.024 | INFO     | __main__:compute_synergy_matrix:338 -   [92mdiabetes_binarized: 45/45 pairs computed in 123.7s (0 errors)[0m
+2026-02-12 19:29:53.049 | INFO     | __main__:main:953 -   Total elapsed: 275.1s
+2026-02-12 19:29:53.049 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:29:53.051 | INFO     | __main__:main:937 - [96mProcessing: wine[0m
+2026-02-12 19:29:53.051 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:30:10.663 | INFO     | __main__:compute_synergy_matrix:290 -   wine: 78 pairs, method=BROJA, est_time=457.5s
+2026-02-12 19:30:43.690 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 7/78 pairs done (33.0s elapsed)
+2026-02-12 19:31:19.948 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 14/78 pairs done (69.3s elapsed)
+2026-02-12 19:32:08.941 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 21/78 pairs done (118.3s elapsed)
+2026-02-12 19:32:53.288 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 28/78 pairs done (162.6s elapsed)
+2026-02-12 19:33:24.768 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 35/78 pairs done (194.1s elapsed)
+2026-02-12 19:33:59.578 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 42/78 pairs done (228.9s elapsed)
+2026-02-12 19:34:30.649 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 49/78 pairs done (260.0s elapsed)
+2026-02-12 19:34:56.276 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 56/78 pairs done (285.6s elapsed)
+2026-02-12 19:35:19.496 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 63/78 pairs done (308.8s elapsed)
+2026-02-12 19:35:56.006 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 70/78 pairs done (345.3s elapsed)
+2026-02-12 19:36:20.274 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 77/78 pairs done (369.6s elapsed)
+2026-02-12 19:36:22.759 | DEBUG    | __main__:compute_synergy_matrix:332 -   wine: 78/78 pairs done (372.1s elapsed)
+2026-02-12 19:36:22.759 | INFO     | __main__:compute_synergy_matrix:338 -   [92mwine: 78/78 pairs computed in 372.1s (0 errors)[0m
+2026-02-12 19:36:22.780 | INFO     | __main__:main:953 -   Total elapsed: 664.8s
+2026-02-12 19:36:22.780 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:36:22.780 | INFO     | __main__:main:937 - [96mProcessing: heart_statlog[0m
+2026-02-12 19:36:22.780 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:36:26.972 | INFO     | __main__:compute_synergy_matrix:290 -   heart_statlog: 78 pairs, method=BROJA, est_time=108.8s
+2026-02-12 19:36:38.627 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 7/78 pairs done (11.7s elapsed)
+2026-02-12 19:36:44.215 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 14/78 pairs done (17.2s elapsed)
+2026-02-12 19:36:44.972 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 21/78 pairs done (18.0s elapsed)
+2026-02-12 19:36:49.519 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 28/78 pairs done (22.5s elapsed)
+2026-02-12 19:36:55.945 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 35/78 pairs done (29.0s elapsed)
+2026-02-12 19:37:03.739 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 42/78 pairs done (36.8s elapsed)
+2026-02-12 19:37:11.268 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 49/78 pairs done (44.3s elapsed)
+2026-02-12 19:37:11.628 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 56/78 pairs done (44.7s elapsed)
+2026-02-12 19:37:11.924 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 63/78 pairs done (45.0s elapsed)
+2026-02-12 19:37:17.735 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 70/78 pairs done (50.8s elapsed)
+2026-02-12 19:37:19.825 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 77/78 pairs done (52.9s elapsed)
+2026-02-12 19:37:19.864 | DEBUG    | __main__:compute_synergy_matrix:332 -   heart_statlog: 78/78 pairs done (52.9s elapsed)
+2026-02-12 19:37:19.864 | INFO     | __main__:compute_synergy_matrix:338 -   [92mheart_statlog: 78/78 pairs computed in 52.9s (0 errors)[0m
+2026-02-12 19:37:19.881 | INFO     | __main__:main:953 -   Total elapsed: 721.9s
+2026-02-12 19:37:19.881 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:37:19.881 | INFO     | __main__:main:937 - [96mProcessing: vehicle[0m
+2026-02-12 19:37:19.881 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:37:20.085 | INFO     | __main__:compute_synergy_matrix:290 -   vehicle: 153 pairs, method=MMI, est_time=9.7s
+2026-02-12 19:37:21.244 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 15/153 pairs done (1.2s elapsed)
+2026-02-12 19:37:22.401 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 30/153 pairs done (2.3s elapsed)
+2026-02-12 19:37:23.589 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 45/153 pairs done (3.5s elapsed)
+2026-02-12 19:37:24.854 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 60/153 pairs done (4.8s elapsed)
+2026-02-12 19:37:26.179 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 75/153 pairs done (6.1s elapsed)
+2026-02-12 19:37:27.480 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 90/153 pairs done (7.4s elapsed)
+2026-02-12 19:37:28.866 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 105/153 pairs done (8.8s elapsed)
+2026-02-12 19:37:30.379 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 120/153 pairs done (10.3s elapsed)
+2026-02-12 19:37:31.760 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 135/153 pairs done (11.7s elapsed)
+2026-02-12 19:37:33.128 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 150/153 pairs done (13.0s elapsed)
+2026-02-12 19:37:33.388 | DEBUG    | __main__:compute_synergy_matrix:332 -   vehicle: 153/153 pairs done (13.3s elapsed)
+2026-02-12 19:37:33.388 | INFO     | __main__:compute_synergy_matrix:338 -   [92mvehicle: 153/153 pairs computed in 13.3s (0 errors)[0m
+2026-02-12 19:37:33.427 | INFO     | __main__:main:953 -   Total elapsed: 735.4s
+2026-02-12 19:37:33.427 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:37:33.427 | INFO     | __main__:main:937 - [96mProcessing: breast_cancer_wisconsin_diagnostic[0m
+2026-02-12 19:37:33.427 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:37:33.600 | INFO     | __main__:compute_synergy_matrix:290 -   breast_cancer_wisconsin_diagnostic: 435 pairs, method=MMI, est_time=22.1s
+2026-02-12 19:37:36.183 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 43/435 pairs done (2.6s elapsed)
+2026-02-12 19:37:38.943 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 86/435 pairs done (5.3s elapsed)
+2026-02-12 19:37:41.852 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 129/435 pairs done (8.3s elapsed)
+2026-02-12 19:37:44.656 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 172/435 pairs done (11.1s elapsed)
+2026-02-12 19:37:47.372 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 215/435 pairs done (13.8s elapsed)
+2026-02-12 19:37:51.081 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 258/435 pairs done (17.5s elapsed)
+2026-02-12 19:37:54.400 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 301/435 pairs done (20.8s elapsed)
+2026-02-12 19:37:57.158 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 344/435 pairs done (23.6s elapsed)
+2026-02-12 19:38:00.435 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 387/435 pairs done (26.8s elapsed)
+2026-02-12 19:38:03.547 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 430/435 pairs done (29.9s elapsed)
+2026-02-12 19:38:03.955 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer_wisconsin_diagnostic: 435/435 pairs done (30.4s elapsed)
+2026-02-12 19:38:03.955 | INFO     | __main__:compute_synergy_matrix:338 -   [92mbreast_cancer_wisconsin_diagnostic: 435/435 pairs computed in 30.4s (0 errors)[0m
+2026-02-12 19:38:04.007 | INFO     | __main__:stability_analysis:460 -   [94mStability analysis for breast_cancer_wisconsin_diagnostic: 5 subsamples of 455/569[0m
+2026-02-12 19:38:34.319 | DEBUG    | __main__:stability_analysis:488 -   Subsample 1/5 done
+2026-02-12 19:39:01.084 | DEBUG    | __main__:stability_analysis:488 -   Subsample 2/5 done
+2026-02-12 19:39:26.714 | DEBUG    | __main__:stability_analysis:488 -   Subsample 3/5 done
+2026-02-12 19:39:54.173 | DEBUG    | __main__:stability_analysis:488 -   Subsample 4/5 done
+2026-02-12 19:40:18.391 | DEBUG    | __main__:stability_analysis:488 -   Subsample 5/5 done
+2026-02-12 19:40:18.397 | INFO     | __main__:stability_analysis:502 -   [92mStability breast_cancer_wisconsin_diagnostic: mean_rho=0.9524 +/- 0.0078[0m
+2026-02-12 19:40:18.397 | INFO     | __main__:main:953 -   Total elapsed: 900.4s
+2026-02-12 19:40:18.397 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:40:18.397 | INFO     | __main__:main:937 - [96mProcessing: ionosphere[0m
+2026-02-12 19:40:18.397 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:40:18.397 | INFO     | __main__:process_dataset:672 -   [93mionosphere: 34 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 19:40:18.649 | INFO     | __main__:compute_synergy_matrix:290 -   ionosphere: 435 pairs, method=MMI, est_time=21.7s
+2026-02-12 19:40:21.179 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 43/435 pairs done (2.5s elapsed)
+2026-02-12 19:40:23.729 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 86/435 pairs done (5.1s elapsed)
+2026-02-12 19:40:26.330 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 129/435 pairs done (7.7s elapsed)
+2026-02-12 19:40:28.884 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 172/435 pairs done (10.2s elapsed)
+2026-02-12 19:40:31.524 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 215/435 pairs done (12.9s elapsed)
+2026-02-12 19:40:34.224 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 258/435 pairs done (15.6s elapsed)
+2026-02-12 19:40:37.115 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 301/435 pairs done (18.5s elapsed)
+2026-02-12 19:40:39.986 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 344/435 pairs done (21.3s elapsed)
+2026-02-12 19:40:42.793 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 387/435 pairs done (24.1s elapsed)
+2026-02-12 19:40:45.546 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 430/435 pairs done (26.9s elapsed)
+2026-02-12 19:40:45.852 | DEBUG    | __main__:compute_synergy_matrix:332 -   ionosphere: 435/435 pairs done (27.2s elapsed)
+2026-02-12 19:40:45.853 | INFO     | __main__:compute_synergy_matrix:338 -   [92mionosphere: 435/435 pairs computed in 27.2s (0 errors)[0m
+2026-02-12 19:40:45.904 | INFO     | __main__:main:953 -   Total elapsed: 927.9s
+2026-02-12 19:40:45.905 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:40:45.905 | INFO     | __main__:main:937 - [96mProcessing: sonar[0m
+2026-02-12 19:40:45.905 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:40:45.905 | INFO     | __main__:process_dataset:672 -   [93msonar: 60 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 19:40:46.246 | INFO     | __main__:compute_synergy_matrix:290 -   sonar: 435 pairs, method=MMI, est_time=25.3s
+2026-02-12 19:40:49.179 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 43/435 pairs done (2.9s elapsed)
+2026-02-12 19:40:52.771 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 86/435 pairs done (6.5s elapsed)
+2026-02-12 19:40:57.184 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 129/435 pairs done (10.9s elapsed)
+2026-02-12 19:41:00.944 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 172/435 pairs done (14.7s elapsed)
+2026-02-12 19:41:03.772 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 215/435 pairs done (17.5s elapsed)
+2026-02-12 19:41:06.392 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 258/435 pairs done (20.1s elapsed)
+2026-02-12 19:41:08.851 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 301/435 pairs done (22.6s elapsed)
+2026-02-12 19:41:11.530 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 344/435 pairs done (25.3s elapsed)
+2026-02-12 19:41:13.991 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 387/435 pairs done (27.7s elapsed)
+2026-02-12 19:41:16.450 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 430/435 pairs done (30.2s elapsed)
+2026-02-12 19:41:16.775 | DEBUG    | __main__:compute_synergy_matrix:332 -   sonar: 435/435 pairs done (30.5s elapsed)
+2026-02-12 19:41:16.775 | INFO     | __main__:compute_synergy_matrix:338 -   [92msonar: 435/435 pairs computed in 30.5s (0 errors)[0m
+2026-02-12 19:41:16.856 | INFO     | __main__:main:953 -   Total elapsed: 958.9s
+2026-02-12 19:41:16.856 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:41:16.856 | INFO     | __main__:main:937 - [96mProcessing: spectf_heart[0m
+2026-02-12 19:41:16.857 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:41:16.857 | INFO     | __main__:process_dataset:672 -   [93mspectf_heart: 44 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 19:41:17.124 | INFO     | __main__:compute_synergy_matrix:290 -   spectf_heart: 435 pairs, method=MMI, est_time=23.8s
+2026-02-12 19:41:19.633 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 43/435 pairs done (2.5s elapsed)
+2026-02-12 19:41:22.072 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 86/435 pairs done (4.9s elapsed)
+2026-02-12 19:41:24.701 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 129/435 pairs done (7.6s elapsed)
+2026-02-12 19:41:27.486 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 172/435 pairs done (10.4s elapsed)
+2026-02-12 19:41:30.314 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 215/435 pairs done (13.2s elapsed)
+2026-02-12 19:41:33.067 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 258/435 pairs done (15.9s elapsed)
+2026-02-12 19:41:35.865 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 301/435 pairs done (18.7s elapsed)
+2026-02-12 19:41:38.585 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 344/435 pairs done (21.5s elapsed)
+2026-02-12 19:41:41.343 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 387/435 pairs done (24.2s elapsed)
+2026-02-12 19:41:44.027 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 430/435 pairs done (26.9s elapsed)
+2026-02-12 19:41:44.321 | DEBUG    | __main__:compute_synergy_matrix:332 -   spectf_heart: 435/435 pairs done (27.2s elapsed)
+2026-02-12 19:41:44.321 | INFO     | __main__:compute_synergy_matrix:338 -   [92mspectf_heart: 435/435 pairs computed in 27.2s (0 errors)[0m
+2026-02-12 19:41:44.372 | INFO     | __main__:main:953 -   Total elapsed: 986.4s
+2026-02-12 19:41:44.372 | INFO     | __main__:main:936 - 
+[96m==================================================[0m
+2026-02-12 19:41:44.372 | INFO     | __main__:main:937 - [96mProcessing: breast_cancer[0m
+2026-02-12 19:41:44.372 | INFO     | __main__:main:938 - [96m==================================================[0m
+2026-02-12 19:41:44.537 | INFO     | __main__:compute_synergy_matrix:290 -   breast_cancer: 435 pairs, method=MMI, est_time=19.5s
+2026-02-12 19:41:47.169 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 43/435 pairs done (2.6s elapsed)
+2026-02-12 19:41:49.741 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 86/435 pairs done (5.2s elapsed)
+2026-02-12 19:41:52.496 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 129/435 pairs done (8.0s elapsed)
+2026-02-12 19:41:55.119 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 172/435 pairs done (10.6s elapsed)
+2026-02-12 19:41:57.939 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 215/435 pairs done (13.4s elapsed)
+2026-02-12 19:42:01.194 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 258/435 pairs done (16.7s elapsed)
+2026-02-12 19:42:04.207 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 301/435 pairs done (19.7s elapsed)
+2026-02-12 19:42:07.208 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 344/435 pairs done (22.7s elapsed)
+2026-02-12 19:42:10.102 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 387/435 pairs done (25.6s elapsed)
+2026-02-12 19:42:12.853 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 430/435 pairs done (28.3s elapsed)
+2026-02-12 19:42:13.206 | DEBUG    | __main__:compute_synergy_matrix:332 -   breast_cancer: 435/435 pairs done (28.7s elapsed)
+2026-02-12 19:42:13.206 | INFO     | __main__:compute_synergy_matrix:338 -   [92mbreast_cancer: 435/435 pairs computed in 28.7s (0 errors)[0m
+2026-02-12 19:42:13.256 | INFO     | __main__:stability_analysis:460 -   [94mStability analysis for breast_cancer: 5 subsamples of 455/569[0m
+2026-02-12 19:42:41.567 | DEBUG    | __main__:stability_analysis:488 -   Subsample 1/5 done
+2026-02-12 19:43:05.113 | DEBUG    | __main__:stability_analysis:488 -   Subsample 2/5 done
+2026-02-12 19:43:29.169 | DEBUG    | __main__:stability_analysis:488 -   Subsample 3/5 done
+2026-02-12 19:43:57.413 | DEBUG    | __main__:stability_analysis:488 -   Subsample 4/5 done
+2026-02-12 19:44:22.007 | DEBUG    | __main__:stability_analysis:488 -   Subsample 5/5 done
+2026-02-12 19:44:22.017 | INFO     | __main__:stability_analysis:502 -   [92mStability breast_cancer: mean_rho=0.9524 +/- 0.0078[0m
+2026-02-12 19:44:22.018 | INFO     | __main__:main:953 -   Total elapsed: 1144.0s
+2026-02-12 19:44:22.018 | INFO     | __main__:main:959 - 
+[94mPhase 8: Building output[0m
+2026-02-12 19:44:22.174 | INFO     | __main__:main:969 -   Wrote 2569 examples across 12 datasets
+2026-02-12 19:44:22.177 | ERROR    | __main__:<module>:1063 - An error has been caught in function '<module>', process 'MainProcess' (1202644), thread 'MainThread' (124332519987008):
+Traceback (most recent call last):
+
+> File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_it2__opus/method.py", line 1063, in <module>
+    main()
+    └ <function main at 0x711464447010>
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_it2__opus/method.py", line 1051, in main
+    comp_path.write_text(json.dumps(comprehensive, indent=2))
+    │         │          │    │     └ {'experiment': 'Pairwise PID Synergy Matrices on Benchmark Datasets', 'method': 'PID_BROJA (small) / PID_MMI (large) with Co-...
+    │         │          │    └ <function dumps at 0x71146abc5b40>
+    │         │          └ <module 'json' from '/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/__init__.py'>
+    │         └ <function Path.write_text at 0x71146ab470a0>
+    └ PosixPath('/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_i...
+
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+      │          └ {'experiment': 'Pairwise PID Synergy Matrices on Benchmark Datasets', 'method': 'PID_BROJA (small) / PID_MMI (large) with Co-...
+      └ {}
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+                  └ <generator object _make_iterencode.<locals>._iterencode at 0x711445dc3ae0>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+               │                │  └ 0
+               │                └ {'experiment': 'Pairwise PID Synergy Matrices on Benchmark Datasets', 'method': 'PID_BROJA (small) / PID_MMI (large) with Co-...
+               └ <function _make_iterencode.<locals>._iterencode_dict at 0x7114434623b0>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+               └ <generator object _make_iterencode.<locals>._iterencode_dict at 0x711445dc1d90>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+               └ <generator object _make_iterencode.<locals>._iterencode_dict at 0x711445dc28f0>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+               └ <generator object _make_iterencode.<locals>._iterencode at 0x711445dc29d0>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+        │        └ True
+        └ <bound method JSONEncoder.default of <json.encoder.JSONEncoder object at 0x711442212bf0>>
+  File "/home/adrian/.local/share/uv/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+
+TypeError: Object of type bool_ is not JSON serializable
+2026-02-12 19:45:03.777 | INFO     | __main__:main:919 - [92m============================================================[0m
+2026-02-12 19:45:03.777 | INFO     | __main__:main:920 - [92mPairwise PID Synergy Matrix Experiment[0m
+2026-02-12 19:45:03.777 | INFO     | __main__:main:921 - [92m============================================================[0m
+2026-02-12 19:45:03.778 | INFO     | __main__:main:924 - [94mPhase 1: Loading datasets[0m
+2026-02-12 19:45:03.778 | INFO     | __main__:load_all_datasets:79 - [94mLoading datasets from data_id2[0m
+2026-02-12 19:45:03.845 | INFO     | __main__:load_all_datasets:128 -   breast_cancer_wisconsin_diagnostic            |   569 samples |  30 features | 2 classes | 435 pairs
+2026-02-12 19:45:03.849 | INFO     | __main__:load_all_datasets:128 -   wine                                          |   178 samples |  13 features | 3 classes | 78 pairs
+2026-02-12 19:45:03.853 | INFO     | __main__:load_all_datasets:128 -   pima_diabetes                                 |   768 samples |   8 features | 2 classes | 28 pairs
+2026-02-12 19:45:03.856 | INFO     | __main__:load_all_datasets:128 -   heart_statlog                                 |   270 samples |  13 features | 2 classes | 78 pairs
+2026-02-12 19:45:03.865 | INFO     | __main__:load_all_datasets:128 -   ionosphere                                    |   351 samples |  34 features | 2 classes | 561 pairs
+2026-02-12 19:45:03.875 | INFO     | __main__:load_all_datasets:128 -   vehicle                                       |   846 samples |  18 features | 4 classes | 153 pairs
+2026-02-12 19:45:03.881 | INFO     | __main__:load_all_datasets:128 -   sonar                                         |   208 samples |  60 features | 2 classes | 1770 pairs
+2026-02-12 19:45:03.886 | INFO     | __main__:load_all_datasets:128 -   banknote                                      |  1372 samples |   4 features | 2 classes | 6 pairs
+2026-02-12 19:45:03.893 | INFO     | __main__:load_all_datasets:128 -   spectf_heart                                  |   349 samples |  44 features | 2 classes | 946 pairs
+2026-02-12 19:45:03.895 | INFO     | __main__:load_all_datasets:128 -   iris                                          |   150 samples |   4 features | 3 classes | 6 pairs
+2026-02-12 19:45:03.895 | INFO     | __main__:load_all_datasets:79 - [94mLoading datasets from data_id3[0m
+2026-02-12 19:45:03.919 | INFO     | __main__:load_all_datasets:128 -   breast_cancer                                 |   569 samples |  30 features | 2 classes | 435 pairs
+2026-02-12 19:45:03.919 | INFO     | __main__:load_all_datasets:86 -   Skipping duplicate: wine (already from data_id2)
+2026-02-12 19:45:03.919 | INFO     | __main__:load_all_datasets:86 -   Skipping duplicate: iris (already from data_id2)
+2026-02-12 19:45:03.923 | INFO     | __main__:load_all_datasets:128 -   diabetes_binarized                            |   442 samples |  10 features | 2 classes | 45 pairs
+2026-02-12 19:45:03.923 | INFO     | __main__:load_all_datasets:133 - [92mLoaded 12 unique datasets[0m
+2026-02-12 19:45:04.858 | INFO     | __main__:xor_validation:609 - [94mPhase 2: XOR Validation[0m
+2026-02-12 19:45:05.172 | INFO     | __main__:xor_validation:653 -   XOR synergy (BROJA): 1.0000 (expect ~1.0) PASS
+2026-02-12 19:45:05.172 | INFO     | __main__:xor_validation:657 -   XOR redundancy: 0.0000 (expect ~0.0) PASS
+2026-02-12 19:45:05.172 | INFO     | __main__:xor_validation:661 -   Conservation: 1.0000 (expect ~1.0) PASS
+2026-02-12 19:45:05.173 | INFO     | __main__:xor_validation:665 -   AND synergy: 0.5000, AND redundancy: 0.3113
+2026-02-12 19:45:05.173 | INFO     | __main__:main:939 - 
+[94mProcessing order:[0m
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   banknote: 6 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   iris: 6 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   pima_diabetes: 28 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   diabetes_binarized: 45 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   wine: 78 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   heart_statlog: 78 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   vehicle: 153 pairs
+2026-02-12 19:45:05.173 | INFO     | __main__:main:942 -   breast_cancer_wisconsin_diagnostic: 435 pairs
+2026-02-12 19:45:05.174 | INFO     | __main__:main:942 -   ionosphere: 435 pairs
+2026-02-12 19:45:05.174 | INFO     | __main__:main:942 -   sonar: 435 pairs
+2026-02-12 19:45:05.174 | INFO     | __main__:main:942 -   spectf_heart: 435 pairs
+2026-02-12 19:45:05.174 | INFO     | __main__:main:942 -   breast_cancer: 435 pairs
+2026-02-12 19:45:05.174 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:45:05.174 | INFO     | __main__:main:951 - [96mProcessing: banknote[0m
+2026-02-12 19:45:05.174 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:45:13.852 | INFO     | __main__:compute_synergy_matrix:304 -   banknote: 6 pairs, method=BROJA, est_time=17.3s
+2026-02-12 19:45:16.864 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 1/6 pairs done (3.0s elapsed)
+2026-02-12 19:45:19.646 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 2/6 pairs done (5.8s elapsed)
+2026-02-12 19:45:21.964 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 3/6 pairs done (8.1s elapsed)
+2026-02-12 19:45:25.065 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 4/6 pairs done (11.2s elapsed)
+2026-02-12 19:45:27.738 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 5/6 pairs done (13.9s elapsed)
+2026-02-12 19:45:31.362 | DEBUG    | __main__:compute_synergy_matrix:346 -   banknote: 6/6 pairs done (17.5s elapsed)
+2026-02-12 19:45:31.362 | INFO     | __main__:compute_synergy_matrix:352 -   [92mbanknote: 6/6 pairs computed in 17.5s (0 errors)[0m
+2026-02-12 19:45:31.369 | INFO     | __main__:main:967 -   Total elapsed: 27.6s
+2026-02-12 19:45:31.370 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:45:31.370 | INFO     | __main__:main:951 - [96mProcessing: iris[0m
+2026-02-12 19:45:31.370 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:45:38.895 | INFO     | __main__:compute_synergy_matrix:304 -   iris: 6 pairs, method=BROJA, est_time=15.0s
+2026-02-12 19:45:43.256 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 1/6 pairs done (4.4s elapsed)
+2026-02-12 19:45:45.405 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 2/6 pairs done (6.5s elapsed)
+2026-02-12 19:45:47.214 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 3/6 pairs done (8.3s elapsed)
+2026-02-12 19:45:49.947 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 4/6 pairs done (11.1s elapsed)
+2026-02-12 19:45:52.482 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 5/6 pairs done (13.6s elapsed)
+2026-02-12 19:45:53.430 | DEBUG    | __main__:compute_synergy_matrix:346 -   iris: 6/6 pairs done (14.5s elapsed)
+2026-02-12 19:45:53.430 | INFO     | __main__:compute_synergy_matrix:352 -   [92miris: 6/6 pairs computed in 14.5s (0 errors)[0m
+2026-02-12 19:45:53.439 | INFO     | __main__:main:967 -   Total elapsed: 49.7s
+2026-02-12 19:45:53.439 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:45:53.439 | INFO     | __main__:main:951 - [96mProcessing: pima_diabetes[0m
+2026-02-12 19:45:53.439 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:46:02.645 | INFO     | __main__:compute_synergy_matrix:304 -   pima_diabetes: 28 pairs, method=BROJA, est_time=85.9s
+2026-02-12 19:46:10.288 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 2/28 pairs done (7.6s elapsed)
+2026-02-12 19:46:15.653 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 4/28 pairs done (13.0s elapsed)
+2026-02-12 19:46:22.956 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 6/28 pairs done (20.3s elapsed)
+2026-02-12 19:46:30.983 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 8/28 pairs done (28.3s elapsed)
+2026-02-12 19:46:35.955 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 10/28 pairs done (33.3s elapsed)
+2026-02-12 19:46:42.056 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 12/28 pairs done (39.4s elapsed)
+2026-02-12 19:46:47.106 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 14/28 pairs done (44.5s elapsed)
+2026-02-12 19:46:52.756 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 16/28 pairs done (50.1s elapsed)
+2026-02-12 19:46:58.835 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 18/28 pairs done (56.2s elapsed)
+2026-02-12 19:47:02.965 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 20/28 pairs done (60.3s elapsed)
+2026-02-12 19:47:07.769 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 22/28 pairs done (65.1s elapsed)
+2026-02-12 19:47:13.303 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 24/28 pairs done (70.7s elapsed)
+2026-02-12 19:47:19.466 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 26/28 pairs done (76.8s elapsed)
+2026-02-12 19:47:26.416 | DEBUG    | __main__:compute_synergy_matrix:346 -   pima_diabetes: 28/28 pairs done (83.8s elapsed)
+2026-02-12 19:47:26.416 | INFO     | __main__:compute_synergy_matrix:352 -   [92mpima_diabetes: 28/28 pairs computed in 83.8s (0 errors)[0m
+2026-02-12 19:47:26.428 | INFO     | __main__:stability_analysis:474 -   [94mStability analysis for pima_diabetes: 5 subsamples of 614/768[0m
+2026-02-12 19:47:27.742 | DEBUG    | __main__:stability_analysis:502 -   Subsample 1/5 done
+2026-02-12 19:47:29.390 | DEBUG    | __main__:stability_analysis:502 -   Subsample 2/5 done
+2026-02-12 19:47:30.891 | DEBUG    | __main__:stability_analysis:502 -   Subsample 3/5 done
+2026-02-12 19:47:32.343 | DEBUG    | __main__:stability_analysis:502 -   Subsample 4/5 done
+2026-02-12 19:47:33.638 | DEBUG    | __main__:stability_analysis:502 -   Subsample 5/5 done
+2026-02-12 19:47:33.643 | INFO     | __main__:stability_analysis:516 -   [92mStability pima_diabetes: mean_rho=0.7802 +/- 0.0603[0m
+2026-02-12 19:47:33.643 | INFO     | __main__:main:967 -   Total elapsed: 149.9s
+2026-02-12 19:47:33.643 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:47:33.643 | INFO     | __main__:main:951 - [96mProcessing: diabetes_binarized[0m
+2026-02-12 19:47:33.643 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:47:38.893 | INFO     | __main__:compute_synergy_matrix:304 -   diabetes_binarized: 45 pairs, method=BROJA, est_time=78.6s
+2026-02-12 19:47:48.765 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 4/45 pairs done (9.9s elapsed)
+2026-02-12 19:48:01.178 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 8/45 pairs done (22.3s elapsed)
+2026-02-12 19:48:04.246 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 12/45 pairs done (25.4s elapsed)
+2026-02-12 19:48:04.466 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 16/45 pairs done (25.6s elapsed)
+2026-02-12 19:48:12.985 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 20/45 pairs done (34.1s elapsed)
+2026-02-12 19:48:27.088 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 24/45 pairs done (48.2s elapsed)
+2026-02-12 19:48:41.052 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 28/45 pairs done (62.2s elapsed)
+2026-02-12 19:48:51.496 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 32/45 pairs done (72.6s elapsed)
+2026-02-12 19:49:03.320 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 36/45 pairs done (84.4s elapsed)
+2026-02-12 19:49:19.486 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 40/45 pairs done (100.6s elapsed)
+2026-02-12 19:49:31.919 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 44/45 pairs done (113.0s elapsed)
+2026-02-12 19:49:35.020 | DEBUG    | __main__:compute_synergy_matrix:346 -   diabetes_binarized: 45/45 pairs done (116.1s elapsed)
+2026-02-12 19:49:35.020 | INFO     | __main__:compute_synergy_matrix:352 -   [92mdiabetes_binarized: 45/45 pairs computed in 116.1s (0 errors)[0m
+2026-02-12 19:49:35.039 | INFO     | __main__:main:967 -   Total elapsed: 271.3s
+2026-02-12 19:49:35.039 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:49:35.039 | INFO     | __main__:main:951 - [96mProcessing: wine[0m
+2026-02-12 19:49:35.039 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:49:51.308 | INFO     | __main__:compute_synergy_matrix:304 -   wine: 78 pairs, method=BROJA, est_time=422.7s
+2026-02-12 19:50:21.873 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 7/78 pairs done (30.6s elapsed)
+2026-02-12 19:50:59.257 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 14/78 pairs done (67.9s elapsed)
+2026-02-12 19:51:41.648 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 21/78 pairs done (110.3s elapsed)
+2026-02-12 19:52:24.068 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 28/78 pairs done (152.8s elapsed)
+2026-02-12 19:52:58.894 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 35/78 pairs done (187.6s elapsed)
+2026-02-12 19:53:38.936 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 42/78 pairs done (227.6s elapsed)
+2026-02-12 19:54:12.985 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 49/78 pairs done (261.7s elapsed)
+2026-02-12 19:54:44.017 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 56/78 pairs done (292.7s elapsed)
+2026-02-12 19:55:08.719 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 63/78 pairs done (317.4s elapsed)
+2026-02-12 19:55:46.522 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 70/78 pairs done (355.2s elapsed)
+2026-02-12 19:56:20.993 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 77/78 pairs done (389.7s elapsed)
+2026-02-12 19:56:24.003 | DEBUG    | __main__:compute_synergy_matrix:346 -   wine: 78/78 pairs done (392.7s elapsed)
+2026-02-12 19:56:24.004 | INFO     | __main__:compute_synergy_matrix:352 -   [92mwine: 78/78 pairs computed in 392.7s (0 errors)[0m
+2026-02-12 19:56:24.022 | INFO     | __main__:main:967 -   Total elapsed: 680.2s
+2026-02-12 19:56:24.022 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:56:24.022 | INFO     | __main__:main:951 - [96mProcessing: heart_statlog[0m
+2026-02-12 19:56:24.022 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:56:28.151 | INFO     | __main__:compute_synergy_matrix:304 -   heart_statlog: 78 pairs, method=BROJA, est_time=107.0s
+2026-02-12 19:56:42.145 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 7/78 pairs done (14.0s elapsed)
+2026-02-12 19:56:48.709 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 14/78 pairs done (20.6s elapsed)
+2026-02-12 19:56:49.057 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 21/78 pairs done (20.9s elapsed)
+2026-02-12 19:56:53.179 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 28/78 pairs done (25.0s elapsed)
+2026-02-12 19:56:58.670 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 35/78 pairs done (30.5s elapsed)
+2026-02-12 19:57:07.688 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 42/78 pairs done (39.5s elapsed)
+2026-02-12 19:57:16.414 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 49/78 pairs done (48.3s elapsed)
+2026-02-12 19:57:16.825 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 56/78 pairs done (48.7s elapsed)
+2026-02-12 19:57:17.213 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 63/78 pairs done (49.1s elapsed)
+2026-02-12 19:57:25.678 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 70/78 pairs done (57.5s elapsed)
+2026-02-12 19:57:31.331 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 77/78 pairs done (63.2s elapsed)
+2026-02-12 19:57:31.397 | DEBUG    | __main__:compute_synergy_matrix:346 -   heart_statlog: 78/78 pairs done (63.2s elapsed)
+2026-02-12 19:57:31.397 | INFO     | __main__:compute_synergy_matrix:352 -   [92mheart_statlog: 78/78 pairs computed in 63.2s (0 errors)[0m
+2026-02-12 19:57:31.416 | INFO     | __main__:main:967 -   Total elapsed: 747.6s
+2026-02-12 19:57:31.417 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:57:31.417 | INFO     | __main__:main:951 - [96mProcessing: vehicle[0m
+2026-02-12 19:57:31.418 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:57:31.857 | INFO     | __main__:compute_synergy_matrix:304 -   vehicle: 153 pairs, method=MMI, est_time=21.5s
+2026-02-12 19:57:33.798 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 15/153 pairs done (1.9s elapsed)
+2026-02-12 19:57:35.297 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 30/153 pairs done (3.4s elapsed)
+2026-02-12 19:57:36.654 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 45/153 pairs done (4.8s elapsed)
+2026-02-12 19:57:38.064 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 60/153 pairs done (6.2s elapsed)
+2026-02-12 19:57:39.489 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 75/153 pairs done (7.6s elapsed)
+2026-02-12 19:57:40.914 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 90/153 pairs done (9.1s elapsed)
+2026-02-12 19:57:42.561 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 105/153 pairs done (10.7s elapsed)
+2026-02-12 19:57:44.104 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 120/153 pairs done (12.2s elapsed)
+2026-02-12 19:57:45.674 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 135/153 pairs done (13.8s elapsed)
+2026-02-12 19:57:47.169 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 150/153 pairs done (15.3s elapsed)
+2026-02-12 19:57:47.451 | DEBUG    | __main__:compute_synergy_matrix:346 -   vehicle: 153/153 pairs done (15.6s elapsed)
+2026-02-12 19:57:47.451 | INFO     | __main__:compute_synergy_matrix:352 -   [92mvehicle: 153/153 pairs computed in 15.6s (0 errors)[0m
+2026-02-12 19:57:47.482 | INFO     | __main__:main:967 -   Total elapsed: 763.7s
+2026-02-12 19:57:47.482 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 19:57:47.482 | INFO     | __main__:main:951 - [96mProcessing: breast_cancer_wisconsin_diagnostic[0m
+2026-02-12 19:57:47.482 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 19:57:47.661 | INFO     | __main__:compute_synergy_matrix:304 -   breast_cancer_wisconsin_diagnostic: 435 pairs, method=MMI, est_time=22.5s
+2026-02-12 19:57:50.478 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 43/435 pairs done (2.8s elapsed)
+2026-02-12 19:57:53.037 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 86/435 pairs done (5.4s elapsed)
+2026-02-12 19:57:55.993 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 129/435 pairs done (8.3s elapsed)
+2026-02-12 19:57:58.781 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 172/435 pairs done (11.1s elapsed)
+2026-02-12 19:58:01.771 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 215/435 pairs done (14.1s elapsed)
+2026-02-12 19:58:04.868 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 258/435 pairs done (17.2s elapsed)
+2026-02-12 19:58:07.706 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 301/435 pairs done (20.0s elapsed)
+2026-02-12 19:58:10.804 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 344/435 pairs done (23.1s elapsed)
+2026-02-12 19:58:13.864 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 387/435 pairs done (26.2s elapsed)
+2026-02-12 19:58:17.156 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 430/435 pairs done (29.5s elapsed)
+2026-02-12 19:58:17.519 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer_wisconsin_diagnostic: 435/435 pairs done (29.9s elapsed)
+2026-02-12 19:58:17.519 | INFO     | __main__:compute_synergy_matrix:352 -   [92mbreast_cancer_wisconsin_diagnostic: 435/435 pairs computed in 29.9s (0 errors)[0m
+2026-02-12 19:58:17.579 | INFO     | __main__:stability_analysis:474 -   [94mStability analysis for breast_cancer_wisconsin_diagnostic: 5 subsamples of 455/569[0m
+2026-02-12 19:58:47.105 | DEBUG    | __main__:stability_analysis:502 -   Subsample 1/5 done
+2026-02-12 19:59:20.867 | DEBUG    | __main__:stability_analysis:502 -   Subsample 2/5 done
+2026-02-12 19:59:48.287 | DEBUG    | __main__:stability_analysis:502 -   Subsample 3/5 done
+2026-02-12 20:00:15.843 | DEBUG    | __main__:stability_analysis:502 -   Subsample 4/5 done
+2026-02-12 20:00:40.612 | DEBUG    | __main__:stability_analysis:502 -   Subsample 5/5 done
+2026-02-12 20:00:40.618 | INFO     | __main__:stability_analysis:516 -   [92mStability breast_cancer_wisconsin_diagnostic: mean_rho=0.9524 +/- 0.0078[0m
+2026-02-12 20:00:40.619 | INFO     | __main__:main:967 -   Total elapsed: 936.8s
+2026-02-12 20:00:40.619 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 20:00:40.619 | INFO     | __main__:main:951 - [96mProcessing: ionosphere[0m
+2026-02-12 20:00:40.619 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 20:00:40.619 | INFO     | __main__:process_dataset:686 -   [93mionosphere: 34 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 20:00:40.901 | INFO     | __main__:compute_synergy_matrix:304 -   ionosphere: 435 pairs, method=MMI, est_time=23.6s
+2026-02-12 20:00:43.482 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 43/435 pairs done (2.6s elapsed)
+2026-02-12 20:00:46.279 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 86/435 pairs done (5.4s elapsed)
+2026-02-12 20:00:49.082 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 129/435 pairs done (8.2s elapsed)
+2026-02-12 20:00:51.995 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 172/435 pairs done (11.1s elapsed)
+2026-02-12 20:00:54.835 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 215/435 pairs done (13.9s elapsed)
+2026-02-12 20:00:57.596 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 258/435 pairs done (16.7s elapsed)
+2026-02-12 20:01:00.270 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 301/435 pairs done (19.4s elapsed)
+2026-02-12 20:01:03.258 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 344/435 pairs done (22.4s elapsed)
+2026-02-12 20:01:06.264 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 387/435 pairs done (25.4s elapsed)
+2026-02-12 20:01:08.952 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 430/435 pairs done (28.1s elapsed)
+2026-02-12 20:01:09.340 | DEBUG    | __main__:compute_synergy_matrix:346 -   ionosphere: 435/435 pairs done (28.4s elapsed)
+2026-02-12 20:01:09.340 | INFO     | __main__:compute_synergy_matrix:352 -   [92mionosphere: 435/435 pairs computed in 28.4s (0 errors)[0m
+2026-02-12 20:01:09.382 | INFO     | __main__:main:967 -   Total elapsed: 965.6s
+2026-02-12 20:01:09.382 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 20:01:09.382 | INFO     | __main__:main:951 - [96mProcessing: sonar[0m
+2026-02-12 20:01:09.383 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 20:01:09.383 | INFO     | __main__:process_dataset:686 -   [93msonar: 60 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 20:01:09.734 | INFO     | __main__:compute_synergy_matrix:304 -   sonar: 435 pairs, method=MMI, est_time=26.3s
+2026-02-12 20:01:12.904 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 43/435 pairs done (3.2s elapsed)
+2026-02-12 20:01:15.867 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 86/435 pairs done (6.1s elapsed)
+2026-02-12 20:01:18.909 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 129/435 pairs done (9.2s elapsed)
+2026-02-12 20:01:21.851 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 172/435 pairs done (12.1s elapsed)
+2026-02-12 20:01:24.622 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 215/435 pairs done (14.9s elapsed)
+2026-02-12 20:01:27.768 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 258/435 pairs done (18.0s elapsed)
+2026-02-12 20:01:30.892 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 301/435 pairs done (21.2s elapsed)
+2026-02-12 20:01:35.906 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 344/435 pairs done (26.2s elapsed)
+2026-02-12 20:01:40.310 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 387/435 pairs done (30.6s elapsed)
+2026-02-12 20:01:43.533 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 430/435 pairs done (33.8s elapsed)
+2026-02-12 20:01:43.878 | DEBUG    | __main__:compute_synergy_matrix:346 -   sonar: 435/435 pairs done (34.1s elapsed)
+2026-02-12 20:01:43.878 | INFO     | __main__:compute_synergy_matrix:352 -   [92msonar: 435/435 pairs computed in 34.1s (0 errors)[0m
+2026-02-12 20:01:43.951 | INFO     | __main__:main:967 -   Total elapsed: 1000.2s
+2026-02-12 20:01:43.952 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 20:01:43.952 | INFO     | __main__:main:951 - [96mProcessing: spectf_heart[0m
+2026-02-12 20:01:43.952 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 20:01:43.952 | INFO     | __main__:process_dataset:686 -   [93mspectf_heart: 44 features > 30, subsampling to top 30 by MI[0m
+2026-02-12 20:01:44.267 | INFO     | __main__:compute_synergy_matrix:304 -   spectf_heart: 435 pairs, method=MMI, est_time=24.4s
+2026-02-12 20:01:47.238 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 43/435 pairs done (3.0s elapsed)
+2026-02-12 20:01:50.208 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 86/435 pairs done (5.9s elapsed)
+2026-02-12 20:01:53.119 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 129/435 pairs done (8.9s elapsed)
+2026-02-12 20:01:55.959 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 172/435 pairs done (11.7s elapsed)
+2026-02-12 20:01:59.043 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 215/435 pairs done (14.8s elapsed)
+2026-02-12 20:02:01.977 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 258/435 pairs done (17.7s elapsed)
+2026-02-12 20:02:04.839 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 301/435 pairs done (20.6s elapsed)
+2026-02-12 20:02:07.806 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 344/435 pairs done (23.5s elapsed)
+2026-02-12 20:02:10.638 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 387/435 pairs done (26.4s elapsed)
+2026-02-12 20:02:13.707 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 430/435 pairs done (29.4s elapsed)
+2026-02-12 20:02:14.023 | DEBUG    | __main__:compute_synergy_matrix:346 -   spectf_heart: 435/435 pairs done (29.8s elapsed)
+2026-02-12 20:02:14.023 | INFO     | __main__:compute_synergy_matrix:352 -   [92mspectf_heart: 435/435 pairs computed in 29.8s (0 errors)[0m
+2026-02-12 20:02:14.088 | INFO     | __main__:main:967 -   Total elapsed: 1030.3s
+2026-02-12 20:02:14.088 | INFO     | __main__:main:950 - 
+[96m==================================================[0m
+2026-02-12 20:02:14.088 | INFO     | __main__:main:951 - [96mProcessing: breast_cancer[0m
+2026-02-12 20:02:14.088 | INFO     | __main__:main:952 - [96m==================================================[0m
+2026-02-12 20:02:14.314 | INFO     | __main__:compute_synergy_matrix:304 -   breast_cancer: 435 pairs, method=MMI, est_time=27.5s
+2026-02-12 20:02:17.064 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 43/435 pairs done (2.7s elapsed)
+2026-02-12 20:02:19.777 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 86/435 pairs done (5.5s elapsed)
+2026-02-12 20:02:22.681 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 129/435 pairs done (8.4s elapsed)
+2026-02-12 20:02:25.461 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 172/435 pairs done (11.1s elapsed)
+2026-02-12 20:02:28.187 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 215/435 pairs done (13.9s elapsed)
+2026-02-12 20:02:31.222 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 258/435 pairs done (16.9s elapsed)
+2026-02-12 20:02:34.180 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 301/435 pairs done (19.9s elapsed)
+2026-02-12 20:02:36.870 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 344/435 pairs done (22.6s elapsed)
+2026-02-12 20:02:39.506 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 387/435 pairs done (25.2s elapsed)
+2026-02-12 20:02:42.209 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 430/435 pairs done (27.9s elapsed)
+2026-02-12 20:02:42.530 | DEBUG    | __main__:compute_synergy_matrix:346 -   breast_cancer: 435/435 pairs done (28.2s elapsed)
+2026-02-12 20:02:42.531 | INFO     | __main__:compute_synergy_matrix:352 -   [92mbreast_cancer: 435/435 pairs computed in 28.2s (0 errors)[0m
+2026-02-12 20:02:42.574 | INFO     | __main__:stability_analysis:474 -   [94mStability analysis for breast_cancer: 5 subsamples of 455/569[0m
+2026-02-12 20:03:09.627 | DEBUG    | __main__:stability_analysis:502 -   Subsample 1/5 done
+2026-02-12 20:03:35.176 | DEBUG    | __main__:stability_analysis:502 -   Subsample 2/5 done
+2026-02-12 20:04:01.750 | DEBUG    | __main__:stability_analysis:502 -   Subsample 3/5 done
+2026-02-12 20:04:34.295 | DEBUG    | __main__:stability_analysis:502 -   Subsample 4/5 done
+2026-02-12 20:05:01.278 | DEBUG    | __main__:stability_analysis:502 -   Subsample 5/5 done
+2026-02-12 20:05:01.285 | INFO     | __main__:stability_analysis:516 -   [92mStability breast_cancer: mean_rho=0.9524 +/- 0.0078[0m
+2026-02-12 20:05:01.286 | INFO     | __main__:main:967 -   Total elapsed: 1197.5s
+2026-02-12 20:05:01.286 | INFO     | __main__:main:973 - 
+[94mPhase 8: Building output[0m
+2026-02-12 20:05:01.416 | INFO     | __main__:main:983 -   Wrote 2569 examples across 12 datasets
+2026-02-12 20:05:01.447 | INFO     | __main__:main:1066 -   Wrote comprehensive results to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_it2__opus/results_comprehensive.json
+2026-02-12 20:05:01.447 | INFO     | __main__:main:1069 - 
+[92m============================================================[0m
+2026-02-12 20:05:01.447 | INFO     | __main__:main:1070 - [92mDONE in 1197.7s[0m
+2026-02-12 20:05:01.447 | INFO     | __main__:main:1071 - [92mDatasets: 12, Pairs: 2569[0m
+2026-02-12 20:05:01.447 | INFO     | __main__:main:1072 - [92mOutput: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_it2__opus/method_out.json[0m
+2026-02-12 20:05:01.449 | INFO     | __main__:main:1073 - [92m============================================================[0m

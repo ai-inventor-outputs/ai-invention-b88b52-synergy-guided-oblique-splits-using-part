@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Eval",
+  "summary": "Comprehensive evaluation synthesizing 4 SG-FIGS experiments (15,732 total examples across 4 dependencies). Produces 10 analysis components: master results table (14 datasets \u00d7 5 methods), Friedman test (p=0.064), pairwise Wilcoxon with Holm-Bonferroni correction, ablation (SG-FIGS-Hard vs Random-FIGS: +0.5% accuracy, +35.8% interpretability), interpretability comparison (SG-FIGS-Hard achieves perfect 1.0 on all 14 datasets), threshold sensitivity (50/75/90th percentile), cross-experiment consistency (Spearman \u03c1=0.96-0.99), PID-performance correlation, hypothesis verdict (all 3 criteria PASS), practitioner guidelines, and 4 LaTeX tables. Best method: SG-FIGS-Soft (BA=0.801, rank=1.93). Schema-validated output with 130 examples across 10 evaluation datasets."
+}

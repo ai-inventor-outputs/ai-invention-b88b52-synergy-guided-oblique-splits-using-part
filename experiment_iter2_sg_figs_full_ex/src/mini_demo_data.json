@@ -1,0 +1,2454 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"V1\": 3.8496, \"V2\": 9.7939, \"V3\": -4.1508, \"V4\": -4.4582}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 267,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.14783, \"V2\": 7.946, \"V3\": 1.0742, \"V4\": -3.3409}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 406,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.8084, \"V2\": 11.3045, \"V3\": -3.3394, \"V4\": -4.4194}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 493,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.9157, \"V2\": 6.0816, \"V3\": 0.23705, \"V4\": -2.0116}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 197,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.3634, \"V2\": 0.46351, \"V3\": 1.4281, \"V4\": 2.0202}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 669,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.2527, \"V2\": 11.5321, \"V3\": 2.5899, \"V4\": -3.2737}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 388,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 6.8248, \"V2\": 5.2187, \"V3\": -2.5425, \"V4\": 0.5461}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 634,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.245, \"V2\": 6.63, \"V3\": -0.63435, \"V4\": 0.86937}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 84,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.2083, \"V2\": -9.1069, \"V3\": 8.9991, \"V4\": -0.28406}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 955,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.9594, \"V2\": 4.0289, \"V3\": -0.35845, \"V4\": -3.8957}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1049,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.5078, \"V2\": -7.3191, \"V3\": 7.8981, \"V4\": 1.2289}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1313,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.6765, \"V2\": -5.6636, \"V3\": 10.969, \"V4\": -0.33449}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1121,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.8969, \"V2\": -6.7893, \"V3\": 5.2761, \"V4\": -0.32544}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 842,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -6.1536, \"V2\": 7.9295, \"V3\": 0.61663, \"V4\": -3.2646}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 928,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -5.2049, \"V2\": 7.259, \"V3\": 0.070827, \"V4\": -7.3004}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1157,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.5951, \"V2\": -6.572, \"V3\": 4.7689, \"V4\": -0.94354}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1160,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.5902, \"V2\": 2.2948, \"V3\": 3.2403, \"V4\": 0.18404}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 312,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 5.032, \"V2\": 8.2026, \"V3\": -2.6256, \"V4\": -1.0341}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 137,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.01727, \"V2\": 8.693, \"V3\": 1.3989, \"V4\": -3.9668}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 759,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 5.7867, \"V2\": 7.8902, \"V3\": -2.6196, \"V4\": -0.48708}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 20,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.78289, \"V2\": 11.3603, \"V3\": -0.37644, \"V4\": -7.0495}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 59,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.7352, \"V2\": 9.5911, \"V3\": -3.9032, \"V4\": -3.3487}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 321,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.1811, \"V2\": 8.3847, \"V3\": -2.0567, \"V4\": -0.90345}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 314,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.11996, \"V2\": 6.8741, \"V3\": 0.91995, \"V4\": -0.6694}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 661,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.211, \"V2\": -12.4736, \"V3\": 14.9704, \"V4\": -1.3884}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 826,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.9498, \"V2\": -8.273, \"V3\": 10.2646, \"V4\": 1.1629}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1315,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.577, \"V2\": 3.4515, \"V3\": 0.66719, \"V4\": -0.94742}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 990,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.5681, \"V2\": -8.213, \"V3\": 10.083, \"V4\": 0.96765}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 766,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.11686, \"V2\": 3.735, \"V3\": -4.4379, \"V4\": -4.3741}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1027,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.2918, \"V2\": -7.257, \"V3\": 7.9597, \"V4\": 0.9211}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1130,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.0545, \"V2\": -10.8679, \"V3\": 9.4926, \"V4\": -1.4116}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1336,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.5713, \"V2\": -12.4922, \"V3\": 14.8881, \"V4\": -0.47027}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1009,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.19081, \"V2\": 9.1297, \"V3\": -3.725, \"V4\": -5.8224}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 176,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.614, \"V2\": 8.0081, \"V3\": -3.7258, \"V4\": -1.3069}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 212,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.9249, \"V2\": 0.68906, \"V3\": 0.77344, \"V4\": 1.2095}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 613,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.6499, \"V2\": 7.6336, \"V3\": -1.9427, \"V4\": -0.37458}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 746,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.2504, \"V2\": 3.5757, \"V3\": 0.35273, \"V4\": 0.2836}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 761,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.4287, \"V2\": 9.3821, \"V3\": -3.2477, \"V4\": -1.4543}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 244,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.7798, \"V2\": -3.3109, \"V3\": 2.6491, \"V4\": 0.066365}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 663,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.9262, \"V2\": 6.0299, \"V3\": -2.0156, \"V4\": -0.065531}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 700,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.5373, \"V2\": -6.959, \"V3\": 8.8054, \"V4\": 1.5289}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1071,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.71494, \"V2\": -4.4448, \"V3\": 2.2241, \"V4\": 0.49826}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1215,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.4904, \"V2\": -2.2183, \"V3\": 1.6054, \"V4\": 0.89394}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1044,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.47368, \"V2\": 3.3605, \"V3\": -4.5064, \"V4\": -4.0431}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 783,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.7101, \"V2\": -8.7903, \"V3\": 7.9735, \"V4\": -0.45475}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1091,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.3414, \"V2\": -2.0776, \"V3\": 2.8093, \"V4\": 0.60688}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 839,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.4106, \"V2\": -7.108, \"V3\": 5.6454, \"V4\": 0.31335}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 964,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.456, \"V2\": -0.24418, \"V3\": 1.4041, \"V4\": -0.45863}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1212,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.9433, \"V2\": 2.5017, \"V3\": 1.5215, \"V4\": 0.903}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 511,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.7818, \"V2\": -2.8846, \"V3\": 2.2558, \"V4\": -0.15734}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 127,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.8799, \"V2\": 2.4707, \"V3\": 2.4931, \"V4\": 0.37671}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 174,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.3435, \"V2\": 3.3295, \"V3\": 0.83598, \"V4\": 0.64955}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 568,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.341, \"V2\": 12.3784, \"V3\": 0.70403, \"V4\": -7.5836}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 194,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.1848, \"V2\": 6.5079, \"V3\": 2.0133, \"V4\": -0.87242}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 469,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.2138, \"V2\": 8.7986, \"V3\": -2.1672, \"V4\": -0.74182}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 435,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.0009, \"V2\": 7.7846, \"V3\": -0.28219, \"V4\": -2.6608}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 68,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.1405, \"V2\": -0.16762, \"V3\": 1.321, \"V4\": -0.20906}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 846,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.4781, \"V2\": 0.14277, \"V3\": -1.1622, \"V4\": -0.48579}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 992,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.3667, \"V2\": 6.0692, \"V3\": 0.57208, \"V4\": -5.4668}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1096,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.3675, \"V2\": -0.43663, \"V3\": 1.692, \"V4\": -0.43018}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1273,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.1668, \"V2\": 1.5933, \"V3\": 0.045122, \"V4\": -1.678}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1362,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.036127, \"V2\": 1.525, \"V3\": -1.4089, \"V4\": -0.76121}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1001,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.8172, \"V2\": 3.3812, \"V3\": -3.6684, \"V4\": -3.456}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1019,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.3924, \"V2\": 3.3564, \"V3\": -0.72004, \"V4\": -3.5233}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1354,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.5706, \"V2\": -0.0248, \"V3\": 1.2421, \"V4\": -0.5621}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 691,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.051979, \"V2\": 7.0521, \"V3\": -2.0541, \"V4\": -3.1508}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 296,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 5.8519, \"V2\": 5.3905, \"V3\": -2.4037, \"V4\": -0.061652}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 690,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.616, \"V2\": 10.1788, \"V3\": -4.2185, \"V4\": -4.4245}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 308,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.8209, \"V2\": 7.3108, \"V3\": -0.81857, \"V4\": -1.8784}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 473,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.4663, \"V2\": 1.1112, \"V3\": 1.7425, \"V4\": 1.3388}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 129,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.8846, \"V2\": -3.0336, \"V3\": 2.5334, \"V4\": 0.20214}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 639,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.7181, \"V2\": 10.0153, \"V3\": -3.9486, \"V4\": -3.8582}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 72,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.565, \"V2\": -5.7899, \"V3\": 6.0122, \"V4\": 0.046968}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1159,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.3518, \"V2\": 1.0595, \"V3\": -2.3437, \"V4\": 0.39998}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 972,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.2305, \"V2\": -7.2135, \"V3\": 11.6433, \"V4\": -0.94613}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1059,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.8957, \"V2\": -12.0205, \"V3\": 11.9149, \"V4\": -2.7552}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 902,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.82601, \"V2\": 2.9611, \"V3\": -1.2864, \"V4\": -1.4647}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1067,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.5084, \"V2\": -0.22763, \"V3\": 1.488, \"V4\": 1.2069}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1255,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.9146, \"V2\": 4.0537, \"V3\": -0.45699, \"V4\": -4.0327}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 906,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.1786, \"V2\": -6.4479, \"V3\": 6.0344, \"V4\": -0.20777}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 969,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        }
+      ]
+    },
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 108.0, \"pres\": 62.0, \"skin\": 32.0, \"insu\": 56.0, \"mass\": 25.2, \"pedi\": 0.128, \"age\": 21.0}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 271,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 74.0, \"pres\": 72.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 32.3, \"pedi\": 0.102, \"age\": 22.0}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 81,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 11.0, \"plas\": 127.0, \"pres\": 106.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 39.0, \"pedi\": 0.19, \"age\": 51.0}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 658,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 112.0, \"pres\": 75.0, \"skin\": 32.0, \"insu\": 125.0, \"mass\": 35.7, \"pedi\": 0.148, \"age\": 21.0}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 324,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 7.0, \"plas\": 195.0, \"pres\": 70.0, \"skin\": 33.0, \"insu\": 145.0, \"mass\": 25.1, \"pedi\": 0.163, \"age\": 55.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 498,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 189.0, \"pres\": 104.0, \"skin\": 25.0, \"insu\": 125.0, \"mass\": 34.3, \"pedi\": 0.435, \"age\": 41.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 440,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 6.0, \"plas\": 134.0, \"pres\": 80.0, \"skin\": 37.0, \"insu\": 370.0, \"mass\": 46.2, \"pedi\": 0.238, \"age\": 46.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 231,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 180.0, \"pres\": 72.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 43.3, \"pedi\": 0.282, \"age\": 41.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 332,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.707315, \"auc\": 0.765902, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.728825, \"auc\": 0.750335, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.712755, \"auc\": 0.799046, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 84.0, \"pres\": 72.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 32.3, \"pedi\": 0.304, \"age\": 21.0}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 60,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 165.0, \"pres\": 76.0, \"skin\": 43.0, \"insu\": 255.0, \"mass\": 47.9, \"pedi\": 0.259, \"age\": 26.0}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 335,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 5.0, \"plas\": 147.0, \"pres\": 78.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 33.7, \"pedi\": 0.218, \"age\": 65.0}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 148,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 71.0, \"pres\": 48.0, \"skin\": 18.0, \"insu\": 76.0, \"mass\": 20.4, \"pedi\": 0.323, \"age\": 22.0}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 97,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 3.0, \"plas\": 173.0, \"pres\": 78.0, \"skin\": 39.0, \"insu\": 185.0, \"mass\": 33.8, \"pedi\": 0.97, \"age\": 31.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 716,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 171.0, \"pres\": 72.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 43.6, \"pedi\": 0.479, \"age\": 26.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 235,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 144.0, \"pres\": 82.0, \"skin\": 32.0, \"insu\": 125.0, \"mass\": 38.5, \"pedi\": 0.554, \"age\": 37.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 417,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 142.0, \"pres\": 86.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 44.0, \"pedi\": 0.645, \"age\": 22.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 230,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.718388, \"auc\": 0.795498, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733537, \"auc\": 0.820114, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.682622, \"auc\": 0.769409, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 78.0, \"pres\": 88.0, \"skin\": 29.0, \"insu\": 40.0, \"mass\": 36.9, \"pedi\": 0.434, \"age\": 21.0}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 290,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 3.0, \"plas\": 106.0, \"pres\": 72.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 25.8, \"pedi\": 0.207, \"age\": 27.0}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 615,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 82.0, \"pres\": 64.0, \"skin\": 13.0, \"insu\": 95.0, \"mass\": 21.2, \"pedi\": 0.415, \"age\": 23.0}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 450,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 93.0, \"pres\": 60.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 35.3, \"pedi\": 0.263, \"age\": 25.0}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 677,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 6.0, \"plas\": 115.0, \"pres\": 60.0, \"skin\": 39.0, \"insu\": 125.0, \"mass\": 33.7, \"pedi\": 0.245, \"age\": 40.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 664,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 95.0, \"pres\": 85.0, \"skin\": 25.0, \"insu\": 36.0, \"mass\": 37.4, \"pedi\": 0.247, \"age\": 24.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 109,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 12.0, \"plas\": 151.0, \"pres\": 70.0, \"skin\": 40.0, \"insu\": 271.0, \"mass\": 41.8, \"pedi\": 0.742, \"age\": 38.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 215,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 7.0, \"plas\": 147.0, \"pres\": 76.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 39.4, \"pedi\": 0.257, \"age\": 43.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 26,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.626593, \"auc\": 0.765824, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.702088, \"auc\": 0.738132, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 80.0, \"pres\": 74.0, \"skin\": 11.0, \"insu\": 60.0, \"mass\": 30.0, \"pedi\": 0.527, \"age\": 22.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 432,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 3.0, \"plas\": 99.0, \"pres\": 54.0, \"skin\": 19.0, \"insu\": 86.0, \"mass\": 25.6, \"pedi\": 0.154, \"age\": 24.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 514,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 5.0, \"plas\": 155.0, \"pres\": 84.0, \"skin\": 44.0, \"insu\": 545.0, \"mass\": 38.7, \"pedi\": 0.619, \"age\": 34.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 286,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 147.0, \"pres\": 85.0, \"skin\": 54.0, \"insu\": 125.0, \"mass\": 42.8, \"pedi\": 0.375, \"age\": 24.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 211,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 3.0, \"plas\": 170.0, \"pres\": 64.0, \"skin\": 37.0, \"insu\": 225.0, \"mass\": 34.5, \"pedi\": 0.356, \"age\": 30.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 132,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 118.0, \"pres\": 80.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 42.9, \"pedi\": 0.693, \"age\": 21.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 577,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 9.0, \"plas\": 112.0, \"pres\": 82.0, \"skin\": 24.0, \"insu\": 125.0, \"mass\": 28.2, \"pedi\": 1.282, \"age\": 50.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 618,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 125.0, \"pres\": 50.0, \"skin\": 40.0, \"insu\": 167.0, \"mass\": 33.3, \"pedi\": 0.962, \"age\": 28.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 356,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.737978, \"auc\": 0.824639, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.705777, \"auc\": 0.784027, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 112.0, \"pres\": 86.0, \"skin\": 42.0, \"insu\": 160.0, \"mass\": 38.4, \"pedi\": 0.246, \"age\": 28.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 620,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 120.0, \"pres\": 54.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 26.8, \"pedi\": 0.455, \"age\": 27.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 653,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 95.0, \"pres\": 70.0, \"skin\": 32.0, \"insu\": 125.0, \"mass\": 32.1, \"pedi\": 0.612, \"age\": 24.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 262,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 84.0, \"pres\": 64.0, \"skin\": 23.0, \"insu\": 115.0, \"mass\": 36.9, \"pedi\": 0.471, \"age\": 28.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 554,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 5.0, \"plas\": 115.0, \"pres\": 98.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 52.9, \"pedi\": 0.209, \"age\": 28.0}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 303,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 173.0, \"pres\": 74.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 36.8, \"pedi\": 0.088, \"age\": 38.0}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 598,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 2.0, \"plas\": 144.0, \"pres\": 58.0, \"skin\": 33.0, \"insu\": 135.0, \"mass\": 31.6, \"pedi\": 0.422, \"age\": 25.0}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 301,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"preg\": 4.0, \"plas\": 188.0, \"pres\": 82.0, \"skin\": 14.0, \"insu\": 185.0, \"mass\": 32.0, \"pedi\": 0.682, \"age\": 22.0}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres",
+            "skin",
+            "insu",
+            "mass",
+            "pedi",
+            "age"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 595,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.736345, \"auc\": 0.834909, \"n_splits\": 10, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.731443, \"auc\": 0.784226, \"n_splits\": 25, \"n_trees\": 1}"
+        }
+      ]
+    }
+  ]
+}

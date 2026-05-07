@@ -1,0 +1,934 @@
+2026-02-12 20:53:19.333 | INFO     | method:evaluate_method_on_dataset:1149 -     FIGS: best_ms=25 (val=0.6313)
+2026-02-12 20:53:21.316 | INFO     | method:evaluate_method_on_dataset:1149 -     RO-FIGS: best_ms=25 (val=0.7605)
+2026-02-12 20:53:25.834 | INFO     | method:evaluate_method_on_dataset:1149 -     SG-FIGS-Hard: best_ms=25 (val=0.7058)
+2026-02-12 20:53:29.952 | INFO     | method:evaluate_method_on_dataset:1149 -     SG-FIGS-Soft: best_ms=25 (val=0.6453)
+2026-02-12 20:53:34.356 | INFO     | method:evaluate_method_on_dataset:1149 -     Random-FIGS: best_ms=25 (val=0.7247)
+2026-02-12 20:53:53.062 | INFO     | method:load_precomputed_synergy:140 - Loading pre-computed synergy from results_comprehensive.json
+2026-02-12 20:53:53.071 | INFO     | method:load_precomputed_synergy:165 -   banknote: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 20:53:53.071 | INFO     | method:load_precomputed_synergy:165 -   iris: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 20:53:53.072 | INFO     | method:load_precomputed_synergy:165 -   pima_diabetes: 8x8 synergy, 7 edges, clique_size=3
+2026-02-12 20:53:53.072 | INFO     | method:load_precomputed_synergy:165 -   wine: 13x13 synergy, 20 edges, clique_size=3
+2026-02-12 20:53:53.073 | INFO     | method:load_precomputed_synergy:165 -   heart_statlog: 13x13 synergy, 20 edges, clique_size=5
+2026-02-12 20:53:53.073 | INFO     | method:load_precomputed_synergy:165 -   vehicle: 18x18 synergy, 39 edges, clique_size=3
+2026-02-12 20:53:53.074 | INFO     | method:load_precomputed_synergy:165 -   breast_cancer_wisconsin_diagnostic: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 20:53:53.074 | INFO     | method:load_precomputed_synergy:165 -   ionosphere: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 20:53:53.074 | INFO     | method:load_precomputed_synergy:165 -   sonar: 30x30 synergy, 109 edges, clique_size=5
+2026-02-12 20:53:53.074 | INFO     | method:load_precomputed_synergy:165 -   spectf_heart: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 20:53:53.074 | INFO     | method:load_precomputed_synergy:170 - Loaded synergy for 10 datasets
+2026-02-12 20:53:54.122 | INFO     | method:evaluate_method_on_dataset:1149 -     FIGS: best_ms=5 (val=0.9697)
+2026-02-12 20:53:57.917 | INFO     | method:evaluate_method_on_dataset:1149 -     RO-FIGS: best_ms=10 (val=0.9697)
+2026-02-12 21:14:47.824 | INFO     | method:load_precomputed_synergy:140 - Loading pre-computed synergy from results_comprehensive.json
+2026-02-12 21:14:47.830 | INFO     | method:load_precomputed_synergy:165 -   banknote: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   iris: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   pima_diabetes: 8x8 synergy, 7 edges, clique_size=3
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   wine: 13x13 synergy, 20 edges, clique_size=3
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   heart_statlog: 13x13 synergy, 20 edges, clique_size=5
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   vehicle: 18x18 synergy, 39 edges, clique_size=3
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   breast_cancer_wisconsin_diagnostic: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   ionosphere: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   sonar: 30x30 synergy, 109 edges, clique_size=5
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:165 -   spectf_heart: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:14:47.831 | INFO     | method:load_precomputed_synergy:170 - Loaded synergy for 10 datasets
+2026-02-12 21:14:48.790 | INFO     | method:evaluate_method_on_dataset:1153 -     FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:36:56.162 | INFO     | method:load_precomputed_synergy:140 - Loading pre-computed synergy from results_comprehensive.json
+2026-02-12 21:36:56.169 | INFO     | method:load_precomputed_synergy:165 -   banknote: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   iris: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   pima_diabetes: 8x8 synergy, 7 edges, clique_size=3
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   wine: 13x13 synergy, 20 edges, clique_size=3
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   heart_statlog: 13x13 synergy, 20 edges, clique_size=5
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   vehicle: 18x18 synergy, 39 edges, clique_size=3
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   breast_cancer_wisconsin_diagnostic: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   ionosphere: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:36:56.170 | INFO     | method:load_precomputed_synergy:165 -   sonar: 30x30 synergy, 109 edges, clique_size=5
+2026-02-12 21:36:56.171 | INFO     | method:load_precomputed_synergy:165 -   spectf_heart: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:36:56.171 | INFO     | method:load_precomputed_synergy:170 - Loaded synergy for 10 datasets
+2026-02-12 21:36:57.040 | INFO     | method:evaluate_method_on_dataset:1155 -     FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:36:57.883 | INFO     | method:evaluate_method_on_dataset:1155 -     RO-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:36:59.208 | INFO     | method:evaluate_method_on_dataset:1155 -     SG-FIGS-Hard: best_ms=10 (val=0.9394)
+2026-02-12 21:37:01.377 | INFO     | method:evaluate_method_on_dataset:1155 -     SG-FIGS-Soft: best_ms=10 (val=0.9394)
+2026-02-12 21:37:03.444 | INFO     | method:evaluate_method_on_dataset:1155 -     Random-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:37:17.000 | INFO     | __main__:main:1616 - ============================================================
+2026-02-12 21:37:17.000 | INFO     | __main__:main:1617 - SG-FIGS Definitive 5-Method Comparison Experiment
+2026-02-12 21:37:17.000 | INFO     | __main__:main:1618 - ============================================================
+2026-02-12 21:37:17.000 | INFO     | __main__:load_all_datasets:113 - Loading datasets from two data files
+2026-02-12 21:37:17.000 | INFO     | __main__:load_all_datasets:118 -   Loading full_data_out.json
+2026-02-12 21:37:17.045 | INFO     | __main__:load_all_datasets:125 -     breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:37:17.047 | INFO     | __main__:load_all_datasets:125 -     wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:37:17.051 | INFO     | __main__:load_all_datasets:125 -     pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:37:17.054 | INFO     | __main__:load_all_datasets:125 -     heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:37:17.060 | INFO     | __main__:load_all_datasets:125 -     ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:37:17.070 | INFO     | __main__:load_all_datasets:125 -     vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:37:17.075 | INFO     | __main__:load_all_datasets:125 -     sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:37:17.084 | INFO     | __main__:load_all_datasets:125 -     banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:37:17.091 | INFO     | __main__:load_all_datasets:125 -     spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:37:17.092 | INFO     | __main__:load_all_datasets:125 -     iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:37:17.092 | INFO     | __main__:load_all_datasets:118 -   Loading full_data_out.json
+2026-02-12 21:37:17.111 | INFO     | __main__:load_all_datasets:125 -     monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:37:17.114 | INFO     | __main__:load_all_datasets:125 -     blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:37:17.119 | INFO     | __main__:load_all_datasets:125 -     climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:37:17.119 | ERROR    | __main__:<module>:1695 - An error has been caught in function '<module>', process 'MainProcess' (1326107), thread 'MainThread' (139808437663552):
+Traceback (most recent call last):
+
+> File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method.py", line 1695, in <module>
+    main()
+    └ <function main at 0x7f277e571510>
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method.py", line 1621, in main
+    datasets, raw_entries = load_all_datasets()
+                            └ <function load_all_datasets at 0x7f27a61cb250>
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method.py", line 122, in load_all_datasets
+    datasets[name] = load_dataset(ds)
+    │        │       │            └ {'dataset': 'kc2', 'examples': [{'input': '{"loc": 1.1, "v(g)": 1.4, "ev(g)": 1.4, "iv(g)": 1.4, "n": 1.3, "v": 1.3, "l": 1.3...
+    │        │       └ <function load_dataset at 0x7f277e8d6290>
+    │        └ 'kc2'
+    └ {'breast_cancer_wisconsin_diagnostic': {'X': array([[1.799e+01, 1.038e+01, 1.228e+02, ..., 2.654e-01, 4.601e-01,
+              1.18...
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method.py", line 97, in load_dataset
+    y[i] = int(ex["output"])
+    │ │        └ {'input': '{"loc": 1.1, "v(g)": 1.4, "ev(g)": 1.4, "iv(g)": 1.4, "n": 1.3, "v": 1.3, "l": 1.3, "d": 1.3, "i": 1.3, "e": 1.3, ...
+    │ └ 0
+    └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+
+ValueError: invalid literal for int() with base 10: 'no'
+2026-02-12 21:38:17.632 | INFO     | method:load_all_datasets:132 - Loading datasets from two data files
+2026-02-12 21:38:17.632 | INFO     | method:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:38:17.679 | INFO     | method:load_all_datasets:144 -     breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:38:17.681 | INFO     | method:load_all_datasets:144 -     wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:38:17.685 | INFO     | method:load_all_datasets:144 -     pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:38:17.687 | INFO     | method:load_all_datasets:144 -     heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:38:17.692 | INFO     | method:load_all_datasets:144 -     ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:38:17.702 | INFO     | method:load_all_datasets:144 -     vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:38:17.708 | INFO     | method:load_all_datasets:144 -     sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:38:17.714 | INFO     | method:load_all_datasets:144 -     banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:38:17.720 | INFO     | method:load_all_datasets:144 -     spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:38:17.721 | INFO     | method:load_all_datasets:144 -     iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:38:17.721 | INFO     | method:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:38:17.743 | INFO     | method:load_all_datasets:144 -     monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:38:17.746 | INFO     | method:load_all_datasets:144 -     blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:38:17.750 | INFO     | method:load_all_datasets:144 -     climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:38:17.755 | INFO     | method:load_all_datasets:144 -     kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:38:17.755 | INFO     | method:load_all_datasets:149 - Loaded 14 datasets total
+2026-02-12 21:38:32.025 | INFO     | __main__:main:1635 - ============================================================
+2026-02-12 21:38:32.026 | INFO     | __main__:main:1636 - SG-FIGS Definitive 5-Method Comparison Experiment
+2026-02-12 21:38:32.026 | INFO     | __main__:main:1637 - ============================================================
+2026-02-12 21:38:32.026 | INFO     | __main__:load_all_datasets:132 - Loading datasets from two data files
+2026-02-12 21:38:32.026 | INFO     | __main__:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:38:32.075 | INFO     | __main__:load_all_datasets:144 -     breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:38:32.076 | INFO     | __main__:load_all_datasets:144 -     wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:38:32.080 | INFO     | __main__:load_all_datasets:144 -     pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:38:32.082 | INFO     | __main__:load_all_datasets:144 -     heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:38:32.087 | INFO     | __main__:load_all_datasets:144 -     ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:38:32.094 | INFO     | __main__:load_all_datasets:144 -     vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:38:32.099 | INFO     | __main__:load_all_datasets:144 -     sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:38:32.104 | INFO     | __main__:load_all_datasets:144 -     banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:38:32.110 | INFO     | __main__:load_all_datasets:144 -     spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:38:32.110 | INFO     | __main__:load_all_datasets:144 -     iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:38:32.111 | INFO     | __main__:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:38:32.128 | INFO     | __main__:load_all_datasets:144 -     monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:38:32.131 | INFO     | __main__:load_all_datasets:144 -     blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:38:32.136 | INFO     | __main__:load_all_datasets:144 -     climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:38:32.140 | INFO     | __main__:load_all_datasets:144 -     kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:38:32.140 | INFO     | __main__:load_all_datasets:149 - Loaded 14 datasets total
+2026-02-12 21:38:32.140 | INFO     | __main__:load_precomputed_synergy:159 - Loading pre-computed synergy from results_comprehensive.json
+2026-02-12 21:38:32.144 | INFO     | __main__:load_precomputed_synergy:184 -   banknote: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   iris: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   pima_diabetes: 8x8 synergy, 7 edges, clique_size=3
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   wine: 13x13 synergy, 20 edges, clique_size=3
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   heart_statlog: 13x13 synergy, 20 edges, clique_size=5
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   vehicle: 18x18 synergy, 39 edges, clique_size=3
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   breast_cancer_wisconsin_diagnostic: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   ionosphere: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:38:32.145 | INFO     | __main__:load_precomputed_synergy:184 -   sonar: 30x30 synergy, 109 edges, clique_size=5
+2026-02-12 21:38:32.146 | INFO     | __main__:load_precomputed_synergy:184 -   spectf_heart: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:38:32.146 | INFO     | __main__:load_precomputed_synergy:189 - Loaded synergy for 10 datasets
+2026-02-12 21:38:32.146 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:38:32.146 | INFO     | __main__:run_experiment:1299 - TIER 1: ['monks2', 'banknote', 'iris']
+2026-02-12 21:38:32.146 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:38:32.146 | INFO     | __main__:run_experiment:1312 - 
+--- monks2: 601 samples, 6 features, 2 classes ---
+2026-02-12 21:38:32.146 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:38:41.431 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 9.3s
+2026-02-12 21:38:41.432 | INFO     | __main__:run_experiment:1349 -   Synergy: 4 subsets, median_clique=2, threshold=0.0215
+2026-02-12 21:38:41.432 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:38:42.376 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=25 (val=0.6313)
+2026-02-12 21:38:42.946 | INFO     | __main__:run_experiment:1380 -     acc=0.7332 ±0.0562, splits=25.0, interp=None, time=1.5s
+2026-02-12 21:38:42.946 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:38:43.551 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=25 (val=0.6408)
+2026-02-12 21:38:45.215 | INFO     | __main__:run_experiment:1380 -     acc=0.7264 ±0.0466, splits=25.0, interp=0.4535, time=2.3s
+2026-02-12 21:38:45.216 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:38:45.782 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=25 (val=0.8412)
+2026-02-12 21:38:47.394 | INFO     | __main__:run_experiment:1380 -     acc=0.7666 ±0.0427, splits=25.0, interp=1.0, time=2.2s
+2026-02-12 21:38:47.394 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:38:47.986 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=25 (val=0.8959)
+2026-02-12 21:38:49.805 | INFO     | __main__:run_experiment:1380 -     acc=0.8137 ±0.0435, splits=25.0, interp=0.6548, time=2.4s
+2026-02-12 21:38:49.806 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:38:50.458 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.8614)
+2026-02-12 21:38:52.299 | INFO     | __main__:run_experiment:1380 -     acc=0.7955 ±0.0369, splits=25.0, interp=0.7991, time=2.5s
+2026-02-12 21:38:52.458 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 8 oblique splits
+2026-02-12 21:38:52.459 | INFO     | __main__:run_experiment:1421 -   monks2 complete in 20.3s
+2026-02-12 21:38:52.459 | INFO     | __main__:run_experiment:1312 - 
+--- banknote: 1372 samples, 4 features, 2 classes ---
+2026-02-12 21:38:52.459 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:38:52.460 | INFO     | __main__:run_experiment:1349 -   Synergy: 2 subsets, median_clique=2, threshold=0.2399
+2026-02-12 21:38:52.460 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:38:52.763 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.9823)
+2026-02-12 21:38:53.244 | INFO     | __main__:run_experiment:1380 -     acc=0.9793 ±0.0108, splits=15.0, interp=None, time=0.8s
+2026-02-12 21:38:53.245 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:38:54.063 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=15 (val=0.9869)
+2026-02-12 21:38:55.086 | INFO     | __main__:run_experiment:1380 -     acc=0.9889 ±0.0042, splits=15.0, interp=0.4786, time=1.8s
+2026-02-12 21:38:55.086 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:38:55.940 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.9778)
+2026-02-12 21:38:56.145 | INFO     | __main__:run_experiment:1380 -     acc=0.9905 ±0.0079, splits=5.0, interp=1.0, time=1.1s
+2026-02-12 21:38:56.146 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:38:57.025 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.9907)
+2026-02-12 21:38:57.607 | INFO     | __main__:run_experiment:1380 -     acc=0.9913 ±0.0045, splits=10.0, interp=0.6343, time=1.5s
+2026-02-12 21:38:57.607 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:38:58.375 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=15 (val=0.9792)
+2026-02-12 21:38:59.348 | INFO     | __main__:run_experiment:1380 -     acc=0.9854 ±0.0063, splits=15.0, interp=0.4233, time=1.7s
+2026-02-12 21:38:59.348 | INFO     | __main__:run_experiment:1421 -   banknote complete in 6.9s
+2026-02-12 21:38:59.348 | INFO     | __main__:run_experiment:1312 - 
+--- iris: 150 samples, 4 features, 3 classes ---
+2026-02-12 21:38:59.348 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:38:59.349 | INFO     | __main__:run_experiment:1349 -   Synergy: 2 subsets, median_clique=2, threshold=0.2030
+2026-02-12 21:38:59.349 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:38:59.394 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:38:59.473 | INFO     | __main__:run_experiment:1380 -     acc=0.9476 ±0.0296, splits=5.0, interp=None, time=0.1s
+2026-02-12 21:38:59.473 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:00.270 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:39:00.731 | INFO     | __main__:run_experiment:1380 -     acc=0.9529 ±0.0252, splits=11.6, interp=0.04, time=1.3s
+2026-02-12 21:39:00.731 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:01.591 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.9394)
+2026-02-12 21:39:02.884 | INFO     | __main__:run_experiment:1380 -     acc=0.9321 ±0.0390, splits=21.6, interp=1.0, time=2.2s
+2026-02-12 21:39:02.884 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:03.747 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.9394)
+2026-02-12 21:39:05.077 | INFO     | __main__:run_experiment:1380 -     acc=0.9550 ±0.0147, splits=21.6, interp=0.7433, time=2.2s
+2026-02-12 21:39:05.077 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:39:05.866 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1380 -     acc=0.9472 ±0.0272, splits=11.6, interp=0.5, time=1.2s
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1421 -   iris complete in 7.0s
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 1 Summary ---
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1444 -   monks2: FIGS=0.7332, RO-FIGS=0.7264, SG-FIGS-Hard=0.7666, SG-FIGS-Soft=0.8137, Random-FIGS=0.7955
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1444 -   banknote: FIGS=0.9793, RO-FIGS=0.9889, SG-FIGS-Hard=0.9905, SG-FIGS-Soft=0.9913, Random-FIGS=0.9854
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1444 -   iris: FIGS=0.9476, RO-FIGS=0.9529, SG-FIGS-Hard=0.9321, SG-FIGS-Soft=0.9550, Random-FIGS=0.9472
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1299 - TIER 2: ['blood', 'pima_diabetes', 'wine', 'heart_statlog']
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1312 - 
+--- blood: 748 samples, 4 features, 2 classes ---
+2026-02-12 21:39:06.323 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:39:22.201 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 15.9s
+2026-02-12 21:39:22.202 | INFO     | __main__:run_experiment:1349 -   Synergy: 1 subsets, median_clique=2, threshold=0.0639
+2026-02-12 21:39:22.202 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:39:22.619 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.6538)
+2026-02-12 21:39:22.779 | INFO     | __main__:run_experiment:1380 -     acc=0.6603 ±0.0325, splits=5.0, interp=None, time=0.6s
+2026-02-12 21:39:22.779 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:23.743 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.6543)
+2026-02-12 21:39:24.430 | INFO     | __main__:run_experiment:1380 -     acc=0.6516 ±0.0163, splits=10.0, interp=0.3909, time=1.7s
+2026-02-12 21:39:24.431 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:25.311 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.6808)
+2026-02-12 21:39:25.919 | INFO     | __main__:run_experiment:1380 -     acc=0.6691 ±0.0303, splits=10.0, interp=1.0, time=1.5s
+2026-02-12 21:39:25.919 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:26.875 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.6629)
+2026-02-12 21:39:27.466 | INFO     | __main__:run_experiment:1380 -     acc=0.6554 ±0.0132, splits=10.0, interp=0.7143, time=1.5s
+2026-02-12 21:39:27.467 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:39:28.379 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.6538)
+2026-02-12 21:39:28.988 | INFO     | __main__:run_experiment:1380 -     acc=0.6419 ±0.0258, splits=10.0, interp=0.73, time=1.5s
+2026-02-12 21:39:28.988 | INFO     | __main__:run_experiment:1421 -   blood complete in 22.7s
+2026-02-12 21:39:28.988 | INFO     | __main__:run_experiment:1312 - 
+--- pima_diabetes: 768 samples, 8 features, 2 classes ---
+2026-02-12 21:39:28.988 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:39:28.989 | INFO     | __main__:run_experiment:1349 -   Synergy: 9 subsets, median_clique=2, threshold=0.0471
+2026-02-12 21:39:28.989 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:39:29.491 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.7073)
+2026-02-12 21:39:29.676 | INFO     | __main__:run_experiment:1380 -     acc=0.7090 ±0.0094, splits=5.0, interp=None, time=0.7s
+2026-02-12 21:39:29.676 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:30.494 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7380)
+2026-02-12 21:39:30.689 | INFO     | __main__:run_experiment:1380 -     acc=0.7243 ±0.0222, splits=5.0, interp=0.6, time=1.0s
+2026-02-12 21:39:30.690 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:31.526 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.6815)
+2026-02-12 21:39:32.570 | INFO     | __main__:run_experiment:1380 -     acc=0.7042 ±0.0213, splits=15.0, interp=1.0, time=1.9s
+2026-02-12 21:39:32.570 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:33.355 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.7122)
+2026-02-12 21:39:33.956 | INFO     | __main__:run_experiment:1380 -     acc=0.7356 ±0.0216, splits=10.0, interp=0.6133, time=1.4s
+2026-02-12 21:39:33.956 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:39:34.871 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.6885)
+2026-02-12 21:39:35.052 | INFO     | __main__:run_experiment:1380 -     acc=0.7309 ±0.0332, splits=5.0, interp=0.5, time=1.1s
+2026-02-12 21:39:35.242 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 9 oblique splits
+2026-02-12 21:39:35.242 | INFO     | __main__:run_experiment:1421 -   pima_diabetes complete in 6.3s
+2026-02-12 21:39:35.242 | INFO     | __main__:run_experiment:1312 - 
+--- wine: 178 samples, 13 features, 3 classes ---
+2026-02-12 21:39:35.242 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:39:35.243 | INFO     | __main__:run_experiment:1349 -   Synergy: 27 subsets, median_clique=2, threshold=0.2289
+2026-02-12 21:39:35.243 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:39:35.403 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.9583)
+2026-02-12 21:39:35.553 | INFO     | __main__:run_experiment:1380 -     acc=0.9138 ±0.0454, splits=7.6, interp=None, time=0.3s
+2026-02-12 21:39:35.553 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:36.314 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.8510)
+2026-02-12 21:39:36.801 | INFO     | __main__:run_experiment:1380 -     acc=0.8917 ±0.0341, splits=14.8, interp=0.375, time=1.2s
+2026-02-12 21:39:36.801 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:37.596 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.8510)
+2026-02-12 21:39:38.054 | INFO     | __main__:run_experiment:1380 -     acc=0.8880 ±0.0301, splits=14.8, interp=1.0, time=1.3s
+2026-02-12 21:39:38.054 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:38.847 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.9535)
+2026-02-12 21:39:41.047 | INFO     | __main__:run_experiment:1380 -     acc=0.9350 ±0.0424, splits=41.2, interp=0.3, time=3.0s
+2026-02-12 21:39:41.048 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:39:41.693 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.8253)
+2026-02-12 21:39:42.099 | INFO     | __main__:run_experiment:1380 -     acc=0.8776 ±0.0433, splits=14.8, interp=0.0, time=1.1s
+2026-02-12 21:39:42.099 | INFO     | __main__:run_experiment:1421 -   wine complete in 6.9s
+2026-02-12 21:39:42.099 | INFO     | __main__:run_experiment:1312 - 
+--- heart_statlog: 270 samples, 13 features, 2 classes ---
+2026-02-12 21:39:42.099 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:39:42.100 | INFO     | __main__:run_experiment:1349 -   Synergy: 9 subsets, median_clique=2, threshold=0.0756
+2026-02-12 21:39:42.100 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:39:42.482 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.7375)
+2026-02-12 21:39:43.067 | INFO     | __main__:run_experiment:1380 -     acc=0.7829 ±0.0441, splits=15.0, interp=None, time=1.0s
+2026-02-12 21:39:43.068 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:43.747 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7693)
+2026-02-12 21:39:43.933 | INFO     | __main__:run_experiment:1380 -     acc=0.7972 ±0.0562, splits=5.0, interp=0.4, time=0.9s
+2026-02-12 21:39:43.934 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:44.661 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.7901)
+2026-02-12 21:39:45.278 | INFO     | __main__:run_experiment:1380 -     acc=0.7753 ±0.0426, splits=10.0, interp=1.0, time=1.3s
+2026-02-12 21:39:45.278 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:45.979 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.7987)
+2026-02-12 21:39:46.584 | INFO     | __main__:run_experiment:1380 -     acc=0.7909 ±0.0236, splits=10.0, interp=0.95, time=1.3s
+2026-02-12 21:39:46.584 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:39:47.397 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.7668)
+2026-02-12 21:39:49.092 | INFO     | __main__:run_experiment:1380 -     acc=0.7761 ±0.0208, splits=25.0, interp=0.653, time=2.5s
+2026-02-12 21:39:49.320 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 7 oblique splits
+2026-02-12 21:39:49.320 | INFO     | __main__:run_experiment:1421 -   heart_statlog complete in 7.2s
+2026-02-12 21:39:49.320 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 2 Summary ---
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1444 -   blood: FIGS=0.6603, RO-FIGS=0.6516, SG-FIGS-Hard=0.6691, SG-FIGS-Soft=0.6554, Random-FIGS=0.6419
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1444 -   pima_diabetes: FIGS=0.7090, RO-FIGS=0.7243, SG-FIGS-Hard=0.7042, SG-FIGS-Soft=0.7356, Random-FIGS=0.7309
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1444 -   wine: FIGS=0.9138, RO-FIGS=0.8917, SG-FIGS-Hard=0.8880, SG-FIGS-Soft=0.9350, Random-FIGS=0.8776
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1444 -   heart_statlog: FIGS=0.7829, RO-FIGS=0.7972, SG-FIGS-Hard=0.7753, SG-FIGS-Soft=0.7909, Random-FIGS=0.7761
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1299 - TIER 3: ['vehicle', 'climate', 'kc2']
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1312 - 
+--- vehicle: 846 samples, 18 features, 4 classes ---
+2026-02-12 21:39:49.321 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:39:49.322 | INFO     | __main__:run_experiment:1349 -   Synergy: 47 subsets, median_clique=2, threshold=0.2728
+2026-02-12 21:39:49.322 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:39:49.573 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.7090)
+2026-02-12 21:39:50.230 | INFO     | __main__:run_experiment:1380 -     acc=0.6918 ±0.0200, splits=15.0, interp=None, time=0.9s
+2026-02-12 21:39:50.230 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:39:51.653 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.7175)
+2026-02-12 21:39:54.075 | INFO     | __main__:run_experiment:1380 -     acc=0.7110 ±0.0254, splits=40.0, interp=0.4391, time=3.8s
+2026-02-12 21:39:54.076 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:39:55.407 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.7477)
+2026-02-12 21:39:57.655 | INFO     | __main__:run_experiment:1380 -     acc=0.6987 ±0.0355, splits=40.0, interp=1.0, time=3.6s
+2026-02-12 21:39:57.655 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:39:59.012 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.7136)
+2026-02-12 21:40:04.658 | INFO     | __main__:run_experiment:1380 -     acc=0.7071 ±0.0212, splits=60.0, interp=0.8437, time=7.0s
+2026-02-12 21:40:04.659 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:40:06.026 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.7136)
+2026-02-12 21:40:08.225 | INFO     | __main__:run_experiment:1380 -     acc=0.7091 ±0.0203, splits=40.0, interp=0.5582, time=3.6s
+2026-02-12 21:40:08.225 | INFO     | __main__:run_experiment:1421 -   vehicle complete in 18.9s
+2026-02-12 21:40:08.225 | INFO     | __main__:run_experiment:1312 - 
+--- climate: 540 samples, 20 features, 2 classes ---
+2026-02-12 21:40:08.225 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:40:56.836 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 30/190 (48.6s)
+2026-02-12 21:42:23.786 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 60/190 (135.6s)
+2026-02-12 21:43:57.851 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 90/190 (229.6s)
+2026-02-12 21:45:10.084 | WARNING  | __main__:build_synergy_matrix_fresh:300 -   Synergy time limit (300s) after 113/190
+2026-02-12 21:45:10.084 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 301.9s
+2026-02-12 21:45:10.085 | INFO     | __main__:run_experiment:1349 -   Synergy: 30 subsets, median_clique=2, threshold=0.0359
+2026-02-12 21:45:10.085 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:45:10.421 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=25 (val=0.7490)
+2026-02-12 21:45:11.098 | INFO     | __main__:run_experiment:1380 -     acc=0.5838 ±0.1109, splits=23.4, interp=None, time=1.0s
+2026-02-12 21:45:11.098 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:45:11.708 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.5847)
+2026-02-12 21:45:11.907 | INFO     | __main__:run_experiment:1380 -     acc=0.5802 ±0.0900, splits=5.0, interp=0.25, time=0.8s
+2026-02-12 21:45:11.907 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:45:12.477 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.5847)
+2026-02-12 21:45:12.671 | INFO     | __main__:run_experiment:1380 -     acc=0.5872 ±0.0812, splits=5.0, interp=None, time=0.8s
+2026-02-12 21:45:12.671 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:45:13.246 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=5 (val=0.6245)
+2026-02-12 21:45:13.466 | INFO     | __main__:run_experiment:1380 -     acc=0.6077 ±0.0769, splits=5.0, interp=1.0, time=0.8s
+2026-02-12 21:45:13.466 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:45:13.967 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.5796)
+2026-02-12 21:45:14.157 | INFO     | __main__:run_experiment:1380 -     acc=0.5865 ±0.0811, splits=5.0, interp=0.5, time=0.7s
+2026-02-12 21:45:14.157 | INFO     | __main__:run_experiment:1421 -   climate complete in 305.9s
+2026-02-12 21:45:14.158 | INFO     | __main__:run_experiment:1312 - 
+--- kc2: 522 samples, 21 features, 2 classes ---
+2026-02-12 21:45:14.158 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:45:14.194 | INFO     | __main__:build_synergy_matrix_fresh:293 -   High-dim (21 features): synergy on top-20 by MI (190 pairs)
+2026-02-12 21:46:24.240 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 30/190 (70.1s)
+2026-02-12 21:47:21.955 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 60/190 (127.8s)
+2026-02-12 21:48:50.237 | INFO     | __main__:main:1635 - ============================================================
+2026-02-12 21:48:50.238 | INFO     | __main__:main:1636 - SG-FIGS Definitive 5-Method Comparison Experiment
+2026-02-12 21:48:50.238 | INFO     | __main__:main:1637 - ============================================================
+2026-02-12 21:48:50.238 | INFO     | __main__:load_all_datasets:132 - Loading datasets from two data files
+2026-02-12 21:48:50.239 | INFO     | __main__:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:48:50.291 | INFO     | __main__:load_all_datasets:144 -     breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:48:50.293 | INFO     | __main__:load_all_datasets:144 -     wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:48:50.299 | INFO     | __main__:load_all_datasets:144 -     pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:48:50.302 | INFO     | __main__:load_all_datasets:144 -     heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:48:50.308 | INFO     | __main__:load_all_datasets:144 -     ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:48:50.317 | INFO     | __main__:load_all_datasets:144 -     vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:48:50.323 | INFO     | __main__:load_all_datasets:144 -     sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:48:50.328 | INFO     | __main__:load_all_datasets:144 -     banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:48:50.333 | INFO     | __main__:load_all_datasets:144 -     spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:48:50.334 | INFO     | __main__:load_all_datasets:144 -     iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:48:50.334 | INFO     | __main__:load_all_datasets:137 -   Loading full_data_out.json
+2026-02-12 21:48:50.356 | INFO     | __main__:load_all_datasets:144 -     monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:48:50.361 | INFO     | __main__:load_all_datasets:144 -     blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:48:50.365 | INFO     | __main__:load_all_datasets:144 -     climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:48:50.370 | INFO     | __main__:load_all_datasets:144 -     kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:48:50.370 | INFO     | __main__:load_all_datasets:149 - Loaded 14 datasets total
+2026-02-12 21:48:50.370 | INFO     | __main__:load_precomputed_synergy:159 - Loading pre-computed synergy from results_comprehensive.json
+2026-02-12 21:48:50.374 | INFO     | __main__:load_precomputed_synergy:184 -   banknote: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   iris: 4x4 synergy, 2 edges, clique_size=2
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   pima_diabetes: 8x8 synergy, 7 edges, clique_size=3
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   wine: 13x13 synergy, 20 edges, clique_size=3
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   heart_statlog: 13x13 synergy, 20 edges, clique_size=5
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   vehicle: 18x18 synergy, 39 edges, clique_size=3
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   breast_cancer_wisconsin_diagnostic: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:48:50.375 | INFO     | __main__:load_precomputed_synergy:184 -   ionosphere: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:48:50.376 | INFO     | __main__:load_precomputed_synergy:184 -   sonar: 30x30 synergy, 109 edges, clique_size=5
+2026-02-12 21:48:50.376 | INFO     | __main__:load_precomputed_synergy:184 -   spectf_heart: 30x30 synergy, 109 edges, clique_size=4
+2026-02-12 21:48:50.376 | INFO     | __main__:load_precomputed_synergy:189 - Loaded synergy for 10 datasets
+2026-02-12 21:48:50.376 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:48:50.376 | INFO     | __main__:run_experiment:1299 - TIER 1: ['monks2', 'banknote', 'iris']
+2026-02-12 21:48:50.376 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:48:50.376 | INFO     | __main__:run_experiment:1312 - 
+--- monks2: 601 samples, 6 features, 2 classes ---
+2026-02-12 21:48:50.376 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:48:54.356 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 90/190 (220.2s)
+2026-02-12 21:49:00.794 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 10.4s
+2026-02-12 21:49:00.795 | INFO     | __main__:run_experiment:1349 -   Synergy: 4 subsets, median_clique=2, threshold=0.0215
+2026-02-12 21:49:00.796 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:01.783 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=25 (val=0.6313)
+2026-02-12 21:49:02.373 | INFO     | __main__:run_experiment:1380 -     acc=0.7332 ±0.0562, splits=25.0, interp=None, time=1.6s
+2026-02-12 21:49:02.374 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:03.001 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=25 (val=0.6408)
+2026-02-12 21:49:04.785 | INFO     | __main__:run_experiment:1380 -     acc=0.7264 ±0.0466, splits=25.0, interp=0.482, time=2.4s
+2026-02-12 21:49:04.786 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:05.263 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=25 (val=0.8412)
+2026-02-12 21:49:06.778 | INFO     | __main__:run_experiment:1380 -     acc=0.7666 ±0.0427, splits=25.0, interp=1.0, time=2.0s
+2026-02-12 21:49:06.778 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:07.333 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=25 (val=0.8959)
+2026-02-12 21:49:09.109 | INFO     | __main__:run_experiment:1380 -     acc=0.8137 ±0.0435, splits=25.0, interp=0.6417, time=2.3s
+2026-02-12 21:49:09.110 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:09.748 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.8614)
+2026-02-12 21:49:11.645 | INFO     | __main__:run_experiment:1380 -     acc=0.7955 ±0.0369, splits=25.0, interp=0.7945, time=2.5s
+2026-02-12 21:49:11.798 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 8 oblique splits
+2026-02-12 21:49:11.798 | INFO     | __main__:run_experiment:1421 -   monks2 complete in 21.4s
+2026-02-12 21:49:11.798 | INFO     | __main__:run_experiment:1312 - 
+--- banknote: 1372 samples, 4 features, 2 classes ---
+2026-02-12 21:49:11.798 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:49:11.799 | INFO     | __main__:run_experiment:1349 -   Synergy: 2 subsets, median_clique=2, threshold=0.2399
+2026-02-12 21:49:11.799 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:12.078 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.9823)
+2026-02-12 21:49:12.580 | INFO     | __main__:run_experiment:1380 -     acc=0.9793 ±0.0108, splits=15.0, interp=None, time=0.8s
+2026-02-12 21:49:12.580 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:13.399 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=15 (val=0.9869)
+2026-02-12 21:49:14.350 | INFO     | __main__:run_experiment:1380 -     acc=0.9889 ±0.0042, splits=15.0, interp=0.4786, time=1.8s
+2026-02-12 21:49:14.350 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:15.248 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.9778)
+2026-02-12 21:49:15.445 | INFO     | __main__:run_experiment:1380 -     acc=0.9905 ±0.0079, splits=5.0, interp=1.0, time=1.1s
+2026-02-12 21:49:15.445 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:16.330 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.9907)
+2026-02-12 21:49:16.875 | INFO     | __main__:run_experiment:1380 -     acc=0.9913 ±0.0045, splits=10.0, interp=0.6343, time=1.4s
+2026-02-12 21:49:16.875 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:17.665 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=15 (val=0.9792)
+2026-02-12 21:49:18.570 | INFO     | __main__:run_experiment:1380 -     acc=0.9854 ±0.0063, splits=15.0, interp=0.4233, time=1.7s
+2026-02-12 21:49:18.570 | INFO     | __main__:run_experiment:1421 -   banknote complete in 6.8s
+2026-02-12 21:49:18.570 | INFO     | __main__:run_experiment:1312 - 
+--- iris: 150 samples, 4 features, 3 classes ---
+2026-02-12 21:49:18.570 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:49:18.570 | INFO     | __main__:run_experiment:1349 -   Synergy: 2 subsets, median_clique=2, threshold=0.2030
+2026-02-12 21:49:18.571 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:18.619 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:49:18.697 | INFO     | __main__:run_experiment:1380 -     acc=0.9476 ±0.0296, splits=5.0, interp=None, time=0.1s
+2026-02-12 21:49:18.697 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:19.433 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:49:19.874 | INFO     | __main__:run_experiment:1380 -     acc=0.9529 ±0.0252, splits=11.6, interp=0.04, time=1.2s
+2026-02-12 21:49:19.874 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:20.724 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.9394)
+2026-02-12 21:49:21.972 | INFO     | __main__:run_experiment:1380 -     acc=0.9321 ±0.0390, splits=21.6, interp=1.0, time=2.1s
+2026-02-12 21:49:21.972 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:22.863 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.9394)
+2026-02-12 21:49:24.118 | INFO     | __main__:run_experiment:1380 -     acc=0.9550 ±0.0147, splits=21.6, interp=0.7433, time=2.1s
+2026-02-12 21:49:24.118 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:24.928 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.9697)
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1380 -     acc=0.9472 ±0.0272, splits=11.6, interp=0.5, time=1.2s
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1421 -   iris complete in 6.8s
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 1 Summary ---
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1444 -   monks2: FIGS=0.7332, RO-FIGS=0.7264, SG-FIGS-Hard=0.7666, SG-FIGS-Soft=0.8137, Random-FIGS=0.7955
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1444 -   banknote: FIGS=0.9793, RO-FIGS=0.9889, SG-FIGS-Hard=0.9905, SG-FIGS-Soft=0.9913, Random-FIGS=0.9854
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1444 -   iris: FIGS=0.9476, RO-FIGS=0.9529, SG-FIGS-Hard=0.9321, SG-FIGS-Soft=0.9550, Random-FIGS=0.9472
+2026-02-12 21:49:25.339 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:49:25.340 | INFO     | __main__:run_experiment:1299 - TIER 2: ['blood', 'pima_diabetes', 'wine', 'heart_statlog']
+2026-02-12 21:49:25.340 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:49:25.340 | INFO     | __main__:run_experiment:1312 - 
+--- blood: 748 samples, 4 features, 2 classes ---
+2026-02-12 21:49:25.340 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:49:39.081 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 13.7s
+2026-02-12 21:49:39.082 | INFO     | __main__:run_experiment:1349 -   Synergy: 1 subsets, median_clique=2, threshold=0.0639
+2026-02-12 21:49:39.082 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:39.415 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.6538)
+2026-02-12 21:49:39.541 | INFO     | __main__:run_experiment:1380 -     acc=0.6603 ±0.0325, splits=5.0, interp=None, time=0.5s
+2026-02-12 21:49:39.541 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:40.296 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.6543)
+2026-02-12 21:49:40.864 | INFO     | __main__:run_experiment:1380 -     acc=0.6516 ±0.0163, splits=10.0, interp=0.3909, time=1.3s
+2026-02-12 21:49:40.864 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:41.612 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.6808)
+2026-02-12 21:49:42.116 | INFO     | __main__:run_experiment:1380 -     acc=0.6691 ±0.0303, splits=10.0, interp=1.0, time=1.3s
+2026-02-12 21:49:42.117 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:42.913 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.6629)
+2026-02-12 21:49:43.465 | INFO     | __main__:run_experiment:1380 -     acc=0.6554 ±0.0132, splits=10.0, interp=0.7143, time=1.3s
+2026-02-12 21:49:43.466 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:44.325 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.6538)
+2026-02-12 21:49:44.886 | INFO     | __main__:run_experiment:1380 -     acc=0.6419 ±0.0258, splits=10.0, interp=0.73, time=1.4s
+2026-02-12 21:49:44.886 | INFO     | __main__:run_experiment:1421 -   blood complete in 19.5s
+2026-02-12 21:49:44.886 | INFO     | __main__:run_experiment:1312 - 
+--- pima_diabetes: 768 samples, 8 features, 2 classes ---
+2026-02-12 21:49:44.886 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:49:44.886 | INFO     | __main__:run_experiment:1349 -   Synergy: 9 subsets, median_clique=2, threshold=0.0471
+2026-02-12 21:49:44.887 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:45.353 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.7073)
+2026-02-12 21:49:45.519 | INFO     | __main__:run_experiment:1380 -     acc=0.7090 ±0.0094, splits=5.0, interp=None, time=0.6s
+2026-02-12 21:49:45.519 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:46.251 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7380)
+2026-02-12 21:49:46.436 | INFO     | __main__:run_experiment:1380 -     acc=0.7243 ±0.0222, splits=5.0, interp=0.6, time=0.9s
+2026-02-12 21:49:46.437 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:47.243 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.6815)
+2026-02-12 21:49:48.302 | INFO     | __main__:run_experiment:1380 -     acc=0.7042 ±0.0213, splits=15.0, interp=1.0, time=1.9s
+2026-02-12 21:49:48.302 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:49.029 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.7122)
+2026-02-12 21:49:49.593 | INFO     | __main__:run_experiment:1380 -     acc=0.7356 ±0.0216, splits=10.0, interp=0.6133, time=1.3s
+2026-02-12 21:49:49.594 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:50.478 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.6885)
+2026-02-12 21:49:50.659 | INFO     | __main__:run_experiment:1380 -     acc=0.7309 ±0.0332, splits=5.0, interp=0.5, time=1.1s
+2026-02-12 21:49:50.844 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 9 oblique splits
+2026-02-12 21:49:50.844 | INFO     | __main__:run_experiment:1421 -   pima_diabetes complete in 6.0s
+2026-02-12 21:49:50.844 | INFO     | __main__:run_experiment:1312 - 
+--- wine: 178 samples, 13 features, 3 classes ---
+2026-02-12 21:49:50.844 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:49:50.845 | INFO     | __main__:run_experiment:1349 -   Synergy: 27 subsets, median_clique=2, threshold=0.2289
+2026-02-12 21:49:50.845 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:51.000 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.9583)
+2026-02-12 21:49:51.158 | INFO     | __main__:run_experiment:1380 -     acc=0.9138 ±0.0454, splits=7.6, interp=None, time=0.3s
+2026-02-12 21:49:51.158 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:51.812 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.8510)
+2026-02-12 21:49:52.241 | INFO     | __main__:run_experiment:1380 -     acc=0.8917 ±0.0341, splits=14.8, interp=0.375, time=1.1s
+2026-02-12 21:49:52.241 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:52.963 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.8510)
+2026-02-12 21:49:53.383 | INFO     | __main__:run_experiment:1380 -     acc=0.8880 ±0.0301, splits=14.8, interp=1.0, time=1.1s
+2026-02-12 21:49:53.384 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:49:54.155 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.9535)
+2026-02-12 21:49:56.289 | INFO     | __main__:run_experiment:1380 -     acc=0.9350 ±0.0424, splits=41.2, interp=0.3, time=2.9s
+2026-02-12 21:49:56.289 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:49:56.961 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.8253)
+2026-02-12 21:49:57.405 | INFO     | __main__:run_experiment:1380 -     acc=0.8776 ±0.0433, splits=14.8, interp=0.0, time=1.1s
+2026-02-12 21:49:57.405 | INFO     | __main__:run_experiment:1421 -   wine complete in 6.6s
+2026-02-12 21:49:57.405 | INFO     | __main__:run_experiment:1312 - 
+--- heart_statlog: 270 samples, 13 features, 2 classes ---
+2026-02-12 21:49:57.405 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:49:57.406 | INFO     | __main__:run_experiment:1349 -   Synergy: 9 subsets, median_clique=2, threshold=0.0756
+2026-02-12 21:49:57.406 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:49:57.757 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.7375)
+2026-02-12 21:49:58.320 | INFO     | __main__:run_experiment:1380 -     acc=0.7829 ±0.0441, splits=15.0, interp=None, time=0.9s
+2026-02-12 21:49:58.320 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:49:58.914 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7693)
+2026-02-12 21:49:59.102 | INFO     | __main__:run_experiment:1380 -     acc=0.7972 ±0.0562, splits=5.0, interp=0.4, time=0.8s
+2026-02-12 21:49:59.102 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:49:59.774 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.7901)
+2026-02-12 21:50:00.284 | INFO     | __main__:run_experiment:1380 -     acc=0.7753 ±0.0426, splits=10.0, interp=1.0, time=1.2s
+2026-02-12 21:50:00.284 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:00.916 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.7987)
+2026-02-12 21:50:01.527 | INFO     | __main__:run_experiment:1380 -     acc=0.7909 ±0.0236, splits=10.0, interp=0.95, time=1.2s
+2026-02-12 21:50:01.527 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:02.245 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.7668)
+2026-02-12 21:50:04.474 | INFO     | __main__:run_experiment:1380 -     acc=0.7761 ±0.0208, splits=25.0, interp=0.653, time=2.9s
+2026-02-12 21:50:04.667 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 7 oblique splits
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1421 -   heart_statlog complete in 7.3s
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 2 Summary ---
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1444 -   blood: FIGS=0.6603, RO-FIGS=0.6516, SG-FIGS-Hard=0.6691, SG-FIGS-Soft=0.6554, Random-FIGS=0.6419
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1444 -   pima_diabetes: FIGS=0.7090, RO-FIGS=0.7243, SG-FIGS-Hard=0.7042, SG-FIGS-Soft=0.7356, Random-FIGS=0.7309
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1444 -   wine: FIGS=0.9138, RO-FIGS=0.8917, SG-FIGS-Hard=0.8880, SG-FIGS-Soft=0.9350, Random-FIGS=0.8776
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1444 -   heart_statlog: FIGS=0.7829, RO-FIGS=0.7972, SG-FIGS-Hard=0.7753, SG-FIGS-Soft=0.7909, Random-FIGS=0.7761
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1299 - TIER 3: ['vehicle', 'climate', 'kc2']
+2026-02-12 21:50:04.668 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:50:04.669 | INFO     | __main__:run_experiment:1312 - 
+--- vehicle: 846 samples, 18 features, 4 classes ---
+2026-02-12 21:50:04.669 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:50:04.669 | INFO     | __main__:run_experiment:1349 -   Synergy: 47 subsets, median_clique=2, threshold=0.2728
+2026-02-12 21:50:04.670 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:04.909 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.7090)
+2026-02-12 21:50:05.529 | INFO     | __main__:run_experiment:1380 -     acc=0.6918 ±0.0200, splits=15.0, interp=None, time=0.9s
+2026-02-12 21:50:05.529 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:06.952 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.7175)
+2026-02-12 21:50:09.205 | INFO     | __main__:run_experiment:1380 -     acc=0.7110 ±0.0254, splits=40.0, interp=0.4391, time=3.7s
+2026-02-12 21:50:09.205 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:10.471 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.7477)
+2026-02-12 21:50:12.609 | INFO     | __main__:run_experiment:1380 -     acc=0.6987 ±0.0355, splits=40.0, interp=1.0, time=3.4s
+2026-02-12 21:50:12.610 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:13.989 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.7136)
+2026-02-12 21:50:17.722 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 120/190 (303.6s)
+2026-02-12 21:50:17.722 | WARNING  | __main__:build_synergy_matrix_fresh:300 -   Synergy time limit (300s) after 120/190
+2026-02-12 21:50:17.723 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 303.6s
+2026-02-12 21:50:17.724 | INFO     | __main__:run_experiment:1349 -   Synergy: 36 subsets, median_clique=2, threshold=0.0195
+2026-02-12 21:50:17.724 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:18.066 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.6500)
+2026-02-12 21:50:18.370 | INFO     | __main__:run_experiment:1380 -     acc=0.6964 ±0.0269, splits=10.0, interp=None, time=0.6s
+2026-02-12 21:50:18.370 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:18.558 | INFO     | __main__:run_experiment:1380 -     acc=0.7071 ±0.0212, splits=60.0, interp=0.8437, time=5.9s
+2026-02-12 21:50:18.568 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:19.869 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.6438)
+2026-02-12 21:50:20.650 | INFO     | __main__:run_experiment:1380 -     acc=0.6933 ±0.0286, splits=10.0, interp=0.8333, time=2.3s
+2026-02-12 21:50:20.650 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:21.341 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.7136)
+2026-02-12 21:50:21.827 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=10 (val=0.6438)
+2026-02-12 21:50:22.814 | INFO     | __main__:run_experiment:1380 -     acc=0.6994 ±0.0342, splits=10.0, interp=1.0, time=2.2s
+2026-02-12 21:50:22.814 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:23.735 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=10 (val=0.6438)
+2026-02-12 21:50:24.538 | INFO     | __main__:run_experiment:1380 -     acc=0.6867 ±0.0320, splits=10.0, interp=1.0, time=1.7s
+2026-02-12 21:50:24.538 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:24.829 | INFO     | __main__:run_experiment:1380 -     acc=0.7091 ±0.0203, splits=40.0, interp=0.5582, time=6.3s
+2026-02-12 21:50:24.829 | INFO     | __main__:run_experiment:1421 -   vehicle complete in 20.2s
+2026-02-12 21:50:24.829 | INFO     | __main__:run_experiment:1312 - 
+--- climate: 540 samples, 20 features, 2 classes ---
+2026-02-12 21:50:24.830 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:50:25.368 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.6438)
+2026-02-12 21:50:25.962 | INFO     | __main__:run_experiment:1380 -     acc=0.6789 ±0.0326, splits=10.0, interp=0.5833, time=1.4s
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1421 -   kc2 complete in 311.8s
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 3 Summary ---
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1444 -   vehicle: FIGS=0.6918, RO-FIGS=0.7110, SG-FIGS-Hard=0.6987, SG-FIGS-Soft=0.7071, Random-FIGS=0.7091
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1444 -   climate: FIGS=0.5838, RO-FIGS=0.5802, SG-FIGS-Hard=0.5872, SG-FIGS-Soft=0.6077, Random-FIGS=0.5865
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1444 -   kc2: FIGS=0.6964, RO-FIGS=0.6933, SG-FIGS-Hard=0.6994, SG-FIGS-Soft=0.6867, Random-FIGS=0.6789
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1299 - TIER 4: ['breast_cancer_wisconsin_diagnostic', 'ionosphere', 'spectf_heart', 'sonar']
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1312 - 
+--- breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes ---
+2026-02-12 21:50:25.963 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:50:25.965 | INFO     | __main__:run_experiment:1349 -   Synergy: 162 subsets, median_clique=2, threshold=0.0945
+2026-02-12 21:50:25.965 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:26.319 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.9033)
+2026-02-12 21:50:26.543 | INFO     | __main__:run_experiment:1380 -     acc=0.9151 ±0.0154, splits=5.0, interp=None, time=0.6s
+2026-02-12 21:50:26.544 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:27.335 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=25 (val=0.9241)
+2026-02-12 21:50:29.237 | INFO     | __main__:run_experiment:1380 -     acc=0.9174 ±0.0186, splits=25.0, interp=1.0, time=2.7s
+2026-02-12 21:50:29.237 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:29.840 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.9378)
+2026-02-12 21:50:30.601 | INFO     | __main__:run_experiment:1380 -     acc=0.9327 ±0.0235, splits=15.0, interp=1.0, time=1.4s
+2026-02-12 21:50:30.601 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:31.140 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.9482)
+2026-02-12 21:50:31.891 | INFO     | __main__:run_experiment:1380 -     acc=0.9442 ±0.0219, splits=15.0, interp=1.0, time=1.3s
+2026-02-12 21:50:31.891 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:32.587 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.9345)
+2026-02-12 21:50:34.561 | INFO     | __main__:run_experiment:1380 -     acc=0.9185 ±0.0168, splits=25.0, interp=0.7333, time=2.7s
+2026-02-12 21:50:34.723 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 2 oblique splits
+2026-02-12 21:50:34.723 | INFO     | __main__:run_experiment:1421 -   breast_cancer_wisconsin_diagnostic complete in 8.8s
+2026-02-12 21:50:34.723 | INFO     | __main__:run_experiment:1312 - 
+--- ionosphere: 351 samples, 34 features, 2 classes ---
+2026-02-12 21:50:34.723 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:50:34.725 | INFO     | __main__:run_experiment:1349 -   Synergy: 169 subsets, median_clique=2, threshold=0.1836
+2026-02-12 21:50:34.725 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:34.954 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.8633)
+2026-02-12 21:50:35.095 | INFO     | __main__:run_experiment:1380 -     acc=0.8671 ±0.0424, splits=5.0, interp=None, time=0.4s
+2026-02-12 21:50:35.095 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:35.654 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.8700)
+2026-02-12 21:50:36.128 | INFO     | __main__:run_experiment:1380 -     acc=0.8674 ±0.0231, splits=10.0, interp=0.5833, time=1.0s
+2026-02-12 21:50:36.128 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:36.703 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.8633)
+2026-02-12 21:50:36.893 | INFO     | __main__:run_experiment:1380 -     acc=0.8977 ±0.0294, splits=5.0, interp=1.0, time=0.8s
+2026-02-12 21:50:36.893 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:37.479 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.8867)
+2026-02-12 21:50:38.264 | INFO     | __main__:run_experiment:1380 -     acc=0.8715 ±0.0169, splits=15.0, interp=0.9333, time=1.4s
+2026-02-12 21:50:38.264 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:38.845 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.8467)
+2026-02-12 21:50:39.052 | INFO     | __main__:run_experiment:1380 -     acc=0.8727 ±0.0439, splits=5.0, interp=1.0, time=0.8s
+2026-02-12 21:50:39.053 | INFO     | __main__:run_experiment:1421 -   ionosphere complete in 4.3s
+2026-02-12 21:50:39.053 | INFO     | __main__:run_experiment:1312 - 
+--- spectf_heart: 349 samples, 44 features, 2 classes ---
+2026-02-12 21:50:39.053 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:50:39.055 | INFO     | __main__:run_experiment:1349 -   Synergy: 164 subsets, median_clique=2, threshold=0.1126
+2026-02-12 21:50:39.055 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:39.345 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=25 (val=0.8538)
+2026-02-12 21:50:40.463 | INFO     | __main__:run_experiment:1380 -     acc=0.8469 ±0.0387, splits=25.0, interp=None, time=1.4s
+2026-02-12 21:50:40.464 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:41.050 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=15 (val=0.8227)
+2026-02-12 21:50:41.875 | INFO     | __main__:run_experiment:1380 -     acc=0.7945 ±0.0702, splits=15.0, interp=0.8667, time=1.4s
+2026-02-12 21:50:41.875 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:42.410 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.8391)
+2026-02-12 21:50:43.265 | INFO     | __main__:run_experiment:1380 -     acc=0.8050 ±0.0298, splits=15.0, interp=1.0, time=1.4s
+2026-02-12 21:50:43.265 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:43.854 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.8046)
+2026-02-12 21:50:44.814 | INFO     | __main__:run_experiment:1380 -     acc=0.8111 ±0.0184, splits=15.0, interp=1.0, time=1.5s
+2026-02-12 21:50:44.814 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:45.384 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.8028)
+2026-02-12 21:50:47.066 | INFO     | __main__:run_experiment:1380 -     acc=0.7677 ±0.0556, splits=25.0, interp=0.9, time=2.3s
+2026-02-12 21:50:47.067 | INFO     | __main__:run_experiment:1421 -   spectf_heart complete in 8.0s
+2026-02-12 21:50:47.067 | INFO     | __main__:run_experiment:1312 - 
+--- sonar: 208 samples, 60 features, 2 classes ---
+2026-02-12 21:50:47.067 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 21:50:47.069 | INFO     | __main__:run_experiment:1349 -   Synergy: 158 subsets, median_clique=2, threshold=0.1447
+2026-02-12 21:50:47.069 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:50:47.681 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.7931)
+2026-02-12 21:50:48.094 | INFO     | __main__:run_experiment:1380 -     acc=0.7355 ±0.1120, splits=10.0, interp=None, time=1.0s
+2026-02-12 21:50:48.095 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:50:48.886 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7868)
+2026-02-12 21:50:49.189 | INFO     | __main__:run_experiment:1380 -     acc=0.6876 ±0.0888, splits=5.0, interp=None, time=1.1s
+2026-02-12 21:50:49.189 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:50:49.951 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=25 (val=0.7458)
+2026-02-12 21:50:51.947 | INFO     | __main__:run_experiment:1380 -     acc=0.7064 ±0.1066, splits=25.0, interp=1.0, time=2.8s
+2026-02-12 21:50:51.947 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:50:52.734 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=25 (val=0.8109)
+2026-02-12 21:50:54.929 | INFO     | __main__:run_experiment:1380 -     acc=0.7233 ±0.0770, splits=25.0, interp=0.7778, time=3.0s
+2026-02-12 21:50:54.929 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:50:55.640 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.7868)
+2026-02-12 21:50:55.830 | INFO     | __main__:run_experiment:1380 -     acc=0.6876 ±0.0888, splits=5.0, interp=None, time=0.9s
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1421 -   sonar complete in 8.8s
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 4 Summary ---
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1444 -   breast_cancer_wisconsin_diagnostic: FIGS=0.9151, RO-FIGS=0.9174, SG-FIGS-Hard=0.9327, SG-FIGS-Soft=0.9442, Random-FIGS=0.9185
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1444 -   ionosphere: FIGS=0.8671, RO-FIGS=0.8674, SG-FIGS-Hard=0.8977, SG-FIGS-Soft=0.8715, Random-FIGS=0.8727
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1444 -   spectf_heart: FIGS=0.8469, RO-FIGS=0.7945, SG-FIGS-Hard=0.8050, SG-FIGS-Soft=0.8111, Random-FIGS=0.7677
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1444 -   sonar: FIGS=0.7355, RO-FIGS=0.6876, SG-FIGS-Hard=0.7064, SG-FIGS-Soft=0.7233, Random-FIGS=0.6876
+2026-02-12 21:50:55.831 | INFO     | __main__:run_experiment:1447 - 
+Total experiment time: 743.7s (12.4 min)
+2026-02-12 21:50:56.624 | INFO     | __main__:main:1658 - Schema output saved to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method_out.json
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1677 - Comprehensive results saved to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/results_comprehensive.json
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1680 - 
+============================================================
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1681 - RESULTS SUMMARY
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1682 - ============================================================
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1685 - Dataset                                FIGS      RO    SG-H    SG-S    Rand  Interp
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1686 - -----------------------------------------------------------------------------------
+2026-02-12 21:50:56.639 | INFO     | __main__:main:1696 - monks2                               0.7332  0.7264  0.7666  0.8137  0.7955  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - banknote                             0.9793  0.9889  0.9905  0.9913  0.9854  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - iris                                 0.9476  0.9529  0.9321  0.9550  0.9472  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - blood                                0.6603  0.6516  0.6691  0.6554  0.6419  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - pima_diabetes                        0.7090  0.7243  0.7042  0.7356  0.7309  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - wine                                 0.9138  0.8917  0.8880  0.9350  0.8776  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - heart_statlog                        0.7829  0.7972  0.7753  0.7909  0.7761  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - vehicle                              0.6918  0.7110  0.6987  0.7071  0.7091  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - climate                              0.5838  0.5802  0.5872  0.6077  0.5865    N/A 
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - kc2                                  0.6964  0.6933  0.6994  0.6867  0.6789  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - breast_cancer_wisconsin_diagnostic   0.9151  0.9174  0.9327  0.9442  0.9185  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - ionosphere                           0.8671  0.8674  0.8977  0.8715  0.8727  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - spectf_heart                         0.8469  0.7945  0.8050  0.8111  0.7677  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1696 - sonar                                0.7355  0.6876  0.7064  0.7233  0.6876  1.0000
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1698 - -----------------------------------------------------------------------------------
+2026-02-12 21:50:56.640 | INFO     | __main__:main:1704 -   FIGS: avg_acc=0.7902, avg_interp=N/A, n=14
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1704 -   RO-FIGS: avg_acc=0.7846, avg_interp=0.5162, n=14
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1704 -   SG-FIGS-Hard: avg_acc=0.7895, avg_interp=1.0000, n=14
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1704 -   SG-FIGS-Soft: avg_acc=0.8020, avg_interp=0.7975, n=14
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1704 -   Random-FIGS: avg_acc=0.7840, avg_interp=0.6062, n=14
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1706 - 
+Success Criteria:
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_1_competitive_accuracy_fewer_splits: False
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_1_acc_diff: 0.004896
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_1_split_reduction: -0.1018
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_2_higher_interpretability: True
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_2_sg_interp: 1.0
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   criterion_2_ro_interp: 0.5162
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   ablation_sg_vs_random_acc: 0.005503
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1708 -   ablation_sg_vs_random_interp: 0.3938
+2026-02-12 21:50:56.641 | INFO     | __main__:main:1710 - 
+Experiment complete!
+2026-02-12 21:51:08.305 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 30/190 (43.5s)
+2026-02-12 21:52:31.483 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 60/190 (126.6s)
+2026-02-12 21:54:19.036 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 90/190 (234.2s)
+2026-02-12 21:55:25.523 | WARNING  | __main__:build_synergy_matrix_fresh:300 -   Synergy time limit (300s) after 107/190
+2026-02-12 21:55:25.523 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 300.7s
+2026-02-12 21:55:25.524 | INFO     | __main__:run_experiment:1349 -   Synergy: 29 subsets, median_clique=2, threshold=0.0355
+2026-02-12 21:55:25.524 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 21:55:25.934 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=15 (val=0.6847)
+2026-02-12 21:55:26.568 | INFO     | __main__:run_experiment:1380 -     acc=0.5355 ±0.0812, splits=15.0, interp=None, time=1.0s
+2026-02-12 21:55:26.569 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 21:55:27.483 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.5847)
+2026-02-12 21:55:27.805 | INFO     | __main__:run_experiment:1380 -     acc=0.5802 ±0.0900, splits=5.0, interp=0.5, time=1.2s
+2026-02-12 21:55:27.805 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 21:55:28.955 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.6745)
+2026-02-12 21:55:30.217 | INFO     | __main__:run_experiment:1380 -     acc=0.5665 ±0.1204, splits=15.0, interp=1.0, time=2.4s
+2026-02-12 21:55:30.218 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 21:55:31.190 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=5 (val=0.6245)
+2026-02-12 21:55:31.495 | INFO     | __main__:run_experiment:1380 -     acc=0.6077 ±0.0769, splits=5.0, interp=1.0, time=1.3s
+2026-02-12 21:55:31.496 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 21:55:32.226 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.6143)
+2026-02-12 21:55:35.650 | INFO     | __main__:run_experiment:1380 -     acc=0.5762 ±0.0861, splits=25.0, interp=0.6667, time=4.2s
+2026-02-12 21:55:35.651 | INFO     | __main__:run_experiment:1421 -   climate complete in 310.8s
+2026-02-12 21:55:35.652 | INFO     | __main__:run_experiment:1312 - 
+--- kc2: 522 samples, 21 features, 2 classes ---
+2026-02-12 21:55:35.652 | INFO     | __main__:run_experiment:1329 -   Computing synergy from scratch...
+2026-02-12 21:55:35.706 | INFO     | __main__:build_synergy_matrix_fresh:293 -   High-dim (21 features): synergy on top-20 by MI (190 pairs)
+2026-02-12 21:57:01.912 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 30/190 (86.3s)
+2026-02-12 21:58:12.105 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 60/190 (156.4s)
+2026-02-12 22:00:07.212 | INFO     | __main__:build_synergy_matrix_fresh:306 -   Synergy: 90/190 (271.6s)
+2026-02-12 22:00:37.488 | WARNING  | __main__:build_synergy_matrix_fresh:300 -   Synergy time limit (300s) after 101/190
+2026-02-12 22:00:37.489 | INFO     | __main__:run_experiment:1340 -   Synergy computed in 301.8s
+2026-02-12 22:00:37.489 | INFO     | __main__:run_experiment:1349 -   Synergy: 30 subsets, median_clique=2, threshold=0.0197
+2026-02-12 22:00:37.491 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 22:00:37.853 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.6500)
+2026-02-12 22:00:38.188 | INFO     | __main__:run_experiment:1380 -     acc=0.6964 ±0.0269, splits=10.0, interp=None, time=0.7s
+2026-02-12 22:00:38.189 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 22:00:38.903 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.6438)
+2026-02-12 22:00:39.578 | INFO     | __main__:run_experiment:1380 -     acc=0.6933 ±0.0286, splits=10.0, interp=0.3333, time=1.4s
+2026-02-12 22:00:39.579 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 22:00:40.326 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.6963)
+2026-02-12 22:00:40.544 | INFO     | __main__:run_experiment:1380 -     acc=0.7093 ±0.0475, splits=5.0, interp=1.0, time=1.0s
+2026-02-12 22:00:40.545 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 22:00:41.358 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=25 (val=0.6500)
+2026-02-12 22:00:43.281 | INFO     | __main__:run_experiment:1380 -     acc=0.6725 ±0.0356, splits=25.0, interp=0.7, time=2.7s
+2026-02-12 22:00:43.282 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 22:00:44.091 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=10 (val=0.6438)
+2026-02-12 22:00:44.754 | INFO     | __main__:run_experiment:1380 -     acc=0.6847 ±0.0612, splits=10.0, interp=0.8889, time=1.5s
+2026-02-12 22:00:44.754 | INFO     | __main__:run_experiment:1421 -   kc2 complete in 309.1s
+2026-02-12 22:00:44.755 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 3 Summary ---
+2026-02-12 22:00:44.755 | INFO     | __main__:run_experiment:1444 -   vehicle: FIGS=0.6918, RO-FIGS=0.7110, SG-FIGS-Hard=0.6987, SG-FIGS-Soft=0.7071, Random-FIGS=0.7091
+2026-02-12 22:00:44.755 | INFO     | __main__:run_experiment:1444 -   climate: FIGS=0.5355, RO-FIGS=0.5802, SG-FIGS-Hard=0.5665, SG-FIGS-Soft=0.6077, Random-FIGS=0.5762
+2026-02-12 22:00:44.756 | INFO     | __main__:run_experiment:1444 -   kc2: FIGS=0.6964, RO-FIGS=0.6933, SG-FIGS-Hard=0.7093, SG-FIGS-Soft=0.6725, Random-FIGS=0.6847
+2026-02-12 22:00:44.756 | INFO     | __main__:run_experiment:1298 - 
+============================================================
+2026-02-12 22:00:44.756 | INFO     | __main__:run_experiment:1299 - TIER 4: ['breast_cancer_wisconsin_diagnostic', 'ionosphere', 'spectf_heart', 'sonar']
+2026-02-12 22:00:44.756 | INFO     | __main__:run_experiment:1300 - ============================================================
+2026-02-12 22:00:44.757 | INFO     | __main__:run_experiment:1312 - 
+--- breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes ---
+2026-02-12 22:00:44.757 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 22:00:44.758 | INFO     | __main__:run_experiment:1349 -   Synergy: 162 subsets, median_clique=2, threshold=0.0945
+2026-02-12 22:00:44.759 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 22:00:45.130 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.8964)
+2026-02-12 22:00:45.363 | INFO     | __main__:run_experiment:1380 -     acc=0.9119 ±0.0219, splits=5.0, interp=None, time=0.6s
+2026-02-12 22:00:45.363 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 22:00:46.454 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=25 (val=0.9241)
+2026-02-12 22:00:49.799 | INFO     | __main__:run_experiment:1380 -     acc=0.9174 ±0.0186, splits=25.0, interp=1.0, time=4.4s
+2026-02-12 22:00:49.799 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 22:00:51.445 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.9378)
+2026-02-12 22:00:53.049 | INFO     | __main__:run_experiment:1380 -     acc=0.9327 ±0.0235, splits=15.0, interp=1.0, time=3.2s
+2026-02-12 22:00:53.050 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 22:00:53.805 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.9482)
+2026-02-12 22:00:54.712 | INFO     | __main__:run_experiment:1380 -     acc=0.9442 ±0.0219, splits=15.0, interp=1.0, time=1.7s
+2026-02-12 22:00:54.712 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 22:00:55.571 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.9345)
+2026-02-12 22:00:58.277 | INFO     | __main__:run_experiment:1380 -     acc=0.9185 ±0.0168, splits=25.0, interp=0.7333, time=3.6s
+2026-02-12 22:00:58.528 | INFO     | __main__:run_experiment:1416 -   Domain analysis: 2 oblique splits
+2026-02-12 22:00:58.529 | INFO     | __main__:run_experiment:1421 -   breast_cancer_wisconsin_diagnostic complete in 13.8s
+2026-02-12 22:00:58.529 | INFO     | __main__:run_experiment:1312 - 
+--- ionosphere: 351 samples, 34 features, 2 classes ---
+2026-02-12 22:00:58.529 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 22:00:58.531 | INFO     | __main__:run_experiment:1349 -   Synergy: 169 subsets, median_clique=2, threshold=0.1836
+2026-02-12 22:00:58.532 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 22:00:58.867 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=5 (val=0.8633)
+2026-02-12 22:00:59.067 | INFO     | __main__:run_experiment:1380 -     acc=0.8671 ±0.0424, splits=5.0, interp=None, time=0.5s
+2026-02-12 22:00:59.068 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 22:00:59.927 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=10 (val=0.8700)
+2026-02-12 22:01:00.589 | INFO     | __main__:run_experiment:1380 -     acc=0.8674 ±0.0231, splits=10.0, interp=0.5833, time=1.5s
+2026-02-12 22:01:00.589 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 22:01:01.419 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=5 (val=0.8633)
+2026-02-12 22:01:01.691 | INFO     | __main__:run_experiment:1380 -     acc=0.8977 ±0.0294, splits=5.0, interp=1.0, time=1.1s
+2026-02-12 22:01:01.692 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 22:01:02.595 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.8867)
+2026-02-12 22:01:03.417 | INFO     | __main__:run_experiment:1380 -     acc=0.8715 ±0.0169, splits=15.0, interp=0.9333, time=1.7s
+2026-02-12 22:01:03.417 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 22:01:04.149 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.8467)
+2026-02-12 22:01:04.404 | INFO     | __main__:run_experiment:1380 -     acc=0.8727 ±0.0439, splits=5.0, interp=1.0, time=1.0s
+2026-02-12 22:01:04.405 | INFO     | __main__:run_experiment:1421 -   ionosphere complete in 5.9s
+2026-02-12 22:01:04.405 | INFO     | __main__:run_experiment:1312 - 
+--- spectf_heart: 349 samples, 44 features, 2 classes ---
+2026-02-12 22:01:04.405 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 22:01:04.409 | INFO     | __main__:run_experiment:1349 -   Synergy: 164 subsets, median_clique=2, threshold=0.1126
+2026-02-12 22:01:04.409 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 22:01:04.780 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=25 (val=0.8538)
+2026-02-12 22:01:05.982 | INFO     | __main__:run_experiment:1380 -     acc=0.8469 ±0.0387, splits=25.0, interp=None, time=1.6s
+2026-02-12 22:01:05.982 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 22:01:06.630 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=15 (val=0.8227)
+2026-02-12 22:01:07.786 | INFO     | __main__:run_experiment:1380 -     acc=0.7945 ±0.0702, splits=15.0, interp=0.8667, time=1.8s
+2026-02-12 22:01:07.786 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 22:01:08.486 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=15 (val=0.8391)
+2026-02-12 22:01:09.524 | INFO     | __main__:run_experiment:1380 -     acc=0.8050 ±0.0298, splits=15.0, interp=1.0, time=1.7s
+2026-02-12 22:01:09.524 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 22:01:10.163 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=15 (val=0.8046)
+2026-02-12 22:01:11.166 | INFO     | __main__:run_experiment:1380 -     acc=0.8111 ±0.0184, splits=15.0, interp=1.0, time=1.6s
+2026-02-12 22:01:11.167 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 22:01:11.780 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=25 (val=0.8028)
+2026-02-12 22:01:13.862 | INFO     | __main__:run_experiment:1380 -     acc=0.7677 ±0.0556, splits=25.0, interp=0.9, time=2.7s
+2026-02-12 22:01:13.862 | INFO     | __main__:run_experiment:1421 -   spectf_heart complete in 9.5s
+2026-02-12 22:01:13.862 | INFO     | __main__:run_experiment:1312 - 
+--- sonar: 208 samples, 60 features, 2 classes ---
+2026-02-12 22:01:13.862 | INFO     | __main__:run_experiment:1321 -   Using pre-computed synergy
+2026-02-12 22:01:13.864 | INFO     | __main__:run_experiment:1349 -   Synergy: 158 subsets, median_clique=2, threshold=0.1447
+2026-02-12 22:01:13.864 | INFO     | __main__:run_experiment:1366 -   Evaluating FIGS...
+2026-02-12 22:01:14.513 | INFO     | __main__:evaluate_method_on_dataset:1174 -     FIGS: best_ms=10 (val=0.7931)
+2026-02-12 22:01:14.992 | INFO     | __main__:run_experiment:1380 -     acc=0.7355 ±0.1120, splits=10.0, interp=None, time=1.1s
+2026-02-12 22:01:14.992 | INFO     | __main__:run_experiment:1366 -   Evaluating RO-FIGS...
+2026-02-12 22:01:15.861 | INFO     | __main__:evaluate_method_on_dataset:1174 -     RO-FIGS: best_ms=5 (val=0.7868)
+2026-02-12 22:01:16.123 | INFO     | __main__:run_experiment:1380 -     acc=0.6876 ±0.0888, splits=5.0, interp=None, time=1.1s
+2026-02-12 22:01:16.124 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Hard...
+2026-02-12 22:01:16.937 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Hard: best_ms=25 (val=0.7458)
+2026-02-12 22:01:19.055 | INFO     | __main__:run_experiment:1380 -     acc=0.7064 ±0.1066, splits=25.0, interp=1.0, time=2.9s
+2026-02-12 22:01:19.055 | INFO     | __main__:run_experiment:1366 -   Evaluating SG-FIGS-Soft...
+2026-02-12 22:01:19.834 | INFO     | __main__:evaluate_method_on_dataset:1174 -     SG-FIGS-Soft: best_ms=25 (val=0.8109)
+2026-02-12 22:01:23.993 | INFO     | __main__:run_experiment:1380 -     acc=0.7233 ±0.0770, splits=25.0, interp=0.7778, time=4.9s
+2026-02-12 22:01:23.994 | INFO     | __main__:run_experiment:1366 -   Evaluating Random-FIGS...
+2026-02-12 22:01:25.028 | INFO     | __main__:evaluate_method_on_dataset:1174 -     Random-FIGS: best_ms=5 (val=0.7868)
+2026-02-12 22:01:25.314 | INFO     | __main__:run_experiment:1380 -     acc=0.6876 ±0.0888, splits=5.0, interp=None, time=1.3s
+2026-02-12 22:01:25.315 | INFO     | __main__:run_experiment:1421 -   sonar complete in 11.5s
+2026-02-12 22:01:25.315 | INFO     | __main__:run_experiment:1435 - 
+--- Tier 4 Summary ---
+2026-02-12 22:01:25.315 | INFO     | __main__:run_experiment:1444 -   breast_cancer_wisconsin_diagnostic: FIGS=0.9119, RO-FIGS=0.9174, SG-FIGS-Hard=0.9327, SG-FIGS-Soft=0.9442, Random-FIGS=0.9185
+2026-02-12 22:01:25.315 | INFO     | __main__:run_experiment:1444 -   ionosphere: FIGS=0.8671, RO-FIGS=0.8674, SG-FIGS-Hard=0.8977, SG-FIGS-Soft=0.8715, Random-FIGS=0.8727
+2026-02-12 22:01:25.316 | INFO     | __main__:run_experiment:1444 -   spectf_heart: FIGS=0.8469, RO-FIGS=0.7945, SG-FIGS-Hard=0.8050, SG-FIGS-Soft=0.8111, Random-FIGS=0.7677
+2026-02-12 22:01:25.316 | INFO     | __main__:run_experiment:1444 -   sonar: FIGS=0.7355, RO-FIGS=0.6876, SG-FIGS-Hard=0.7064, SG-FIGS-Soft=0.7233, Random-FIGS=0.6876
+2026-02-12 22:01:25.316 | INFO     | __main__:run_experiment:1447 - 
+Total experiment time: 754.9s (12.6 min)
+2026-02-12 22:01:26.273 | INFO     | __main__:main:1658 - Schema output saved to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/method_out.json
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1677 - Comprehensive results saved to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/results_comprehensive.json
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1680 - 
+============================================================
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1681 - RESULTS SUMMARY
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1682 - ============================================================
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1685 - Dataset                                FIGS      RO    SG-H    SG-S    Rand  Interp
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1686 - -----------------------------------------------------------------------------------
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1696 - monks2                               0.7332  0.7264  0.7666  0.8137  0.7955  1.0000
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1696 - banknote                             0.9793  0.9889  0.9905  0.9913  0.9854  1.0000
+2026-02-12 22:01:26.292 | INFO     | __main__:main:1696 - iris                                 0.9476  0.9529  0.9321  0.9550  0.9472  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - blood                                0.6603  0.6516  0.6691  0.6554  0.6419  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - pima_diabetes                        0.7090  0.7243  0.7042  0.7356  0.7309  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - wine                                 0.9138  0.8917  0.8880  0.9350  0.8776  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - heart_statlog                        0.7829  0.7972  0.7753  0.7909  0.7761  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - vehicle                              0.6918  0.7110  0.6987  0.7071  0.7091  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - climate                              0.5355  0.5802  0.5665  0.6077  0.5762  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - kc2                                  0.6964  0.6933  0.7093  0.6725  0.6847  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - breast_cancer_wisconsin_diagnostic   0.9119  0.9174  0.9327  0.9442  0.9185  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - ionosphere                           0.8671  0.8674  0.8977  0.8715  0.8727  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - spectf_heart                         0.8469  0.7945  0.8050  0.8111  0.7677  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1696 - sonar                                0.7355  0.6876  0.7064  0.7233  0.6876  1.0000
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1698 - -----------------------------------------------------------------------------------
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1704 -   FIGS: avg_acc=0.7865, avg_interp=N/A, n=14
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1704 -   RO-FIGS: avg_acc=0.7846, avg_interp=0.4991, n=14
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1704 -   SG-FIGS-Hard: avg_acc=0.7887, avg_interp=1.0000, n=14
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1704 -   SG-FIGS-Soft: avg_acc=0.8010, avg_interp=0.7751, n=14
+2026-02-12 22:01:26.293 | INFO     | __main__:main:1704 -   Random-FIGS: avg_acc=0.7837, avg_interp=0.6421, n=14
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1706 - 
+Success Criteria:
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_1_competitive_accuracy_fewer_splits: False
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_1_acc_diff: 0.004122
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_1_split_reduction: -0.1273
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_2_higher_interpretability: True
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_2_sg_interp: 1.0
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   criterion_2_ro_interp: 0.4991
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   ablation_sg_vs_random_acc: 0.005055
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1708 -   ablation_sg_vs_random_interp: 0.3579
+2026-02-12 22:01:26.294 | INFO     | __main__:main:1710 - 
+Experiment complete!

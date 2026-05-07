@@ -1,0 +1,154 @@
+{
+  "datasets": [
+    {
+      "dataset": "monks2",
+      "examples": [
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 2, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 2, \"attr5\": 1, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        }
+      ]
+    },
+    {
+      "dataset": "blood",
+      "examples": [
+        {
+          "input": "{\"V1\": 2.0, \"V2\": 50.0, \"V3\": 12500.0, \"V4\": 98.0}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        },
+        {
+          "input": "{\"V1\": 0.0, \"V2\": 13.0, \"V3\": 3250.0, \"V4\": 28.0}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 16.0, \"V3\": 4000.0, \"V4\": 35.0}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        }
+      ]
+    },
+    {
+      "dataset": "climate",
+      "examples": [
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 1.0, \"V3\": 502.0, \"V4\": 0.927825, \"V5\": 0.252866, \"V6\": 0.298838, \"V7\": 0.170521, \"V8\": 0.735936, \"V9\": 0.428325, \"V10\": 0.567947, \"V11\": 0.47437, \"V12\": 0.245675, \"V13\": 0.104226, \"...",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 2.0, \"V3\": 249.0, \"V4\": 0.457728, \"V5\": 0.359448, \"V6\": 0.306957, \"V7\": 0.843331, \"V8\": 0.934851, \"V9\": 0.444572, \"V10\": 0.828015, \"V11\": 0.296618, \"V12\": 0.61687, \"V13\": 0.975786, \"...",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 3.0, \"V3\": 202.0, \"V4\": 0.373238, \"V5\": 0.517399, \"V6\": 0.504993, \"V7\": 0.618903, \"V8\": 0.605571, \"V9\": 0.746225, \"V10\": 0.195928, \"V11\": 0.815667, \"V12\": 0.679355, \"V13\": 0.803413, ...",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        }
+      ]
+    }
+  ]
+}

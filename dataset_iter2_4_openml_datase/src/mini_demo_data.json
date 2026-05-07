@@ -1,0 +1,909 @@
+{
+  "datasets": [
+    {
+      "dataset": "monks2",
+      "examples": [
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 12,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 2, \"attr4\": 3, \"attr5\": 1, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 14,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 2, \"attr4\": 3, \"attr5\": 2, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 15,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 1, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 17,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 19,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 2, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 67,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 68,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 2, \"attr4\": 3, \"attr5\": 1, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 71,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 2, \"attr4\": 3, \"attr5\": 2, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 72,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 78,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 2, \"attr3\": 1, \"attr4\": 3, \"attr5\": 3, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 80,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 2, \"attr3\": 2, \"attr4\": 2, \"attr5\": 2, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 88,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 2, \"attr4\": 1, \"attr5\": 3, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 106,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 2, \"attr4\": 2, \"attr5\": 1, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 108,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 2, \"attr4\": 3, \"attr5\": 3, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 112,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 140,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 1, \"attr4\": 3, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 142,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 3, \"attr3\": 2, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 164,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 175,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 2, \"attr5\": 1, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 178,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 2, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 183,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 3, \"attr5\": 3, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 189,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 205,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 3, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 230,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 2, \"attr3\": 2, \"attr4\": 3, \"attr5\": 4, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 263,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 3, \"attr3\": 1, \"attr4\": 2, \"attr5\": 2, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 276,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 3, \"attr3\": 1, \"attr4\": 2, \"attr5\": 3, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 278,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 3, \"attr3\": 1, \"attr4\": 3, \"attr5\": 3, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 286,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 3, \"attr3\": 2, \"attr4\": 2, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 299,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 320,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 1, \"attr4\": 3, \"attr5\": 2, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 332,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 1, \"attr4\": 3, \"attr5\": 3, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 334,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 347,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 2, \"attr3\": 2, \"attr4\": 2, \"attr5\": 2, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 395,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 1, \"attr4\": 1, \"attr5\": 3, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 414,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 1, \"attr4\": 2, \"attr5\": 4, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 424,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 2, \"attr4\": 1, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 435,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 2, \"attr2\": 3, \"attr3\": 2, \"attr4\": 1, \"attr5\": 4, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 440,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 1, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 457,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 463,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 493,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 1, \"attr3\": 2, \"attr4\": 2, \"attr5\": 3, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 494,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 1, \"attr4\": 2, \"attr5\": 4, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 519,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 1, \"attr4\": 3, \"attr5\": 1, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 522,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 2, \"attr4\": 1, \"attr5\": 1, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 529,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 2, \"attr3\": 2, \"attr4\": 1, \"attr5\": 1, \"attr6\": 2}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 530,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 3, \"attr3\": 1, \"attr4\": 2, \"attr5\": 3, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 565,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 3, \"attr3\": 1, \"attr4\": 3, \"attr5\": 2, \"attr6\": 1}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 571,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 3, \"attr3\": 2, \"attr4\": 1, \"attr5\": 1, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 577,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 3, \"attr2\": 3, \"attr3\": 2, \"attr4\": 1, \"attr5\": 3, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 582,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        }
+      ]
+    }
+  ]
+}

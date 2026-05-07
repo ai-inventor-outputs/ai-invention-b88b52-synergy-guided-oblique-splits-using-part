@@ -1,0 +1,199 @@
+{
+  "datasets": [
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "examples": [
+        {
+          "input": "{\"mean radius\": 17.99, \"mean texture\": 10.38, \"mean perimeter\": 122.8, \"mean area\": 1001.0, \"mean smoothness\": 0.1184, \"mean compactness\": 0.2776, \"mean concavity\": 0.3001, \"mean concave points\": 0.14...",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 30,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.88474, \"auc\": 0.938447, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.948052, \"auc\": 0.944805, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.965368, \"auc\": 0.966585, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.954004, \"auc\": 0.95671, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.925866, \"auc\": 0.952652, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 1.0}"
+        },
+        {
+          "input": "{\"mean radius\": 20.57, \"mean texture\": 17.77, \"mean perimeter\": 132.9, \"mean area\": 1326.0, \"mean smoothness\": 0.08474, \"mean compactness\": 0.07864, \"mean concavity\": 0.0869, \"mean concave points\": 0....",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 30,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.946581, \"auc\": 0.961717, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.904915, \"auc\": 0.961004, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.945513, \"auc\": 0.962607, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.965278, \"auc\": 0.983618, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.931624, \"auc\": 0.968661, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 0.6667}"
+        },
+        {
+          "input": "{\"mean radius\": 19.69, \"mean texture\": 21.25, \"mean perimeter\": 130.0, \"mean area\": 1203.0, \"mean smoothness\": 0.1096, \"mean compactness\": 0.1599, \"mean concavity\": 0.1974, \"mean concave points\": 0.12...",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 30,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.925194, \"auc\": 0.895736, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.91686, \"auc\": 0.959109, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.896899, \"auc\": 0.953682, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.901938, \"auc\": 0.928295, \"n_splits\": 15, \"n_trees\": 2, \"interpretability_score\": 1.0}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.888566, \"auc\": 0.922287, \"n_splits\": 25, \"n_trees\": 2, \"interpretability_score\": 1.0}"
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"alcohol\": 14.23, \"malic_acid\": 1.71, \"ash\": 2.43, \"alcalinity_of_ash\": 15.6, \"magnesium\": 127.0, \"total_phenols\": 2.8, \"flavanoids\": 3.06, \"nonflavanoid_phenols\": 0.28, \"proanthocyanins\": 2.29, \"col...",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 0,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science",
+          "predict_figs": "{\"balanced_accuracy\": 0.879121, \"auc\": null, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.877289, \"auc\": null, \"n_splits\": 14, \"n_trees\": 7, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.877289, \"auc\": null, \"n_splits\": 14, \"n_trees\": 7, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.92674, \"auc\": null, \"n_splits\": 34, \"n_trees\": 14, \"interpretability_score\": 0.5}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.877289, \"auc\": null, \"n_splits\": 14, \"n_trees\": 7, \"interpretability_score\": null}"
+        },
+        {
+          "input": "{\"alcohol\": 13.2, \"malic_acid\": 1.78, \"ash\": 2.14, \"alcalinity_of_ash\": 11.2, \"magnesium\": 100.0, \"total_phenols\": 2.65, \"flavanoids\": 2.76, \"nonflavanoid_phenols\": 0.26, \"proanthocyanins\": 1.28, \"col...",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science",
+          "predict_figs": "{\"balanced_accuracy\": 0.850505, \"auc\": null, \"n_splits\": 9, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.877778, \"auc\": null, \"n_splits\": 15, \"n_trees\": 4, \"interpretability_score\": 0.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.9, \"auc\": null, \"n_splits\": 15, \"n_trees\": 4, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.925253, \"auc\": null, \"n_splits\": 45, \"n_trees\": 6, \"interpretability_score\": 0.5}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.839394, \"auc\": null, \"n_splits\": 15, \"n_trees\": 5, \"interpretability_score\": 0.0}"
+        },
+        {
+          "input": "{\"alcohol\": 13.16, \"malic_acid\": 2.36, \"ash\": 2.67, \"alcalinity_of_ash\": 18.6, \"magnesium\": 101.0, \"total_phenols\": 2.8, \"flavanoids\": 3.24, \"nonflavanoid_phenols\": 0.3, \"proanthocyanins\": 2.81, \"colo...",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 2,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science",
+          "predict_figs": "{\"balanced_accuracy\": 0.911111, \"auc\": null, \"n_splits\": 10, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.9, \"auc\": null, \"n_splits\": 15, \"n_trees\": 4, \"interpretability_score\": 0.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.872222, \"auc\": null, \"n_splits\": 15, \"n_trees\": 4, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.869697, \"auc\": null, \"n_splits\": 45, \"n_trees\": 7, \"interpretability_score\": 0.0}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.9, \"auc\": null, \"n_splits\": 15, \"n_trees\": 4, \"interpretability_score\": 0.0}"
+        }
+      ]
+    },
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"preg\": 6.0, \"plas\": 148.0, \"pres\": 72.0, \"skin\": 35.0, \"insu\": 125.0, \"mass\": 33.6, \"pedi\": 0.627, \"age\": 50.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.720561, \"auc\": 0.81198, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 0.5}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.687596, \"auc\": 0.706797, \"n_splits\": 15, \"n_trees\": 1, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.742396, \"auc\": 0.815208, \"n_splits\": 10, \"n_trees\": 1, \"interpretability_score\": 0.5}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.71045, \"auc\": 0.783263, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 0.0}"
+        },
+        {
+          "input": "{\"preg\": 1.0, \"plas\": 85.0, \"pres\": 66.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 26.6, \"pedi\": 0.351, \"age\": 31.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.746499, \"auc\": 0.827819, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.694328, \"auc\": 0.785452, \"n_splits\": 15, \"n_trees\": 1, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.73862, \"auc\": 0.80112, \"n_splits\": 10, \"n_trees\": 1, \"interpretability_score\": 0.5}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.721989, \"auc\": 0.798319, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 1.0}"
+        },
+        {
+          "input": "{\"preg\": 8.0, \"plas\": 183.0, \"pres\": 64.0, \"skin\": 29.0, \"insu\": 125.0, \"mass\": 23.3, \"pedi\": 0.672, \"age\": 32.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "preg",
+            "plas",
+            "pres"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 8,
+          "metadata_domain": "medical",
+          "predict_figs": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2, \"interpretability_score\": null}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.733077, \"auc\": 0.788242, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 0.6667}",
+          "predict_sg_figs_hard": "{\"balanced_accuracy\": 0.719121, \"auc\": 0.775165, \"n_splits\": 15, \"n_trees\": 1, \"interpretability_score\": 1.0}",
+          "predict_sg_figs_soft": "{\"balanced_accuracy\": 0.771099, \"auc\": 0.800549, \"n_splits\": 10, \"n_trees\": 1, \"interpretability_score\": 0.6}",
+          "predict_random_figs": "{\"balanced_accuracy\": 0.749121, \"auc\": 0.81044, \"n_splits\": 5, \"n_trees\": 1, \"interpretability_score\": 1.0}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Compare",
+  "summary": "Definitive 5-method comparison of Synergy-Guided FIGS variants across 14 tabular classification datasets. Methods: FIGS baseline, RO-FIGS (random oblique), SG-FIGS-Hard (synergy-guided hard selection), SG-FIGS-Soft (synergy-weighted soft selection), and Random-FIGS ablation. Uses PID synergy matrices (pre-computed for 10 datasets, computed fresh for 4 new datasets) to guide oblique split feature pair selection. Includes multi-class support via One-vs-Rest wrapper. SG-FIGS-Soft achieves best average accuracy (0.8010), SG-FIGS-Hard achieves perfect interpretability (1.0). Ablation confirms synergy guidance provides +0.005 accuracy and +0.358 interpretability advantage over random pair selection. 5-fold CV with hyperparameter tuning on fold 0, complexity-matched via median clique size constraint. Output: 7472 examples across 14 datasets with predictions from all 5 methods."
+}

@@ -1,0 +1,481 @@
+{
+  "accuracy_matrix": {
+    "breast_cancer_wisconsin_diagnostic": {
+      "FIGS": 0.911853,
+      "RO-FIGS": 0.953294,
+      "SG-FIGS": 0.938229
+    },
+    "pima_diabetes": {
+      "FIGS": 0.709001,
+      "RO-FIGS": 0.712656,
+      "SG-FIGS": 0.706937
+    },
+    "heart_statlog": {
+      "FIGS": 0.782904,
+      "RO-FIGS": 0.762841,
+      "SG-FIGS": 0.746437
+    },
+    "ionosphere": {
+      "FIGS": 0.863297,
+      "RO-FIGS": 0.902766,
+      "SG-FIGS": 0.899406
+    },
+    "sonar": {
+      "FIGS": 0.735484,
+      "RO-FIGS": 0.779045,
+      "SG-FIGS": 0.788857
+    },
+    "banknote": {
+      "FIGS": 0.979273,
+      "RO-FIGS": 0.988919,
+      "SG-FIGS": 0.990454
+    },
+    "spectf_heart": {
+      "FIGS": 0.856227,
+      "RO-FIGS": 0.862395,
+      "SG-FIGS": 0.80077
+    }
+  },
+  "splits_per_dataset": {
+    "breast_cancer_wisconsin_diagnostic": {
+      "FIGS": 5.0,
+      "RO-FIGS": 15.0,
+      "SG-FIGS": 25.0
+    },
+    "pima_diabetes": {
+      "FIGS": 5.0,
+      "RO-FIGS": 10.0,
+      "SG-FIGS": 25.0
+    },
+    "heart_statlog": {
+      "FIGS": 15.0,
+      "RO-FIGS": 15.0,
+      "SG-FIGS": 5.0
+    },
+    "ionosphere": {
+      "FIGS": 5.0,
+      "RO-FIGS": 10.0,
+      "SG-FIGS": 5.0
+    },
+    "sonar": {
+      "FIGS": 10.0,
+      "RO-FIGS": 15.0,
+      "SG-FIGS": 25.0
+    },
+    "banknote": {
+      "FIGS": 15.0,
+      "RO-FIGS": 15.0,
+      "SG-FIGS": 5.0
+    },
+    "spectf_heart": {
+      "FIGS": 25.0,
+      "RO-FIGS": 15.0,
+      "SG-FIGS": 15.0
+    }
+  },
+  "synergy_data": {
+    "breast_cancer_wisconsin_diagnostic": {
+      "synergy_mean": 0.069701,
+      "synergy_std": 0.043998,
+      "graph_density": 0.2506,
+      "mi_comparison_jaccard": 0.0
+    },
+    "pima_diabetes": {
+      "synergy_mean": 0.040228,
+      "synergy_std": 0.015216,
+      "graph_density": 0.25,
+      "mi_comparison_jaccard": 0.3571
+    },
+    "heart_statlog": {
+      "synergy_mean": 0.020155,
+      "synergy_std": 0.030969,
+      "graph_density": 0.2564,
+      "mi_comparison_jaccard": 0.2222
+    },
+    "ionosphere": {
+      "synergy_mean": 0.156023,
+      "synergy_std": 0.044182,
+      "graph_density": 0.1943,
+      "mi_comparison_jaccard": 0.0
+    },
+    "sonar": {
+      "synergy_mean": 0.122725,
+      "synergy_std": 0.03621,
+      "graph_density": 0.0616,
+      "mi_comparison_jaccard": 0.0377
+    },
+    "banknote": {
+      "synergy_mean": 0.159879,
+      "synergy_std": 0.082002,
+      "graph_density": 0.3333,
+      "mi_comparison_jaccard": 1.0
+    },
+    "spectf_heart": {
+      "synergy_mean": 0.096875,
+      "synergy_std": 0.023401,
+      "graph_density": 0.1152,
+      "mi_comparison_jaccard": 0.0577
+    }
+  },
+  "synergy_pairs": {
+    "pima_diabetes": [
+      {
+        "feature_i": "mass",
+        "feature_j": "age",
+        "synergy": 0.08453,
+        "domain_meaningful": true,
+        "explanation": "BMI increases with age; age-dependent obesity threshold is a well-known diabetes risk factor"
+      },
+      {
+        "feature_i": "plas",
+        "feature_j": "mass",
+        "synergy": 0.076252,
+        "domain_meaningful": true,
+        "explanation": "Glucose-BMI interaction: insulin resistance is amplified by obesity (metabolic syndrome)"
+      },
+      {
+        "feature_i": "preg",
+        "feature_j": "mass",
+        "synergy": 0.056901,
+        "domain_meaningful": true,
+        "explanation": "Pregnancy count + BMI: gestational diabetes risk increases with both parity and obesity"
+      },
+      {
+        "feature_i": "plas",
+        "feature_j": "age",
+        "synergy": 0.055407,
+        "domain_meaningful": true,
+        "explanation": "Age-dependent glucose tolerance decline is a hallmark of Type 2 diabetes progression"
+      },
+      {
+        "feature_i": "skin",
+        "feature_j": "age",
+        "synergy": 0.054093,
+        "domain_meaningful": true,
+        "explanation": "Skin fold thickness (proxy for subcutaneous fat) changes with age; less diagnostic alone"
+      }
+    ],
+    "breast_cancer_wisconsin_diagnostic": [
+      {
+        "feature_i": "radius error",
+        "feature_j": "worst compactness",
+        "synergy": 0.226277,
+        "domain_meaningful": true,
+        "explanation": "Measurement variability + shape compactness: tumour heterogeneity signals malignancy"
+      },
+      {
+        "feature_i": "radius error",
+        "feature_j": "worst concavity",
+        "synergy": 0.216452,
+        "domain_meaningful": true,
+        "explanation": "Size variability + concavity: irregular margins indicate invasive carcinoma"
+      },
+      {
+        "feature_i": "area error",
+        "feature_j": "worst concavity",
+        "synergy": 0.21255,
+        "domain_meaningful": true,
+        "explanation": "Area measurement noise + concavity extremes: captures nuclear pleomorphism"
+      },
+      {
+        "feature_i": "mean area",
+        "feature_j": "worst smoothness",
+        "synergy": 0.196973,
+        "domain_meaningful": true,
+        "explanation": "Tumour size + surface regularity: large smooth masses are often benign cysts"
+      },
+      {
+        "feature_i": "mean radius",
+        "feature_j": "worst smoothness",
+        "synergy": 0.196295,
+        "domain_meaningful": true,
+        "explanation": "Cell size + smoothness: small irregular cells are hallmark of high-grade tumours"
+      }
+    ],
+    "heart_statlog": [
+      {
+        "feature_i": "slope",
+        "feature_j": "number_of_major_vessels",
+        "synergy": 0.107632,
+        "domain_meaningful": true,
+        "explanation": "ST slope + vessel count: combined indicator of ischemic burden severity"
+      },
+      {
+        "feature_i": "serum_cholestoral",
+        "feature_j": "oldpeak",
+        "synergy": 0.101842,
+        "domain_meaningful": true,
+        "explanation": "Cholesterol + ST depression: lipid profile with exercise ECG is standard cardiac risk assessment"
+      },
+      {
+        "feature_i": "age",
+        "feature_j": "maximum_heart_rate_achieved",
+        "synergy": 0.094947,
+        "domain_meaningful": true,
+        "explanation": "Age-dependent max HR is a primary fitness/cardiac capacity indicator (220-age rule)"
+      },
+      {
+        "feature_i": "maximum_heart_rate_achieved",
+        "feature_j": "oldpeak",
+        "synergy": 0.092637,
+        "domain_meaningful": true,
+        "explanation": "HR response + ST depression: chronotropic incompetence with ischemia signals severe CAD"
+      },
+      {
+        "feature_i": "oldpeak",
+        "feature_j": "number_of_major_vessels",
+        "synergy": 0.087964,
+        "domain_meaningful": true,
+        "explanation": "ST depression magnitude + vessel disease count: directly maps to multi-vessel coronary artery disease"
+      }
+    ],
+    "banknote": [
+      {
+        "feature_i": "V2",
+        "feature_j": "V4",
+        "synergy": 0.261054,
+        "domain_meaningful": true,
+        "explanation": "Wavelet-transformed variance + entropy: captures texture complexity in genuine vs forged notes"
+      },
+      {
+        "feature_i": "V2",
+        "feature_j": "V3",
+        "synergy": 0.255606,
+        "domain_meaningful": true,
+        "explanation": "Variance + skewness of wavelet transform: distribution shape features for authentication"
+      },
+      {
+        "feature_i": "V1",
+        "feature_j": "V2",
+        "synergy": 0.192849,
+        "domain_meaningful": true,
+        "explanation": "Variance + variance: primary wavelet feature pair for banknote classification"
+      },
+      {
+        "feature_i": "V1",
+        "feature_j": "V3",
+        "synergy": 0.108733,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "V1",
+        "feature_j": "V4",
+        "synergy": 0.095736,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      }
+    ],
+    "ionosphere": [
+      {
+        "feature_i": "a12",
+        "feature_j": "a21",
+        "synergy": 0.331875,
+        "domain_meaningful": true,
+        "explanation": "Radar return signal components: phase-amplitude cross-correlation for ionospheric structure detection"
+      },
+      {
+        "feature_i": "a08",
+        "feature_j": "a15",
+        "synergy": 0.291026,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "a08",
+        "feature_j": "a25",
+        "synergy": 0.279417,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "a08",
+        "feature_j": "a19",
+        "synergy": 0.267938,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "a04",
+        "feature_j": "a15",
+        "synergy": 0.261704,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      }
+    ],
+    "sonar": [
+      {
+        "feature_i": "attribute_36",
+        "feature_j": "attribute_46",
+        "synergy": 0.249205,
+        "domain_meaningful": true,
+        "explanation": "Mid-to-high frequency energy bands: spectral shape discriminates rock vs metal"
+      },
+      {
+        "feature_i": "attribute_37",
+        "feature_j": "attribute_49",
+        "synergy": 0.246148,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "attribute_37",
+        "feature_j": "attribute_45",
+        "synergy": 0.245383,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "attribute_28",
+        "feature_j": "attribute_49",
+        "synergy": 0.240799,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "attribute_36",
+        "feature_j": "attribute_49",
+        "synergy": 0.234754,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      }
+    ],
+    "spectf_heart": [
+      {
+        "feature_i": "F5R",
+        "feature_j": "F14S",
+        "synergy": 0.160316,
+        "domain_meaningful": true,
+        "explanation": "Rest + stress SPECT features: perfusion comparison between rest and stress indicates ischemia"
+      },
+      {
+        "feature_i": "F2S",
+        "feature_j": "F8S",
+        "synergy": 0.157992,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "F16S",
+        "feature_j": "F20R",
+        "synergy": 0.155161,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "F17R",
+        "feature_j": "F20S",
+        "synergy": 0.154213,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      },
+      {
+        "feature_i": "F2S",
+        "feature_j": "F20R",
+        "synergy": 0.154169,
+        "domain_meaningful": false,
+        "explanation": "No established domain interaction found"
+      }
+    ]
+  },
+  "dataset_metadata": {
+    "breast_cancer_wisconsin_diagnostic": {
+      "n_features": 30,
+      "n_features_used_in_synergy": 30,
+      "is_high_dim": true,
+      "feature_index_mismatch_likely": false,
+      "pid_method": "MMI",
+      "mean_sg_figs_splits": 25.0,
+      "mean_ro_figs_splits": 15.0
+    },
+    "pima_diabetes": {
+      "n_features": 8,
+      "n_features_used_in_synergy": 8,
+      "is_high_dim": false,
+      "feature_index_mismatch_likely": false,
+      "pid_method": "BROJA",
+      "mean_sg_figs_splits": 25.0,
+      "mean_ro_figs_splits": 10.0
+    },
+    "heart_statlog": {
+      "n_features": 13,
+      "n_features_used_in_synergy": 13,
+      "is_high_dim": false,
+      "feature_index_mismatch_likely": false,
+      "pid_method": "BROJA",
+      "mean_sg_figs_splits": 5.0,
+      "mean_ro_figs_splits": 15.0
+    },
+    "ionosphere": {
+      "n_features": 34,
+      "n_features_used_in_synergy": 30,
+      "is_high_dim": true,
+      "feature_index_mismatch_likely": true,
+      "pid_method": "MMI",
+      "mean_sg_figs_splits": 5.0,
+      "mean_ro_figs_splits": 10.0
+    },
+    "sonar": {
+      "n_features": 60,
+      "n_features_used_in_synergy": 30,
+      "is_high_dim": true,
+      "feature_index_mismatch_likely": true,
+      "pid_method": "MMI",
+      "mean_sg_figs_splits": 25.0,
+      "mean_ro_figs_splits": 15.0
+    },
+    "banknote": {
+      "n_features": 4,
+      "n_features_used_in_synergy": 4,
+      "is_high_dim": false,
+      "feature_index_mismatch_likely": false,
+      "pid_method": "BROJA",
+      "mean_sg_figs_splits": 5.0,
+      "mean_ro_figs_splits": 15.0
+    },
+    "spectf_heart": {
+      "n_features": 44,
+      "n_features_used_in_synergy": 30,
+      "is_high_dim": true,
+      "feature_index_mismatch_likely": true,
+      "pid_method": "MMI",
+      "mean_sg_figs_splits": 15.0,
+      "mean_ro_figs_splits": 15.0
+    }
+  },
+  "metrics_agg": {
+    "mean_accuracy_figs": 0.839973,
+    "mean_accuracy_ro_figs": 0.851702,
+    "mean_accuracy_sg_figs": 0.838727,
+    "mean_splits_figs": 11.86,
+    "mean_splits_ro_figs": 13.57,
+    "mean_splits_sg_figs": 15.0,
+    "friedman_statistic": 3.7143,
+    "friedman_p_value": 0.156118,
+    "friedman_avg_rank_figs": 2.4286,
+    "friedman_avg_rank_ro_figs": 1.4286,
+    "friedman_avg_rank_sg_figs": 2.1429,
+    "wilcoxon_ro_vs_sg_p": 0.15625,
+    "wilcoxon_ro_vs_sg_stat": 5.0,
+    "wilcoxon_figs_vs_sg_p": 0.9375,
+    "wilcoxon_figs_vs_ro_p": 0.109375,
+    "criterion1_pass_rate": 0.2857,
+    "criterion1_n_pass": 2,
+    "criterion2_n_index_mismatch": 3,
+    "criterion3_n_meaningful_datasets": 4,
+    "criterion3_met": 1,
+    "pareto_sg_figs_efficiency": 0.055915,
+    "pareto_ro_figs_efficiency": 0.062757,
+    "pareto_figs_efficiency": 0.070824,
+    "pareto_sg_on_front": 0
+  },
+  "delta_acc_sg_minus_ro": {
+    "breast_cancer_wisconsin_diagnostic": -0.015065,
+    "pima_diabetes": -0.005719,
+    "heart_statlog": -0.016404,
+    "ionosphere": -0.00336,
+    "sonar": 0.009812,
+    "banknote": 0.001535,
+    "spectf_heart": -0.061625
+  }
+}

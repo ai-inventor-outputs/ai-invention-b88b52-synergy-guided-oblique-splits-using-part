@@ -1,0 +1,321 @@
+{
+  "datasets": [
+    {
+      "dataset": "monks2",
+      "examples": [
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 2, \"attr6\": 2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 1, \"attr5\": 4, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        },
+        {
+          "input": "{\"attr1\": 1, \"attr2\": 1, \"attr3\": 1, \"attr4\": 2, \"attr5\": 1, \"attr6\": 1}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "attr1",
+            "attr2",
+            "attr3",
+            "attr4",
+            "attr5",
+            "attr6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 6,
+          "metadata_domain": "artificial_XOR_benchmark"
+        }
+      ]
+    },
+    {
+      "dataset": "blood",
+      "examples": [
+        {
+          "input": "{\"V1\": 2.0, \"V2\": 50.0, \"V3\": 12500.0, \"V4\": 98.0}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        },
+        {
+          "input": "{\"V1\": 0.0, \"V2\": 13.0, \"V3\": 3250.0, \"V4\": 28.0}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 16.0, \"V3\": 4000.0, \"V4\": 35.0}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_domain": "healthcare_blood_transfusion"
+        }
+      ]
+    },
+    {
+      "dataset": "climate",
+      "examples": [
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 1.0, \"V3\": 502.0, \"V4\": 0.927825, \"V5\": 0.252866, \"V6\": 0.298838, \"V7\": 0.170521, \"V8\": 0.735936, \"V9\": 0.428325, \"V10\": 0.567947, \"V11\": 0.47437, \"V12\": 0.245675, \"V13\": 0.104226, \"V14\": 0.869091, \"V15\": 0.997518, \"V16\": 0.44862, \"V17\": 0.307522, \"V18\": 0.85831, \"V19\": 0.796997, \"V20\": 0.869893}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4",
+            "V5",
+            "V6",
+            "V7",
+            "V8",
+            "V9",
+            "V10",
+            "V11",
+            "V12",
+            "V13",
+            "V14",
+            "V15",
+            "V16",
+            "V17",
+            "V18",
+            "V19",
+            "V20"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 2.0, \"V3\": 249.0, \"V4\": 0.457728, \"V5\": 0.359448, \"V6\": 0.306957, \"V7\": 0.843331, \"V8\": 0.934851, \"V9\": 0.444572, \"V10\": 0.828015, \"V11\": 0.296618, \"V12\": 0.61687, \"V13\": 0.975786, \"V14\": 0.914344, \"V15\": 0.845247, \"V16\": 0.864152, \"V17\": 0.346713, \"V18\": 0.356573, \"V19\": 0.438447, \"V20\": 0.512256}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4",
+            "V5",
+            "V6",
+            "V7",
+            "V8",
+            "V9",
+            "V10",
+            "V11",
+            "V12",
+            "V13",
+            "V14",
+            "V15",
+            "V16",
+            "V17",
+            "V18",
+            "V19",
+            "V20"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        },
+        {
+          "input": "{\"V1\": 1.0, \"V2\": 3.0, \"V3\": 202.0, \"V4\": 0.373238, \"V5\": 0.517399, \"V6\": 0.504993, \"V7\": 0.618903, \"V8\": 0.605571, \"V9\": 0.746225, \"V10\": 0.195928, \"V11\": 0.815667, \"V12\": 0.679355, \"V13\": 0.803413, \"V14\": 0.643995, \"V15\": 0.718441, \"V16\": 0.924775, \"V17\": 0.315371, \"V18\": 0.250642, \"V19\": 0.285636, \"V20\": 0.365858}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4",
+            "V5",
+            "V6",
+            "V7",
+            "V8",
+            "V9",
+            "V10",
+            "V11",
+            "V12",
+            "V13",
+            "V14",
+            "V15",
+            "V16",
+            "V17",
+            "V18",
+            "V19",
+            "V20"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 20,
+          "metadata_domain": "climate_science"
+        }
+      ]
+    },
+    {
+      "dataset": "kc2",
+      "examples": [
+        {
+          "input": "{\"loc\": 1.1, \"v(g)\": 1.4, \"ev(g)\": 1.4, \"iv(g)\": 1.4, \"n\": 1.3, \"v\": 1.3, \"l\": 1.3, \"d\": 1.3, \"i\": 1.3, \"e\": 1.3, \"b\": 1.3, \"t\": 1.3, \"lOCode\": 2.0, \"lOComment\": 2.0, \"lOBlank\": 2.0, \"lOCodeAndComment\": 2.0, \"uniq_Op\": 1.2, \"uniq_Opnd\": 1.2, \"total_Op\": 1.2, \"total_Opnd\": 1.2, \"branchCount\": 1.4}",
+          "output": "no",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "loc",
+            "v(g)",
+            "ev(g)",
+            "iv(g)",
+            "n",
+            "v",
+            "l",
+            "d",
+            "i",
+            "e",
+            "b",
+            "t",
+            "lOCode",
+            "lOComment",
+            "lOBlank",
+            "lOCodeAndComment",
+            "uniq_Op",
+            "uniq_Opnd",
+            "total_Op",
+            "total_Opnd",
+            "branchCount"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 21,
+          "metadata_domain": "software_engineering"
+        },
+        {
+          "input": "{\"loc\": 1.0, \"v(g)\": 1.0, \"ev(g)\": 1.0, \"iv(g)\": 1.0, \"n\": 1.0, \"v\": 1.0, \"l\": 1.0, \"d\": 1.0, \"i\": 1.0, \"e\": 1.0, \"b\": 1.0, \"t\": 1.0, \"lOCode\": 1.0, \"lOComment\": 1.0, \"lOBlank\": 1.0, \"lOCodeAndComment\": 1.0, \"uniq_Op\": 1.0, \"uniq_Opnd\": 1.0, \"total_Op\": 1.0, \"total_Opnd\": 1.0, \"branchCount\": 1.0}",
+          "output": "yes",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "loc",
+            "v(g)",
+            "ev(g)",
+            "iv(g)",
+            "n",
+            "v",
+            "l",
+            "d",
+            "i",
+            "e",
+            "b",
+            "t",
+            "lOCode",
+            "lOComment",
+            "lOBlank",
+            "lOCodeAndComment",
+            "uniq_Op",
+            "uniq_Opnd",
+            "total_Op",
+            "total_Opnd",
+            "branchCount"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 21,
+          "metadata_domain": "software_engineering"
+        },
+        {
+          "input": "{\"loc\": 415.0, \"v(g)\": 59.0, \"ev(g)\": 50.0, \"iv(g)\": 51.0, \"n\": 1159.0, \"v\": 8411.31, \"l\": 0.01, \"d\": 103.53, \"i\": 81.24, \"e\": 870848.58, \"b\": 2.8, \"t\": 48380.48, \"lOCode\": 359.0, \"lOComment\": 35.0, \"lOBlank\": 9.0, \"lOCodeAndComment\": 10.0, \"uniq_Op\": 47.0, \"uniq_Opnd\": 106.0, \"total_Op\": 692.0, \"total_Opnd\": 467.0, \"branchCount\": 106.0}",
+          "output": "yes",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "loc",
+            "v(g)",
+            "ev(g)",
+            "iv(g)",
+            "n",
+            "v",
+            "l",
+            "d",
+            "i",
+            "e",
+            "b",
+            "t",
+            "lOCode",
+            "lOComment",
+            "lOBlank",
+            "lOCodeAndComment",
+            "uniq_Op",
+            "uniq_Opnd",
+            "total_Op",
+            "total_Opnd",
+            "branchCount"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 21,
+          "metadata_domain": "software_engineering"
+        }
+      ]
+    }
+  ]
+}

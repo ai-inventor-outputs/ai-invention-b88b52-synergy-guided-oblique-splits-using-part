@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "evaluation_name": "SG-FIGS Final Integrated Research Synthesis",
+    "description": "Comprehensive evaluation synthesizing 4 iterations of SG-FIGS experiments",
+    "experiments_evaluated": [
+      "exp_id1_it3 (5-method comparison, 14 datasets, 7472 examples)",
+      "exp_id3_it3 (threshold sensitivity, 14 datasets, 630 examples)",
+      "exp_id1_it2 (PID synergy matrices, 12 datasets, 2569 pairs)",
+      "exp_id2_it2 (SG-FIGS benchmark, 10 datasets, 5061 examples)"
+    ],
+    "methods_compared": [
+      "FIGS",
+      "RO-FIGS",
+      "SG-FIGS-Hard",
+      "SG-FIGS-Soft",
+      "Random-FIGS"
+    ],
+    "statistical_tests": [
+      "Friedman",
+      "Wilcoxon signed-rank",
+      "Holm-Bonferroni",
+      "Cohen's d",
+      "Spearman"
+    ],
+    "hypothesis_verdict": {
+      "C1_passed": true,
+      "C2_passed": true,
+      "C3_passed": true,
+      "hypothesis_supported": true,
+      "summary": "C1 (PASS): accuracy delta=0.0022 (<1%). C2 (PASS): interpretability significant. C3 (PASS): 14/14 datasets with perfect interpretability."
+    },
+    "latex_tables_generated": [
+      "table1_main_results",
+      "table2_ablation",
+      "table3_interpretability",
+      "table4_dataset_characteristics"
+    ],
+    "guidelines_summary": "Use SG-FIGS when dataset has meaningful synergy (synergy_mean > 0.125714). Best threshold: 90th percentile. PID computation scales as O(n_features^2), ~0.47s per pair."
+  },
+  "metrics_agg": {
+    "grand_mean_ba_figs": 0.7865,
+    "grand_mean_ba_ro_figs": 0.7846,
+    "grand_mean_ba_sg_figs_hard": 0.7887,
+    "grand_mean_ba_sg_figs_soft": 0.801,
+    "grand_mean_ba_random_figs": 0.7836,
+    "avg_rank_figs": 3.36,
+    "avg_rank_ro_figs": 3.07,
+    "avg_rank_sg_figs_hard": 3.07,
+    "avg_rank_sg_figs_soft": 1.93,
+    "avg_rank_random_figs": 3.57,
+    "friedman_chi2": 8.8746,
+    "friedman_p": 0.064313,
+    "ablation_mean_acc_delta": 0.005,
+    "ablation_mean_interp_delta": 0.3579,
+    "interp_sg_figs_hard_mean": 1.0,
+    "interp_random_figs_mean": 0.6421,
+    "best_threshold_percentile": 90.0,
+    "cross_exp_figs_rho": 0.9879,
+    "cross_exp_sg_rho": 0.9643,
+    "pid_synergy_mean_rho": 0.1273,
+    "hypothesis_supported": 1.0,
+    "n_datasets_evaluated": 14.0,
+    "n_methods_compared": 5.0
+  },
+  "datasets": [
+    {
+      "dataset": "master_results",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"method\": \"figs\", \"analysis\": \"master_results_table\"}",
+          "output": "{\"ba_mean\": 0.9793, \"ba_std\": 0.012, \"auc_mean\": 0.9797, \"auc_std\": 0.0173, \"n_splits_mean\": 15.0}",
+          "metadata_dataset": "banknote",
+          "metadata_method": "figs",
+          "predict_ba_mean": "0.9793",
+          "predict_auc_mean": "0.9797",
+          "eval_ba_rank": 3.36
+        },
+        {
+          "input": "{\"dataset\": \"banknote\", \"method\": \"ro_figs\", \"analysis\": \"master_results_table\"}",
+          "output": "{\"ba_mean\": 0.9889, \"ba_std\": 0.0046, \"auc_mean\": 0.9928, \"auc_std\": 0.0068, \"n_splits_mean\": 15.0}",
+          "metadata_dataset": "banknote",
+          "metadata_method": "ro_figs",
+          "predict_ba_mean": "0.9889",
+          "predict_auc_mean": "0.9928",
+          "eval_ba_rank": 3.07
+        },
+        {
+          "input": "{\"dataset\": \"banknote\", \"method\": \"sg_figs_hard\", \"analysis\": \"master_results_table\"}",
+          "output": "{\"ba_mean\": 0.9905, \"ba_std\": 0.0089, \"auc_mean\": 0.9884, \"auc_std\": 0.0116, \"n_splits_mean\": 5.0}",
+          "metadata_dataset": "banknote",
+          "metadata_method": "sg_figs_hard",
+          "predict_ba_mean": "0.9905",
+          "predict_auc_mean": "0.9884",
+          "eval_ba_rank": 3.07
+        }
+      ]
+    },
+    {
+      "dataset": "statistical_tests",
+      "examples": [
+        {
+          "input": "{\"method_1\": \"figs\", \"method_2\": \"ro_figs\", \"analysis\": \"pairwise_wilcoxon\"}",
+          "output": "{\"wilcoxon_stat\": 51.0, \"wilcoxon_p\": 0.951538, \"wilcoxon_p_holm\": 0.951538, \"cohens_d\": 0.0153, \"effect_class\": \"negligible\", \"wins_m1\": 5, \"ties\": 2, \"losses_m1\": 7}",
+          "metadata_method_1": "figs",
+          "metadata_method_2": "ro_figs",
+          "predict_p_value": "0.951538",
+          "predict_cohens_d": "0.0153",
+          "eval_significant": 0.0
+        },
+        {
+          "input": "{\"method_1\": \"figs\", \"method_2\": \"sg_figs_hard\", \"analysis\": \"pairwise_wilcoxon\"}",
+          "output": "{\"wilcoxon_stat\": 44.0, \"wilcoxon_p\": 0.625732, \"wilcoxon_p_holm\": 1.0, \"cohens_d\": -0.0176, \"effect_class\": \"negligible\", \"wins_m1\": 5, \"ties\": 1, \"losses_m1\": 8}",
+          "metadata_method_1": "figs",
+          "metadata_method_2": "sg_figs_hard",
+          "predict_p_value": "0.625732",
+          "predict_cohens_d": "-0.0176",
+          "eval_significant": 0.0
+        },
+        {
+          "input": "{\"method_1\": \"figs\", \"method_2\": \"sg_figs_soft\", \"analysis\": \"pairwise_wilcoxon\"}",
+          "output": "{\"wilcoxon_stat\": 29.0, \"wilcoxon_p\": 0.153076, \"wilcoxon_p_holm\": 1.0, \"cohens_d\": -0.1156, \"effect_class\": \"negligible\", \"wins_m1\": 3, \"ties\": 2, \"losses_m1\": 9}",
+          "metadata_method_1": "figs",
+          "metadata_method_2": "sg_figs_soft",
+          "predict_p_value": "0.153076",
+          "predict_cohens_d": "-0.1156",
+          "eval_significant": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "ablation",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"analysis\": \"ablation_sg_hard_vs_random\"}",
+          "output": "{\"sg_figs_hard_ba\": 0.9905, \"random_figs_ba\": 0.9854, \"accuracy_delta\": 0.005, \"interp_delta\": 0.5767}",
+          "metadata_dataset": "banknote",
+          "predict_accuracy_delta": "0.005",
+          "predict_interp_delta": "0.5767",
+          "eval_accuracy_delta": 0.005
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"analysis\": \"ablation_sg_hard_vs_random\"}",
+          "output": "{\"sg_figs_hard_ba\": 0.6691, \"random_figs_ba\": 0.6419, \"accuracy_delta\": 0.0272, \"interp_delta\": 0.27}",
+          "metadata_dataset": "blood",
+          "predict_accuracy_delta": "0.0272",
+          "predict_interp_delta": "0.27",
+          "eval_accuracy_delta": 0.0272
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"analysis\": \"ablation_sg_hard_vs_random\"}",
+          "output": "{\"sg_figs_hard_ba\": 0.9327, \"random_figs_ba\": 0.9185, \"accuracy_delta\": 0.0142, \"interp_delta\": 0.2667}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "predict_accuracy_delta": "0.0142",
+          "predict_interp_delta": "0.2667",
+          "eval_accuracy_delta": 0.0142
+        }
+      ]
+    },
+    {
+      "dataset": "threshold_sensitivity",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"optimal_threshold\": 50, \"sg_figs_advantage\": 0.0042}",
+          "metadata_dataset": "banknote",
+          "predict_optimal_threshold": "50",
+          "eval_optimal_threshold": 50.0
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"optimal_threshold\": 50, \"sg_figs_advantage\": 0.0042}",
+          "metadata_dataset": "blood",
+          "predict_optimal_threshold": "50",
+          "eval_optimal_threshold": 50.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"optimal_threshold\": 50, \"sg_figs_advantage\": 0.0042}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "predict_optimal_threshold": "50",
+          "eval_optimal_threshold": 50.0
+        }
+      ]
+    },
+    {
+      "dataset": "cross_experiment_consistency",
+      "examples": [
+        {
+          "input": "{\"method\": \"figs\", \"analysis\": \"cross_experiment_consistency\"}",
+          "output": "{\"spearman_rho\": 0.9879, \"p_value\": 0.0, \"n_datasets\": 10}",
+          "metadata_method": "figs",
+          "predict_spearman_rho": "0.9879",
+          "eval_spearman_rho": 0.9879
+        },
+        {
+          "input": "{\"method\": \"ro_figs\", \"analysis\": \"cross_experiment_consistency\"}",
+          "output": "{\"spearman_rho\": 0.8214, \"p_value\": 0.023449, \"n_datasets\": 7}",
+          "metadata_method": "ro_figs",
+          "predict_spearman_rho": "0.8214",
+          "eval_spearman_rho": 0.8214
+        },
+        {
+          "input": "{\"method\": \"sg_figs\", \"analysis\": \"cross_experiment_consistency\"}",
+          "output": "{\"spearman_rho\": 0.9643, \"p_value\": 0.000454, \"n_datasets\": 7}",
+          "metadata_method": "sg_figs",
+          "predict_spearman_rho": "0.9643",
+          "eval_spearman_rho": 0.9643
+        }
+      ]
+    },
+    {
+      "dataset": "pid_performance_correlation",
+      "examples": [
+        {
+          "input": "{\"synergy_stat\": \"synergy_mean\", \"analysis\": \"pid_performance_correlation\"}",
+          "output": "{\"spearman_rho\": 0.1273, \"p_value\": 0.726057}",
+          "metadata_synergy_stat": "synergy_mean",
+          "predict_spearman_rho": "0.1273",
+          "eval_spearman_rho": 0.1273
+        },
+        {
+          "input": "{\"synergy_stat\": \"synergy_max\", \"analysis\": \"pid_performance_correlation\"}",
+          "output": "{\"spearman_rho\": 0.3212, \"p_value\": 0.365468}",
+          "metadata_synergy_stat": "synergy_max",
+          "predict_spearman_rho": "0.3212",
+          "eval_spearman_rho": 0.3212
+        },
+        {
+          "input": "{\"synergy_stat\": \"n_edges_above_75th\", \"analysis\": \"pid_performance_correlation\"}",
+          "output": "{\"spearman_rho\": -0.0189, \"p_value\": 0.958712}",
+          "metadata_synergy_stat": "n_edges_above_75th",
+          "predict_spearman_rho": "-0.0189",
+          "eval_spearman_rho": -0.0189
+        }
+      ]
+    },
+    {
+      "dataset": "hypothesis_verdict",
+      "examples": [
+        {
+          "input": "{\"criterion\": \"C1_accuracy_parity\", \"analysis\": \"hypothesis_verdict\"}",
+          "output": "{\"criterion\": \"|\\u0394 accuracy| < 1% between SG-FIGS-Hard and FIGS\", \"delta\": 0.0022, \"passed\": true}",
+          "metadata_criterion": "C1_accuracy_parity",
+          "predict_passed": "True",
+          "eval_criterion_passed": 1.0
+        },
+        {
+          "input": "{\"criterion\": \"C1_split_reduction\", \"analysis\": \"hypothesis_verdict\"}",
+          "output": "{\"criterion\": \"\\u226520% fewer splits in SG-FIGS-Hard vs FIGS\", \"mean_reduction\": -0.7524, \"passed\": false}",
+          "metadata_criterion": "C1_split_reduction",
+          "predict_passed": "False",
+          "eval_criterion_passed": 0.0
+        },
+        {
+          "input": "{\"criterion\": \"C2_interpretability\", \"analysis\": \"hypothesis_verdict\"}",
+          "output": "{\"criterion\": \"SG-FIGS-Hard has significantly higher interpretability than other methods\", \"tests\": {\"ro_figs\": {\"p_value\": 0.000244, \"significant\": true}, \"sg_figs_soft\": {\"p_value\": 0.001673, \"significant\": true}, \"random_figs\": {\"p_value\": 0.000244, \"significant\": true}}, \"all_significant\": true}",
+          "metadata_criterion": "C2_interpretability",
+          "predict_passed": "True",
+          "eval_criterion_passed": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "interpretability_comparison",
+      "examples": [
+        {
+          "input": "{\"method\": \"figs\", \"analysis\": \"interpretability_comparison\"}",
+          "output": "{\"mean_interpretability\": null, \"std_interpretability\": null, \"n_datasets_with_score\": 0, \"perfect_score_count\": 0}",
+          "metadata_method": "figs",
+          "predict_mean_interpretability": "null",
+          "eval_mean_interpretability": 0.0
+        },
+        {
+          "input": "{\"method\": \"ro_figs\", \"analysis\": \"interpretability_comparison\"}",
+          "output": "{\"mean_interpretability\": 0.4991, \"std_interpretability\": 0.2385, \"n_datasets_with_score\": 13, \"perfect_score_count\": 1}",
+          "metadata_method": "ro_figs",
+          "predict_mean_interpretability": "0.4991",
+          "eval_mean_interpretability": 0.4991
+        },
+        {
+          "input": "{\"method\": \"sg_figs_hard\", \"analysis\": \"interpretability_comparison\"}",
+          "output": "{\"mean_interpretability\": 1.0, \"std_interpretability\": 0.0, \"n_datasets_with_score\": 14, \"perfect_score_count\": 14}",
+          "metadata_method": "sg_figs_hard",
+          "predict_mean_interpretability": "1.0",
+          "eval_mean_interpretability": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "practitioner_guidelines",
+      "examples": [
+        {
+          "input": "{\"analysis\": \"practitioner_guidelines\"}",
+          "output": "{\"feature_count_analysis\": {\"advantages_by_features\": [{\"dataset\": \"banknote\", \"n_features\": 4, \"advantage\": 0.0112}, {\"dataset\": \"blood\", \"n_features\": 4, \"advantage\": 0.0088}, {\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30, \"advantage\": 0.0208}, {\"dataset\": \"climate\", \"n_features\": 20, \"advantage\": 0.031}, {\"dataset\": \"heart_statlog\", \"n_features\": 13, \"advantage\": -0.0076}, {\"dataset\": \"ionosphere\", \"n_features\": 34, \"advantage\": 0.0306}, {\"dataset\": \"iris\", \"n_features\": 4, \"advantage\": -0.0155}, {\"dataset\": \"kc2\", \"n_features\": 21, \"advantage\": 0.0129}, {\"dataset\": \"monks2\", \"n_features\": 6, \"advantage\": 0.0334}, {\"dataset\": \"pima_diabetes\", \"n_features\": 8, \"advantage\": -0.0048}, {\"dataset\": \"sonar\", \"n_features\": 60, \"advantage\": -0.0291}, {\"dataset\": \"spectf_heart\", \"n_features\": 44, \"advantage\": -0.0419}, {\"dataset\": \"vehicle\", \"n_features\": 18, \"advantage\": 0.0069}, {\"dataset\": \"wine\", \"n_features\": 13, \"advantage\": -0.0258}], \"correlation\": {\"spearman_rho\": -0.126, \"p_value\": 0.667847}}, \"synergy_threshold_for_benefit\": {\"mean_synergy_positive_datasets\": 0.148641, \"mean_synergy_negative_datasets\": 0.102788, \"recommended_threshold\": 0.125714}, \"pid_computation_time\": {\"seconds_per_pair\": 0.47, \"estimated_time_10_features\": 21.0, \"estimated_time_20_features\": 88.8, \"estimated_time_50_features\": 572.2}, \"recommended_threshold_percentile\": 90, \"summary\": \"Use SG-FIGS when dataset has meaningful synergy (synergy_mean > 0.125714). Best threshold: 90th percentile. PID computation scales as O(n_features^2), ~0.47s per pair.\"}",
+          "metadata_analysis": "guidelines",
+          "predict_recommendation": "Use SG-FIGS when dataset has meaningful synergy (synergy_mean > 0.125714). Best threshold: 90th percentile. PID computation scales as O(n_features^2), ~0.47s per pair.",
+          "eval_recommended_threshold": 90.0
+        }
+      ]
+    },
+    {
+      "dataset": "latex_tables",
+      "examples": [
+        {
+          "input": "{\"table\": \"table1_main_results\", \"analysis\": \"latex_tables\"}",
+          "output": "\\begin{table}[t]\n\\centering\n\\caption{Balanced accuracy (mean $\\pm$ std, 5-fold CV) across 14 datasets.}\n\\label{tab:main_results}\n\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{lccccc}\n\\toprule\nDataset & FIGS & RO-FIGS & SG-FIGS-Hard & SG-FIGS-Soft & Random-FIGS \\\\\n\\midrule\nbanknote & 0.979$\\pm$0.012 & 0.989$\\pm$0.005 & 0.991$\\pm$0.009 & 0.991$\\pm$0.005 & 0.985$\\pm$0.007 \\\\\nblood & 0.660$\\pm$0.036 & 0.652$\\pm$0.018 & 0.669$\\pm$0.034 & 0.655$\\pm$0.015 & 0.642$\\pm$0.029 \\\\\nbreast\\_cancer\\_wisconsin\\_diagnostic & 0.912$\\pm$0.024 & 0.917$\\pm$0.021 & 0.933$\\pm$0.026 & 0.944$\\pm$0.025 & 0.918$\\pm$0.019 \\\\\nclimate & 0.535$\\pm$0.091 & 0.580$\\pm$0.101 & 0.567$\\pm$0.135 & 0.608$\\pm$0.086 & 0.576$\\pm$0.096 \\\\\nheart\\_statlog & 0.783$\\pm$0.049 & 0.797$\\pm$0.063 & 0.775$\\pm$0.048 & 0.791$\\pm$0.026 & 0.776$\\pm$0.023 \\\\\nionosphere & 0.867$\\pm$0.047 & 0.867$\\pm$0.026 & 0.898$\\pm$0.033 & 0.872$\\pm$0.019 & 0.873$\\pm$0.049 \\\\\niris & 0.948$\\pm$0.033 & 0.953$\\pm$0.028 & 0.932$\\pm$0.044 & 0.955$\\pm$0.017 & 0.947$\\pm$0.030 \\\\\nkc2 & 0.696$\\pm$0.030 & 0.693$\\pm$0.032 & 0.709$\\pm$0.053 & 0.672$\\pm$0.040 & 0.685$\\pm$0.068 \\\\\nmonks2 & 0.733$\\pm$0.063 & 0.726$\\pm$0.052 & 0.767$\\pm$0.048 & 0.814$\\pm$0.049 & 0.795$\\pm$0.041 \\\\\npima\\_diabetes & 0.709$\\pm$0.011 & 0.724$\\pm$0.025 & 0.704$\\pm$0.024 & 0.736$\\pm$0.024 & 0.731$\\pm$0.037 \\\\\nsonar & 0.736$\\pm$0.125 & 0.688$\\pm$0.099 & 0.706$\\pm$0.119 & 0.723$\\pm$0.086 & 0.688$\\pm$0.099 \\\\\nspectf\\_heart & 0.847$\\pm$0.043 & 0.794$\\pm$0.079 & 0.805$\\pm$0.033 & 0.811$\\pm$0.021 & 0.768$\\pm$0.062 \\\\\nvehicle & 0.692$\\pm$0.022 & 0.711$\\pm$0.028 & 0.699$\\pm$0.040 & 0.707$\\pm$0.024 & 0.709$\\pm$0.023 \\\\\nwine & 0.914$\\pm$0.051 & 0.892$\\pm$0.038 & 0.888$\\pm$0.034 & 0.935$\\pm$0.047 & 0.878$\\pm$0.048 \\\\\n\\midrule\n\\textbf{Grand Mean} & \\textbf{0.786} & \\textbf{0.785} & \\textbf{0.789} & \\textbf{0.801} & \\textbf{0.784} \\\\\n\\textbf{Avg Rank} & \\textbf{3.4} & \\textbf{3.1} & \\textbf{3.1} & \\textbf{1.9} & \\textbf{3.6} \\\\\n\\bottomrule\n\\end{tabular}}\n\\end{table}",
+          "metadata_table_name": "table1_main_results",
+          "predict_table_generated": "true",
+          "eval_table_generated": 1.0
+        },
+        {
+          "input": "{\"table\": \"table2_ablation\", \"analysis\": \"latex_tables\"}",
+          "output": "\\begin{table}[t]\n\\centering\n\\caption{Ablation: SG-FIGS-Hard vs Random-FIGS.}\n\\label{tab:ablation}\n\\begin{tabular}{lcccc}\n\\toprule\nDataset & SG-FIGS-Hard & Random-FIGS & $\\Delta$ Acc & $\\Delta$ Interp \\\\\n\\midrule\nbanknote & 0.991 & 0.985 & +0.005 & +0.577 \\\\\nblood & 0.669 & 0.642 & +0.027 & +0.270 \\\\\nbreast\\_cancer\\_wisconsin\\_diagnostic & 0.933 & 0.918 & +0.014 & +0.267 \\\\\nclimate & 0.567 & 0.576 & -0.010 & +0.333 \\\\\nheart\\_statlog & 0.775 & 0.776 & -0.001 & +0.347 \\\\\nionosphere & 0.898 & 0.873 & +0.025 & +0.000 \\\\\niris & 0.932 & 0.947 & -0.015 & +0.500 \\\\\nkc2 & 0.709 & 0.685 & +0.025 & +0.111 \\\\\nmonks2 & 0.767 & 0.795 & -0.029 & +0.205 \\\\\npima\\_diabetes & 0.704 & 0.731 & -0.027 & +0.500 \\\\\nsonar & 0.706 & 0.688 & +0.019 & --- \\\\\nspectf\\_heart & 0.805 & 0.768 & +0.037 & +0.100 \\\\\nvehicle & 0.699 & 0.709 & -0.011 & +0.442 \\\\\nwine & 0.888 & 0.878 & +0.010 & +1.000 \\\\\n\\midrule\n\\textbf{Mean} & --- & --- & \\textbf{+0.005} & \\textbf{+0.358} \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+          "metadata_table_name": "table2_ablation",
+          "predict_table_generated": "true",
+          "eval_table_generated": 1.0
+        },
+        {
+          "input": "{\"table\": \"table3_interpretability\", \"analysis\": \"latex_tables\"}",
+          "output": "\\begin{table}[t]\n\\centering\n\\caption{Mean interpretability score per method.}\n\\label{tab:interpretability}\n\\begin{tabular}{lcc}\n\\toprule\nMethod & Mean Interp. & Perfect (=1.0) \\\\\n\\midrule\nFIGS & N/A & 0/0 \\\\\nRO-FIGS & 0.499 & 1/13 \\\\\nSG-FIGS-Hard & 1.000 & 14/14 \\\\\nSG-FIGS-Soft & 0.775 & 3/14 \\\\\nRandom-FIGS & 0.642 & 1/13 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+          "metadata_table_name": "table3_interpretability",
+          "predict_table_generated": "true",
+          "eval_table_generated": 1.0
+        }
+      ]
+    }
+  ]
+}

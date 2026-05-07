@@ -1,0 +1,507 @@
+2026-02-12 20:53:49.325 | INFO     | __main__:main:1067 - ============================================================
+2026-02-12 20:53:49.325 | INFO     | __main__:main:1068 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 20:53:49.325 | INFO     | __main__:main:1069 - ============================================================
+2026-02-12 20:53:49.326 | INFO     | __main__:load_datasets_from_json:91 - Loading datasets from full_data_out.json
+2026-02-12 20:53:49.378 | DEBUG    | __main__:load_datasets_from_json:116 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 20:53:49.379 | DEBUG    | __main__:load_datasets_from_json:116 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 20:53:49.383 | DEBUG    | __main__:load_datasets_from_json:116 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 20:53:49.385 | DEBUG    | __main__:load_datasets_from_json:116 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 20:53:49.389 | DEBUG    | __main__:load_datasets_from_json:116 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 20:53:49.394 | DEBUG    | __main__:load_datasets_from_json:116 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 20:53:49.397 | DEBUG    | __main__:load_datasets_from_json:116 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 20:53:49.402 | DEBUG    | __main__:load_datasets_from_json:116 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 20:53:49.406 | DEBUG    | __main__:load_datasets_from_json:116 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 20:53:49.406 | DEBUG    | __main__:load_datasets_from_json:116 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 20:53:49.408 | INFO     | __main__:load_datasets_from_json:91 - Loading datasets from full_data_out.json
+2026-02-12 20:53:49.421 | DEBUG    | __main__:load_datasets_from_json:116 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 20:53:49.423 | DEBUG    | __main__:load_datasets_from_json:116 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 20:53:49.427 | DEBUG    | __main__:load_datasets_from_json:116 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 20:53:49.431 | ERROR    | __main__:<module>:1485 - An error has been caught in function '<module>', process 'MainProcess' (1286346), thread 'MainThread' (135847645472576):
+Traceback (most recent call last):
+
+> File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id3_it3__opus/method.py", line 1485, in <module>
+    main()
+    └ <function main at 0x7b8d57224dc0>
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id3_it3__opus/method.py", line 1075, in main
+    datasets_id3 = load_datasets_from_json(DATA_ID3_PATH)
+                   │                       └ PosixPath('/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/data_id3_...
+                   └ <function load_datasets_from_json at 0x7b8d7e08b880>
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id3_it3__opus/method.py", line 104, in load_datasets_from_json
+    y = np.array([int(ex["output"]) for ex in examples])
+        │  │                                  └ [{'input': '{"loc": 1.1, "v(g)": 1.4, "ev(g)": 1.4, "iv(g)": 1.4, "n": 1.3, "v": 1.3, "l": 1.3, "d": 1.3, "i": 1.3, "e": 1.3,...
+        │  └ <built-in function array>
+        └ <module 'numpy' from '/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_ar...
+
+  File "/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id3_it3__opus/method.py", line 104, in <listcomp>
+    y = np.array([int(ex["output"]) for ex in examples])
+        │  │          │                 └ {'input': '{"loc": 1.1, "v(g)": 1.4, "ev(g)": 1.4, "iv(g)": 1.4, "n": 1.3, "v": 1.3, "l": 1.3, "d": 1.3, "i": 1.3, "e": 1.3, ...
+        │  │          └ {'input': '{"loc": 1.1, "v(g)": 1.4, "ev(g)": 1.4, "iv(g)": 1.4, "n": 1.3, "v": 1.3, "l": 1.3, "d": 1.3, "i": 1.3, "e": 1.3, ...
+        │  └ <built-in function array>
+        └ <module 'numpy' from '/home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_ar...
+
+ValueError: invalid literal for int() with base 10: 'no'
+2026-02-12 20:54:11.359 | INFO     | __main__:main:1082 - ============================================================
+2026-02-12 20:54:11.360 | INFO     | __main__:main:1083 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 20:54:11.360 | INFO     | __main__:main:1084 - ============================================================
+2026-02-12 20:54:11.360 | INFO     | __main__:load_datasets_from_json:91 - Loading datasets from full_data_out.json
+2026-02-12 20:54:11.419 | DEBUG    | __main__:load_datasets_from_json:131 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 20:54:11.421 | DEBUG    | __main__:load_datasets_from_json:131 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 20:54:11.426 | DEBUG    | __main__:load_datasets_from_json:131 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 20:54:11.428 | DEBUG    | __main__:load_datasets_from_json:131 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 20:54:11.435 | DEBUG    | __main__:load_datasets_from_json:131 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 20:54:11.441 | DEBUG    | __main__:load_datasets_from_json:131 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 20:54:11.446 | DEBUG    | __main__:load_datasets_from_json:131 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 20:54:11.451 | DEBUG    | __main__:load_datasets_from_json:131 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 20:54:11.456 | DEBUG    | __main__:load_datasets_from_json:131 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 20:54:11.457 | DEBUG    | __main__:load_datasets_from_json:131 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 20:54:11.460 | INFO     | __main__:load_datasets_from_json:91 - Loading datasets from full_data_out.json
+2026-02-12 20:54:11.474 | DEBUG    | __main__:load_datasets_from_json:131 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 20:54:11.477 | DEBUG    | __main__:load_datasets_from_json:131 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 20:54:11.482 | DEBUG    | __main__:load_datasets_from_json:131 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 20:54:11.485 | DEBUG    | __main__:load_datasets_from_json:113 -   Label encoding for kc2: {'no': 0, 'yes': 1}
+2026-02-12 20:54:11.486 | DEBUG    | __main__:load_datasets_from_json:131 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 20:54:11.486 | INFO     | __main__:main:1096 - Loaded 14 datasets total
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 20:54:11.487 | INFO     | __main__:main:1098 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 20:54:11.488 | INFO     | __main__:main:1098 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 20:54:11.488 | INFO     | __main__:main:1098 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 20:54:11.488 | INFO     | __main__:main:1098 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 20:54:11.488 | INFO     | __main__:main:1098 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 20:54:11.488 | INFO     | __main__:load_precomputed_synergy:143 - Loading pre-computed synergy matrices
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy banknote -> banknote: 4x4, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy iris -> iris: 4x4, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy pima_diabetes -> pima_diabetes: 8x8, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy diabetes_binarized -> diabetes_binarized: 10x10, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy wine -> wine: 13x13, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy heart_statlog -> heart_statlog: 13x13, method=BROJA
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy vehicle -> vehicle: 18x18, method=MMI
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy breast_cancer_wisconsin_diagnostic -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy ionosphere -> ionosphere: 30x30, method=MMI
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy sonar -> sonar: 30x30, method=MMI
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy spectf_heart -> spectf_heart: 30x30, method=MMI
+2026-02-12 20:54:11.492 | DEBUG    | __main__:load_precomputed_synergy:158 -   Synergy breast_cancer -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 20:54:11.493 | INFO     | __main__:main:1107 - Loaded synergy for 11 datasets
+2026-02-12 20:54:11.493 | INFO     | __main__:main:1116 - Computing CoI synergy for monks2...
+2026-02-12 20:54:11.538 | INFO     | __main__:main:1121 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 20:54:11.538 | INFO     | __main__:main:1116 - Computing CoI synergy for blood...
+2026-02-12 20:54:11.559 | INFO     | __main__:main:1121 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 20:54:11.559 | INFO     | __main__:main:1116 - Computing CoI synergy for climate...
+2026-02-12 20:54:11.984 | INFO     | __main__:main:1121 -   Done in 0.4s, method=CoI_proxy
+2026-02-12 20:54:11.984 | INFO     | __main__:main:1116 - Computing CoI synergy for kc2...
+2026-02-12 20:54:12.444 | INFO     | __main__:main:1121 -   Done in 0.5s, method=CoI_proxy
+2026-02-12 20:54:12.445 | INFO     | __main__:main:1140 - Computing graph statistics at all thresholds...
+2026-02-12 20:54:12.487 | INFO     | __main__:main:1153 - Computing adaptive thresholds...
+2026-02-12 20:54:12.499 | DEBUG    | __main__:main:1159 -   breast_cancer_wisconsin_diagnostic: adaptive_percentile=90
+2026-02-12 20:54:12.503 | DEBUG    | __main__:main:1159 -   wine: adaptive_percentile=90
+2026-02-12 20:54:12.505 | DEBUG    | __main__:main:1159 -   pima_diabetes: adaptive_percentile=85
+2026-02-12 20:54:12.508 | DEBUG    | __main__:main:1159 -   heart_statlog: adaptive_percentile=75
+2026-02-12 20:54:12.519 | DEBUG    | __main__:main:1159 -   ionosphere: adaptive_percentile=90
+2026-02-12 20:54:12.524 | DEBUG    | __main__:main:1159 -   vehicle: adaptive_percentile=90
+2026-02-12 20:54:12.548 | DEBUG    | __main__:main:1159 -   sonar: adaptive_percentile=90
+2026-02-12 20:54:12.550 | DEBUG    | __main__:main:1159 -   banknote: adaptive_percentile=80
+2026-02-12 20:54:12.563 | DEBUG    | __main__:main:1159 -   spectf_heart: adaptive_percentile=90
+2026-02-12 20:54:12.566 | DEBUG    | __main__:main:1159 -   iris: adaptive_percentile=80
+2026-02-12 20:54:12.569 | DEBUG    | __main__:main:1159 -   monks2: adaptive_percentile=85
+2026-02-12 20:54:12.571 | DEBUG    | __main__:main:1159 -   blood: adaptive_percentile=90
+2026-02-12 20:54:12.578 | DEBUG    | __main__:main:1159 -   climate: adaptive_percentile=75
+2026-02-12 20:54:12.581 | DEBUG    | __main__:main:1159 -   kc2: adaptive_percentile=75
+2026-02-12 20:54:12.581 | INFO     | __main__:main:1168 - Running experiments on 14 datasets
+2026-02-12 20:54:12.581 | INFO     | __main__:main:1169 -   Thresholds: [50, 65, 75, 90]
+2026-02-12 20:54:12.581 | INFO     | __main__:main:1170 -   Max splits: [5, 10, 15, 25]
+2026-02-12 20:54:12.581 | INFO     | __main__:main:1171 -   Folds: 5
+2026-02-12 20:54:12.581 | INFO     | __main__:main:1186 - Dataset: banknote (1372 samples, 4 features)
+2026-02-12 20:54:51.180 | INFO     | __main__:main:1283 -   Progress: 20/1400 (40s elapsed, ~2748s remaining)
+2026-02-12 20:55:32.557 | INFO     | __main__:main:1283 -   Progress: 40/1400 (81s elapsed, ~2761s remaining)
+2026-02-12 20:56:16.437 | INFO     | __main__:main:1283 -   Progress: 60/1400 (125s elapsed, ~2793s remaining)
+2026-02-12 20:57:03.974 | INFO     | __main__:main:1283 -   Progress: 80/1400 (173s elapsed, ~2848s remaining)
+2026-02-12 20:57:39.300 | INFO     | __main__:main:1283 -   Progress: 100/1400 (208s elapsed, ~2703s remaining)
+2026-02-12 20:57:39.300 | INFO     | __main__:main:1293 -   banknote done in 206.7s, 80 examples
+2026-02-12 20:57:39.300 | INFO     | __main__:main:1186 - Dataset: blood (748 samples, 4 features)
+2026-02-12 20:58:16.706 | INFO     | __main__:main:1283 -   Progress: 120/1400 (245s elapsed, ~2617s remaining)
+2026-02-12 20:58:53.351 | INFO     | __main__:main:1283 -   Progress: 140/1400 (282s elapsed, ~2538s remaining)
+2026-02-12 20:59:31.524 | INFO     | __main__:main:1283 -   Progress: 160/1400 (320s elapsed, ~2481s remaining)
+2026-02-12 21:00:08.565 | INFO     | __main__:main:1283 -   Progress: 180/1400 (357s elapsed, ~2421s remaining)
+2026-02-12 21:00:49.130 | INFO     | __main__:main:1283 -   Progress: 200/1400 (398s elapsed, ~2387s remaining)
+2026-02-12 21:00:49.130 | INFO     | __main__:main:1293 -   blood done in 189.8s, 80 examples
+2026-02-12 21:00:49.130 | INFO     | __main__:main:1186 - Dataset: breast_cancer_wisconsin_diagnostic (569 samples, 30 features)
+2026-02-12 21:14:39.356 | INFO     | __main__:main:1085 - ============================================================
+2026-02-12 21:14:39.356 | INFO     | __main__:main:1086 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 21:14:39.357 | INFO     | __main__:main:1087 - ============================================================
+2026-02-12 21:14:39.357 | INFO     | __main__:load_datasets_from_json:94 - Loading datasets from full_data_out.json
+2026-02-12 21:14:39.404 | DEBUG    | __main__:load_datasets_from_json:134 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:14:39.406 | DEBUG    | __main__:load_datasets_from_json:134 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:14:39.409 | DEBUG    | __main__:load_datasets_from_json:134 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:14:39.411 | DEBUG    | __main__:load_datasets_from_json:134 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:14:39.415 | DEBUG    | __main__:load_datasets_from_json:134 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:14:39.420 | DEBUG    | __main__:load_datasets_from_json:134 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:14:39.424 | DEBUG    | __main__:load_datasets_from_json:134 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:14:39.428 | DEBUG    | __main__:load_datasets_from_json:134 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:14:39.432 | DEBUG    | __main__:load_datasets_from_json:134 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:14:39.433 | DEBUG    | __main__:load_datasets_from_json:134 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:14:39.435 | INFO     | __main__:load_datasets_from_json:94 - Loading datasets from full_data_out.json
+2026-02-12 21:14:39.448 | DEBUG    | __main__:load_datasets_from_json:134 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:14:39.450 | DEBUG    | __main__:load_datasets_from_json:134 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:14:39.454 | DEBUG    | __main__:load_datasets_from_json:134 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:14:39.457 | DEBUG    | __main__:load_datasets_from_json:116 -   Label encoding for kc2: {'no': 0, 'yes': 1}
+2026-02-12 21:14:39.458 | DEBUG    | __main__:load_datasets_from_json:134 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:14:39.458 | INFO     | __main__:main:1099 - Loaded 14 datasets total
+2026-02-12 21:14:39.458 | INFO     | __main__:main:1101 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:main:1101 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:14:39.459 | INFO     | __main__:load_precomputed_synergy:146 - Loading pre-computed synergy matrices
+2026-02-12 21:14:39.462 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy banknote -> banknote: 4x4, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy iris -> iris: 4x4, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy pima_diabetes -> pima_diabetes: 8x8, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy diabetes_binarized -> diabetes_binarized: 10x10, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy wine -> wine: 13x13, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy heart_statlog -> heart_statlog: 13x13, method=BROJA
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy vehicle -> vehicle: 18x18, method=MMI
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy breast_cancer_wisconsin_diagnostic -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy ionosphere -> ionosphere: 30x30, method=MMI
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy sonar -> sonar: 30x30, method=MMI
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy spectf_heart -> spectf_heart: 30x30, method=MMI
+2026-02-12 21:14:39.463 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy breast_cancer -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 21:14:39.463 | INFO     | __main__:main:1110 - Loaded synergy for 11 datasets
+2026-02-12 21:14:39.464 | INFO     | __main__:main:1119 - Computing CoI synergy for monks2...
+2026-02-12 21:14:39.493 | INFO     | __main__:main:1124 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 21:14:39.493 | INFO     | __main__:main:1119 - Computing CoI synergy for blood...
+2026-02-12 21:14:39.510 | INFO     | __main__:main:1124 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 21:14:39.510 | INFO     | __main__:main:1119 - Computing CoI synergy for climate...
+2026-02-12 21:14:39.810 | INFO     | __main__:main:1124 -   Done in 0.3s, method=CoI_proxy
+2026-02-12 21:14:39.810 | INFO     | __main__:main:1119 - Computing CoI synergy for kc2...
+2026-02-12 21:14:40.174 | INFO     | __main__:main:1124 -   Done in 0.4s, method=CoI_proxy
+2026-02-12 21:14:40.175 | INFO     | __main__:main:1143 - Computing graph statistics at all thresholds...
+2026-02-12 21:14:40.209 | INFO     | __main__:main:1156 - Computing adaptive thresholds...
+2026-02-12 21:14:40.218 | DEBUG    | __main__:main:1162 -   breast_cancer_wisconsin_diagnostic: adaptive_percentile=90
+2026-02-12 21:14:40.222 | DEBUG    | __main__:main:1162 -   wine: adaptive_percentile=90
+2026-02-12 21:14:40.224 | DEBUG    | __main__:main:1162 -   pima_diabetes: adaptive_percentile=85
+2026-02-12 21:14:40.227 | DEBUG    | __main__:main:1162 -   heart_statlog: adaptive_percentile=75
+2026-02-12 21:14:40.237 | DEBUG    | __main__:main:1162 -   ionosphere: adaptive_percentile=90
+2026-02-12 21:14:40.241 | DEBUG    | __main__:main:1162 -   vehicle: adaptive_percentile=90
+2026-02-12 21:14:40.255 | DEBUG    | __main__:main:1162 -   sonar: adaptive_percentile=90
+2026-02-12 21:14:40.257 | DEBUG    | __main__:main:1162 -   banknote: adaptive_percentile=80
+2026-02-12 21:14:40.268 | DEBUG    | __main__:main:1162 -   spectf_heart: adaptive_percentile=90
+2026-02-12 21:14:40.270 | DEBUG    | __main__:main:1162 -   iris: adaptive_percentile=80
+2026-02-12 21:14:40.273 | DEBUG    | __main__:main:1162 -   monks2: adaptive_percentile=85
+2026-02-12 21:14:40.275 | DEBUG    | __main__:main:1162 -   blood: adaptive_percentile=90
+2026-02-12 21:14:40.281 | DEBUG    | __main__:main:1162 -   climate: adaptive_percentile=75
+2026-02-12 21:14:40.283 | DEBUG    | __main__:main:1162 -   kc2: adaptive_percentile=75
+2026-02-12 21:14:40.283 | INFO     | __main__:main:1171 - Running experiments on 14 datasets
+2026-02-12 21:14:40.284 | INFO     | __main__:main:1172 -   Thresholds: [50, 65, 75, 90]
+2026-02-12 21:14:40.284 | INFO     | __main__:main:1173 -   Max splits: [5, 10, 15, 25]
+2026-02-12 21:14:40.284 | INFO     | __main__:main:1174 -   Folds: 5
+2026-02-12 21:14:40.284 | INFO     | __main__:main:1189 - Dataset: banknote (1372 samples, 4 features)
+2026-02-12 21:15:15.284 | INFO     | __main__:main:1286 -   Progress: 20/1400 (36s elapsed, ~2479s remaining)
+2026-02-12 21:15:51.446 | INFO     | __main__:main:1286 -   Progress: 40/1400 (72s elapsed, ~2451s remaining)
+2026-02-12 21:16:31.137 | INFO     | __main__:main:1286 -   Progress: 60/1400 (112s elapsed, ~2496s remaining)
+2026-02-12 21:17:05.014 | INFO     | __main__:main:1286 -   Progress: 80/1400 (146s elapsed, ~2403s remaining)
+2026-02-12 21:17:46.320 | INFO     | __main__:main:1286 -   Progress: 100/1400 (187s elapsed, ~2431s remaining)
+2026-02-12 21:17:46.322 | INFO     | __main__:main:1296 -   banknote done in 186.0s, 80 examples
+2026-02-12 21:17:46.322 | INFO     | __main__:main:1189 - Dataset: blood (748 samples, 4 features)
+2026-02-12 21:18:20.380 | INFO     | __main__:main:1286 -   Progress: 120/1400 (221s elapsed, ~2358s remaining)
+2026-02-12 21:19:00.113 | INFO     | __main__:main:1286 -   Progress: 140/1400 (261s elapsed, ~2347s remaining)
+2026-02-12 21:19:34.042 | INFO     | __main__:main:1286 -   Progress: 160/1400 (295s elapsed, ~2284s remaining)
+2026-02-12 21:20:12.637 | INFO     | __main__:main:1286 -   Progress: 180/1400 (333s elapsed, ~2259s remaining)
+2026-02-12 21:20:48.238 | INFO     | __main__:main:1286 -   Progress: 200/1400 (369s elapsed, ~2213s remaining)
+2026-02-12 21:20:48.239 | INFO     | __main__:main:1296 -   blood done in 181.9s, 80 examples
+2026-02-12 21:20:48.239 | INFO     | __main__:main:1189 - Dataset: breast_cancer_wisconsin_diagnostic (569 samples, 30 features)
+2026-02-12 21:35:56.664 | INFO     | __main__:main:1098 - ============================================================
+2026-02-12 21:35:56.664 | INFO     | __main__:main:1099 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 21:35:56.664 | INFO     | __main__:main:1100 - ============================================================
+2026-02-12 21:35:56.665 | INFO     | __main__:load_datasets_from_json:94 - Loading datasets from full_data_out.json
+2026-02-12 21:35:56.715 | DEBUG    | __main__:load_datasets_from_json:134 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:35:56.716 | DEBUG    | __main__:load_datasets_from_json:134 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:35:56.720 | DEBUG    | __main__:load_datasets_from_json:134 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:35:56.721 | DEBUG    | __main__:load_datasets_from_json:134 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:35:56.725 | DEBUG    | __main__:load_datasets_from_json:134 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:35:56.731 | DEBUG    | __main__:load_datasets_from_json:134 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:35:56.737 | DEBUG    | __main__:load_datasets_from_json:134 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:35:56.744 | DEBUG    | __main__:load_datasets_from_json:134 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:35:56.749 | DEBUG    | __main__:load_datasets_from_json:134 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:35:56.750 | DEBUG    | __main__:load_datasets_from_json:134 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:35:56.752 | INFO     | __main__:load_datasets_from_json:94 - Loading datasets from full_data_out.json
+2026-02-12 21:35:56.766 | DEBUG    | __main__:load_datasets_from_json:134 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:35:56.770 | DEBUG    | __main__:load_datasets_from_json:134 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:35:56.776 | DEBUG    | __main__:load_datasets_from_json:134 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:35:56.780 | DEBUG    | __main__:load_datasets_from_json:116 -   Label encoding for kc2: {'no': 0, 'yes': 1}
+2026-02-12 21:35:56.780 | DEBUG    | __main__:load_datasets_from_json:134 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:35:56.781 | INFO     | __main__:main:1112 - Loaded 14 datasets total
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   wine: 178 samples, 13 features, 3 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   pima_diabetes: 768 samples, 8 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   heart_statlog: 270 samples, 13 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   ionosphere: 351 samples, 34 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   vehicle: 846 samples, 18 features, 4 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   sonar: 208 samples, 60 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   banknote: 1372 samples, 4 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   spectf_heart: 349 samples, 44 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   iris: 150 samples, 4 features, 3 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   monks2: 601 samples, 6 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   blood: 748 samples, 4 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   climate: 540 samples, 20 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:main:1114 -   kc2: 522 samples, 21 features, 2 classes
+2026-02-12 21:35:56.782 | INFO     | __main__:load_precomputed_synergy:146 - Loading pre-computed synergy matrices
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy banknote -> banknote: 4x4, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy iris -> iris: 4x4, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy pima_diabetes -> pima_diabetes: 8x8, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy diabetes_binarized -> diabetes_binarized: 10x10, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy wine -> wine: 13x13, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy heart_statlog -> heart_statlog: 13x13, method=BROJA
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy vehicle -> vehicle: 18x18, method=MMI
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy breast_cancer_wisconsin_diagnostic -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy ionosphere -> ionosphere: 30x30, method=MMI
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy sonar -> sonar: 30x30, method=MMI
+2026-02-12 21:35:56.786 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy spectf_heart -> spectf_heart: 30x30, method=MMI
+2026-02-12 21:35:56.787 | DEBUG    | __main__:load_precomputed_synergy:161 -   Synergy breast_cancer -> breast_cancer_wisconsin_diagnostic: 30x30, method=MMI
+2026-02-12 21:35:56.787 | INFO     | __main__:main:1123 - Loaded synergy for 11 datasets
+2026-02-12 21:35:56.787 | INFO     | __main__:main:1132 - Computing CoI synergy for monks2...
+2026-02-12 21:35:56.818 | INFO     | __main__:main:1137 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 21:35:56.818 | INFO     | __main__:main:1132 - Computing CoI synergy for blood...
+2026-02-12 21:35:56.834 | INFO     | __main__:main:1137 -   Done in 0.0s, method=CoI_proxy
+2026-02-12 21:35:56.835 | INFO     | __main__:main:1132 - Computing CoI synergy for climate...
+2026-02-12 21:35:57.178 | INFO     | __main__:main:1137 -   Done in 0.3s, method=CoI_proxy
+2026-02-12 21:35:57.178 | INFO     | __main__:main:1132 - Computing CoI synergy for kc2...
+2026-02-12 21:35:57.521 | INFO     | __main__:main:1137 -   Done in 0.3s, method=CoI_proxy
+2026-02-12 21:35:57.522 | INFO     | __main__:main:1156 - Computing graph statistics at all thresholds...
+2026-02-12 21:35:57.565 | INFO     | __main__:main:1169 - Computing adaptive thresholds...
+2026-02-12 21:35:57.580 | DEBUG    | __main__:main:1175 -   breast_cancer_wisconsin_diagnostic: adaptive_percentile=90
+2026-02-12 21:35:57.583 | DEBUG    | __main__:main:1175 -   wine: adaptive_percentile=90
+2026-02-12 21:35:57.586 | DEBUG    | __main__:main:1175 -   pima_diabetes: adaptive_percentile=85
+2026-02-12 21:35:57.589 | DEBUG    | __main__:main:1175 -   heart_statlog: adaptive_percentile=75
+2026-02-12 21:35:57.602 | DEBUG    | __main__:main:1175 -   ionosphere: adaptive_percentile=90
+2026-02-12 21:35:57.610 | DEBUG    | __main__:main:1175 -   vehicle: adaptive_percentile=90
+2026-02-12 21:35:57.634 | DEBUG    | __main__:main:1175 -   sonar: adaptive_percentile=90
+2026-02-12 21:35:57.637 | DEBUG    | __main__:main:1175 -   banknote: adaptive_percentile=80
+2026-02-12 21:35:57.656 | DEBUG    | __main__:main:1175 -   spectf_heart: adaptive_percentile=90
+2026-02-12 21:35:57.659 | DEBUG    | __main__:main:1175 -   iris: adaptive_percentile=80
+2026-02-12 21:35:57.661 | DEBUG    | __main__:main:1175 -   monks2: adaptive_percentile=85
+2026-02-12 21:35:57.664 | DEBUG    | __main__:main:1175 -   blood: adaptive_percentile=90
+2026-02-12 21:35:57.672 | DEBUG    | __main__:main:1175 -   climate: adaptive_percentile=75
+2026-02-12 21:35:57.677 | DEBUG    | __main__:main:1175 -   kc2: adaptive_percentile=75
+2026-02-12 21:35:57.677 | INFO     | __main__:main:1184 - Running experiments on 14 datasets
+2026-02-12 21:35:57.677 | INFO     | __main__:main:1185 -   Thresholds: [50, 65, 75, 90]
+2026-02-12 21:35:57.677 | INFO     | __main__:main:1186 -   Max splits: [5, 10, 15, 25]
+2026-02-12 21:35:57.677 | INFO     | __main__:main:1187 -   Folds: 5
+2026-02-12 21:35:57.677 | INFO     | __main__:main:1202 - Dataset: banknote (1372 samples, 4 features)
+2026-02-12 21:36:10.305 | INFO     | __main__:main:1299 -   Progress: 20/1400 (14s elapsed, ~941s remaining)
+2026-02-12 21:36:21.435 | INFO     | __main__:main:1299 -   Progress: 40/1400 (25s elapsed, ~842s remaining)
+2026-02-12 21:36:33.260 | INFO     | __main__:main:1299 -   Progress: 60/1400 (37s elapsed, ~817s remaining)
+2026-02-12 21:36:46.609 | INFO     | __main__:main:1299 -   Progress: 80/1400 (50s elapsed, ~824s remaining)
+2026-02-12 21:36:58.444 | INFO     | __main__:main:1299 -   Progress: 100/1400 (62s elapsed, ~803s remaining)
+2026-02-12 21:36:58.445 | INFO     | __main__:main:1309 -   banknote done in 60.8s, 80 examples
+2026-02-12 21:36:58.445 | INFO     | __main__:main:1202 - Dataset: blood (748 samples, 4 features)
+2026-02-12 21:37:22.162 | INFO     | __main__:main:1299 -   Progress: 120/1400 (85s elapsed, ~912s remaining)
+2026-02-12 21:37:47.001 | INFO     | __main__:main:1299 -   Progress: 140/1400 (110s elapsed, ~993s remaining)
+2026-02-12 21:38:13.258 | INFO     | __main__:main:1299 -   Progress: 160/1400 (137s elapsed, ~1059s remaining)
+2026-02-12 21:38:37.518 | INFO     | __main__:main:1299 -   Progress: 180/1400 (161s elapsed, ~1090s remaining)
+2026-02-12 21:39:02.762 | INFO     | __main__:main:1299 -   Progress: 200/1400 (186s elapsed, ~1117s remaining)
+2026-02-12 21:39:02.763 | INFO     | __main__:main:1309 -   blood done in 124.3s, 80 examples
+2026-02-12 21:39:02.763 | INFO     | __main__:main:1202 - Dataset: breast_cancer_wisconsin_diagnostic (569 samples, 30 features)
+2026-02-12 21:40:16.155 | INFO     | __main__:main:1299 -   Progress: 220/1400 (259s elapsed, ~1392s remaining)
+2026-02-12 21:41:29.615 | INFO     | __main__:main:1299 -   Progress: 240/1400 (333s elapsed, ~1609s remaining)
+2026-02-12 21:42:50.376 | INFO     | __main__:main:1299 -   Progress: 260/1400 (414s elapsed, ~1814s remaining)
+2026-02-12 21:44:10.729 | INFO     | __main__:main:1299 -   Progress: 280/1400 (494s elapsed, ~1976s remaining)
+2026-02-12 21:45:24.672 | INFO     | __main__:main:1299 -   Progress: 300/1400 (568s elapsed, ~2083s remaining)
+2026-02-12 21:45:24.673 | INFO     | __main__:main:1309 -   breast_cancer_wisconsin_diagnostic done in 381.9s, 80 examples
+2026-02-12 21:45:24.673 | INFO     | __main__:main:1202 - Dataset: climate (540 samples, 20 features)
+2026-02-12 21:47:15.784 | INFO     | __main__:main:1299 -   Progress: 320/1400 (679s elapsed, ~2292s remaining)
+2026-02-12 21:51:45.828 | INFO     | __main__:main:654 - ============================================================
+2026-02-12 21:51:45.828 | INFO     | __main__:main:655 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 21:51:45.830 | INFO     | __main__:main:656 - ============================================================
+2026-02-12 21:51:45.832 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 21:51:45.962 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 21:51:46.001 | INFO     | __main__:main:664 - Loaded 14 datasets
+2026-02-12 21:51:46.001 | INFO     | __main__:main:666 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 feat, 2 classes
+2026-02-12 21:51:46.001 | INFO     | __main__:main:666 -   wine: 178 samples, 13 feat, 3 classes
+2026-02-12 21:51:46.001 | INFO     | __main__:main:666 -   pima_diabetes: 768 samples, 8 feat, 2 classes
+2026-02-12 21:51:46.001 | INFO     | __main__:main:666 -   heart_statlog: 270 samples, 13 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   ionosphere: 351 samples, 34 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   vehicle: 846 samples, 18 feat, 4 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   sonar: 208 samples, 60 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   banknote: 1372 samples, 4 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   spectf_heart: 349 samples, 44 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   iris: 150 samples, 4 feat, 3 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   monks2: 601 samples, 6 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   blood: 748 samples, 4 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   climate: 540 samples, 20 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:main:666 -   kc2: 522 samples, 21 feat, 2 classes
+2026-02-12 21:51:46.002 | INFO     | __main__:load_precomputed_synergy:105 - Loading pre-computed synergy matrices
+2026-02-12 21:51:46.007 | INFO     | __main__:main:670 - Pre-computed synergy for 11 datasets
+2026-02-12 21:51:46.008 | INFO     | __main__:main:676 - Computing CoI synergy for monks2...
+2026-02-12 21:51:46.065 | INFO     | __main__:main:680 -   Done in 0.1s
+2026-02-12 21:51:46.065 | INFO     | __main__:main:676 - Computing CoI synergy for blood...
+2026-02-12 21:51:46.088 | INFO     | __main__:main:680 -   Done in 0.0s
+2026-02-12 21:51:46.088 | INFO     | __main__:main:676 - Computing CoI synergy for climate...
+2026-02-12 21:51:46.588 | INFO     | __main__:main:680 -   Done in 0.5s
+2026-02-12 21:51:46.588 | INFO     | __main__:main:676 - Computing CoI synergy for kc2...
+2026-02-12 21:51:47.079 | INFO     | __main__:main:680 -   Done in 0.5s
+2026-02-12 21:51:47.082 | INFO     | __main__:main:692 - Computing graph statistics...
+2026-02-12 21:51:47.225 | INFO     | __main__:main:712 - Total experiment combos: 1400
+2026-02-12 21:51:47.225 | INFO     | __main__:main:722 - Dataset: banknote (1372s, 4f)
+2026-02-12 21:52:22.868 | INFO     | __main__:main:780 -   Progress: 50/1400 (37s, ~1000s left)
+2026-02-12 21:53:00.097 | INFO     | __main__:main:780 -   Progress: 100/1400 (74s, ~965s left)
+2026-02-12 21:53:00.097 | INFO     | __main__:main:784 -   banknote done in 72.9s, 80 examples
+2026-02-12 21:53:00.097 | INFO     | __main__:main:722 - Dataset: blood (748s, 4f)
+2026-02-12 21:54:15.476 | INFO     | __main__:main:780 -   Progress: 150/1400 (150s, ~1247s left)
+2026-02-12 21:55:54.738 | INFO     | __main__:main:780 -   Progress: 200/1400 (249s, ~1493s left)
+2026-02-12 21:55:54.738 | INFO     | __main__:main:784 -   blood done in 174.6s, 80 examples
+2026-02-12 21:55:54.738 | INFO     | __main__:main:722 - Dataset: breast_cancer_wisconsin_diagnostic (569s, 30f)
+2026-02-12 21:59:35.241 | INFO     | __main__:main:780 -   Progress: 250/1400 (469s, ~2159s left)
+2026-02-12 22:03:16.694 | INFO     | __main__:main:780 -   Progress: 300/1400 (691s, ~2533s left)
+2026-02-12 22:03:16.694 | INFO     | __main__:main:784 -   breast_cancer_wisconsin_diagnostic done in 442.0s, 80 examples
+2026-02-12 22:03:16.694 | INFO     | __main__:main:722 - Dataset: climate (540s, 20f)
+2026-02-12 22:07:04.900 | INFO     | __main__:main:780 -   Progress: 350/1400 (919s, ~2757s left)
+2026-02-12 22:09:47.909 | INFO     | __main__:main:650 - ============================================================
+2026-02-12 22:09:47.910 | INFO     | __main__:main:651 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 22:09:47.910 | INFO     | __main__:main:652 - ============================================================
+2026-02-12 22:09:47.910 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 22:09:47.991 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 22:09:48.024 | INFO     | __main__:main:660 - Loaded 14 datasets
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   wine: 178 samples, 13 feat, 3 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   pima_diabetes: 768 samples, 8 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   heart_statlog: 270 samples, 13 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   ionosphere: 351 samples, 34 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   vehicle: 846 samples, 18 feat, 4 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   sonar: 208 samples, 60 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   banknote: 1372 samples, 4 feat, 2 classes
+2026-02-12 22:09:48.024 | INFO     | __main__:main:662 -   spectf_heart: 349 samples, 44 feat, 2 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:main:662 -   iris: 150 samples, 4 feat, 3 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:main:662 -   monks2: 601 samples, 6 feat, 2 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:main:662 -   blood: 748 samples, 4 feat, 2 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:main:662 -   climate: 540 samples, 20 feat, 2 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:main:662 -   kc2: 522 samples, 21 feat, 2 classes
+2026-02-12 22:09:48.025 | INFO     | __main__:load_precomputed_synergy:105 - Loading pre-computed synergy matrices
+2026-02-12 22:09:48.030 | INFO     | __main__:main:666 - Pre-computed synergy for 11 datasets
+2026-02-12 22:09:48.030 | INFO     | __main__:main:672 - Computing CoI synergy for monks2...
+2026-02-12 22:09:48.071 | INFO     | __main__:main:676 -   Done in 0.0s
+2026-02-12 22:09:48.071 | INFO     | __main__:main:672 - Computing CoI synergy for blood...
+2026-02-12 22:09:48.093 | INFO     | __main__:main:676 -   Done in 0.0s
+2026-02-12 22:09:48.093 | INFO     | __main__:main:672 - Computing CoI synergy for climate...
+2026-02-12 22:09:48.568 | INFO     | __main__:main:676 -   Done in 0.5s
+2026-02-12 22:09:48.568 | INFO     | __main__:main:672 - Computing CoI synergy for kc2...
+2026-02-12 22:09:49.034 | INFO     | __main__:main:676 -   Done in 0.5s
+2026-02-12 22:09:49.035 | INFO     | __main__:main:688 - Computing graph statistics...
+2026-02-12 22:09:49.193 | INFO     | __main__:main:708 - Total experiment combos: 1400
+2026-02-12 22:09:49.193 | INFO     | __main__:main:718 - Dataset: banknote (1372s, 4f)
+2026-02-12 22:10:16.844 | INFO     | __main__:main:776 -   Progress: 50/1400 (29s, ~781s left)
+2026-02-12 22:10:39.040 | INFO     | __main__:main:776 -   Progress: 100/1400 (51s, ~665s left)
+2026-02-12 22:10:39.041 | INFO     | __main__:main:780 -   banknote done in 49.8s, 80 examples
+2026-02-12 22:10:39.041 | INFO     | __main__:main:718 - Dataset: blood (748s, 4f)
+2026-02-12 22:11:36.158 | INFO     | __main__:main:776 -   Progress: 150/1400 (108s, ~902s left)
+2026-02-12 22:12:48.397 | INFO     | __main__:main:776 -   Progress: 200/1400 (180s, ~1083s left)
+2026-02-12 22:12:48.397 | INFO     | __main__:main:780 -   blood done in 129.4s, 80 examples
+2026-02-12 22:12:48.397 | INFO     | __main__:main:718 - Dataset: breast_cancer_wisconsin_diagnostic (569s, 30f)
+2026-02-12 22:15:42.288 | INFO     | __main__:main:776 -   Progress: 250/1400 (354s, ~1630s left)
+2026-02-12 22:17:58.932 | INFO     | __main__:main:650 - ============================================================
+2026-02-12 22:17:58.932 | INFO     | __main__:main:651 - Synergy Threshold Sensitivity & Adaptive Thresholding
+2026-02-12 22:17:58.933 | INFO     | __main__:main:652 - ============================================================
+2026-02-12 22:17:58.933 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 22:17:59.032 | INFO     | __main__:load_datasets_from_json:69 - Loading datasets from full_data_out.json
+2026-02-12 22:17:59.057 | INFO     | __main__:main:660 - Loaded 14 datasets
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   breast_cancer_wisconsin_diagnostic: 569 samples, 30 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   wine: 178 samples, 13 feat, 3 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   pima_diabetes: 768 samples, 8 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   heart_statlog: 270 samples, 13 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   ionosphere: 351 samples, 34 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   vehicle: 846 samples, 18 feat, 4 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   sonar: 208 samples, 60 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   banknote: 1372 samples, 4 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   spectf_heart: 349 samples, 44 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   iris: 150 samples, 4 feat, 3 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   monks2: 601 samples, 6 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   blood: 748 samples, 4 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   climate: 540 samples, 20 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:main:662 -   kc2: 522 samples, 21 feat, 2 classes
+2026-02-12 22:17:59.058 | INFO     | __main__:load_precomputed_synergy:105 - Loading pre-computed synergy matrices
+2026-02-12 22:17:59.062 | INFO     | __main__:main:666 - Pre-computed synergy for 11 datasets
+2026-02-12 22:17:59.062 | INFO     | __main__:main:672 - Computing CoI synergy for monks2...
+2026-02-12 22:17:59.093 | INFO     | __main__:main:676 -   Done in 0.0s
+2026-02-12 22:17:59.093 | INFO     | __main__:main:672 - Computing CoI synergy for blood...
+2026-02-12 22:17:59.108 | INFO     | __main__:main:676 -   Done in 0.0s
+2026-02-12 22:17:59.108 | INFO     | __main__:main:672 - Computing CoI synergy for climate...
+2026-02-12 22:17:59.414 | INFO     | __main__:main:676 -   Done in 0.3s
+2026-02-12 22:17:59.414 | INFO     | __main__:main:672 - Computing CoI synergy for kc2...
+2026-02-12 22:17:59.838 | INFO     | __main__:main:676 -   Done in 0.4s
+2026-02-12 22:17:59.841 | INFO     | __main__:main:688 - Computing graph statistics...
+2026-02-12 22:17:59.915 | INFO     | __main__:main:708 - Total experiment combos: 840
+2026-02-12 22:17:59.915 | INFO     | __main__:main:718 - Dataset: banknote (1372s, 4f)
+2026-02-12 22:18:09.237 | INFO     | __main__:main:776 -   Progress: 50/840 (10s, ~163s left)
+2026-02-12 22:18:11.313 | INFO     | __main__:main:780 -   banknote done in 11.4s, 45 examples
+2026-02-12 22:18:11.313 | INFO     | __main__:main:718 - Dataset: blood (748s, 4f)
+2026-02-12 22:18:25.004 | INFO     | __main__:main:776 -   Progress: 100/840 (26s, ~193s left)
+2026-02-12 22:18:34.014 | INFO     | __main__:main:780 -   blood done in 22.7s, 45 examples
+2026-02-12 22:18:34.014 | INFO     | __main__:main:718 - Dataset: breast_cancer_wisconsin_diagnostic (569s, 30f)
+2026-02-12 22:18:56.631 | INFO     | __main__:main:776 -   Progress: 150/840 (58s, ~265s left)
+2026-02-12 22:19:24.635 | INFO     | __main__:main:780 -   breast_cancer_wisconsin_diagnostic done in 50.6s, 45 examples
+2026-02-12 22:19:24.635 | INFO     | __main__:main:718 - Dataset: climate (540s, 20f)
+2026-02-12 22:19:49.612 | INFO     | __main__:main:776 -   Progress: 200/840 (111s, ~354s left)
+2026-02-12 22:20:59.351 | INFO     | __main__:main:780 -   climate done in 94.7s, 45 examples
+2026-02-12 22:20:59.352 | INFO     | __main__:main:718 - Dataset: heart_statlog (270s, 13f)
+2026-02-12 22:21:09.770 | INFO     | __main__:main:776 -   Progress: 250/840 (191s, ~450s left)
+2026-02-12 22:22:05.627 | INFO     | __main__:main:776 -   Progress: 300/840 (247s, ~444s left)
+2026-02-12 22:22:05.628 | INFO     | __main__:main:780 -   heart_statlog done in 66.3s, 45 examples
+2026-02-12 22:22:05.628 | INFO     | __main__:main:718 - Dataset: ionosphere (351s, 34f)
+2026-02-12 22:23:06.570 | INFO     | __main__:main:776 -   Progress: 350/840 (308s, ~431s left)
+2026-02-12 22:23:27.089 | INFO     | __main__:main:780 -   ionosphere done in 81.5s, 45 examples
+2026-02-12 22:23:27.089 | INFO     | __main__:main:718 - Dataset: iris (150s, 4f)
+2026-02-12 22:23:30.829 | INFO     | __main__:main:776 -   Progress: 400/840 (332s, ~365s left)
+2026-02-12 22:23:32.240 | INFO     | __main__:main:780 -   iris done in 5.2s, 45 examples
+2026-02-12 22:23:32.241 | INFO     | __main__:main:718 - Dataset: kc2 (522s, 21f)
+2026-02-12 22:24:05.074 | INFO     | __main__:main:776 -   Progress: 450/840 (366s, ~317s left)
+2026-02-12 22:24:30.753 | INFO     | __main__:main:780 -   kc2 done in 58.5s, 45 examples
+2026-02-12 22:24:30.753 | INFO     | __main__:main:718 - Dataset: monks2 (601s, 6f)
+2026-02-12 22:24:50.895 | INFO     | __main__:main:776 -   Progress: 500/840 (412s, ~280s left)
+2026-02-12 22:25:17.982 | INFO     | __main__:main:780 -   monks2 done in 47.2s, 45 examples
+2026-02-12 22:25:17.982 | INFO     | __main__:main:718 - Dataset: pima_diabetes (768s, 8f)
+2026-02-12 22:25:28.041 | INFO     | __main__:main:776 -   Progress: 550/840 (449s, ~237s left)
+2026-02-12 22:26:24.717 | INFO     | __main__:main:776 -   Progress: 600/840 (506s, ~202s left)
+2026-02-12 22:26:24.717 | INFO     | __main__:main:780 -   pima_diabetes done in 66.7s, 45 examples
+2026-02-12 22:26:24.717 | INFO     | __main__:main:718 - Dataset: sonar (208s, 60f)
+2026-02-12 22:27:27.170 | INFO     | __main__:main:776 -   Progress: 650/840 (568s, ~166s left)
+2026-02-12 22:27:47.214 | INFO     | __main__:main:780 -   sonar done in 82.5s, 45 examples
+2026-02-12 22:27:47.215 | INFO     | __main__:main:718 - Dataset: spectf_heart (349s, 44f)
+2026-02-12 22:28:42.023 | INFO     | __main__:main:776 -   Progress: 700/840 (643s, ~129s left)
+2026-02-12 22:29:17.375 | INFO     | __main__:main:780 -   spectf_heart done in 90.2s, 45 examples
+2026-02-12 22:29:17.375 | INFO     | __main__:main:718 - Dataset: vehicle (846s, 18f)
+2026-02-12 22:29:58.440 | INFO     | __main__:main:776 -   Progress: 750/840 (720s, ~86s left)
+2026-02-12 22:30:48.249 | INFO     | __main__:main:780 -   vehicle done in 90.9s, 45 examples
+2026-02-12 22:30:48.249 | INFO     | __main__:main:718 - Dataset: wine (178s, 13f)
+2026-02-12 22:30:54.048 | INFO     | __main__:main:776 -   Progress: 800/840 (775s, ~39s left)
+2026-02-12 22:31:03.730 | INFO     | __main__:main:780 -   wine done in 15.5s, 45 examples
+2026-02-12 22:31:03.731 | INFO     | __main__:main:785 - Computing analysis...
+2026-02-12 22:31:03.745 | INFO     | __main__:main:896 - Wrote results_comprehensive.json (26.6 KB)
+2026-02-12 22:31:03.754 | INFO     | __main__:main:902 - Wrote method_out.json (469.4 KB)
+2026-02-12 22:31:03.754 | INFO     | __main__:main:907 - ============================================================
+2026-02-12 22:31:03.754 | INFO     | __main__:main:908 - EXPERIMENT COMPLETE
+2026-02-12 22:31:03.754 | INFO     | __main__:main:909 -   Total time: 784.8s (13.1 min)
+2026-02-12 22:31:03.754 | INFO     | __main__:main:910 -   Datasets: 14
+2026-02-12 22:31:03.754 | INFO     | __main__:main:911 -   Total examples: 630
+2026-02-12 22:31:03.754 | INFO     | __main__:main:912 -   Best universal threshold: 90th pct
+2026-02-12 22:31:03.754 | INFO     | __main__:main:913 -   Mean improvement from tuning: 0.0051
+2026-02-12 22:31:03.754 | INFO     | __main__:main:914 -   Datasets improved: 2/14
+2026-02-12 22:31:03.754 | INFO     | __main__:main:915 -   SG-FIGS vs FIGS: 0.0034
+2026-02-12 22:31:03.755 | INFO     | __main__:main:916 -   SG-FIGS vs RO-FIGS: -0.0070
+2026-02-12 22:31:03.755 | INFO     | __main__:main:917 -   Adaptive vs fixed: -0.0002
+2026-02-12 22:31:03.755 | INFO     | __main__:main:918 - ============================================================

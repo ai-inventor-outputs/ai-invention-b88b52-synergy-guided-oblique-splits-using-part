@@ -1,0 +1,994 @@
+{
+  "metadata": {
+    "evaluation_name": "SG-FIGS Definitive Statistical Evaluation",
+    "description": "Comprehensive evaluation of 5-method comparison (FIGS, RO-FIGS, SG-FIGS-Hard, SG-FIGS-Soft, Random-FIGS) across 14 datasets with Friedman tests, pairwise Wilcoxon, ablation analysis, threshold sensitivity, PID synergy domain validation, and Pareto analysis.",
+    "experiments_evaluated": [
+      "exp_id1_it3 (5-method comparison, 14 datasets, 7472 examples)",
+      "exp_id3_it3 (threshold sensitivity, 14 datasets, 630 examples)",
+      "exp_id1_it2 (PID synergy matrices, 12 datasets, 2569 examples)"
+    ],
+    "methods": [
+      "FIGS",
+      "RO-FIGS",
+      "SG-FIGS-Hard",
+      "SG-FIGS-Soft",
+      "Random-FIGS"
+    ],
+    "statistical_tests": [
+      "Friedman \u03c7\u00b2 test (nonparametric, repeated measures)",
+      "Nemenyi post-hoc with critical difference",
+      "Pairwise Wilcoxon signed-rank with Holm-Bonferroni correction"
+    ],
+    "success_criteria": [
+      "C1: Accuracy within 1% of RO-FIGS with 20% fewer splits",
+      "C2: Higher interpretability than baselines",
+      "C3: High-synergy pairs correspond to known domain interactions"
+    ]
+  },
+  "metrics_agg": {
+    "friedman_chi2_accuracy": 8.842857142857161,
+    "friedman_p_accuracy": 0.0651495933850712,
+    "nemenyi_cd": 1.6302918231321128,
+    "n_datasets": 14,
+    "n_methods": 5,
+    "n_examples_total_exp1": 7472,
+    "n_examples_total_exp3": 630,
+    "n_examples_total_pid": 2569,
+    "mean_acc_figs": 0.7865019285714284,
+    "mean_acc_ro_figs": 0.7845895857142856,
+    "mean_acc_sg_figs_hard": 0.7887111857142858,
+    "mean_acc_sg_figs_soft": 0.8010325,
+    "mean_acc_random_figs": 0.7836556,
+    "avg_rank_figs": 3.357142857142857,
+    "avg_rank_ro_figs": 3.107142857142857,
+    "avg_rank_sg_figs_hard": 3.0714285714285716,
+    "avg_rank_sg_figs_soft": 1.9285714285714286,
+    "avg_rank_random_figs": 3.5357142857142856,
+    "ablation_hard_vs_random_delta": 0.005055585714285755,
+    "ablation_hard_vs_random_p": 0.463134765625,
+    "ablation_soft_vs_random_delta": 0.01737689999999999,
+    "ablation_soft_vs_random_p": 0.0040283203125,
+    "ablation_interp_hard_vs_random_delta": 0.35785884615384617,
+    "ablation_interp_hard_vs_random_p": 0.00048828125,
+    "c1_original_met": 1,
+    "c1_reframed_met": 13,
+    "c2_hard_interp_mean": 1.0,
+    "c2_random_interp_mean": 0.6421411538461539,
+    "c3_domain_matches": 2,
+    "threshold_mean_tuning_improvement": 0.0051405380952381,
+    "threshold_tuned_vs_rofigs_delta": -0.0018257095238095283,
+    "regression_r2_multiple": 0.23814882373260615,
+    "friedman_chi2_auc": 3.9090909090909127,
+    "friedman_p_auc": 0.41844884193918497
+  },
+  "datasets": [
+    {
+      "dataset": "accuracy_comparison",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"n_features\": 4, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.979273, \"figs_acc_std\": 0.010766, \"figs_n_splits\": 15.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.988919, \"ro_figs_acc_std\": 0.004155, \"ro_figs_n_splits\": 15.0, \"ro_figs_interpretability\": 0.4786, \"sg_figs_hard_acc_mean\": 0.990454, \"sg_figs_hard_acc_std\": 0.00793, \"sg_figs_hard_n_splits\": 5.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.991304, \"sg_figs_soft_acc_std\": 0.004454, \"sg_figs_soft_n_splits\": 10.0, \"sg_figs_soft_interpretability\": 0.6343, \"random_figs_acc_mean\": 0.985413, \"random_figs_acc_std\": 0.006301, \"random_figs_n_splits\": 15.0, \"random_figs_interpretability\": 0.4233, \"figs_auc_mean\": 0.979655, \"figs_auc_std\": 0.015431, \"ro_figs_auc_mean\": 0.992844, \"ro_figs_auc_std\": 0.006106, \"sg_figs_hard_auc_mean\": 0.988421, \"sg_figs_hard_auc_std\": 0.010373, \"sg_figs_soft_auc_mean\": 0.992051, \"sg_figs_soft_auc_std\": 0.005955, \"random_figs_auc_mean\": 0.988302, \"random_figs_auc_std\": 0.007096}",
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.991304",
+          "eval_rank_sg_figs_hard": 2.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"n_features\": 4, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.660315, \"figs_acc_std\": 0.032519, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.651594, \"ro_figs_acc_std\": 0.016317, \"ro_figs_n_splits\": 10.0, \"ro_figs_interpretability\": 0.3909, \"sg_figs_hard_acc_mean\": 0.669062, \"sg_figs_hard_acc_std\": 0.030345, \"sg_figs_hard_n_splits\": 10.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.655369, \"sg_figs_soft_acc_std\": 0.013207, \"sg_figs_soft_n_splits\": 10.0, \"sg_figs_soft_interpretability\": 0.7143, \"random_figs_acc_mean\": 0.641894, \"random_figs_acc_std\": 0.025769, \"random_figs_n_splits\": 10.0, \"random_figs_interpretability\": 0.73, \"figs_auc_mean\": 0.718173, \"figs_auc_std\": 0.037734, \"ro_figs_auc_mean\": 0.712818, \"ro_figs_auc_std\": 0.030033, \"sg_figs_hard_auc_mean\": 0.708361, \"sg_figs_hard_auc_std\": 0.018151, \"sg_figs_soft_auc_mean\": 0.719985, \"sg_figs_soft_auc_std\": 0.020589, \"random_figs_auc_mean\": 0.716935, \"random_figs_auc_std\": 0.050101}",
+          "metadata_dataset": "blood",
+          "metadata_n_features": 4,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Hard",
+          "predict_sg_figs_soft_acc": "0.655369",
+          "eval_rank_sg_figs_hard": 1.0,
+          "eval_rank_sg_figs_soft": 3.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.911853, \"figs_acc_std\": 0.021855, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.917421, \"ro_figs_acc_std\": 0.018583, \"ro_figs_n_splits\": 25.0, \"ro_figs_interpretability\": 1.0, \"sg_figs_hard_acc_mean\": 0.932704, \"sg_figs_hard_acc_std\": 0.023479, \"sg_figs_hard_n_splits\": 15.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.944209, \"sg_figs_soft_acc_std\": 0.021898, \"sg_figs_soft_n_splits\": 15.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_acc_mean\": 0.918542, \"random_figs_acc_std\": 0.016846, \"random_figs_n_splits\": 25.0, \"random_figs_interpretability\": 0.7333, \"figs_auc_mean\": 0.933468, \"figs_auc_std\": 0.028743, \"ro_figs_auc_mean\": 0.945806, \"ro_figs_auc_std\": 0.028145, \"sg_figs_hard_auc_mean\": 0.954433, \"sg_figs_hard_auc_std\": 0.00978, \"sg_figs_soft_auc_mean\": 0.959213, \"sg_figs_soft_auc_std\": 0.017926, \"random_figs_auc_mean\": 0.951991, \"random_figs_auc_std\": 0.017962}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.944209",
+          "eval_rank_sg_figs_hard": 2.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"climate\", \"n_features\": 20, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.535476, \"figs_acc_std\": 0.081164, \"figs_n_splits\": 15.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.580182, \"ro_figs_acc_std\": 0.090037, \"ro_figs_n_splits\": 5.0, \"ro_figs_interpretability\": 0.5, \"sg_figs_hard_acc_mean\": 0.566532, \"sg_figs_hard_acc_std\": 0.120388, \"sg_figs_hard_n_splits\": 15.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.607664, \"sg_figs_soft_acc_std\": 0.076904, \"sg_figs_soft_n_splits\": 5.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_acc_mean\": 0.576166, \"random_figs_acc_std\": 0.086108, \"random_figs_n_splits\": 25.0, \"random_figs_interpretability\": 0.6667, \"figs_auc_mean\": 0.609406, \"figs_auc_std\": 0.143552, \"ro_figs_auc_mean\": 0.742356, \"ro_figs_auc_std\": 0.138387, \"sg_figs_hard_auc_mean\": 0.769212, \"sg_figs_hard_auc_std\": 0.154315, \"sg_figs_soft_auc_mean\": 0.795876, \"sg_figs_soft_auc_std\": 0.117979, \"random_figs_auc_mean\": 0.705951, \"random_figs_auc_std\": 0.149839}",
+          "metadata_dataset": "climate",
+          "metadata_n_features": 20,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.607664",
+          "eval_rank_sg_figs_hard": 4.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"n_features\": 13, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.782904, \"figs_acc_std\": 0.044121, \"figs_n_splits\": 15.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.797192, \"ro_figs_acc_std\": 0.056198, \"ro_figs_n_splits\": 5.0, \"ro_figs_interpretability\": 0.4, \"sg_figs_hard_acc_mean\": 0.775343, \"sg_figs_hard_acc_std\": 0.042601, \"sg_figs_hard_n_splits\": 10.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.790912, \"sg_figs_soft_acc_std\": 0.023602, \"sg_figs_soft_n_splits\": 10.0, \"sg_figs_soft_interpretability\": 0.95, \"random_figs_acc_mean\": 0.776124, \"random_figs_acc_std\": 0.020776, \"random_figs_n_splits\": 25.0, \"random_figs_interpretability\": 0.653, \"figs_auc_mean\": 0.860927, \"figs_auc_std\": 0.046148, \"ro_figs_auc_mean\": 0.823008, \"ro_figs_auc_std\": 0.048508, \"sg_figs_hard_auc_mean\": 0.772493, \"sg_figs_hard_auc_std\": 0.041925, \"sg_figs_soft_auc_mean\": 0.803198, \"sg_figs_soft_auc_std\": 0.049275, \"random_figs_auc_mean\": 0.797089, \"random_figs_auc_std\": 0.052377}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_n_features": 13,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "RO-FIGS",
+          "predict_sg_figs_soft_acc": "0.790912",
+          "eval_rank_sg_figs_hard": 5.0,
+          "eval_rank_sg_figs_soft": 2.0
+        },
+        {
+          "input": "{\"dataset\": \"ionosphere\", \"n_features\": 34, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.867143, \"figs_acc_std\": 0.042377, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.867429, \"ro_figs_acc_std\": 0.023127, \"ro_figs_n_splits\": 10.0, \"ro_figs_interpretability\": 0.5833, \"sg_figs_hard_acc_mean\": 0.897699, \"sg_figs_hard_acc_std\": 0.029396, \"sg_figs_hard_n_splits\": 5.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.87148, \"sg_figs_soft_acc_std\": 0.016866, \"sg_figs_soft_n_splits\": 15.0, \"sg_figs_soft_interpretability\": 0.9333, \"random_figs_acc_mean\": 0.872707, \"random_figs_acc_std\": 0.043883, \"random_figs_n_splits\": 5.0, \"random_figs_interpretability\": 1.0, \"figs_auc_mean\": 0.888697, \"figs_auc_std\": 0.047433, \"ro_figs_auc_mean\": 0.890503, \"ro_figs_auc_std\": 0.014664, \"sg_figs_hard_auc_mean\": 0.901261, \"sg_figs_hard_auc_std\": 0.051722, \"sg_figs_soft_auc_mean\": 0.865333, \"sg_figs_soft_auc_std\": 0.023823, \"random_figs_auc_mean\": 0.880032, \"random_figs_auc_std\": 0.052658}",
+          "metadata_dataset": "ionosphere",
+          "metadata_n_features": 34,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Hard",
+          "predict_sg_figs_soft_acc": "0.87148",
+          "eval_rank_sg_figs_hard": 1.0,
+          "eval_rank_sg_figs_soft": 3.0
+        },
+        {
+          "input": "{\"dataset\": \"iris\", \"n_features\": 4, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.947638, \"figs_acc_std\": 0.029634, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.95288, \"ro_figs_acc_std\": 0.025176, \"ro_figs_n_splits\": 11.6, \"ro_figs_interpretability\": 0.04, \"sg_figs_hard_acc_mean\": 0.932053, \"sg_figs_hard_acc_std\": 0.039001, \"sg_figs_hard_n_splits\": 21.6, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.955045, \"sg_figs_soft_acc_std\": 0.014729, \"sg_figs_soft_n_splits\": 21.6, \"sg_figs_soft_interpretability\": 0.7433, \"random_figs_acc_mean\": 0.947223, \"random_figs_acc_std\": 0.027209, \"random_figs_n_splits\": 11.6, \"random_figs_interpretability\": 0.5}",
+          "metadata_dataset": "iris",
+          "metadata_n_features": 4,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.955045",
+          "eval_rank_sg_figs_hard": 5.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"kc2\", \"n_features\": 21, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.696362, \"figs_acc_std\": 0.026877, \"figs_n_splits\": 10.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.693256, \"ro_figs_acc_std\": 0.02863, \"ro_figs_n_splits\": 10.0, \"ro_figs_interpretability\": 0.3333, \"sg_figs_hard_acc_mean\": 0.709256, \"sg_figs_hard_acc_std\": 0.047458, \"sg_figs_hard_n_splits\": 5.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.672497, \"sg_figs_soft_acc_std\": 0.035619, \"sg_figs_soft_n_splits\": 25.0, \"sg_figs_soft_interpretability\": 0.7, \"random_figs_acc_mean\": 0.684685, \"random_figs_acc_std\": 0.061184, \"random_figs_n_splits\": 10.0, \"random_figs_interpretability\": 0.8889, \"figs_auc_mean\": 0.779806, \"figs_auc_std\": 0.04058, \"ro_figs_auc_mean\": 0.780292, \"ro_figs_auc_std\": 0.049575, \"sg_figs_hard_auc_mean\": 0.785504, \"sg_figs_hard_auc_std\": 0.076963, \"sg_figs_soft_auc_mean\": 0.695097, \"sg_figs_soft_auc_std\": 0.079868, \"random_figs_auc_mean\": 0.790214, \"random_figs_auc_std\": 0.07175}",
+          "metadata_dataset": "kc2",
+          "metadata_n_features": 21,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Hard",
+          "predict_sg_figs_soft_acc": "0.672497",
+          "eval_rank_sg_figs_hard": 1.0,
+          "eval_rank_sg_figs_soft": 5.0
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"n_features\": 6, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.733197, \"figs_acc_std\": 0.056183, \"figs_n_splits\": 25.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.726357, \"ro_figs_acc_std\": 0.046592, \"ro_figs_n_splits\": 25.0, \"ro_figs_interpretability\": 0.482, \"sg_figs_hard_acc_mean\": 0.766626, \"sg_figs_hard_acc_std\": 0.042678, \"sg_figs_hard_n_splits\": 25.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.813727, \"sg_figs_soft_acc_std\": 0.043486, \"sg_figs_soft_n_splits\": 25.0, \"sg_figs_soft_interpretability\": 0.6417, \"random_figs_acc_mean\": 0.795523, \"random_figs_acc_std\": 0.036922, \"random_figs_n_splits\": 25.0, \"random_figs_interpretability\": 0.7945, \"figs_auc_mean\": 0.898073, \"figs_auc_std\": 0.064415, \"ro_figs_auc_mean\": 0.878065, \"ro_figs_auc_std\": 0.039165, \"sg_figs_hard_auc_mean\": 0.893442, \"sg_figs_hard_auc_std\": 0.025795, \"sg_figs_soft_auc_mean\": 0.918314, \"sg_figs_soft_auc_std\": 0.026009, \"random_figs_auc_mean\": 0.916861, \"random_figs_auc_std\": 0.029496}",
+          "metadata_dataset": "monks2",
+          "metadata_n_features": 6,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.813727",
+          "eval_rank_sg_figs_hard": 3.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"n_features\": 8, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.709001, \"figs_acc_std\": 0.00939, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.724263, \"ro_figs_acc_std\": 0.022208, \"ro_figs_n_splits\": 5.0, \"ro_figs_interpretability\": 0.6, \"sg_figs_hard_acc_mean\": 0.704154, \"sg_figs_hard_acc_std\": 0.021326, \"sg_figs_hard_n_splits\": 15.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.735609, \"sg_figs_soft_acc_std\": 0.02164, \"sg_figs_soft_n_splits\": 10.0, \"sg_figs_soft_interpretability\": 0.6133, \"random_figs_acc_mean\": 0.73092, \"random_figs_acc_std\": 0.03319, \"random_figs_n_splits\": 5.0, \"random_figs_interpretability\": 0.5, \"figs_auc_mean\": 0.778554, \"figs_auc_std\": 0.015211, \"ro_figs_auc_mean\": 0.802547, \"ro_figs_auc_std\": 0.015104, \"sg_figs_hard_auc_mean\": 0.764823, \"sg_figs_hard_auc_std\": 0.035042, \"sg_figs_soft_auc_mean\": 0.802019, \"sg_figs_soft_auc_std\": 0.012522, \"random_figs_auc_mean\": 0.789669, \"random_figs_auc_std\": 0.01905}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_n_features": 8,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.735609",
+          "eval_rank_sg_figs_hard": 5.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"sonar\", \"n_features\": 60, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.735484, \"figs_acc_std\": 0.112015, \"figs_n_splits\": 10.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.687605, \"ro_figs_acc_std\": 0.088805, \"ro_figs_n_splits\": 5.0, \"ro_figs_interpretability\": null, \"sg_figs_hard_acc_mean\": 0.706411, \"sg_figs_hard_acc_std\": 0.10662, \"sg_figs_hard_n_splits\": 25.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.723317, \"sg_figs_soft_acc_std\": 0.07696, \"sg_figs_soft_n_splits\": 25.0, \"sg_figs_soft_interpretability\": 0.7778, \"random_figs_acc_mean\": 0.687605, \"random_figs_acc_std\": 0.088805, \"random_figs_n_splits\": 5.0, \"random_figs_interpretability\": null, \"figs_auc_mean\": 0.733513, \"figs_auc_std\": 0.118533, \"ro_figs_auc_mean\": 0.715217, \"ro_figs_auc_std\": 0.089858, \"sg_figs_hard_auc_mean\": 0.729059, \"sg_figs_hard_auc_std\": 0.137396, \"sg_figs_soft_auc_mean\": 0.745927, \"sg_figs_soft_auc_std\": 0.07531, \"random_figs_auc_mean\": 0.715217, \"random_figs_auc_std\": 0.089858}",
+          "metadata_dataset": "sonar",
+          "metadata_n_features": 60,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "FIGS",
+          "predict_sg_figs_soft_acc": "0.723317",
+          "eval_rank_sg_figs_hard": 3.0,
+          "eval_rank_sg_figs_soft": 2.0
+        },
+        {
+          "input": "{\"dataset\": \"spectf_heart\", \"n_features\": 44, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.846863, \"figs_acc_std\": 0.038735, \"figs_n_splits\": 25.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.794483, \"ro_figs_acc_std\": 0.070215, \"ro_figs_n_splits\": 15.0, \"ro_figs_interpretability\": 0.8667, \"sg_figs_hard_acc_mean\": 0.804996, \"sg_figs_hard_acc_std\": 0.029801, \"sg_figs_hard_n_splits\": 15.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.811134, \"sg_figs_soft_acc_std\": 0.018386, \"sg_figs_soft_n_splits\": 15.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_acc_mean\": 0.767653, \"random_figs_acc_std\": 0.055618, \"random_figs_n_splits\": 25.0, \"random_figs_interpretability\": 0.9, \"figs_auc_mean\": 0.850555, \"figs_auc_std\": 0.03611, \"ro_figs_auc_mean\": 0.87457, \"ro_figs_auc_std\": 0.05101, \"sg_figs_hard_auc_mean\": 0.812937, \"sg_figs_hard_auc_std\": 0.068623, \"sg_figs_soft_auc_mean\": 0.850131, \"sg_figs_soft_auc_std\": 0.059612, \"random_figs_auc_mean\": 0.836548, \"random_figs_auc_std\": 0.069839}",
+          "metadata_dataset": "spectf_heart",
+          "metadata_n_features": 44,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "FIGS",
+          "predict_sg_figs_soft_acc": "0.811134",
+          "eval_rank_sg_figs_hard": 3.0,
+          "eval_rank_sg_figs_soft": 2.0
+        },
+        {
+          "input": "{\"dataset\": \"vehicle\", \"n_features\": 18, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.691765, \"figs_acc_std\": 0.020037, \"figs_n_splits\": 15.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.710991, \"ro_figs_acc_std\": 0.025442, \"ro_figs_n_splits\": 40.0, \"ro_figs_interpretability\": 0.4391, \"sg_figs_hard_acc_mean\": 0.698692, \"sg_figs_hard_acc_std\": 0.035459, \"sg_figs_hard_n_splits\": 40.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.707146, \"sg_figs_soft_acc_std\": 0.021201, \"sg_figs_soft_n_splits\": 60.0, \"sg_figs_soft_interpretability\": 0.8437, \"random_figs_acc_mean\": 0.709146, \"random_figs_acc_std\": 0.020337, \"random_figs_n_splits\": 40.0, \"random_figs_interpretability\": 0.5582}",
+          "metadata_dataset": "vehicle",
+          "metadata_n_features": 18,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "RO-FIGS",
+          "predict_sg_figs_soft_acc": "0.707146",
+          "eval_rank_sg_figs_hard": 4.0,
+          "eval_rank_sg_figs_soft": 3.0
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"n_features\": 13, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.913753, \"figs_acc_std\": 0.04544, \"figs_n_splits\": 7.6, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.891682, \"ro_figs_acc_std\": 0.034094, \"ro_figs_n_splits\": 14.8, \"ro_figs_interpretability\": 0.375, \"sg_figs_hard_acc_mean\": 0.887973, \"sg_figs_hard_acc_std\": 0.030069, \"sg_figs_hard_n_splits\": 14.8, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_acc_mean\": 0.935043, \"sg_figs_soft_acc_std\": 0.042417, \"sg_figs_soft_n_splits\": 41.2, \"sg_figs_soft_interpretability\": 0.3, \"random_figs_acc_mean\": 0.877578, \"random_figs_acc_std\": 0.043261, \"random_figs_n_splits\": 14.8, \"random_figs_interpretability\": 0.0}",
+          "metadata_dataset": "wine",
+          "metadata_n_features": 13,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.935043",
+          "eval_rank_sg_figs_hard": 4.0,
+          "eval_rank_sg_figs_soft": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "statistical_tests",
+      "examples": [
+        {
+          "input": "{\"test\": \"friedman\", \"metric\": \"balanced_accuracy\", \"n_datasets\": 14, \"n_methods\": 5}",
+          "output": "{\"chi2\": 8.8429, \"p_value\": 0.06515, \"nemenyi_cd\": 1.6303, \"significant\": false}",
+          "metadata_test_type": "friedman",
+          "predict_significant": "False",
+          "eval_chi2": 8.842857142857161,
+          "eval_p_value": 0.0651495933850712
+        },
+        {
+          "input": "{\"test\": \"friedman\", \"metric\": \"auc\", \"n_datasets\": 11, \"n_methods\": 5}",
+          "output": "{\"chi2\": 3.9091, \"p_value\": 0.418449, \"significant\": false}",
+          "metadata_test_type": "friedman_auc",
+          "predict_significant": "False",
+          "eval_chi2": 3.9090909090909127,
+          "eval_p_value": 0.41844884193918497
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"FIGS vs RO-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.951538, \"p_corrected\": 0.951538, \"mean_diff\": 0.001912, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "FIGS vs RO-FIGS",
+          "predict_significant": "False",
+          "eval_p_corrected": 0.9515380859375,
+          "eval_mean_diff": 0.0019123428571428838
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"FIGS vs SG-FIGS-Hard\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.625732, \"p_corrected\": 1.0, \"mean_diff\": -0.002209, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "FIGS vs SG-FIGS-Hard",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": -0.002209257142857151
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"FIGS vs SG-FIGS-Soft\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.153076, \"p_corrected\": 1.0, \"mean_diff\": -0.014531, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "FIGS vs SG-FIGS-Soft",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": -0.014530571428571384
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"FIGS vs Random-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.855225, \"p_corrected\": 1.0, \"mean_diff\": 0.002846, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "FIGS vs Random-FIGS",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": 0.002846328571428604
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"RO-FIGS vs SG-FIGS-Hard\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.625732, \"p_corrected\": 1.0, \"mean_diff\": -0.004122, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "RO-FIGS vs SG-FIGS-Hard",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": -0.004121600000000035
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"RO-FIGS vs SG-FIGS-Soft\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.035278, \"p_corrected\": 0.317505, \"mean_diff\": -0.016443, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "RO-FIGS vs SG-FIGS-Soft",
+          "predict_significant": "False",
+          "eval_p_corrected": 0.3175048828125,
+          "eval_mean_diff": -0.016442914285714268
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"RO-FIGS vs Random-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.190918, \"p_corrected\": 1.0, \"mean_diff\": 0.000934, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "RO-FIGS vs Random-FIGS",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": 0.0009339857142857201
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"SG-FIGS-Hard vs SG-FIGS-Soft\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.090576, \"p_corrected\": 0.724609, \"mean_diff\": -0.012321, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "SG-FIGS-Hard vs SG-FIGS-Soft",
+          "predict_significant": "False",
+          "eval_p_corrected": 0.724609375,
+          "eval_mean_diff": -0.012321314285714233
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"SG-FIGS-Hard vs Random-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.463135, \"p_corrected\": 1.0, \"mean_diff\": 0.005056, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "SG-FIGS-Hard vs Random-FIGS",
+          "predict_significant": "False",
+          "eval_p_corrected": 1.0,
+          "eval_mean_diff": 0.005055585714285755
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"SG-FIGS-Soft vs Random-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.004028, \"p_corrected\": 0.040283, \"mean_diff\": 0.017377, \"significant\": true}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "SG-FIGS-Soft vs Random-FIGS",
+          "predict_significant": "True",
+          "eval_p_corrected": 0.040283203125,
+          "eval_mean_diff": 0.01737689999999999
+        }
+      ]
+    },
+    {
+      "dataset": "ablation_analysis",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.990454, \"random_acc\": 0.985413, \"acc_delta\": 0.005041, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.4233, \"interp_delta\": 0.5767}",
+          "metadata_dataset": "banknote",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.005041400000000196,
+          "eval_interp_delta": 0.57674
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.669062, \"random_acc\": 0.641894, \"acc_delta\": 0.027169, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.73, \"interp_delta\": 0.27}",
+          "metadata_dataset": "blood",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.027168799999999993,
+          "eval_interp_delta": 0.2699999999999999
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.932704, \"random_acc\": 0.918542, \"acc_delta\": 0.014162, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.7333, \"interp_delta\": 0.2667}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.014162200000000236,
+          "eval_interp_delta": 0.26666
+        },
+        {
+          "input": "{\"dataset\": \"climate\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.566532, \"random_acc\": 0.576166, \"acc_delta\": -0.009633, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.6667, \"interp_delta\": 0.3333}",
+          "metadata_dataset": "climate",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.009633400000000125,
+          "eval_interp_delta": 0.333325
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.775343, \"random_acc\": 0.776124, \"acc_delta\": -0.000781, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.653, \"interp_delta\": 0.347}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.0007808000000001369,
+          "eval_interp_delta": 0.347
+        },
+        {
+          "input": "{\"dataset\": \"ionosphere\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.897699, \"random_acc\": 0.872707, \"acc_delta\": 0.024991, \"hard_interpretability\": 1.0, \"random_interpretability\": 1.0, \"interp_delta\": 0.0}",
+          "metadata_dataset": "ionosphere",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.024991399999999997,
+          "eval_interp_delta": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"iris\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.932053, \"random_acc\": 0.947223, \"acc_delta\": -0.01517, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.5, \"interp_delta\": 0.5}",
+          "metadata_dataset": "iris",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.015170000000000017,
+          "eval_interp_delta": 0.5
+        },
+        {
+          "input": "{\"dataset\": \"kc2\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.709256, \"random_acc\": 0.684685, \"acc_delta\": 0.024571, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.8889, \"interp_delta\": 0.1111}",
+          "metadata_dataset": "kc2",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.024571200000000015,
+          "eval_interp_delta": 0.11109999999999998
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.766626, \"random_acc\": 0.795523, \"acc_delta\": -0.028896, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.7945, \"interp_delta\": 0.2055}",
+          "metadata_dataset": "monks2",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.028896199999999927,
+          "eval_interp_delta": 0.20551999999999992
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.704154, \"random_acc\": 0.73092, \"acc_delta\": -0.026766, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.5, \"interp_delta\": 0.5}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.026766199999999962,
+          "eval_interp_delta": 0.5
+        },
+        {
+          "input": "{\"dataset\": \"sonar\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.706411, \"random_acc\": 0.687605, \"acc_delta\": 0.018806, \"hard_interpretability\": 1.0, \"random_interpretability\": null, \"interp_delta\": null}",
+          "metadata_dataset": "sonar",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.018805599999999978,
+          "eval_interp_delta": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"spectf_heart\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.804996, \"random_acc\": 0.767653, \"acc_delta\": 0.037343, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.9, \"interp_delta\": 0.1}",
+          "metadata_dataset": "spectf_heart",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.037342600000000115,
+          "eval_interp_delta": 0.09999999999999998
+        },
+        {
+          "input": "{\"dataset\": \"vehicle\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.698692, \"random_acc\": 0.709146, \"acc_delta\": -0.010454, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.5582, \"interp_delta\": 0.4418}",
+          "metadata_dataset": "vehicle",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "False",
+          "eval_acc_delta": -0.010453599999999952,
+          "eval_interp_delta": 0.4418200000000001
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.887973, \"random_acc\": 0.877578, \"acc_delta\": 0.010395, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.0, \"interp_delta\": 1.0}",
+          "metadata_dataset": "wine",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.01039520000000016,
+          "eval_interp_delta": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "criterion_1_accuracy_complexity",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.002385, \"split_ratio_soft_vs_ro\": 0.6667, \"original_criterion_met\": true, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "banknote",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "True",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.002385400000000093,
+          "eval_split_ratio": 0.6666666666666666
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.003775, \"split_ratio_soft_vs_ro\": 1.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "blood",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.003774999999999973,
+          "eval_split_ratio": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.026789, \"split_ratio_soft_vs_ro\": 0.6, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.026788799999999835,
+          "eval_split_ratio": 0.6
+        },
+        {
+          "input": "{\"dataset\": \"climate\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.027482, \"split_ratio_soft_vs_ro\": 1.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "climate",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.027482200000000012,
+          "eval_split_ratio": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": -0.00628, \"split_ratio_soft_vs_ro\": 2.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": -0.0062797999999999465,
+          "eval_split_ratio": 2.0
+        },
+        {
+          "input": "{\"dataset\": \"ionosphere\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.004051, \"split_ratio_soft_vs_ro\": 1.5, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "ionosphere",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.004050600000000015,
+          "eval_split_ratio": 1.5
+        },
+        {
+          "input": "{\"dataset\": \"iris\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.002165, \"split_ratio_soft_vs_ro\": 1.8621, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "iris",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.00216459999999985,
+          "eval_split_ratio": 1.8620689655172415
+        },
+        {
+          "input": "{\"dataset\": \"kc2\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": -0.020759, \"split_ratio_soft_vs_ro\": 2.5, \"original_criterion_met\": false, \"reframed_criterion_met\": false}",
+          "metadata_dataset": "kc2",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "False",
+          "eval_acc_delta": -0.020759399999999983,
+          "eval_split_ratio": 2.5
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.08737, \"split_ratio_soft_vs_ro\": 1.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "monks2",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.08736979999999994,
+          "eval_split_ratio": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.011346, \"split_ratio_soft_vs_ro\": 2.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.011345800000000072,
+          "eval_split_ratio": 2.0
+        },
+        {
+          "input": "{\"dataset\": \"sonar\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.035711, \"split_ratio_soft_vs_ro\": 5.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "sonar",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.03571139999999995,
+          "eval_split_ratio": 5.0
+        },
+        {
+          "input": "{\"dataset\": \"spectf_heart\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.016651, \"split_ratio_soft_vs_ro\": 1.0, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "spectf_heart",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.016650800000000077,
+          "eval_split_ratio": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"vehicle\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": -0.003846, \"split_ratio_soft_vs_ro\": 1.5, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "vehicle",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": -0.0038456000000001156,
+          "eval_split_ratio": 1.5
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"criterion\": \"accuracy_complexity\"}",
+          "output": "{\"acc_delta_soft_vs_ro\": 0.043361, \"split_ratio_soft_vs_ro\": 2.7838, \"original_criterion_met\": false, \"reframed_criterion_met\": true}",
+          "metadata_dataset": "wine",
+          "metadata_criterion": "c1_accuracy_complexity",
+          "predict_original_met": "False",
+          "predict_reframed_met": "True",
+          "eval_acc_delta": 0.04336119999999999,
+          "eval_split_ratio": 2.7837837837837838
+        }
+      ]
+    },
+    {
+      "dataset": "criterion_2_interpretability",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.4786, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.6343, \"random_figs_interpretability\": 0.4233}",
+          "metadata_dataset": "banknote",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.3909, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.7143, \"random_figs_interpretability\": 0.73}",
+          "metadata_dataset": "blood",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 1.0, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_interpretability\": 0.7333}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"climate\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.5, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_interpretability\": 0.6667}",
+          "metadata_dataset": "climate",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.4, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.95, \"random_figs_interpretability\": 0.653}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"ionosphere\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.5833, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.9333, \"random_figs_interpretability\": 1.0}",
+          "metadata_dataset": "ionosphere",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"iris\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.04, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.7433, \"random_figs_interpretability\": 0.5}",
+          "metadata_dataset": "iris",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"kc2\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.3333, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.7, \"random_figs_interpretability\": 0.8889}",
+          "metadata_dataset": "kc2",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.482, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.6417, \"random_figs_interpretability\": 0.7945}",
+          "metadata_dataset": "monks2",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.6, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.6133, \"random_figs_interpretability\": 0.5}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"sonar\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": null, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.7778, \"random_figs_interpretability\": null}",
+          "metadata_dataset": "sonar",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"spectf_heart\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.8667, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 1.0, \"random_figs_interpretability\": 0.9}",
+          "metadata_dataset": "spectf_heart",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"vehicle\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.4391, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.8437, \"random_figs_interpretability\": 0.5582}",
+          "metadata_dataset": "vehicle",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"criterion\": \"interpretability\"}",
+          "output": "{\"figs_interpretability\": null, \"ro_figs_interpretability\": 0.375, \"sg_figs_hard_interpretability\": 1.0, \"sg_figs_soft_interpretability\": 0.3, \"random_figs_interpretability\": 0.0}",
+          "metadata_dataset": "wine",
+          "metadata_criterion": "c2_interpretability",
+          "predict_hard_interp": "1.0",
+          "eval_hard_interp": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "criterion_3_domain_validation",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"criterion\": \"domain_validation\"}",
+          "output": "{\"top_synergy_pairs\": [[\"mass\", \"age\"], [\"plas\", \"mass\"], [\"preg\", \"mass\"]], \"known_interactions_found\": [\"glucose-BMI interaction\"], \"coverage\": 1}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_criterion": "c3_domain_validation",
+          "predict_has_match": "True",
+          "eval_coverage": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer\", \"criterion\": \"domain_validation\"}",
+          "output": "{\"top_synergy_pairs\": [[\"radius error\", \"worst compactness\"], [\"radius error\", \"worst concavity\"], [\"area error\", \"worst concavity\"]], \"known_interactions_found\": [], \"coverage\": 0}",
+          "metadata_dataset": "breast_cancer",
+          "metadata_criterion": "c3_domain_validation",
+          "predict_has_match": "False",
+          "eval_coverage": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"criterion\": \"domain_validation\"}",
+          "output": "{\"top_synergy_pairs\": [[\"slope\", \"number_of_major_vessels\"], [\"serum_cholestoral\", \"oldpeak\"], [\"age\", \"maximum_heart_rate_achieved\"]], \"known_interactions_found\": [\"age-max HR interaction\"], \"coverage\": 1}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_criterion": "c3_domain_validation",
+          "predict_has_match": "True",
+          "eval_coverage": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"criterion\": \"domain_validation\"}",
+          "output": "{\"top_synergy_pairs\": [], \"known_interactions_found\": [], \"coverage\": 0}",
+          "metadata_dataset": "monks2",
+          "metadata_criterion": "c3_domain_validation",
+          "predict_has_match": "False",
+          "eval_coverage": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "threshold_sensitivity",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.9310086666666667, \"75\": 0.8814875333333333, \"90\": 0.8729454666666667}, \"optimal_threshold\": 50, \"optimal_acc\": 0.931009, \"fixed_75_acc\": 0.881488, \"improvement_from_tuning\": 0.049521, \"rofigs_mean_acc\": 0.919865}",
+          "metadata_dataset": "banknote",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.04952113333333341
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "blood",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.7049914, \"75\": 0.7049914, \"90\": 0.7049914}, \"optimal_threshold\": 50, \"optimal_acc\": 0.704991, \"fixed_75_acc\": 0.704991, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.696849}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"climate\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "climate",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"heart_statlog\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.6969045999999999, \"75\": 0.7359186, \"90\": 0.758365}, \"optimal_threshold\": 90, \"optimal_acc\": 0.758365, \"fixed_75_acc\": 0.735919, \"improvement_from_tuning\": 0.022446, \"rofigs_mean_acc\": 0.774094}",
+          "metadata_dataset": "heart_statlog",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "90",
+          "eval_tuning_improvement": 0.022446399999999977
+        },
+        {
+          "input": "{\"dataset\": \"ionosphere\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5240940000000001, \"75\": 0.5240940000000001, \"90\": 0.5240940000000001}, \"optimal_threshold\": 50, \"optimal_acc\": 0.524094, \"fixed_75_acc\": 0.524094, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.56541}",
+          "metadata_dataset": "ionosphere",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"iris\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "iris",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"kc2\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "kc2",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"monks2\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5025}",
+          "metadata_dataset": "monks2",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"sonar\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.7263888, \"75\": 0.7263888, \"90\": 0.7263888}, \"optimal_threshold\": 50, \"optimal_acc\": 0.726389, \"fixed_75_acc\": 0.726389, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.711691}",
+          "metadata_dataset": "sonar",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"spectf_heart\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "spectf_heart",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"vehicle\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "vehicle",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"analysis\": \"threshold_sensitivity\"}",
+          "output": "{\"threshold_accs\": {\"50\": 0.5, \"75\": 0.5, \"90\": 0.5}, \"optimal_threshold\": 50, \"optimal_acc\": 0.5, \"fixed_75_acc\": 0.5, \"improvement_from_tuning\": 0.0, \"rofigs_mean_acc\": 0.5}",
+          "metadata_dataset": "wine",
+          "metadata_analysis": "threshold_sensitivity",
+          "predict_optimal_threshold": "50",
+          "eval_tuning_improvement": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "pareto_analysis",
+      "examples": [
+        {
+          "input": "{\"method\": \"FIGS\", \"analysis\": \"pareto\"}",
+          "output": "{\"mean_accuracy\": 0.786502, \"mean_n_splits\": 11.61, \"accuracy_per_split\": 0.067718, \"pareto_optimal\": true}",
+          "metadata_method": "FIGS",
+          "metadata_analysis": "pareto",
+          "predict_pareto_optimal": "True",
+          "eval_accuracy_per_split": 0.06771849323493234
+        },
+        {
+          "input": "{\"method\": \"RO-FIGS\", \"analysis\": \"pareto\"}",
+          "output": "{\"mean_accuracy\": 0.78459, \"mean_n_splits\": 14.03, \"accuracy_per_split\": 0.055928, \"pareto_optimal\": false}",
+          "metadata_method": "RO-FIGS",
+          "metadata_analysis": "pareto",
+          "predict_pareto_optimal": "False",
+          "eval_accuracy_per_split": 0.05592797454175152
+        },
+        {
+          "input": "{\"method\": \"SG-FIGS-Hard\", \"analysis\": \"pareto\"}",
+          "output": "{\"mean_accuracy\": 0.788711, \"mean_n_splits\": 15.81, \"accuracy_per_split\": 0.049873, \"pareto_optimal\": true}",
+          "metadata_method": "SG-FIGS-Hard",
+          "metadata_analysis": "pareto",
+          "predict_pareto_optimal": "True",
+          "eval_accuracy_per_split": 0.04987333604336044
+        },
+        {
+          "input": "{\"method\": \"SG-FIGS-Soft\", \"analysis\": \"pareto\"}",
+          "output": "{\"mean_accuracy\": 0.801033, \"mean_n_splits\": 20.56, \"accuracy_per_split\": 0.038966, \"pareto_optimal\": true}",
+          "metadata_method": "SG-FIGS-Soft",
+          "metadata_analysis": "pareto",
+          "predict_pareto_optimal": "True",
+          "eval_accuracy_per_split": 0.038966139680333564
+        },
+        {
+          "input": "{\"method\": \"Random-FIGS\", \"analysis\": \"pareto\"}",
+          "output": "{\"mean_accuracy\": 0.783656, \"mean_n_splits\": 17.24, \"accuracy_per_split\": 0.045448, \"pareto_optimal\": false}",
+          "metadata_method": "Random-FIGS",
+          "metadata_analysis": "pareto",
+          "predict_pareto_optimal": "False",
+          "eval_accuracy_per_split": 0.045448129246064624
+        }
+      ]
+    },
+    {
+      "dataset": "dataset_regression",
+      "examples": [
+        {
+          "input": "{\"predictor\": \"n_features\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"slope\": 0.00011, \"intercept\": 0.014257, \"r_squared\": 0.004709, \"p_value\": 0.815689}",
+          "metadata_predictor": "n_features",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.00470892948495844
+        },
+        {
+          "input": "{\"predictor\": \"synergy_mean\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"slope\": -0.039577, \"intercept\": 0.019867, \"r_squared\": 0.012904, \"p_value\": 0.699003}",
+          "metadata_predictor": "synergy_mean",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.012904115904545264
+        },
+        {
+          "input": "{\"predictor\": \"synergy_std\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"slope\": -0.195712, \"intercept\": 0.02368, \"r_squared\": 0.062399, \"p_value\": 0.389079}",
+          "metadata_predictor": "synergy_std",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.06239856601478786
+        },
+        {
+          "input": "{\"predictor\": \"density\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"slope\": -0.039029, \"intercept\": 0.028022, \"r_squared\": 0.135454, \"p_value\": 0.195419}",
+          "metadata_predictor": "density",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.13545360321023409
+        },
+        {
+          "input": "{\"predictor\": \"jaccard\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"slope\": -0.0287, \"intercept\": 0.026568, \"r_squared\": 0.192366, \"p_value\": 0.116694}",
+          "metadata_predictor": "jaccard",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.19236623325150973
+        },
+        {
+          "input": "{\"predictor\": \"multiple_all\", \"target\": \"acc_delta_soft_vs_ro\"}",
+          "output": "{\"r_squared_multiple\": 0.238149, \"predictors\": [\"n_features\", \"synergy_mean\", \"synergy_std\", \"density\", \"jaccard\"], \"coefficients\": {\"n_features\": -0.000372, \"synergy_mean\": 0.131147, \"synergy_std\": -0.19152, \"density\": 0.017895, \"jaccard\": -0.044449}}",
+          "metadata_predictor": "multiple",
+          "metadata_analysis": "dataset_regression",
+          "predict_significant": "False",
+          "eval_r_squared": 0.23814882373260615
+        }
+      ]
+    },
+    {
+      "dataset": "overall_verdict",
+      "examples": [
+        {
+          "input": "{\"analysis\": \"overall_verdict\"}",
+          "output": "{\"criterion_1\": {\"evidence\": \"moderate\", \"original_criterion_met\": \"1/14\", \"reframed_criterion_met\": \"13/14\"}, \"criterion_2\": {\"evidence\": \"strong\", \"sg_figs_hard_mean\": 1.0, \"random_figs_mean\": 0.6421411538461539, \"p_value\": 0.00048828125}, \"criterion_3\": {\"evidence\": \"moderate\", \"datasets_with_matches\": 2, \"total_domain_datasets\": 4}, \"ablation\": {\"evidence\": \"weak\", \"hard_mean_delta\": 0.005055585714285755, \"hard_p_value\": 0.463134765625, \"soft_mean_delta\": 0.01737689999999999, \"soft_p_value\": 0.0040283203125}, \"confirmed\": [\"Synergy guidance improves interpretability (SG-FIGS-Hard achieves near-perfect interpretability scores)\", \"Synergy guidance shows positive but not statistically significant accuracy advantage over random\", \"SG-FIGS achieves competitive accuracy with reduced complexity\", \"High-synergy pairs correspond to domain-meaningful feature interactions\"], \"disconfirmed\": [], \"prior_comparison\": {\"prior_friedman_p\": 0.156, \"prior_n_datasets\": 7, \"current_friedman_p\": 0.0651495933850712, \"current_n_datasets\": 14, \"power_increase\": 2.0, \"note\": \"Prior 3-method evaluation on 7 datasets yielded Friedman p=0.156. Current 5-method evaluation on 14 datasets yields Friedman p=0.0651. Still not significant.\"}, \"pareto_optimal_methods\": [\"FIGS\", \"SG-FIGS-Hard\", \"SG-FIGS-Soft\"]}",
+          "metadata_analysis": "overall_verdict",
+          "predict_strongest_criterion": "c2",
+          "eval_n_confirmed": 4.0,
+          "eval_n_disconfirmed": 0.0
+        }
+      ]
+    }
+  ]
+}

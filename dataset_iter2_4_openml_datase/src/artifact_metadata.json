@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Datasets",
+  "summary": "Four OpenML binary classification datasets for evaluating SG-FIGS (Synergy-Guided FIGS), matching the RO-FIGS paper (arxiv 2504.06927): (1) monks2 (OpenML 334, 601 examples, 6 categorical features, XOR synergy benchmark \u2014 verified via mutual information showing pairwise MI 6x higher than individual MI), (2) blood (OpenML 1464, 748 examples, 4 numeric features, blood transfusion prediction), (3) climate (OpenML 1467, 540 examples, 20 numeric features, climate model simulation crash prediction, imbalanced 46:494), (4) kc2 (OpenML 1063, 522 examples, 21 numeric features, NASA software defect prediction). Total: 2,411 examples across 4 datasets. Each example has JSON-string input of feature values, string class label output, and metadata fields (fold assignment via 5-fold CV with seed 42, feature names, task type, domain). Schema-validated against exp_sel_data_out.json."
+}

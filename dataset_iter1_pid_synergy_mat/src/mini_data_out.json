@@ -1,0 +1,339 @@
+{
+  "datasets": [
+    {
+      "dataset": "breast_cancer",
+      "examples": [
+        {
+          "input": "{\"mean radius\": 17.99, \"mean texture\": 10.38, \"mean perimeter\": 122.8, \"mean area\": 1001.0, \"mean smoothness\": 0.1184, \"mean compactness\": 0.2776, \"mean concavity\": 0.3001, \"mean concave points\": 0.1471, \"mean symmetry\": 0.2419, \"mean fractal dimension\": 0.07871, \"radius error\": 1.095, \"texture error\": 0.9053, \"perimeter error\": 8.589, \"area error\": 153.4, \"smoothness error\": 0.006399, \"compactness error\": 0.04904, \"concavity error\": 0.05373, \"concave points error\": 0.01587, \"symmetry error\": 0.03003, \"fractal dimension error\": 0.006193, \"worst radius\": 25.38, \"worst texture\": 17.33, \"worst perimeter\": 184.6, \"worst area\": 2019.0, \"worst smoothness\": 0.1622, \"worst compactness\": 0.6656, \"worst concavity\": 0.7119, \"worst concave points\": 0.2654, \"worst symmetry\": 0.4601, \"worst fractal dimension\": 0.1189}",
+          "output": "malignant",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter",
+            "mean area",
+            "mean smoothness",
+            "mean compactness",
+            "mean concavity",
+            "mean concave points",
+            "mean symmetry",
+            "mean fractal dimension",
+            "radius error",
+            "texture error",
+            "perimeter error",
+            "area error",
+            "smoothness error",
+            "compactness error",
+            "concavity error",
+            "concave points error",
+            "symmetry error",
+            "fractal dimension error",
+            "worst radius",
+            "worst texture",
+            "worst perimeter",
+            "worst area",
+            "worst smoothness",
+            "worst compactness",
+            "worst concavity",
+            "worst concave points",
+            "worst symmetry",
+            "worst fractal dimension"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 30,
+          "metadata_n_samples": 569
+        },
+        {
+          "input": "{\"mean radius\": 20.57, \"mean texture\": 17.77, \"mean perimeter\": 132.9, \"mean area\": 1326.0, \"mean smoothness\": 0.08474, \"mean compactness\": 0.07864, \"mean concavity\": 0.0869, \"mean concave points\": 0.07017, \"mean symmetry\": 0.1812, \"mean fractal dimension\": 0.05667, \"radius error\": 0.5435, \"texture error\": 0.7339, \"perimeter error\": 3.398, \"area error\": 74.08, \"smoothness error\": 0.005225, \"compactness error\": 0.01308, \"concavity error\": 0.0186, \"concave points error\": 0.0134, \"symmetry error\": 0.01389, \"fractal dimension error\": 0.003532, \"worst radius\": 24.99, \"worst texture\": 23.41, \"worst perimeter\": 158.8, \"worst area\": 1956.0, \"worst smoothness\": 0.1238, \"worst compactness\": 0.1866, \"worst concavity\": 0.2416, \"worst concave points\": 0.186, \"worst symmetry\": 0.275, \"worst fractal dimension\": 0.08902}",
+          "output": "malignant",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter",
+            "mean area",
+            "mean smoothness",
+            "mean compactness",
+            "mean concavity",
+            "mean concave points",
+            "mean symmetry",
+            "mean fractal dimension",
+            "radius error",
+            "texture error",
+            "perimeter error",
+            "area error",
+            "smoothness error",
+            "compactness error",
+            "concavity error",
+            "concave points error",
+            "symmetry error",
+            "fractal dimension error",
+            "worst radius",
+            "worst texture",
+            "worst perimeter",
+            "worst area",
+            "worst smoothness",
+            "worst compactness",
+            "worst concavity",
+            "worst concave points",
+            "worst symmetry",
+            "worst fractal dimension"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 30,
+          "metadata_n_samples": 569
+        },
+        {
+          "input": "{\"mean radius\": 19.69, \"mean texture\": 21.25, \"mean perimeter\": 130.0, \"mean area\": 1203.0, \"mean smoothness\": 0.1096, \"mean compactness\": 0.1599, \"mean concavity\": 0.1974, \"mean concave points\": 0.1279, \"mean symmetry\": 0.2069, \"mean fractal dimension\": 0.05999, \"radius error\": 0.7456, \"texture error\": 0.7869, \"perimeter error\": 4.585, \"area error\": 94.03, \"smoothness error\": 0.00615, \"compactness error\": 0.04006, \"concavity error\": 0.03832, \"concave points error\": 0.02058, \"symmetry error\": 0.0225, \"fractal dimension error\": 0.004571, \"worst radius\": 23.57, \"worst texture\": 25.53, \"worst perimeter\": 152.5, \"worst area\": 1709.0, \"worst smoothness\": 0.1444, \"worst compactness\": 0.4245, \"worst concavity\": 0.4504, \"worst concave points\": 0.243, \"worst symmetry\": 0.3613, \"worst fractal dimension\": 0.08758}",
+          "output": "malignant",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "mean radius",
+            "mean texture",
+            "mean perimeter",
+            "mean area",
+            "mean smoothness",
+            "mean compactness",
+            "mean concavity",
+            "mean concave points",
+            "mean symmetry",
+            "mean fractal dimension",
+            "radius error",
+            "texture error",
+            "perimeter error",
+            "area error",
+            "smoothness error",
+            "compactness error",
+            "concavity error",
+            "concave points error",
+            "symmetry error",
+            "fractal dimension error",
+            "worst radius",
+            "worst texture",
+            "worst perimeter",
+            "worst area",
+            "worst smoothness",
+            "worst compactness",
+            "worst concavity",
+            "worst concave points",
+            "worst symmetry",
+            "worst fractal dimension"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 30,
+          "metadata_n_samples": 569
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"alcohol\": 14.23, \"malic_acid\": 1.71, \"ash\": 2.43, \"alcalinity_of_ash\": 15.6, \"magnesium\": 127.0, \"total_phenols\": 2.8, \"flavanoids\": 3.06, \"nonflavanoid_phenols\": 0.28, \"proanthocyanins\": 2.29, \"color_intensity\": 5.64, \"hue\": 1.04, \"od280/od315_of_diluted_wines\": 3.92, \"proline\": 1065.0}",
+          "output": "class_0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 0,
+          "metadata_n_features": 13,
+          "metadata_n_samples": 178
+        },
+        {
+          "input": "{\"alcohol\": 13.2, \"malic_acid\": 1.78, \"ash\": 2.14, \"alcalinity_of_ash\": 11.2, \"magnesium\": 100.0, \"total_phenols\": 2.65, \"flavanoids\": 2.76, \"nonflavanoid_phenols\": 0.26, \"proanthocyanins\": 1.28, \"color_intensity\": 4.38, \"hue\": 1.05, \"od280/od315_of_diluted_wines\": 3.4, \"proline\": 1050.0}",
+          "output": "class_0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 13,
+          "metadata_n_samples": 178
+        },
+        {
+          "input": "{\"alcohol\": 13.16, \"malic_acid\": 2.36, \"ash\": 2.67, \"alcalinity_of_ash\": 18.6, \"magnesium\": 101.0, \"total_phenols\": 2.8, \"flavanoids\": 3.24, \"nonflavanoid_phenols\": 0.3, \"proanthocyanins\": 2.81, \"color_intensity\": 5.68, \"hue\": 1.03, \"od280/od315_of_diluted_wines\": 3.17, \"proline\": 1185.0}",
+          "output": "class_0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 2,
+          "metadata_n_features": 13,
+          "metadata_n_samples": 178
+        }
+      ]
+    },
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 0,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.7, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "setosa",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_n_samples": 150
+        }
+      ]
+    },
+    {
+      "dataset": "diabetes_binarized",
+      "examples": [
+        {
+          "input": "{\"age\": 0.038076, \"sex\": 0.05068, \"bmi\": 0.061696, \"bp\": 0.021872, \"s1\": -0.044223, \"s2\": -0.034821, \"s3\": -0.043401, \"s4\": -0.002592, \"s5\": 0.019907, \"s6\": -0.017646}",
+          "output": "above_median",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "age",
+            "sex",
+            "bmi",
+            "bp",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 10,
+          "metadata_n_samples": 442
+        },
+        {
+          "input": "{\"age\": -0.001882, \"sex\": -0.044642, \"bmi\": -0.051474, \"bp\": -0.026328, \"s1\": -0.008449, \"s2\": -0.019163, \"s3\": 0.074412, \"s4\": -0.039493, \"s5\": -0.068332, \"s6\": -0.092204}",
+          "output": "below_median",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "age",
+            "sex",
+            "bmi",
+            "bp",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 10,
+          "metadata_n_samples": 442
+        },
+        {
+          "input": "{\"age\": 0.085299, \"sex\": 0.05068, \"bmi\": 0.044451, \"bp\": -0.00567, \"s1\": -0.045599, \"s2\": -0.034194, \"s3\": -0.032356, \"s4\": -0.002592, \"s5\": 0.002861, \"s6\": -0.02593}",
+          "output": "above_median",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "age",
+            "sex",
+            "bmi",
+            "bp",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 10,
+          "metadata_n_samples": 442
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "metrics_agg": {
+    "mean_accuracy_figs": 0.839973,
+    "mean_accuracy_ro_figs": 0.851702,
+    "mean_accuracy_sg_figs": 0.838727,
+    "mean_splits_figs": 11.86,
+    "mean_splits_ro_figs": 13.57,
+    "mean_splits_sg_figs": 15.0,
+    "friedman_statistic": 3.7143,
+    "friedman_p_value": 0.156118,
+    "friedman_avg_rank_figs": 2.4286,
+    "friedman_avg_rank_ro_figs": 1.4286,
+    "friedman_avg_rank_sg_figs": 2.1429,
+    "wilcoxon_ro_vs_sg_p": 0.15625,
+    "wilcoxon_ro_vs_sg_stat": 5.0,
+    "wilcoxon_figs_vs_sg_p": 0.9375,
+    "wilcoxon_figs_vs_ro_p": 0.109375,
+    "criterion1_pass_rate": 0.2857,
+    "criterion1_n_pass": 2,
+    "criterion2_n_index_mismatch": 3,
+    "criterion3_n_meaningful_datasets": 4,
+    "criterion3_met": 1,
+    "pareto_sg_figs_efficiency": 0.055915,
+    "pareto_ro_figs_efficiency": 0.062757,
+    "pareto_figs_efficiency": 0.070824,
+    "pareto_sg_on_front": 0
+  },
+  "datasets": [
+    {
+      "dataset": "breast_cancer_wisconsin_diagnostic",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"method\": \"FIGS\", \"fold\": 3, \"n_features\": 30, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.88474, \"auc\": 0.938447, \"n_splits\": 5, \"n_trees\": 1}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_method": "FIGS",
+          "metadata_fold": 3,
+          "metadata_domain": "medical",
+          "metadata_n_features": 30,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.88474",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.88474,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.938447,
+          "predict_auc": "0.938447"
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"method\": \"FIGS\", \"fold\": 4, \"n_features\": 30, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.946581, \"auc\": 0.961717, \"n_splits\": 5, \"n_trees\": 1}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_method": "FIGS",
+          "metadata_fold": 4,
+          "metadata_domain": "medical",
+          "metadata_n_features": 30,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.946581",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.946581,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.961717,
+          "predict_auc": "0.961717"
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"method\": \"FIGS\", \"fold\": 2, \"n_features\": 30, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.925194, \"auc\": 0.895736, \"n_splits\": 5, \"n_trees\": 1}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_method": "FIGS",
+          "metadata_fold": 2,
+          "metadata_domain": "medical",
+          "metadata_n_features": 30,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.925194",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.925194,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.895736,
+          "predict_auc": "0.895736"
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"wine\", \"method\": \"FIGS\", \"fold\": 3, \"n_features\": 13, \"n_classes\": 3}",
+          "output": "{\"balanced_accuracy\": 0.90293, \"auc\": null, \"n_splits\": 5, \"n_trees\": 1}",
+          "metadata_dataset": "wine",
+          "metadata_method": "FIGS",
+          "metadata_fold": 3,
+          "metadata_domain": "food_science",
+          "metadata_n_features": 13,
+          "metadata_n_classes": 3,
+          "predict_balanced_accuracy": "0.90293",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.90293,
+          "eval_n_splits": 5.0
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"method\": \"FIGS\", \"fold\": 4, \"n_features\": 13, \"n_classes\": 3}",
+          "output": "{\"balanced_accuracy\": 0.828283, \"auc\": null, \"n_splits\": 9, \"n_trees\": 1}",
+          "metadata_dataset": "wine",
+          "metadata_method": "FIGS",
+          "metadata_fold": 4,
+          "metadata_domain": "food_science",
+          "metadata_n_features": 13,
+          "metadata_n_classes": 3,
+          "predict_balanced_accuracy": "0.828283",
+          "predict_n_splits": "9",
+          "eval_balanced_accuracy": 0.828283,
+          "eval_n_splits": 9.0
+        },
+        {
+          "input": "{\"dataset\": \"wine\", \"method\": \"FIGS\", \"fold\": 2, \"n_features\": 13, \"n_classes\": 3}",
+          "output": "{\"balanced_accuracy\": 0.911111, \"auc\": null, \"n_splits\": 10, \"n_trees\": 1}",
+          "metadata_dataset": "wine",
+          "metadata_method": "FIGS",
+          "metadata_fold": 2,
+          "metadata_domain": "food_science",
+          "metadata_n_features": 13,
+          "metadata_n_classes": 3,
+          "predict_balanced_accuracy": "0.911111",
+          "predict_n_splits": "10",
+          "eval_balanced_accuracy": 0.911111,
+          "eval_n_splits": 10.0
+        }
+      ]
+    },
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"method\": \"FIGS\", \"fold\": 3, \"n_features\": 8, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.705523, \"auc\": 0.758539, \"n_splits\": 5, \"n_trees\": 1}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_method": "FIGS",
+          "metadata_fold": 3,
+          "metadata_domain": "medical",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.705523",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.705523,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.758539,
+          "predict_auc": "0.758539"
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"method\": \"FIGS\", \"fold\": 4, \"n_features\": 8, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.719713, \"auc\": 0.776786, \"n_splits\": 5, \"n_trees\": 3}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_method": "FIGS",
+          "metadata_fold": 4,
+          "metadata_domain": "medical",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.719713",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.719713,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.776786,
+          "predict_auc": "0.776786"
+        },
+        {
+          "input": "{\"dataset\": \"pima_diabetes\", \"method\": \"FIGS\", \"fold\": 2, \"n_features\": 8, \"n_classes\": 2}",
+          "output": "{\"balanced_accuracy\": 0.694066, \"auc\": 0.796044, \"n_splits\": 5, \"n_trees\": 2}",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_method": "FIGS",
+          "metadata_fold": 2,
+          "metadata_domain": "medical",
+          "metadata_n_features": 8,
+          "metadata_n_classes": 2,
+          "predict_balanced_accuracy": "0.694066",
+          "predict_n_splits": "5",
+          "eval_balanced_accuracy": 0.694066,
+          "eval_n_splits": 5.0,
+          "eval_auc": 0.796044,
+          "predict_auc": "0.796044"
+        }
+      ]
+    }
+  ]
+}

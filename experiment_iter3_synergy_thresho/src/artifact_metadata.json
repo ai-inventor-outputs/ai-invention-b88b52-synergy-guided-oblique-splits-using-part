@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Thresh",
+  "summary": "Synergy Threshold Sensitivity & Adaptive Thresholding experiment for SG-FIGS. Systematically evaluates synergy threshold percentiles (50th, 75th, 90th) across 14 datasets with 5-fold CV, comparing SG-FIGS against Standard FIGS, RO-FIGS, and GBDT baselines. Includes adaptive threshold selection heuristic based on graph connectivity, interpretability scoring, correlation analysis between synergy distribution properties and optimal thresholds, and aggregate statistics. 630 total examples across 14 datasets \u00d7 3 thresholds \u00d7 3 max_splits \u00d7 5 folds. Best universal threshold: 90th percentile. SG-FIGS shows +0.34% improvement over axis-aligned FIGS baseline on average."
+}

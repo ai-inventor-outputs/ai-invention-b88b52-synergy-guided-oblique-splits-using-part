@@ -1,0 +1,127 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V2\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.192849, \"unique_0\": 0.342073, \"unique_1\": 0.0, \"redundancy\": 0.14971, \"coi_baseline\": -0.10377}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V2",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.192849",
+          "predict_baseline_coi": "-0.10377"
+        },
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V3\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.108733, \"unique_0\": 0.443605, \"unique_1\": 0.0, \"redundancy\": 0.048178, \"coi_baseline\": -0.033393}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V3",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.108733",
+          "predict_baseline_coi": "-0.033393"
+        },
+        {
+          "input": "{\"feature_i\": \"V1\", \"feature_j\": \"V4\", \"dataset\": \"banknote\", \"n_samples\": 1372, \"n_classes\": 2, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.095736, \"unique_0\": 0.486463, \"unique_1\": 0.0, \"redundancy\": 0.005319, \"coi_baseline\": -0.003687}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "banknote",
+          "metadata_feature_i": "V1",
+          "metadata_feature_j": "V4",
+          "metadata_n_samples": 1372,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.095736",
+          "predict_baseline_coi": "-0.003687"
+        }
+      ]
+    },
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"sepal width (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.2548, \"unique_0\": 0.38744, \"unique_1\": 0.102724, \"redundancy\": 0.294137, \"coi_baseline\": -0.275084}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "sepal width (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.2548",
+          "predict_baseline_coi": "-0.275084"
+        },
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"petal length (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.075296, \"unique_0\": 0.000897, \"unique_1\": 0.493443, \"redundancy\": 0.68068, \"coi_baseline\": -0.813846}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "petal length (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.075296",
+          "predict_baseline_coi": "-0.813846"
+        },
+        {
+          "input": "{\"feature_i\": \"sepal length (cm)\", \"feature_j\": \"petal width (cm)\", \"dataset\": \"iris\", \"n_samples\": 150, \"n_classes\": 3, \"n_features\": 4}",
+          "output": "{\"synergy\": 0.055904, \"unique_0\": 0.012943, \"unique_1\": 0.424744, \"redundancy\": 0.668634, \"coi_baseline\": -0.757874}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "iris",
+          "metadata_feature_i": "sepal length (cm)",
+          "metadata_feature_j": "petal width (cm)",
+          "metadata_n_samples": 150,
+          "metadata_n_classes": 3,
+          "predict_synergy_value": "0.055904",
+          "predict_baseline_coi": "-0.757874"
+        }
+      ]
+    },
+    {
+      "dataset": "pima_diabetes",
+      "examples": [
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"plas\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.049702, \"unique_0\": 0.0, \"unique_1\": 0.123606, \"redundancy\": 0.053699, \"coi_baseline\": -0.1229}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "plas",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.049702",
+          "predict_baseline_coi": "-0.1229"
+        },
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"pres\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.024017, \"unique_0\": 0.026311, \"unique_1\": 0.000585, \"redundancy\": 0.027388, \"coi_baseline\": -0.01938}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "pres",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.024017",
+          "predict_baseline_coi": "-0.01938"
+        },
+        {
+          "input": "{\"feature_i\": \"preg\", \"feature_j\": \"skin\", \"dataset\": \"pima_diabetes\", \"n_samples\": 768, \"n_classes\": 2, \"n_features\": 8}",
+          "output": "{\"synergy\": 0.036022, \"unique_0\": 0.018373, \"unique_1\": 0.005231, \"redundancy\": 0.035326, \"coi_baseline\": -0.028113}",
+          "metadata_pid_method": "BROJA",
+          "metadata_dataset": "pima_diabetes",
+          "metadata_feature_i": "preg",
+          "metadata_feature_j": "skin",
+          "metadata_n_samples": 768,
+          "metadata_n_classes": 2,
+          "predict_synergy_value": "0.036022",
+          "predict_baseline_coi": "-0.028113"
+        }
+      ]
+    }
+  ]
+}

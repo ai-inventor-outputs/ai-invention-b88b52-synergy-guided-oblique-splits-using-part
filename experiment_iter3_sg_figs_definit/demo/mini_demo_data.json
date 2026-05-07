@@ -1,0 +1,1209 @@
+{
+  "datasets": [
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 18,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.5}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 23,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.8, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.9, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 24,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 4.2, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 33,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.4, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 38,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.9, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.4}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 5,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.3, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.1, \"petal width (cm)\": 0.1}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 13,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 4.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.4}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 15,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 20,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 27,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.7, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 6,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 7,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.4, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 8,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.8, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.6, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 11,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 0,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.7, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 10,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 4.0, \"petal length (cm)\": 1.2, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 14,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.9, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.4}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 16,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.8, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 19,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 3,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.6, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 4,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 9,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.8, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.1}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 12,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 55,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.9, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.8}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 70,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.8, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.4}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 76,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.4, \"petal length (cm)\": 3.7, \"petal width (cm)\": 1.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 81,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 84,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 2.4, \"petal length (cm)\": 3.3, \"petal width (cm)\": 1.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 57,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.2, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 3.9, \"petal width (cm)\": 1.4}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 59,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 2.0, \"petal length (cm)\": 3.5, \"petal width (cm)\": 1.0}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 60,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.4}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 63,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 3.6, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 64,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.6, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 54,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 89,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 4.4, \"petal width (cm)\": 1.2}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 90,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.2}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 92,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 3.3, \"petal width (cm)\": 1.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 93,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.0, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.4}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 50,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 51,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 52,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.6}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 56,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.6, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.6, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 58,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.5, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 53,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 2.2, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.0}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 62,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.0, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 71,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 72,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.3, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 74,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 5.1, \"petal width (cm)\": 1.9}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 101,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.8, \"petal width (cm)\": 2.2}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 104,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.0}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 110,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.4}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 114,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 6.9, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 118,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 5.6, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 103,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.5, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.5, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 116,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.0, \"sepal width (cm)\": 2.2, \"petal length (cm)\": 5.0, \"petal width (cm)\": 1.5}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 119,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.7, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 120,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 5.5, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 137,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.7}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 106,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 5.8, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 108,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.2, \"sepal width (cm)\": 3.6, \"petal length (cm)\": 6.1, \"petal width (cm)\": 2.5}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 109,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 5.3, \"petal width (cm)\": 1.9}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 111,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.5, \"petal length (cm)\": 5.0, \"petal width (cm)\": 2.0}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 113,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 6.0, \"petal width (cm)\": 2.5}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 100,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.1, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.9, \"petal width (cm)\": 2.1}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 102,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.3, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 6.3, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 107,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.9, \"petal width (cm)\": 2.0}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 121,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.2, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 6.0, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 125,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.6, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 6.6, \"petal width (cm)\": 2.1}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 105,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.8, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.5, \"petal width (cm)\": 2.1}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 112,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 5.3, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 115,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 6.7, \"petal width (cm)\": 2.0}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 122,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.2, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 126,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        }
+      ]
+    }
+  ]
+}

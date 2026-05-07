@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS EqualCx",
+  "summary": "Complexity-matched experiment comparing 5 FIGS variants (FIGS axis-aligned, RO-FIGS random oblique, SG-FIGS-Hard synergy graph, SG-FIGS-Soft probabilistic synergy, Random-FIGS ablation) at fixed max_splits={5,10} across 14 tabular classification datasets with 5-fold CV. Hard complexity enforcement ensures zero violations (all actual_splits <= max_splits). Uses Newton-Raphson optimal leaf values for gradient boosting. Pre-computed PID synergy matrices for 10 datasets, Co-Information proxy for 4 new datasets. Produces Win/Tie/Loss tables, per-split information gain, complexity verification, domain validation extracting synergistic feature pairs (plas+mass for pima_diabetes, slope+thal for heart_statlog). SG-FIGS-Soft beats axis-aligned FIGS 16-4-8 W/T/L. 140 schema-validated examples across 14 datasets in 3 minutes."
+}

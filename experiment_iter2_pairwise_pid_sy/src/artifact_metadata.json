@@ -1,0 +1,4 @@
+{
+  "title": "PID Synergy Exp",
+  "summary": "Computed pairwise PID synergy matrices on all 12 benchmark datasets (2569 feature pairs total, 0 errors) using PID_BROJA for small datasets (\u2264100 pairs) and PID_MMI for larger ones, with Co-Information baseline. XOR validation passed (synergy=1.0, conservation=1.0). Key findings: low Jaccard overlap (0.0-0.36) between top synergy pairs and top MI features confirms synergy captures different information than MI. Stability analysis shows high reproducibility (breast_cancer \u03c1=0.952\u00b10.008, pima \u03c1=0.780\u00b10.060). Synergy graphs constructed at 75th percentile threshold. All 12 datasets from both dependency workspaces processed in ~20 minutes. Output includes full PID decomposition (synergy, redundancy, unique) per pair plus CoI baseline."
+}

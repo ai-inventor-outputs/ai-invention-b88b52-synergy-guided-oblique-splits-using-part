@@ -1,0 +1,1034 @@
+{
+  "datasets": [
+    {
+      "dataset": "iris",
+      "examples": [
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.3, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 40,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.0, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 7,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.1, \"sepal width (cm)\": 3.5, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 17,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 4.4, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.4}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 15,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 4.0, \"petal length (cm)\": 1.2, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 14,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.4, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 8,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.6, \"sepal width (cm)\": 3.4, \"petal length (cm)\": 1.4, \"petal width (cm)\": 0.3}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 6,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 4.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 1.5, \"petal width (cm)\": 0.2}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 34,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.4, \"sepal width (cm)\": 3.9, \"petal length (cm)\": 1.7, \"petal width (cm)\": 0.4}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 5,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.3, \"sepal width (cm)\": 2.3, \"petal length (cm)\": 4.4, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 87,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.0, \"petal width (cm)\": 1.7}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 77,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 4.9, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 52,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.2, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.5}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 51,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.5, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 55,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.7, \"petal width (cm)\": 1.4}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 63,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 3.6, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 64,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.7, \"petal length (cm)\": 3.9, \"petal width (cm)\": 1.2}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 82,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.6, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 4.1, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 88,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.7, \"sepal width (cm)\": 2.9, \"petal length (cm)\": 4.2, \"petal width (cm)\": 1.3}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 96,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 7.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 6.1, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 135,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.8, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.5, \"petal width (cm)\": 2.1}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 112,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.0, \"petal length (cm)\": 5.2, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 145,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.9, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.3}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 141,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.7, \"sepal width (cm)\": 3.3, \"petal length (cm)\": 5.7, \"petal width (cm)\": 2.5}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 144,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.1, \"sepal width (cm)\": 2.6, \"petal length (cm)\": 5.6, \"petal width (cm)\": 1.4}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 134,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.2, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 4.8, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 126,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 5.8, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.1, \"petal width (cm)\": 2.4}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 114,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 2.8, \"petal length (cm)\": 5.6, \"petal width (cm)\": 2.1}",
+          "output": "2",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 128,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        },
+        {
+          "input": "{\"sepal length (cm)\": 6.4, \"sepal width (cm)\": 3.1, \"petal length (cm)\": 5.5, \"petal width (cm)\": 1.8}",
+          "output": "2",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 137,
+          "metadata_n_features": 4,
+          "metadata_domain": "botany"
+        }
+      ]
+    },
+    {
+      "dataset": "wine",
+      "examples": [
+        {
+          "input": "{\"alcohol\": 13.83, \"malic_acid\": 1.57, \"ash\": 2.62, \"alcalinity_of_ash\": 20.0, \"magnesium\": 115.0, \"total_phenols\": 2.95, \"flavanoids\": 3.4, \"nonflavanoid_phenols\": 0.4, \"proanthocyanins\": 1.72, \"color_intensity\": 6.6, \"hue\": 1.13, \"od280/od315_of_diluted_wines\": 2.57, \"proline\": 1130.0}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 17,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 13.83, \"malic_acid\": 1.65, \"ash\": 2.6, \"alcalinity_of_ash\": 17.2, \"magnesium\": 94.0, \"total_phenols\": 2.45, \"flavanoids\": 2.99, \"nonflavanoid_phenols\": 0.22, \"proanthocyanins\": 2.29, \"color_intensity\": 5.6, \"hue\": 1.24, \"od280/od315_of_diluted_wines\": 3.37, \"proline\": 1265.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 51,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 13.56, \"malic_acid\": 1.73, \"ash\": 2.46, \"alcalinity_of_ash\": 20.5, \"magnesium\": 116.0, \"total_phenols\": 2.96, \"flavanoids\": 2.78, \"nonflavanoid_phenols\": 0.2, \"proanthocyanins\": 2.45, \"color_intensity\": 6.25, \"hue\": 0.98, \"od280/od315_of_diluted_wines\": 3.03, \"proline\": 1120.0}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 55,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 14.23, \"malic_acid\": 1.71, \"ash\": 2.43, \"alcalinity_of_ash\": 15.6, \"magnesium\": 127.0, \"total_phenols\": 2.8, \"flavanoids\": 3.06, \"nonflavanoid_phenols\": 0.28, \"proanthocyanins\": 2.29, \"color_intensity\": 5.64, \"hue\": 1.04, \"od280/od315_of_diluted_wines\": 3.92, \"proline\": 1065.0}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 0,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 14.1, \"malic_acid\": 2.02, \"ash\": 2.4, \"alcalinity_of_ash\": 18.8, \"magnesium\": 103.0, \"total_phenols\": 2.75, \"flavanoids\": 2.92, \"nonflavanoid_phenols\": 0.32, \"proanthocyanins\": 2.38, \"color_intensity\": 6.2, \"hue\": 1.07, \"od280/od315_of_diluted_wines\": 2.75, \"proline\": 1060.0}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 48,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.7, \"malic_acid\": 3.87, \"ash\": 2.4, \"alcalinity_of_ash\": 23.0, \"magnesium\": 101.0, \"total_phenols\": 2.83, \"flavanoids\": 2.55, \"nonflavanoid_phenols\": 0.43, \"proanthocyanins\": 1.95, \"color_intensity\": 2.57, \"hue\": 1.19, \"od280/od315_of_diluted_wines\": 3.13, \"proline\": 463.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 79,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 11.41, \"malic_acid\": 0.74, \"ash\": 2.5, \"alcalinity_of_ash\": 21.0, \"magnesium\": 88.0, \"total_phenols\": 2.48, \"flavanoids\": 2.01, \"nonflavanoid_phenols\": 0.42, \"proanthocyanins\": 1.44, \"color_intensity\": 3.08, \"hue\": 1.1, \"od280/od315_of_diluted_wines\": 2.31, \"proline\": 434.0}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 113,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.34, \"malic_acid\": 2.45, \"ash\": 2.46, \"alcalinity_of_ash\": 21.0, \"magnesium\": 98.0, \"total_phenols\": 2.56, \"flavanoids\": 2.11, \"nonflavanoid_phenols\": 0.34, \"proanthocyanins\": 1.31, \"color_intensity\": 2.8, \"hue\": 0.8, \"od280/od315_of_diluted_wines\": 3.38, \"proline\": 438.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 102,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 11.62, \"malic_acid\": 1.99, \"ash\": 2.28, \"alcalinity_of_ash\": 18.0, \"magnesium\": 98.0, \"total_phenols\": 3.02, \"flavanoids\": 2.26, \"nonflavanoid_phenols\": 0.17, \"proanthocyanins\": 1.35, \"color_intensity\": 3.25, \"hue\": 1.16, \"od280/od315_of_diluted_wines\": 2.96, \"proline\": 345.0}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 94,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.33, \"malic_acid\": 0.99, \"ash\": 1.95, \"alcalinity_of_ash\": 14.8, \"magnesium\": 136.0, \"total_phenols\": 1.9, \"flavanoids\": 1.85, \"nonflavanoid_phenols\": 0.35, \"proanthocyanins\": 2.76, \"color_intensity\": 3.4, \"hue\": 1.06, \"od280/od315_of_diluted_wines\": 2.31, \"proline\": 750.0}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 78,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 13.62, \"malic_acid\": 4.95, \"ash\": 2.35, \"alcalinity_of_ash\": 20.0, \"magnesium\": 92.0, \"total_phenols\": 2.0, \"flavanoids\": 0.8, \"nonflavanoid_phenols\": 0.47, \"proanthocyanins\": 1.02, \"color_intensity\": 4.4, \"hue\": 0.91, \"od280/od315_of_diluted_wines\": 2.05, \"proline\": 550.0}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 143,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.79, \"malic_acid\": 2.67, \"ash\": 2.48, \"alcalinity_of_ash\": 22.0, \"magnesium\": 112.0, \"total_phenols\": 1.48, \"flavanoids\": 1.36, \"nonflavanoid_phenols\": 0.24, \"proanthocyanins\": 1.26, \"color_intensity\": 10.8, \"hue\": 0.48, \"od280/od315_of_diluted_wines\": 1.47, \"proline\": 480.0}",
+          "output": "2",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 151,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.25, \"malic_acid\": 4.72, \"ash\": 2.54, \"alcalinity_of_ash\": 21.0, \"magnesium\": 89.0, \"total_phenols\": 1.38, \"flavanoids\": 0.47, \"nonflavanoid_phenols\": 0.53, \"proanthocyanins\": 0.8, \"color_intensity\": 3.85, \"hue\": 0.75, \"od280/od315_of_diluted_wines\": 1.27, \"proline\": 720.0}",
+          "output": "2",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 136,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.6, \"malic_acid\": 2.46, \"ash\": 2.2, \"alcalinity_of_ash\": 18.5, \"magnesium\": 94.0, \"total_phenols\": 1.62, \"flavanoids\": 0.66, \"nonflavanoid_phenols\": 0.63, \"proanthocyanins\": 0.94, \"color_intensity\": 7.1, \"hue\": 0.73, \"od280/od315_of_diluted_wines\": 1.58, \"proline\": 695.0}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 135,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        },
+        {
+          "input": "{\"alcohol\": 12.58, \"malic_acid\": 1.29, \"ash\": 2.1, \"alcalinity_of_ash\": 20.0, \"magnesium\": 103.0, \"total_phenols\": 1.48, \"flavanoids\": 0.58, \"nonflavanoid_phenols\": 0.53, \"proanthocyanins\": 1.4, \"color_intensity\": 7.6, \"hue\": 0.58, \"od280/od315_of_diluted_wines\": 1.55, \"proline\": 640.0}",
+          "output": "2",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_row_index": 154,
+          "metadata_n_features": 13,
+          "metadata_domain": "food_science"
+        }
+      ]
+    },
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"V1\": -2.7419, \"V2\": 11.4038, \"V3\": 2.5394, \"V4\": -5.5793}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 99,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": 3.2294, \"V2\": 7.7391, \"V3\": -0.37816, \"V4\": -2.5405}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 367,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": 0.3292, \"V2\": -4.4552, \"V3\": 4.5718, \"V4\": -0.9888}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 352,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": 1.8592, \"V2\": 3.2074, \"V3\": -0.15966, \"V4\": -0.26208}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 618,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": 3.8417, \"V2\": 10.0215, \"V3\": -4.2699, \"V4\": -4.9159}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 270,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": -6.2003, \"V2\": 8.6806, \"V3\": 0.009134, \"V4\": -3.703}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 806,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": -4.1244, \"V2\": 3.7909, \"V3\": -0.6532, \"V4\": -4.1802}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1232,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": -1.1188, \"V2\": 3.3357, \"V3\": -1.3455, \"V4\": -1.9573}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1311,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": -1.3066, \"V2\": 0.25244, \"V3\": 0.7623, \"V4\": 1.7758}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 889,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        },
+        {
+          "input": "{\"V1\": 0.33325, \"V2\": 3.3108, \"V3\": -4.5081, \"V4\": -4.012}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1149,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing"
+        }
+      ]
+    }
+  ]
+}

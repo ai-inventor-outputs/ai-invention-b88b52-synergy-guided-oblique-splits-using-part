@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Eval",
+  "summary": "Comprehensive statistical evaluation of 5-method SG-FIGS comparison across 14 datasets, integrating 3 experiments (5-method accuracy comparison with 7472 examples, threshold sensitivity with 630 examples, PID synergy matrices with 2569 examples). Implements Friedman test (\u03c7\u00b2=8.84, p=0.065), Nemenyi post-hoc (CD=1.63), 10 pairwise Wilcoxon tests with Holm-Bonferroni correction, ablation analysis (SG-FIGS-Soft vs Random-FIGS significant at p=0.04), Criterion 1 accuracy-complexity (1/14 original, 13/14 reframed), Criterion 2 interpretability (strong: Hard=1.0 vs Random=0.64, p=0.0005), Criterion 3 domain validation (moderate: 2/4 matches), threshold sensitivity analysis, Pareto analysis (FIGS, SG-FIGS-Hard, SG-FIGS-Soft are Pareto-optimal), and dataset regression. Output: 10 analysis datasets with 98 total evaluation examples across all metrics."
+}

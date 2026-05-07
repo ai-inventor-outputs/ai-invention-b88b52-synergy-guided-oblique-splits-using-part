@@ -1,0 +1,72 @@
+2026-02-12 22:56:19.062 | INFO     | __main__:main:1458 - ============================================================
+2026-02-12 22:56:19.065 | INFO     | __main__:main:1459 - SG-FIGS Final Integrated Research Synthesis — Evaluation
+2026-02-12 22:56:19.103 | INFO     | __main__:main:1460 - ============================================================
+2026-02-12 22:56:19.103 | INFO     | __main__:load_dep1:75 - Loading DEP1 from /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id1_it3__opus/full_method_out.json
+2026-02-12 22:56:19.282 | INFO     | __main__:load_dep1:77 - DEP1: 14 datasets
+2026-02-12 22:56:19.282 | INFO     | __main__:load_dep2:83 - Loading DEP2 from /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_3/gen_art/exp_id3_it3__opus/full_method_out.json
+2026-02-12 22:56:19.294 | INFO     | __main__:load_dep2:85 - DEP2: 14 datasets, 630 examples
+2026-02-12 22:56:19.294 | INFO     | __main__:load_dep3:91 - Loading DEP3 from /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id1_it2__opus/full_method_out.json
+2026-02-12 22:56:19.312 | INFO     | __main__:load_dep3:94 - DEP3: 12 datasets, 2569 feature pairs
+2026-02-12 22:56:19.312 | INFO     | __main__:load_dep4:100 - Loading DEP4 from /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_2/gen_art/exp_id2_it2__opus/full_method_out.json
+2026-02-12 22:56:19.423 | INFO     | __main__:load_dep4:102 - DEP4: 10 datasets
+2026-02-12 22:56:19.423 | INFO     | __main__:main:1469 - Extracting fold-level metrics from DEP1
+2026-02-12 22:56:19.916 | INFO     | __main__:main:1494 - Fold DF: 37360 rows, 14 datasets
+2026-02-12 22:56:19.916 | INFO     | __main__:compute_master_results_table:140 - Computing master results table
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:204 - Master table: 14 datasets, 5 methods
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:206 -   FIGS: BA=0.7865, AvgRank=3.36
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:206 -   RO-FIGS: BA=0.7846, AvgRank=3.07
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:206 -   SG-FIGS-Hard: BA=0.7887, AvgRank=3.07
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:206 -   SG-FIGS-Soft: BA=0.801, AvgRank=1.93
+2026-02-12 22:56:20.097 | INFO     | __main__:compute_master_results_table:206 -   Random-FIGS: BA=0.7836, AvgRank=3.57
+2026-02-12 22:56:20.098 | INFO     | __main__:compute_statistical_tests:228 - Computing statistical significance tests
+2026-02-12 22:56:20.193 | INFO     | __main__:compute_statistical_tests:240 - Statistical tests on 14 datasets
+2026-02-12 22:56:20.197 | INFO     | __main__:compute_statistical_tests:249 - Friedman test: chi2=8.874551971326177, p=0.0643127236311547
+2026-02-12 22:56:20.235 | INFO     | __main__:compute_ablation:341 - Computing ablation: SG-FIGS-Hard vs Random-FIGS
+2026-02-12 22:56:20.385 | INFO     | __main__:compute_ablation:395 - Ablation: mean accuracy delta=0.005, mean interp delta=0.3579
+2026-02-12 22:56:20.386 | INFO     | __main__:compute_ablation:396 -   Wilcoxon on acc deltas: p=0.463134765625
+2026-02-12 22:56:20.386 | INFO     | __main__:compute_ablation:397 -   T-test on interp deltas: p=0.0003158528408077874
+2026-02-12 22:56:20.386 | INFO     | __main__:compute_interpretability:416 - Computing interpretability comparison
+2026-02-12 22:56:27.310 | INFO     | __main__:compute_interpretability:456 - Interpretability results:
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_interpretability:458 -   FIGS: mean=None, perfect=0
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_interpretability:458 -   RO-FIGS: mean=0.4991, perfect=1
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_interpretability:458 -   SG-FIGS-Hard: mean=1.0, perfect=14
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_interpretability:458 -   SG-FIGS-Soft: mean=0.7751, perfect=3
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_interpretability:458 -   Random-FIGS: mean=0.6421, perfect=1
+2026-02-12 22:56:27.311 | INFO     | __main__:compute_threshold_sensitivity:476 - Computing threshold sensitivity analysis
+2026-02-12 22:56:27.339 | INFO     | __main__:compute_threshold_sensitivity:534 - Threshold sensitivity: 14 datasets, thresholds=[50, 75, 90]
+2026-02-12 22:56:27.339 | INFO     | __main__:compute_threshold_sensitivity:535 -   Optimal threshold frequency: {'50': 13, '75': 0, '90': 1}
+2026-02-12 22:56:27.339 | INFO     | __main__:compute_threshold_sensitivity:536 -   Overall SG-FIGS accuracy by threshold: {'50': 0.5774, '75': 0.5766, '90': 0.5776}
+2026-02-12 22:56:27.340 | INFO     | __main__:compute_cross_experiment_consistency:558 - Computing cross-experiment consistency
+2026-02-12 22:56:27.797 | INFO     | __main__:compute_cross_experiment_consistency:599 - Overlapping datasets: ['banknote', 'breast_cancer_wisconsin_diagnostic', 'heart_statlog', 'ionosphere', 'iris', 'pima_diabetes', 'sonar', 'spectf_heart', 'vehicle', 'wine'] (10)
+2026-02-12 22:56:27.798 | INFO     | __main__:compute_cross_experiment_consistency:615 -   figs: rho=0.9879, p=0.0000
+2026-02-12 22:56:27.799 | INFO     | __main__:compute_cross_experiment_consistency:615 -   ro_figs: rho=0.8214, p=0.0234
+2026-02-12 22:56:27.800 | INFO     | __main__:compute_cross_experiment_consistency:615 -   sg_figs: rho=0.9643, p=0.0005
+2026-02-12 22:56:27.800 | INFO     | __main__:compute_pid_performance_correlation:667 - Computing PID-performance correlation
+2026-02-12 22:56:27.989 | INFO     | __main__:compute_pid_performance_correlation:736 - PID-performance: 10 common datasets
+2026-02-12 22:56:27.993 | INFO     | __main__:compute_pid_performance_correlation:749 -   synergy_mean: rho=0.1273, p=0.7261
+2026-02-12 22:56:27.994 | INFO     | __main__:compute_pid_performance_correlation:749 -   synergy_max: rho=0.3212, p=0.3655
+2026-02-12 22:56:27.995 | INFO     | __main__:compute_pid_performance_correlation:749 -   n_edges_above_75th: rho=-0.0189, p=0.9587
+2026-02-12 22:56:27.998 | INFO     | __main__:compute_pid_performance_correlation:749 -   max_degree: rho=0.1341, p=0.7118
+2026-02-12 22:56:27.998 | INFO     | __main__:compute_hypothesis_verdict:775 - Computing hypothesis verdict
+2026-02-12 22:56:28.055 | INFO     | __main__:compute_hypothesis_verdict:872 - Hypothesis verdict: {'C1_passed': True, 'C2_passed': True, 'C3_passed': True, 'hypothesis_supported': True, 'summary': 'C1 (PASS): accuracy delta=0.0022 (<1%). C2 (PASS): interpretability significant. C3 (PASS): 14/14 datasets with perfect interpretability.'}
+2026-02-12 22:56:28.055 | INFO     | __main__:compute_practitioner_guidelines:890 - Computing practitioner guidelines
+2026-02-12 22:56:28.225 | INFO     | __main__:compute_practitioner_guidelines:980 - Guidelines summary: Use SG-FIGS when dataset has meaningful synergy (synergy_mean > 0.125714). Best threshold: 90th perc...
+2026-02-12 22:56:28.225 | INFO     | __main__:generate_latex_tables:996 - Generating LaTeX tables
+2026-02-12 22:56:28.283 | INFO     | __main__:format_output:1181 - Formatting output to eval schema
+2026-02-12 22:56:28.288 | INFO     | __main__:main:1561 - Output written to /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260212_182457/3_invention_loop/iter_4/gen_art/eval_id3_it4__opus/eval_out.json
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1562 - Output size: 64.9 KB
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1563 - Datasets in output: 10
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1564 - Total examples: 130
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1567 - Total elapsed time: 9.2s
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1568 - ============================================================
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1569 - Evaluation complete!
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1570 - ============================================================
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1573 - 
+--- KEY FINDINGS ---
+2026-02-12 22:56:28.289 | INFO     | __main__:main:1574 - Best method (BA): sg_figs_soft
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1575 - Friedman p-value: 0.064313
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1576 - Ablation mean accuracy delta: 0.005
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1577 - Hypothesis supported: True
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1578 - C1 (accuracy parity): True
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1579 - C2 (interpretability): True
+2026-02-12 22:56:28.290 | INFO     | __main__:main:1580 - C3 (domain meaningful): True

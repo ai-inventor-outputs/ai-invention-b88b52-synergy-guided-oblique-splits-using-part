@@ -1,0 +1,1149 @@
+{
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "examples": [
+        {
+          "input": "{\"V1\": 4.2027, \"V2\": 0.22761, \"V3\": 0.96108, \"V4\": 0.97282}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.5127, \"V2\": 2.9073, \"V3\": 1.0579, \"V4\": 0.40774}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.40951, \"V2\": -0.15521, \"V3\": 0.060545, \"V4\": -0.088807}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.8356, \"V2\": -6.7562, \"V3\": 5.0585, \"V4\": -0.55044}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 3,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.9994, \"V2\": 0.90427, \"V3\": 1.1693, \"V4\": 1.6892}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 4,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.55648, \"V2\": 3.2136, \"V3\": -3.3085, \"V4\": -2.7965}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 5,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.24037, \"V2\": -1.7837, \"V3\": 2.135, \"V4\": 1.2418}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 6,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.3142, \"V2\": -0.68494, \"V3\": 1.9833, \"V4\": -0.44829}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 7,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.01727, \"V2\": 8.693, \"V3\": 1.3989, \"V4\": -3.9668}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 8,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.931, \"V2\": 1.8541, \"V3\": -0.023425, \"V4\": 1.2314}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 9,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -6.2003, \"V2\": 8.6806, \"V3\": 0.009134, \"V4\": -3.703}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 10,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.6464, \"V2\": 10.5326, \"V3\": -4.5852, \"V4\": -4.206}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 11,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.0932, \"V2\": 5.4132, \"V3\": -1.8219, \"V4\": 0.23576}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 12,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.5046, \"V2\": -5.8126, \"V3\": 10.8867, \"V4\": -0.52846}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 13,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.2969, \"V2\": 7.617, \"V3\": -2.3874, \"V4\": -0.96164}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 14,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.4725, \"V2\": -0.40145, \"V3\": 1.4855, \"V4\": 1.1189}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 15,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.11716, \"V2\": 0.60422, \"V3\": -0.38587, \"V4\": -0.059065}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 16,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.3797, \"V2\": -1.4402, \"V3\": 1.1273, \"V4\": 0.16076}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 17,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.33325, \"V2\": 3.3108, \"V3\": -4.5081, \"V4\": -4.012}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 18,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.8267, \"V2\": -9.0407, \"V3\": 9.0694, \"V4\": -0.98233}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 19,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.3969, \"V2\": 0.23589, \"V3\": 4.8477, \"V4\": 1.437}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 20,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.3846, \"V2\": -4.8794, \"V3\": 3.3662, \"V4\": -0.029324}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 21,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.8952, \"V2\": 3.8157, \"V3\": -0.31304, \"V4\": -3.8194}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 22,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.1757, \"V2\": 10.2615, \"V3\": -3.8552, \"V4\": -4.3056}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 23,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.1736, \"V2\": 3.3336, \"V3\": -1.4244, \"V4\": 0.60429}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 24,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.7819, \"V2\": 6.9176, \"V3\": -1.2744, \"V4\": -1.5759}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 25,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.8373, \"V2\": 6.1292, \"V3\": 0.84027, \"V4\": 0.55257}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 26,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.88992, \"V2\": 2.2638, \"V3\": -3.1046, \"V4\": -0.11855}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 27,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.8244, \"V2\": -3.1081, \"V3\": 2.4537, \"V4\": 0.52024}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 28,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.7425, \"V2\": 3.6833, \"V3\": -4.0129, \"V4\": -1.7207}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 29,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.762, \"V2\": 4.3682, \"V3\": 2.1384, \"V4\": 0.75429}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 30,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.8969, \"V2\": -6.7893, \"V3\": 5.2761, \"V4\": -0.32544}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 31,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.1409, \"V2\": 3.4619, \"V3\": -0.47841, \"V4\": -3.8879}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 32,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.3066, \"V2\": 0.25244, \"V3\": 0.7623, \"V4\": 1.7758}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 33,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.3884, \"V2\": -8.215, \"V3\": 10.3315, \"V4\": 0.98187}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 34,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -3.518, \"V2\": 2.8763, \"V3\": 0.1548, \"V4\": -1.2086}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 35,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 5.1776, \"V2\": 8.2316, \"V3\": -3.2511, \"V4\": -1.5694}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 36,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.7582, \"V2\": 2.7397, \"V3\": -2.5323, \"V4\": -2.234}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 37,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.0555, \"V2\": 0.79459, \"V3\": -1.6968, \"V4\": -0.46768}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 38,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.8833, \"V2\": 1.7713, \"V3\": 0.68946, \"V4\": -0.4638}",
+          "output": "1",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 39,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.068, \"V2\": -2.9363, \"V3\": 2.1992, \"V4\": 0.50084}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 40,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -1.1188, \"V2\": 3.3357, \"V3\": -1.3455, \"V4\": -1.9573}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 41,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.36372, \"V2\": 3.0439, \"V3\": -3.4816, \"V4\": -2.7836}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 42,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.8027, \"V2\": 0.81529, \"V3\": 2.1041, \"V4\": 1.0245}",
+          "output": "0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 43,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.946, \"V2\": 6.8514, \"V3\": -1.5443, \"V4\": -0.5582}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 44,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.16358, \"V2\": -3.3584, \"V3\": 1.3749, \"V4\": 1.3569}",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 45,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.9771, \"V2\": 11.1513, \"V3\": -3.9272, \"V4\": -4.3444}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 46,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.38214, \"V2\": 8.3909, \"V3\": 2.1624, \"V4\": -3.7405}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 47,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.989583, \"auc\": 0.990007, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992463, \"auc\": 0.995653, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.99187, \"auc\": 0.993225, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.1269, \"V2\": -1.1505, \"V3\": -0.95138, \"V4\": 0.57843}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 48,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 2.5503, \"V2\": -4.9518, \"V3\": 6.3729, \"V4\": -0.41596}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 49,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982948, \"auc\": 0.985651, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.990741, \"auc\": 1.0, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 1.0, \"auc\": 1.0, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.24811, \"V2\": -0.17797, \"V3\": 4.9068, \"V4\": 0.15429}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 50,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 1.1676, \"V2\": 9.1566, \"V3\": -2.0867, \"V4\": -0.80647}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 51,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.983097, \"auc\": 0.990942, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.992774, \"auc\": 0.997445, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.996774, \"auc\": 0.99409, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 3.1219, \"V2\": -3.137, \"V3\": 1.9259, \"V4\": -0.37458}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 52,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.11592, \"V2\": 3.2219, \"V3\": -3.4302, \"V4\": -2.8457}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 53,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 4.5691, \"V2\": -4.4552, \"V3\": 3.1769, \"V4\": 0.004296}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 54,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -0.64472, \"V2\": -4.6062, \"V3\": 8.347, \"V4\": -2.7099}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 55,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -4.1244, \"V2\": 3.7909, \"V3\": -0.6532, \"V4\": -4.1802}",
+          "output": "1",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 56,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.982338, \"auc\": 0.982244, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.986866, \"auc\": 0.98542, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.97781, \"auc\": 0.970129, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": -2.6479, \"V2\": 10.1374, \"V3\": -1.331, \"V4\": -5.4707}",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 57,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.24261, \"V2\": 0.57318, \"V3\": -1.9402, \"V4\": 0.44007}",
+          "output": "1",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 58,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        },
+        {
+          "input": "{\"V1\": 0.7057, \"V2\": -5.4981, \"V3\": 8.3368, \"V4\": -2.8715}",
+          "output": "0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "V1",
+            "V2",
+            "V3",
+            "V4"
+          ],
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 59,
+          "metadata_n_features": 4,
+          "metadata_domain": "image_processing",
+          "predict_figs": "{\"balanced_accuracy\": 0.958398, \"auc\": 0.949432, \"n_splits\": 15, \"n_trees\": 1}",
+          "predict_ro_figs": "{\"balanced_accuracy\": 0.981751, \"auc\": 0.9857, \"n_splits\": 15, \"n_trees\": 2}",
+          "predict_sg_figs": "{\"balanced_accuracy\": 0.985816, \"auc\": 0.984662, \"n_splits\": 5, \"n_trees\": 1}"
+        }
+      ]
+    }
+  ]
+}

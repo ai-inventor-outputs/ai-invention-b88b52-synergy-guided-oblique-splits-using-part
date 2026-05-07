@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "evaluation_name": "SG-FIGS Definitive Statistical Evaluation",
+    "description": "Comprehensive evaluation of 5-method comparison (FIGS, RO-FIGS, SG-FIGS-Hard, SG-FIGS-Soft, Random-FIGS) across 14 datasets with Friedman tests, pairwise Wilcoxon, ablation analysis, threshold sensiti...",
+    "experiments_evaluated": [
+      "exp_id1_it3 (5-method comparison, 14 datasets, 7472 examples)",
+      "exp_id3_it3 (threshold sensitivity, 14 datasets, 630 examples)",
+      "exp_id1_it2 (PID synergy matrices, 12 datasets, 2569 examples)"
+    ],
+    "methods": [
+      "FIGS",
+      "RO-FIGS",
+      "SG-FIGS-Hard"
+    ],
+    "statistical_tests": [
+      "Friedman χ² test (nonparametric, repeated measures)",
+      "Nemenyi post-hoc with critical difference",
+      "Pairwise Wilcoxon signed-rank with Holm-Bonferroni correction"
+    ],
+    "success_criteria": [
+      "C1: Accuracy within 1% of RO-FIGS with 20% fewer splits",
+      "C2: Higher interpretability than baselines",
+      "C3: High-synergy pairs correspond to known domain interactions"
+    ]
+  },
+  "metrics_agg": {
+    "friedman_chi2_accuracy": 8.842857142857161,
+    "friedman_p_accuracy": 0.0651495933850712,
+    "nemenyi_cd": 1.6302918231321128,
+    "n_datasets": 14,
+    "n_methods": 5,
+    "n_examples_total_exp1": 7472,
+    "n_examples_total_exp3": 630,
+    "n_examples_total_pid": 2569,
+    "mean_acc_figs": 0.7865019285714284,
+    "mean_acc_ro_figs": 0.7845895857142856,
+    "mean_acc_sg_figs_hard": 0.7887111857142858,
+    "mean_acc_sg_figs_soft": 0.8010325,
+    "mean_acc_random_figs": 0.7836556,
+    "avg_rank_figs": 3.357142857142857,
+    "avg_rank_ro_figs": 3.107142857142857,
+    "avg_rank_sg_figs_hard": 3.0714285714285716,
+    "avg_rank_sg_figs_soft": 1.9285714285714286,
+    "avg_rank_random_figs": 3.5357142857142856,
+    "ablation_hard_vs_random_delta": 0.005055585714285755,
+    "ablation_hard_vs_random_p": 0.463134765625,
+    "ablation_soft_vs_random_delta": 0.01737689999999999,
+    "ablation_soft_vs_random_p": 0.0040283203125,
+    "ablation_interp_hard_vs_random_delta": 0.35785884615384617,
+    "ablation_interp_hard_vs_random_p": 0.00048828125,
+    "c1_original_met": 1,
+    "c1_reframed_met": 13,
+    "c2_hard_interp_mean": 1.0,
+    "c2_random_interp_mean": 0.6421411538461539,
+    "c3_domain_matches": 2,
+    "threshold_mean_tuning_improvement": 0.0051405380952381,
+    "threshold_tuned_vs_rofigs_delta": -0.0018257095238095283,
+    "regression_r2_multiple": 0.23814882373260615,
+    "friedman_chi2_auc": 3.9090909090909127,
+    "friedman_p_auc": 0.41844884193918497
+  },
+  "datasets": [
+    {
+      "dataset": "accuracy_comparison",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"n_features\": 4, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.979273, \"figs_acc_std\": 0.010766, \"figs_n_splits\": 15.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.988919, \"ro_figs_acc_std\": 0.004155, \"ro_figs_n_splits\": 15.0, \"ro_fig...",
+          "metadata_dataset": "banknote",
+          "metadata_n_features": 4,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.991304",
+          "eval_rank_sg_figs_hard": 2.0,
+          "eval_rank_sg_figs_soft": 1.0
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"n_features\": 4, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.660315, \"figs_acc_std\": 0.032519, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.651594, \"ro_figs_acc_std\": 0.016317, \"ro_figs_n_splits\": 10.0, \"ro_figs...",
+          "metadata_dataset": "blood",
+          "metadata_n_features": 4,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Hard",
+          "predict_sg_figs_soft_acc": "0.655369",
+          "eval_rank_sg_figs_hard": 1.0,
+          "eval_rank_sg_figs_soft": 3.0
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"n_features\": 30, \"analysis_type\": \"5_method_accuracy_comparison\"}",
+          "output": "{\"figs_acc_mean\": 0.911853, \"figs_acc_std\": 0.021855, \"figs_n_splits\": 5.0, \"figs_interpretability\": null, \"ro_figs_acc_mean\": 0.917421, \"ro_figs_acc_std\": 0.018583, \"ro_figs_n_splits\": 25.0, \"ro_figs...",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_n_features": 30,
+          "metadata_analysis": "per_dataset_accuracy",
+          "predict_best_method": "SG-FIGS-Soft",
+          "predict_sg_figs_soft_acc": "0.944209",
+          "eval_rank_sg_figs_hard": 2.0,
+          "eval_rank_sg_figs_soft": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "statistical_tests",
+      "examples": [
+        {
+          "input": "{\"test\": \"friedman\", \"metric\": \"balanced_accuracy\", \"n_datasets\": 14, \"n_methods\": 5}",
+          "output": "{\"chi2\": 8.8429, \"p_value\": 0.06515, \"nemenyi_cd\": 1.6303, \"significant\": false}",
+          "metadata_test_type": "friedman",
+          "predict_significant": "False",
+          "eval_chi2": 8.842857142857161,
+          "eval_p_value": 0.0651495933850712
+        },
+        {
+          "input": "{\"test\": \"friedman\", \"metric\": \"auc\", \"n_datasets\": 11, \"n_methods\": 5}",
+          "output": "{\"chi2\": 3.9091, \"p_value\": 0.418449, \"significant\": false}",
+          "metadata_test_type": "friedman_auc",
+          "predict_significant": "False",
+          "eval_chi2": 3.9090909090909127,
+          "eval_p_value": 0.41844884193918497
+        },
+        {
+          "input": "{\"test\": \"wilcoxon\", \"pair\": \"FIGS vs RO-FIGS\", \"correction\": \"holm_bonferroni\"}",
+          "output": "{\"p_raw\": 0.951538, \"p_corrected\": 0.951538, \"mean_diff\": 0.001912, \"significant\": false}",
+          "metadata_test_type": "wilcoxon_pairwise",
+          "metadata_pair": "FIGS vs RO-FIGS",
+          "predict_significant": "False",
+          "eval_p_corrected": 0.9515380859375,
+          "eval_mean_diff": 0.0019123428571428838
+        }
+      ]
+    },
+    {
+      "dataset": "ablation_analysis",
+      "examples": [
+        {
+          "input": "{\"dataset\": \"banknote\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.990454, \"random_acc\": 0.985413, \"acc_delta\": 0.005041, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.4233, \"interp_delta\": 0.5767}",
+          "metadata_dataset": "banknote",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.005041400000000196,
+          "eval_interp_delta": 0.57674
+        },
+        {
+          "input": "{\"dataset\": \"blood\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.669062, \"random_acc\": 0.641894, \"acc_delta\": 0.027169, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.73, \"interp_delta\": 0.27}",
+          "metadata_dataset": "blood",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.027168799999999993,
+          "eval_interp_delta": 0.2699999999999999
+        },
+        {
+          "input": "{\"dataset\": \"breast_cancer_wisconsin_diagnostic\", \"comparison\": \"sg_figs_hard_vs_random_figs\"}",
+          "output": "{\"hard_acc\": 0.932704, \"random_acc\": 0.918542, \"acc_delta\": 0.014162, \"hard_interpretability\": 1.0, \"random_interpretability\": 0.7333, \"interp_delta\": 0.2667}",
+          "metadata_dataset": "breast_cancer_wisconsin_diagnostic",
+          "metadata_comparison": "hard_vs_random",
+          "predict_hard_better_acc": "True",
+          "eval_acc_delta": 0.014162200000000236,
+          "eval_interp_delta": 0.26666
+        }
+      ]
+    }
+  ]
+}

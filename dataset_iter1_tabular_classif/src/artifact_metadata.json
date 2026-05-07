@@ -1,0 +1,4 @@
+{
+  "title": "Tabular Bench",
+  "summary": "Collection of 10 standardized tabular classification benchmark datasets for SG-FIGS evaluation, sourced from sklearn built-ins and OpenML. Datasets span 4-60 features, 150-1372 samples, across medical (breast cancer, pima diabetes, heart statlog, spectf heart), signal processing (ionosphere, sonar), food science (wine), computer vision (vehicle), image processing (banknote), and botany (iris) domains. All have named features enabling interpretability evaluation and documented feature interactions for PID synergy analysis. Each dataset row is a separate example with JSON-serialized feature values as input and integer class label as output, plus metadata including 5-fold CV assignments, feature names, task type, and domain. Total: 5,061 examples across 10 datasets, 5.9MB output."
+}

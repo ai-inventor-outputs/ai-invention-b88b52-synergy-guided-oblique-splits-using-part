@@ -1,0 +1,4 @@
+{
+  "title": "SG-FIGS Eval",
+  "summary": "Rigorous statistical evaluation of SG-FIGS experiment across 7 binary classification benchmarks. Implements 7 analyses: (1) Friedman test (chi2=3.71, p=0.156, not significant) with Nemenyi post-hoc; (2) Wilcoxon pairwise tests (RO-FIGS vs SG-FIGS p=0.156, low power N=7); (3) Criterion 1 per-dataset accuracy+complexity (2/7 pass: ionosphere, banknote); (4) Criterion 2 interpretability diagnostic (3/7 datasets have feature-index mismatch from MI prefiltering, explaining zero scores); (5) Criterion 3 domain analysis (4/7 datasets have domain-meaningful synergy pairs \u2014 criterion met); (6) Pareto analysis (SG-FIGS dominated; FIGS most efficient at 0.071 acc/split); (7) Synergy landscape correlation (synergy_min rho=0.68 is top predictor of SG-FIGS relative benefit). Key finding: RO-FIGS ranks best (avg rank 1.43), SG-FIGS competitive on low-dim datasets but uses more splits on high-dim ones."
+}
